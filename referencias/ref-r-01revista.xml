@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref-list>
+  <ref id="1249-LAZZARO2004">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lázzaro</surname>
+          <given-names>S.</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Galafassi</surname>
+          <given-names>G.</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La política agraria de la autodenominada Revolución argentina</chapter-title>
+      <source>El campo diverso. Enfoques y perspectivas de la Argentina agraria del siglo XX</source>
+      <publisher-name>Universidad Nacional de Quilmes</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2004</year>
+      <fpage>311</fpage>
+      <lpage>341</lpage>
+    </element-citation>
+  </ref>
+  <ref id="1250-LAZZARO2012">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lázzaro</surname>
+          <given-names>S.</given-names>
+        </name>
+      </person-group>
+      <article-title>El desarrollismo y el problema agrario durante las décadas de 1950 y 1960</article-title>
+      <source>Secuencia</source>
+      <year>2012</year>
+      <issue>84</issue>
+      <pub-id pub-id-type="doi">10.18234/secuencia.v0i84.1171</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="1251-AZCUYAMEGHINO2024">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Azcuy Ameghino</surname>
+          <given-names>E.</given-names>
+        </name>
+      </person-group>
+      <source>La cuestión agraria argentina en el siglo XXI</source>
+      <publisher-name>Ediciones Imago Mundi</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2024</year>
+    </element-citation>
+  </ref>
+  <ref id="1254-FAJARDO2025">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Fajardo</surname>
+          <given-names>M.</given-names>
+        </name>
+      </person-group>
+      <source>El mundo según América Latina. La CEPAL en la era del desarrollo</source>
+      <publisher-name>Fondo de Cultura Econó­mica</publisher-name>
+      <year>2025</year>
+    </element-citation>
+  </ref>
+  <ref id="1255-MASON2023">
+    <element-citation publication-type="book">
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Mason</surname>
+          <given-names>C.</given-names>
+        </name>
+        <name>
+          <surname>Rougier</surname>
+          <given-names>M.</given-names>
+        </name>
+      </person-group>
+      <source>A las palabras se las lleva el viento; lo escrito queda. Las revistas en los orígenes de la profesionalización del campo de la economía (1956-1966)</source>
+      <publisher-name>Ediciones Imago Mundi</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2023</year>
+    </element-citation>
+  </ref>
+  <ref id="1256-BARSKY2001">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barsky</surname>
+          <given-names>O.</given-names>
+        </name>
+        <name>
+          <surname>Gelman</surname>
+          <given-names>J.</given-names>
+        </name>
+      </person-group>
+      <source>Historia del agro argentino. Desde la Conquista hasta fines del siglo XX</source>
+      <publisher-name>Grijalbo and Mondadori</publisher-name>
+      <year>2001</year>
+    </element-citation>
+  </ref>
+  <ref id="1257-ASCOLANI2015">
+    <element-citation publication-type="book">
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Ascolani</surname>
+          <given-names>A.</given-names>
+        </name>
+        <name>
+          <surname>Gutiérrez</surname>
+          <given-names>T.</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Desarrollismo, reforma agraria y contrarrevolución, 1955-1976</chapter-title>
+      <source>Agro y política en Argentina</source>
+      <publisher-name>CICCUS</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2015</year>
+      <volume>3</volume>
+    </element-citation>
+  </ref>
+</ref-list>

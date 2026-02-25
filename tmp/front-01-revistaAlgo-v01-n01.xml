@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<front xmlns:xlink="http://www.w3.org/1999/xlink">
+  <journal-meta>
+    <journal-id journal-id-type="publisher-id">1851-703X</journal-id>
+    <journal-title-group>
+      <journal-title>H-industria</journal-title>
+    </journal-title-group>
+    <issn pub-type="epub">1851-703X</issn>
+    <publisher>
+      <publisher-name>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</publisher-name>
+      <publisher-loc>Buenos Aires, Argentina</publisher-loc>
+    </publisher>
+  </journal-meta>
+  <article-meta>
+    <article-id pub-id-type="doi">a</article-id>
+    <article-id pub-id-type="pmid">a</article-id>
+    <article-categories>
+      <subj-group subj-group-type="heading">
+        <subject>editorial</subject>
+      </subj-group>
+    </article-categories>
+    <title-group>
+      <article-title>Editorial</article-title>
+    </title-group>
+    <contrib-group>
+      <contrib contrib-type="author">
+        <name>
+          <surname>Palote Carancho</surname>
+          <given-names>José</given-names>
+        </name>
+        <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6047-3868</contrib-id>
+      </contrib>
+    </contrib-group>
+    <pub-date pub-type="epub-ppub">
+      <year>2025</year>
+      <month>11</month>
+      <day>23</day>
+    </pub-date>
+    <volume>19</volume>
+    <issue>37</issue>
+    <fpage>I</fpage>
+    <lpage>IV</lpage>
+    <history>
+      <date date-type="received">
+        <year>2026</year>
+        <month>01</month>
+        <day>24</day>
+      </date>
+      <date date-type="rev-recd">
+        <year>2026</year>
+        <month>01</month>
+        <day>24</day>
+      </date>
+      <date date-type="accepted">
+        <year>2026</year>
+        <month>01</month>
+        <day>24</day>
+      </date>
+      <date date-type="pub">
+        <year>2026</year>
+        <month>01</month>
+        <day>24</day>
+      </date>
+    </history>
+    <permissions>
+      <copyright-year>2026</copyright-year>
+      <copyright-holder>a</copyright-holder>
+      <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <license-p>CC BY-NC-SA 4.0</license-p>
+      </license>
+    </permissions>
+    <abstract xml:lang="es">
+      <p>a</p>
+    </abstract>
+    <trans-abstract xml:lang="en">
+      <p>a</p>
+    </trans-abstract>
+    <kwd-group xml:lang="es" kwd-group-type="author-generated">
+      <kwd>a</kwd>
+    </kwd-group>
+    <kwd-group xml:lang="en" kwd-group-type="author-generated">
+      <kwd>a</kwd>
+    </kwd-group>
+    <funding-group>
+      <funding-statement>a</funding-statement>
+    </funding-group>
+  </article-meta>
+</front>

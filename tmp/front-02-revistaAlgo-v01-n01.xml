@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<front xmlns:xlink="http://www.w3.org/1999/xlink">
+  <journal-meta>
+    <journal-id journal-id-type="publisher-id">1851-703X</journal-id>
+    <journal-title-group>
+      <journal-title>H-industria</journal-title>
+    </journal-title-group>
+    <issn pub-type="epub">1851-703X</issn>
+    <publisher>
+      <publisher-name>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</publisher-name>
+      <publisher-loc>Buenos Aires, Argentina</publisher-loc>
+    </publisher>
+  </journal-meta>
+  <article-meta>
+    <article-id pub-id-type="doi">10.56503/H-Industria/n.37(19)/3473</article-id>
+    <article-categories>
+      <subj-group subj-group-type="heading">
+        <subject>research-article</subject>
+      </subj-group>
+    </article-categories>
+    <title-group>
+      <article-title>El desarrollo agropecuario argentino en la segunda posguerra</article-title>
+      <trans-title-group xml:lang="en">
+        <trans-title>Argentine Agricultural Development in the Second Postwar Period</trans-title>
+      </trans-title-group>
+    </title-group>
+    <contrib-group>
+      <contrib contrib-type="author">
+        <name>
+          <surname>Rougier</surname>
+          <given-names>Marcelo Augusto</given-names>
+        </name>
+        <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0002-5273-5191</contrib-id>
+      </contrib>
+    </contrib-group>
+    <pub-date pub-type="epub-ppub">
+      <year>2026</year>
+      <month>02</month>
+      <day>18</day>
+    </pub-date>
+    <volume>19</volume>
+    <issue>37</issue>
+    <history>
+      <date date-type="received">
+        <year>2026</year>
+        <month>01</month>
+        <day>05</day>
+      </date>
+      <date date-type="accepted">
+        <year>2026</year>
+        <month>01</month>
+        <day>19</day>
+      </date>
+      <date date-type="pub">
+        <year>2026</year>
+        <month>02</month>
+        <day>25</day>
+      </date>
+    </history>
+    <permissions>
+      <copyright-year>2026</copyright-year>
+      <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <license-p>CC BY-NC-SA 4.0</license-p>
+      </license>
+    </permissions>
+    <abstract xml:lang="es">
+      <p>Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro de sus preocupaciones: era imperioso modificar la estructura productiva a través de la trans­ferencia de recursos desde sectores como la agricultura.</p>
+    </abstract>
+    <trans-abstract xml:lang="en">
+      <p>The new development theories placed manufacturing production at the center of their concerns: it was imperative to modify the productive structure through the transfer of resources from sectors such as agriculture.</p>
+    </trans-abstract>
+    <trans-abstract xml:lang="pt">
+      <p>As novas teorias do desenvolvimento situaram a produção manufatureira no centro de suas preocupações: era imperioso modificar a estrutura produtiva por meio da transferência de recursos de setores como a agricultura.</p>
+    </trans-abstract>
+    <kwd-group xml:lang="es" kwd-group-type="author-generated">
+      <kwd>hola</kwd>
+      <kwd>mundo</kwd>
+      <kwd>industrial</kwd>
+    </kwd-group>
+    <kwd-group xml:lang="en" kwd-group-type="author-generated">
+      <kwd>hello</kwd>
+      <kwd>industrial</kwd>
+      <kwd>world</kwd>
+    </kwd-group>
+    <kwd-group xml:lang="pt" kwd-group-type="author-generated">
+      <kwd>olá</kwd>
+      <kwd>mundo</kwd>
+      <kwd>industrial</kwd>
+    </kwd-group>
+  </article-meta>
+</front>
