@@ -6,7 +6,7 @@
       <title>El desarrollo agropecuario argentino en la segunda posguerra — H-industria</title>
       <meta name="citation_doi" content="10.56503/H-Industria/n.37(19)/3473">
       <meta name="citation_title" content="El desarrollo agropecuario argentino en la segunda posguerra">
-      <meta name="citation_author" content="Rougier, Marcelo Augusto"><script>
+      <meta name="citation_author" content="Rougier, Marcelo"><script>
           MathJax = {
             tex: {
               inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -151,11 +151,18 @@
           }
 
           .meta-issn {
-            font-size: var(--text-xs);
+            font-size: var(--text-sm);
             color: var(--color-text-muted);
             margin-bottom: 1rem;
             padding-bottom: 1rem;
             border-bottom: 1px solid var(--color-border);
+          }
+
+          /* ETIQUETA INLINE EN NEGRITA (DOI:, e-ISSN:, EMAIL:) */
+          .meta-key {
+            font-size: var(--text-sm);
+            font-weight: 600;
+            color: var(--color-text);
           }
 
           .meta-seccion { margin-bottom: 1rem; }
@@ -175,8 +182,23 @@
             line-height: 1.5;
           }
 
+          /* ============================================
+             AUTORÍA — BLOQUE POR AUTOR
+             ============================================ */
           .autor-item {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--color-border);
+          }
+
+          .autor-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+          }
+
+          /* NOMBRE + ORCID EN LA MISMA LÍNEA */
+          .autor-nombre-linea {
             display: flex;
             align-items: baseline;
             flex-wrap: wrap;
@@ -190,17 +212,38 @@
           }
 
           .autor-orcid {
-            display: inline-block;
             font-size: var(--text-xs);
             color: var(--color-accent);
             text-decoration: none;
-            margin-top: 0.1rem;
           }
 
           .autor-orcid:hover { text-decoration: underline; }
 
-          .doi-link {
+          .autor-email {
+            font-size: var(--text-sm);
+            color: var(--color-text-muted);
+            margin-top: 0.2rem;
+          }
+
+          .autor-email a {
+            color: var(--color-accent);
+            text-decoration: none;
+          }
+
+          .autor-email a:hover { text-decoration: underline; }
+
+          .autor-afil {
             font-size: var(--text-xs);
+            color: var(--color-text-muted);
+            margin-top: 0.2rem;
+            line-height: 1.4;
+          }
+
+          /* ============================================
+             DOI LINK
+             ============================================ */
+          .doi-link {
+            font-size: var(--text-sm);
             color: var(--color-accent);
             text-decoration: none;
             word-break: break-all;
@@ -855,20 +898,22 @@
          <aside class="col-left">
             <div class="tapa-wrapper"><img src="media/tapita1.png" alt="Tapa de H-industria"></div>
             <div class="meta-revista">H-industria</div>
-            <div class="meta-issn">e-ISSN: 1851-703X</div>
+            <div class="meta-issn"><span class="meta-key">e-ISSN: </span>1851-703X</div>
             <div class="meta-seccion">
-               <div class="meta-label">
-                  Autor
-                  </div>
+               <div class="meta-label">Autoría</div>
                <div class="autor-item">
-                  <div class="autor-nombre">Marcelo Augusto Rougier</div><a class="autor-orcid" href="https://orcid.org/0009-0002-5273-5191" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div>
+                  <div class="autor-nombre-linea"><span class="autor-nombre">Marcelo Rougier</span><a class="autor-orcid" href="https://orcid.org/0009-0002-5273-5191" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div>
+                  <div class="autor-email"><span class="meta-key">EMAIL: </span><a href="mailto:marcelorougier@yahoo.com.ar">marcelorougier@yahoo.com.ar</a></div>
+                  <div class="autor-afil">Consejo Nacional de Investigaciones Científicas y Técnicas</div>
+               </div>
             </div>
             <div class="meta-seccion">
                <div class="meta-label">Publicación</div>
                <div class="meta-valor">2026, vol. 19, núm. 37</div>
             </div>
             <div class="meta-seccion">
-               <div class="meta-label">DOI</div><a class="doi-link" href="https://doi.org/10.56503/H-Industria/n.37(19)/3473" target="_blank" rel="noopener noreferrer">10.56503/H-Industria/n.37(19)/3473</a></div>
+               <div class="meta-valor"><span class="meta-key">DOI: </span><a class="doi-link" href="https://doi.org/10.56503/H-Industria/n.37(19)/3473" target="_blank" rel="noopener noreferrer">10.56503/H-Industria/n.37(19)/3473</a></div>
+            </div>
             <div class="meta-seccion">
                <div class="meta-label">Fechas</div>
                <div class="meta-valor">
@@ -881,15 +926,15 @@
                <div class="meta-label">Licencia</div><a class="licencia-badge" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a></div>
             <div class="meta-seccion">
                <div class="meta-label">Palabras clave<span class="kwd-lang-label"> (es)</span></div>
-               <div class="kwd-list"><span class="kwd-tag">hola</span><span class="kwd-tag">mundo</span><span class="kwd-tag">industrial</span></div>
+               <div class="kwd-list"><span class="kwd-tag">Desarrollo agropecuario</span><span class="kwd-tag">Industrialización</span><span class="kwd-tag">Políticas públicas</span><span class="kwd-tag">Agroindustria</span><span class="kwd-tag">Tecnología agraria</span><span class="kwd-tag">Argentina</span></div>
             </div>
             <div class="meta-seccion">
                <div class="meta-label">Palabras clave<span class="kwd-lang-label"> (en)</span></div>
-               <div class="kwd-list"><span class="kwd-tag">hello</span><span class="kwd-tag">industrial</span><span class="kwd-tag">world</span></div>
+               <div class="kwd-list"><span class="kwd-tag">Agricultural development</span><span class="kwd-tag">Industrialization</span><span class="kwd-tag">Public policy</span><span class="kwd-tag">Agribusiness</span><span class="kwd-tag">Agricultural technology</span><span class="kwd-tag">Argentina</span></div>
             </div>
             <div class="meta-seccion">
                <div class="meta-label">Palabras clave<span class="kwd-lang-label"> (pt)</span></div>
-               <div class="kwd-list"><span class="kwd-tag">olá</span><span class="kwd-tag">mundo</span><span class="kwd-tag">industrial</span></div>
+               <div class="kwd-list"><span class="kwd-tag">Desenvolvimento agropecuário</span><span class="kwd-tag">Industrialização</span><span class="kwd-tag">Políticas públicas</span><span class="kwd-tag">Agroindústria</span><span class="kwd-tag">Tecnologia agrícola</span><span class="kwd-tag">Argentina</span></div>
             </div>
             <div class="citar-wrapper">
                <details>
@@ -907,25 +952,28 @@
                <details class="abstract-block">
                   <summary class="abstract-lang-label">Resumen</summary>
                   <div class="abstract-texto">
-                     <p>Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro
-                        de sus preocupaciones: era imperioso modificar la estructura productiva a través de
-                        la trans­ferencia de recursos desde sectores como la agricultura.</p>
+                     <p>El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco
+                        de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito,
+                        tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto
+                        social, productivo y ambiental.</p>
                   </div>
                </details>
                <details class="abstract-block">
                   <summary class="abstract-lang-label">Abstract</summary>
                   <div class="abstract-texto">
-                     <p>The new development theories placed manufacturing production at the center of their
-                        concerns: it was imperative to modify the productive structure through the transfer
-                        of resources from sectors such as agriculture.</p>
+                     <p>This dossier examines Argentine agricultural development from the 1950s to the 1970s
+                        within debates on development and industrialization. It explores public policies,
+                        credit, technology, and regional agribusiness, highlighting tensions, continuities,
+                        and their social, productive, and environmental impact.</p>
                   </div>
                </details>
                <details class="abstract-block">
                   <summary class="abstract-lang-label">Resumo</summary>
                   <div class="abstract-texto">
-                     <p>As novas teorias do desenvolvimento situaram a produção manufatureira no centro de
-                        suas preocupações: era imperioso modificar a estrutura produtiva por meio da transferência
-                        de recursos de setores como a agricultura.</p>
+                     <p>O dossiê analisa o desenvolvimento agropecuário argentino entre as décadas de 1950
+                        e 1970, no contexto dos debates sobre desenvolvimento e industrialização. Examina
+                        políticas públicas, crédito, tecnologia e agroindústrias regionais, destacando tensões,
+                        continuidades e impactos sociais, produtivos e ambientais.</p>
                   </div>
                </details>
             </div>
@@ -994,7 +1042,7 @@
                      iniciativas e instituciones impulsadas por los gobiernos peronistas y lo acaecido
                      luego del golpe de Estado de 1955 mientras que, en otras oportunidades, se advierten
                      claros puntos de contacto que permiten repensar la dinámica en torno a los cambios
-                     y continuidades a lo largo del período.<a class="fn-ref" data-fn-id="d1e113" data-fn-text="En el período constitucional de 1979-1983 continuó el proceso de&#xA;  nacionalización de la industria petrolera, que a su vez tuvo un&#xA;  importante crecimiento, dado que aumentó la cantidad de reservas de&#xA;  petróleo comprobadas." onclick="highlightPanel('notas', 'd1e113')" href="#panel-fn-d1e113">1</a>
+                     y continuidades a lo largo del período.<a class="fn-ref" data-fn-id="d1e127" data-fn-text="En el período constitucional de 1979-1983 continuó el proceso de&#xA;  nacionalización de la industria petrolera, que a su vez tuvo un&#xA;  importante crecimiento, dado que aumentó la cantidad de reservas de&#xA;  petróleo comprobadas." onclick="highlightPanel('notas', 'd1e127')" href="#panel-fn-d1e127">1</a>
                      </p>
                   <div class="disp-formula" id="eq-id">\[E = mc^2\]</div>
                   <p>Este dossier se propone enriquecer el análisis historiográfico sobre las transformacio­nes
@@ -1321,7 +1369,7 @@
                      económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes
                      ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban
                      en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos
-                     populares mediante reformas orientadas a mejorar las condiciones de vida.<a class="fn-ref" data-fn-id="d1e358" data-fn-text="Los programas de transferencias condicionadas de ingresos (CCT)&#xA;  constituyen uno de los instrumentos más extendidos de política social en&#xA;  América Latina. Aunque diversos estudios han evaluado sus impactos sobre&#xA;  pobreza y capital humano, la dimensión de género ha recibido atención&#xA;  insuficiente." onclick="highlightPanel('notas', 'd1e358')" href="#panel-fn-d1e358">2</a>
+                     populares mediante reformas orientadas a mejorar las condiciones de vida.<a class="fn-ref" data-fn-id="d1e372" data-fn-text="Los programas de transferencias condicionadas de ingresos (CCT)&#xA;  constituyen uno de los instrumentos más extendidos de política social en&#xA;  América Latina. Aunque diversos estudios han evaluado sus impactos sobre&#xA;  pobreza y capital humano, la dimensión de género ha recibido atención&#xA;  insuficiente." onclick="highlightPanel('notas', 'd1e372')" href="#panel-fn-d1e372">2</a>
                      </p>
                </div>
                <div class="sec" id="results-3">
@@ -1391,7 +1439,7 @@
             </div>
          </aside>
       </div>
-      <footer style="           background: #2a2a28;           color: #c8c6c0;           text-align: center;           padding: 1.25rem;           font-family: var(--font-sans);           font-size: 0.9rem;           font-weight: 300;           letter-spacing: 0.03em;           margin-top: 1.5rem;         ">Página generada el 25 de febrero de 2026 con <a href="https://estudio2a.netlify.app/" target="_blank" rel="noopener noreferrer" style="color: #8ab4d8; text-decoration: none;">gbpublisher</a></footer><script>
+      <footer style="           background: #2a2a28;           color: #c8c6c0;           text-align: center;           padding: 1.25rem;           font-family: var(--font-sans);           font-size: 0.9rem;           font-weight: 300;           letter-spacing: 0.03em;           margin-top: 1.5rem;         ">Página generada el 26 de febrero de 2026 con <a href="https://estudio2a.netlify.app/" target="_blank" rel="noopener noreferrer" style="color: #8ab4d8; text-decoration: none;">gbpublisher</a></footer><script>
 
           // ============================================
           // DATOS DE LA CITA — INYECTADOS POR XSLT
@@ -1405,7 +1453,7 @@
             numero:  "37",
             paginaI: "",
             paginaF: "",
-            autores: [{apellido:"Rougier",nombre:"Marcelo Augusto"}]
+            autores: [{apellido:"Rougier",nombre:"Marcelo"}]
           };
 
           // ============================================
@@ -1655,13 +1703,6 @@
 
           // ============================================
           // HIGHLIGHT CON TOGGLE
-          // PRIMER CLICK:
-          //   - ABRE EL PANEL SI ESTÁ OCULTO
-          //   - ACTIVA SOLAPA CORRESPONDIENTE
-          //   - RESALTA ELEMENTO EN PANEL Y EN TEXTO
-          // SEGUNDO CLICK SOBRE EL MISMO ELEMENTO:
-          //   - DESPINTA TODO
-          //   - OCULTA EL PANEL
           // ============================================
           var selectedRef  = null;
           var panelVisible = false;

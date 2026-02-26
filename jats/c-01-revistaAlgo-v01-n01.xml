@@ -3,7 +3,7 @@
   PUBLIC "-//NLM//DTD JATS (Z39.96) Article Archiving and Interchange DTD v1.4//EN" "https://jats.nlm.nih.gov/archiving/1.4/JATS-archivearticle1-4.dtd">
 <article xmlns:xlink="http://www.w3.org/1999/xlink"
          article-type="editorial"
-         xml:lang="es">
+         xml:lang="">
    <front>
       <journal-meta>
          <journal-id journal-id-type="publisher-id">1851-703X</journal-id>
@@ -17,7 +17,7 @@
          </publisher>
       </journal-meta>
       <article-meta>
-         <article-id pub-id-type="doi">a</article-id>
+         <article-id pub-id-type="doi">doi-del-ariculo</article-id>
          <article-id pub-id-type="pmid">a</article-id>
          <article-categories>
             <subj-group subj-group-type="heading">
@@ -26,14 +26,38 @@
          </article-categories>
          <title-group>
             <article-title>Editorial</article-title>
+            <trans-title-group xml:lang="en">
+               <trans-title>Editor's Note</trans-title>
+            </trans-title-group>
          </title-group>
          <contrib-group>
             <contrib contrib-type="author">
                <name>
-                  <surname>Palote Carancho</surname>
-                  <given-names>José</given-names>
+                  <surname>Mason</surname>
+                  <given-names>Camilo</given-names>
                </name>
-               <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6047-3868</contrib-id>
+               <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2257-2160</contrib-id>
+               <aff>
+                  <institution content-type="dept">Departameno</institution>,
+          <institution>AfiliaciónActual</institution>,
+          <city>Ciudad Autónoma de Buenos Aires</city>,
+          <country>Argenttina</country>
+               </aff>
+               <email>masoncamilo@gmail.com</email>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Gil</surname>
+                  <given-names>Luciana V.</given-names>
+               </name>
+               <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0167-7155</contrib-id>
+               <aff>
+                  <institution content-type="dept">Departamento</institution>,
+          <institution>Consejo Nacional de Investigaciones Científicas y Técnicas. Universidad Nacional de San Martín. Universidad de Buenos Aires, Instituto Interdisciplinario de Economía Política, Centro de Estudios de Historia Económica Argentina y Latinoamericana</institution>,
+          <city>CiudadAfiliación</city>,
+          <country>PaísAfiliación</country>
+               </aff>
+               <email>nolotengo@email.com</email>
             </contrib>
          </contrib-group>
          <pub-date pub-type="epub-ppub">
@@ -75,18 +99,6 @@
                <license-p>CC BY-NC-SA 4.0</license-p>
             </license>
          </permissions>
-         <abstract xml:lang="es">
-            <p>a</p>
-         </abstract>
-         <trans-abstract xml:lang="en">
-            <p>a</p>
-         </trans-abstract>
-         <kwd-group xml:lang="es" kwd-group-type="author-generated">
-            <kwd>a</kwd>
-         </kwd-group>
-         <kwd-group xml:lang="en" kwd-group-type="author-generated">
-            <kwd>a</kwd>
-         </kwd-group>
          <funding-group>
             <funding-statement>a</funding-statement>
          </funding-group>

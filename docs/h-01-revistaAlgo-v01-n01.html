@@ -1,12 +1,13 @@
 <!DOCTYPE html><!DOCTYPE HTML>
-<html xmlns:xlink="http://www.w3.org/1999/xlink" lang="es">
+<html xmlns:xlink="http://www.w3.org/1999/xlink" lang="">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Editorial — H-industria</title>
-      <meta name="citation_doi" content="a">
+      <meta name="citation_doi" content="doi-del-ariculo">
       <meta name="citation_title" content="Editorial">
-      <meta name="citation_author" content="Palote Carancho, José"><script>
+      <meta name="citation_author" content="Mason, Camilo">
+      <meta name="citation_author" content="Gil, Luciana V."><script>
           MathJax = {
             tex: {
               inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -151,11 +152,18 @@
           }
 
           .meta-issn {
-            font-size: var(--text-xs);
+            font-size: var(--text-sm);
             color: var(--color-text-muted);
             margin-bottom: 1rem;
             padding-bottom: 1rem;
             border-bottom: 1px solid var(--color-border);
+          }
+
+          /* ETIQUETA INLINE EN NEGRITA (DOI:, e-ISSN:, EMAIL:) */
+          .meta-key {
+            font-size: var(--text-sm);
+            font-weight: 600;
+            color: var(--color-text);
           }
 
           .meta-seccion { margin-bottom: 1rem; }
@@ -175,8 +183,23 @@
             line-height: 1.5;
           }
 
+          /* ============================================
+             AUTORÍA — BLOQUE POR AUTOR
+             ============================================ */
           .autor-item {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--color-border);
+          }
+
+          .autor-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+          }
+
+          /* NOMBRE + ORCID EN LA MISMA LÍNEA */
+          .autor-nombre-linea {
             display: flex;
             align-items: baseline;
             flex-wrap: wrap;
@@ -190,17 +213,38 @@
           }
 
           .autor-orcid {
-            display: inline-block;
             font-size: var(--text-xs);
             color: var(--color-accent);
             text-decoration: none;
-            margin-top: 0.1rem;
           }
 
           .autor-orcid:hover { text-decoration: underline; }
 
-          .doi-link {
+          .autor-email {
+            font-size: var(--text-sm);
+            color: var(--color-text-muted);
+            margin-top: 0.2rem;
+          }
+
+          .autor-email a {
+            color: var(--color-accent);
+            text-decoration: none;
+          }
+
+          .autor-email a:hover { text-decoration: underline; }
+
+          .autor-afil {
             font-size: var(--text-xs);
+            color: var(--color-text-muted);
+            margin-top: 0.2rem;
+            line-height: 1.4;
+          }
+
+          /* ============================================
+             DOI LINK
+             ============================================ */
+          .doi-link {
+            font-size: var(--text-sm);
             color: var(--color-accent);
             text-decoration: none;
             word-break: break-all;
@@ -855,20 +899,29 @@
          <aside class="col-left">
             <div class="tapa-wrapper"><img src="media/tapita1.png" alt="Tapa de H-industria"></div>
             <div class="meta-revista">H-industria</div>
-            <div class="meta-issn">e-ISSN: 1851-703X</div>
+            <div class="meta-issn"><span class="meta-key">e-ISSN: </span>1851-703X</div>
             <div class="meta-seccion">
-               <div class="meta-label">
-                  Autor
-                  </div>
+               <div class="meta-label">Autoría</div>
                <div class="autor-item">
-                  <div class="autor-nombre">José Palote Carancho</div><a class="autor-orcid" href="https://orcid.org/0000-0002-6047-3868" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div>
+                  <div class="autor-nombre-linea"><span class="autor-nombre">Camilo Mason</span><a class="autor-orcid" href="https://orcid.org/0000-0002-2257-2160" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div>
+                  <div class="autor-email"><span class="meta-key">EMAIL: </span><a href="mailto:masoncamilo@gmail.com">masoncamilo@gmail.com</a></div>
+                  <div class="autor-afil">Departameno, AfiliaciónActual, Ciudad Autónoma de Buenos Aires, Argenttina</div>
+               </div>
+               <div class="autor-item">
+                  <div class="autor-nombre-linea"><span class="autor-nombre">Luciana V. Gil</span><a class="autor-orcid" href="https://orcid.org/0000-0003-0167-7155" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div>
+                  <div class="autor-email"><span class="meta-key">EMAIL: </span><a href="mailto:nolotengo@email.com">nolotengo@email.com</a></div>
+                  <div class="autor-afil">Departamento, Consejo Nacional de Investigaciones Científicas y Técnicas. Universidad Nacional de
+                     San Martín. Universidad de Buenos Aires, Instituto Interdisciplinario de Economía
+                     Política, Centro de Estudios de Historia Económica Argentina y Latinoamericana, CiudadAfiliación, PaísAfiliación</div>
+               </div>
             </div>
             <div class="meta-seccion">
                <div class="meta-label">Publicación</div>
                <div class="meta-valor">2025, vol. 19, núm. 37, pp. I–IV</div>
             </div>
             <div class="meta-seccion">
-               <div class="meta-label">DOI</div><a class="doi-link" href="https://doi.org/a" target="_blank" rel="noopener noreferrer">a</a></div>
+               <div class="meta-valor"><span class="meta-key">DOI: </span><a class="doi-link" href="https://doi.org/doi-del-ariculo" target="_blank" rel="noopener noreferrer">doi-del-ariculo</a></div>
+            </div>
             <div class="meta-seccion">
                <div class="meta-label">Fechas</div>
                <div class="meta-valor">
@@ -879,14 +932,6 @@
             </div>
             <div class="meta-seccion">
                <div class="meta-label">Licencia</div><a class="licencia-badge" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a></div>
-            <div class="meta-seccion">
-               <div class="meta-label">Palabras clave<span class="kwd-lang-label"> (es)</span></div>
-               <div class="kwd-list"><span class="kwd-tag">a</span></div>
-            </div>
-            <div class="meta-seccion">
-               <div class="meta-label">Palabras clave<span class="kwd-lang-label"> (en)</span></div>
-               <div class="kwd-list"><span class="kwd-tag">a</span></div>
-            </div>
             <div class="citar-wrapper">
                <details>
                   <summary class="citar-toggle">Citar este artículo</summary>
@@ -898,20 +943,7 @@
          </aside>
          <main class="col-center">
             <h1 class="article-title">Editorial</h1>
-            <div class="abstracts-wrapper">
-               <details class="abstract-block">
-                  <summary class="abstract-lang-label">Resumen</summary>
-                  <div class="abstract-texto">
-                     <p>a</p>
-                  </div>
-               </details>
-               <details class="abstract-block">
-                  <summary class="abstract-lang-label">Abstract</summary>
-                  <div class="abstract-texto">
-                     <p>a</p>
-                  </div>
-               </details>
-            </div>
+            <div class="article-trans-title">Editor's Note</div>
             <div class="article-body">
                <div class="sec" id="editorial-1">
                   <p>Nos complace anunciar a nuestros lectores una serie de cambios y avances en la estructura
@@ -966,7 +998,7 @@
             </div>
          </aside>
       </div>
-      <footer style="           background: #2a2a28;           color: #c8c6c0;           text-align: center;           padding: 1.25rem;           font-family: var(--font-sans);           font-size: 0.9rem;           font-weight: 300;           letter-spacing: 0.03em;           margin-top: 1.5rem;         ">Página generada el 25 de febrero de 2026 con <a href="https://estudio2a.netlify.app/" target="_blank" rel="noopener noreferrer" style="color: #8ab4d8; text-decoration: none;">gbpublisher</a></footer><script>
+      <footer style="           background: #2a2a28;           color: #c8c6c0;           text-align: center;           padding: 1.25rem;           font-family: var(--font-sans);           font-size: 0.9rem;           font-weight: 300;           letter-spacing: 0.03em;           margin-top: 1.5rem;         ">Página generada el 26 de febrero de 2026 con <a href="https://estudio2a.netlify.app/" target="_blank" rel="noopener noreferrer" style="color: #8ab4d8; text-decoration: none;">gbpublisher</a></footer><script>
 
           // ============================================
           // DATOS DE LA CITA — INYECTADOS POR XSLT
@@ -974,13 +1006,13 @@
           var citaData = {
             titulo:  "Editorial",
             revista: "H-industria",
-            doi:     "a",
+            doi:     "doi-del-ariculo",
             anio:    "2025",
             volumen: "19",
             numero:  "37",
             paginaI: "I",
             paginaF: "IV",
-            autores: [{apellido:"Palote Carancho",nombre:"José"}]
+            autores: [{apellido:"Mason",nombre:"Camilo"},{apellido:"Gil",nombre:"Luciana V."}]
           };
 
           // ============================================
@@ -1230,13 +1262,6 @@
 
           // ============================================
           // HIGHLIGHT CON TOGGLE
-          // PRIMER CLICK:
-          //   - ABRE EL PANEL SI ESTÁ OCULTO
-          //   - ACTIVA SOLAPA CORRESPONDIENTE
-          //   - RESALTA ELEMENTO EN PANEL Y EN TEXTO
-          // SEGUNDO CLICK SOBRE EL MISMO ELEMENTO:
-          //   - DESPINTA TODO
-          //   - OCULTA EL PANEL
           // ============================================
           var selectedRef  = null;
           var panelVisible = false;

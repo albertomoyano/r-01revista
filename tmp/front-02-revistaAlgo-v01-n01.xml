@@ -28,9 +28,13 @@
       <contrib contrib-type="author">
         <name>
           <surname>Rougier</surname>
-          <given-names>Marcelo Augusto</given-names>
+          <given-names>Marcelo</given-names>
         </name>
         <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0002-5273-5191</contrib-id>
+        <aff>
+          <institution>Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
+        </aff>
+        <email>marcelorougier@yahoo.com.ar</email>
       </contrib>
     </contrib-group>
     <pub-date pub-type="epub-ppub">
@@ -64,28 +68,37 @@
       </license>
     </permissions>
     <abstract xml:lang="es">
-      <p>Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro de sus preocupaciones: era imperioso modificar la estructura productiva a través de la trans­ferencia de recursos desde sectores como la agricultura.</p>
+      <p>El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.</p>
     </abstract>
     <trans-abstract xml:lang="en">
-      <p>The new development theories placed manufacturing production at the center of their concerns: it was imperative to modify the productive structure through the transfer of resources from sectors such as agriculture.</p>
+      <p>This dossier examines Argentine agricultural development from the 1950s to the 1970s within debates on development and industrialization. It explores public policies, credit, technology, and regional agribusiness, highlighting tensions, continuities, and their social, productive, and environmental impact.</p>
     </trans-abstract>
     <trans-abstract xml:lang="pt">
-      <p>As novas teorias do desenvolvimento situaram a produção manufatureira no centro de suas preocupações: era imperioso modificar a estrutura produtiva por meio da transferência de recursos de setores como a agricultura.</p>
+      <p>O dossiê analisa o desenvolvimento agropecuário argentino entre as décadas de 1950 e 1970, no contexto dos debates sobre desenvolvimento e industrialização. Examina políticas públicas, crédito, tecnologia e agroindústrias regionais, destacando tensões, continuidades e impactos sociais, produtivos e ambientais.</p>
     </trans-abstract>
     <kwd-group xml:lang="es" kwd-group-type="author-generated">
-      <kwd>hola</kwd>
-      <kwd>mundo</kwd>
-      <kwd>industrial</kwd>
+      <kwd>Desarrollo agropecuario</kwd>
+      <kwd>Industrialización</kwd>
+      <kwd>Políticas públicas</kwd>
+      <kwd>Agroindustria</kwd>
+      <kwd>Tecnología agraria</kwd>
+      <kwd>Argentina</kwd>
     </kwd-group>
     <kwd-group xml:lang="en" kwd-group-type="author-generated">
-      <kwd>hello</kwd>
-      <kwd>industrial</kwd>
-      <kwd>world</kwd>
+      <kwd>Agricultural development</kwd>
+      <kwd>Industrialization</kwd>
+      <kwd>Public policy</kwd>
+      <kwd>Agribusiness</kwd>
+      <kwd>Agricultural technology</kwd>
+      <kwd>Argentina</kwd>
     </kwd-group>
     <kwd-group xml:lang="pt" kwd-group-type="author-generated">
-      <kwd>olá</kwd>
-      <kwd>mundo</kwd>
-      <kwd>industrial</kwd>
+      <kwd>Desenvolvimento agropecuário</kwd>
+      <kwd>Industrialização</kwd>
+      <kwd>Políticas públicas</kwd>
+      <kwd>Agroindústria</kwd>
+      <kwd>Tecnologia agrícola</kwd>
+      <kwd>Argentina</kwd>
     </kwd-group>
   </article-meta>
 </front>
