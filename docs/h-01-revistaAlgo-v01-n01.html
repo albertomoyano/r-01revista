@@ -75,18 +75,17 @@
           /* ============================================
              LAYOUT PRINCIPAL — 7 COLUMNAS (2+3+2)
              ============================================ */
-          .layout {
+           .layout {
             display: grid;
             grid-template-columns: var(--col-left) var(--col-center) var(--col-right);
             grid-template-areas: "left center right";
             min-height: 100vh;
-            max-width: 1366px;
-            margin: 0 auto;
+            width: 100%;
             gap: 0;
           }
 
           .layout.panel-hidden {
-            grid-template-columns: 220px 1fr;
+            grid-template-columns: 320px 1fr;
             grid-template-areas: "left center";
           }
 
@@ -840,7 +839,7 @@
              RESPONSIVE
              ============================================ */
           @media (max-width: 1100px) {
-            .layout { grid-template-columns: 200px 1fr 240px; }
+            .layout { grid-template-columns: 320px 1fr 240px; }
           }
 
           @media (max-width: 600px) {
