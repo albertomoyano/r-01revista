@@ -24,9 +24,9 @@
              VARIABLES Y RESET
              ============================================ */
           :root {
-            --col-left:               2fr;
-            --col-center:             3fr;
-            --col-right:              2fr;
+            --col-left:   220px;   /* FIJA EN PX */
+            --col-center: 2fr;     /* TOMA EL ESPACIO RESTANTE */
+            --col-right:  1fr;     /* 50% DEL ANCHO DE CENTRO */
 
             --color-bg:               #fafaf8;
             --color-surface:          #ffffff;
@@ -86,7 +86,7 @@
           }
 
           .layout.panel-hidden {
-            grid-template-columns: 2fr 5fr;
+            grid-template-columns: 220px 1fr;
             grid-template-areas: "left center";
           }
 
@@ -843,7 +843,7 @@
             .layout { grid-template-columns: 200px 1fr 240px; }
           }
 
-          @media (max-width: 800px) {
+          @media (max-width: 600px) {
             .layout {
               grid-template-columns: 1fr;
               grid-template-areas: "center";
