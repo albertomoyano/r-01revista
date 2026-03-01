@@ -440,7 +440,7 @@
 
           .related-doi a {
             color: var(--color-accent);
-            font-size: var(--text-xs);
+            font-size: var(--text-sm);
             text-decoration: none;
             word-break: break-all;
           }
@@ -455,6 +455,23 @@
             padding: 2.5rem 24px 4rem 24px;
             max-width: 100%;
             min-width: 0;
+          }
+
+          /* BARRA DE TIPO DE ARTÍCULO */
+          .article-type-bar {
+            background: var(--color-accent);
+            color: #ffffff;
+            font-family: var(--font-sans);
+            font-size: var(--text-base);
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            padding: 0 1rem;
+            margin-bottom: 1.25rem;
+            border-radius: var(--radius);
           }
 
           .article-title {
@@ -1004,7 +1021,7 @@
             </div>
             <div class="meta-seccion">
                <div class="meta-label">Publicación</div>
-               <div class="meta-valor">2026, vol. 19, núm. 37</div>
+               <div class="meta-valor">2026, vol. 19, núm. 37, pp. 23–43</div>
             </div>
             <div class="meta-seccion">
                <div class="meta-valor"><span class="meta-key">DOI: </span><a class="doi-link" href="https://doi.org/10.56503/H-Industria/n.37(19)/3473" target="_blank" rel="noopener noreferrer">10.56503/H-Industria/n.37(19)/3473</a></div>
@@ -1041,6 +1058,7 @@
             </div>
          </aside>
          <main class="col-center">
+            <div class="article-type-bar">Artículo de investigación</div>
             <h1 class="article-title">El desarrollo agropecuario argentino en la segunda posguerra</h1>
             <div class="article-trans-title">Argentine Agricultural Development in the Second Postwar Period</div>
             <div class="abstracts-wrapper">
@@ -1137,7 +1155,7 @@
                      iniciativas e instituciones impulsadas por los gobiernos peronistas y lo acaecido
                      luego del golpe de Estado de 1955 mientras que, en otras oportunidades, se advierten
                      claros puntos de contacto que permiten repensar la dinámica en torno a los cambios
-                     y continuidades a lo largo del período.<a class="fn-ref" data-fn-id="d1e130" data-fn-text="En el período constitucional de 1979-1983 continuó el proceso de&#xA;  nacionalización de la industria petrolera, que a su vez tuvo un&#xA;  importante crecimiento, dado que aumentó la cantidad de reservas de&#xA;  petróleo comprobadas." onclick="highlightPanel('notas', 'd1e130')" href="#panel-fn-d1e130">1</a>
+                     y continuidades a lo largo del período.<a class="fn-ref" data-fn-id="d1e132" data-fn-text="En el período constitucional de 1979-1983 continuó el proceso de&#xA;  nacionalización de la industria petrolera, que a su vez tuvo un&#xA;  importante crecimiento, dado que aumentó la cantidad de reservas de&#xA;  petróleo comprobadas." onclick="highlightPanel('notas', 'd1e132')" href="#panel-fn-d1e132">1</a>
                      </p>
                   <div class="disp-formula" id="eq-id">\[E = mc^2\]</div>
                   <p>Este dossier se propone enriquecer el análisis historiográfico sobre las transformacio­nes
@@ -1464,7 +1482,7 @@
                      económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes
                      ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban
                      en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos
-                     populares mediante reformas orientadas a mejorar las condiciones de vida.<a class="fn-ref" data-fn-id="d1e375" data-fn-text="Los programas de transferencias condicionadas de ingresos (CCT)&#xA;  constituyen uno de los instrumentos más extendidos de política social en&#xA;  América Latina. Aunque diversos estudios han evaluado sus impactos sobre&#xA;  pobreza y capital humano, la dimensión de género ha recibido atención&#xA;  insuficiente." onclick="highlightPanel('notas', 'd1e375')" href="#panel-fn-d1e375">2</a>
+                     populares mediante reformas orientadas a mejorar las condiciones de vida.<a class="fn-ref" data-fn-id="d1e377" data-fn-text="Los programas de transferencias condicionadas de ingresos (CCT)&#xA;  constituyen uno de los instrumentos más extendidos de política social en&#xA;  América Latina. Aunque diversos estudios han evaluado sus impactos sobre&#xA;  pobreza y capital humano, la dimensión de género ha recibido atención&#xA;  insuficiente." onclick="highlightPanel('notas', 'd1e377')" href="#panel-fn-d1e377">2</a>
                      </p>
                </div>
                <div class="sec" id="results-3">
@@ -1547,8 +1565,8 @@
             anio:    "2026",
             volumen: "19",
             numero:  "37",
-            paginaI: "",
-            paginaF: "",
+            paginaI: "23",
+            paginaF: "43",
             autores: [{apellido:"Rougier",nombre:"Marcelo"}]
           };
 
