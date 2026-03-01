@@ -1708,7 +1708,7 @@
               setTimeout(function() {
                 btn.textContent = 'Copiar';
                 btn.classList.remove('copiado');
-              }, 2000);
+              }, 10000);
             });
           }
 
@@ -1891,11 +1891,11 @@
             el.scrollIntoView({ behavior: 'smooth', block: 'center' });
             el.classList.add('selected');
 
-            // LIMPIAR TRAS 2 SEGUNDOS
+            // LIMPIAR TRAS 5 SEGUNDOS
             setTimeout(function() {
               el.classList.remove('selected');
               if (panelItem) panelItem.classList.remove('highlighted');
-            }, 2000);
+            }, 10000);
           }
 
           // ============================================
