@@ -1,0 +1,14 @@
+[2026-02-28 17:51:23] ==========================================
+[2026-02-28 17:51:23] INICIO DE TRANSFORMACIÓN XSLT
+[2026-02-28 17:51:23] ==========================================
+[2026-02-28 17:51:23] Archivo XML entrada: c-ejemplo2.xml
+[2026-02-28 17:51:23] Archivo XSLT: prueba-saxon.xslt
+[2026-02-28 17:51:23] Archivo salida: c-ejemplo2_20260228_175123.html
+[2026-02-28 17:51:23] Saxon JAR: /usr/share/java/Saxon-HE.jar
+[2026-02-28 17:51:23] Comando ejecutado:
+[2026-02-28 17:51:23] java -jar '/usr/share/java/Saxon-HE.jar' -s:'/home/alberto/00_Produccion/99_ejercicios/04-revista-MD/jats/c-ejemplo2.xml' -xsl:'/home/alberto/.gbpublisher/xslt/prueba-saxon.xslt' -o:'/home/alberto/00_Produccion/99_ejercicios/04-revista-MD/jats/c-ejemplo2_20260228_175123.html' -dtd:off -expand:off 2>&1
+[2026-02-28 17:51:23] ------------------------------------------
+[2026-02-28 17:51:24] Código de salida: 0
+[2026-02-28 17:51:24] ESTADO: Transformación completada exitosamente
+[2026-02-28 17:51:24] ==========================================
+[2026-02-28 17:51:24] 

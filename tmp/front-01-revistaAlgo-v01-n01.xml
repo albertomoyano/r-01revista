@@ -38,7 +38,6 @@
           <city>Ciudad Autónoma de Buenos Aires</city>,
           <country>Argenttina</country>
         </aff>
-        <email>masoncamilo@gmail.com</email>
       </contrib>
       <contrib contrib-type="author">
         <name>
@@ -52,7 +51,6 @@
           <city>CiudadAfiliación</city>,
           <country>PaísAfiliación</country>
         </aff>
-        <email>nolotengo@email.com</email>
       </contrib>
     </contrib-group>
     <pub-date pub-type="epub-ppub">
@@ -96,5 +94,11 @@
     <funding-group>
       <funding-statement>a</funding-statement>
     </funding-group>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>xml-lang</meta-name>
+        <meta-value>es</meta-value>
+      </custom-meta>
+    </custom-meta-group>
   </article-meta>
 </front>

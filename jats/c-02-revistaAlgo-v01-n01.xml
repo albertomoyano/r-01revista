@@ -39,7 +39,6 @@
                <aff>
                   <institution>Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
                </aff>
-               <email>marcelorougier@yahoo.com.ar</email>
             </contrib>
          </contrib-group>
          <pub-date pub-type="epub-ppub">
@@ -106,6 +105,12 @@
             <kwd>Tecnologia agrícola</kwd>
             <kwd>Argentina</kwd>
          </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>xml-lang</meta-name>
+               <meta-value>es</meta-value>
+            </custom-meta>
+         </custom-meta-group>
       </article-meta>
    </front>
    <body>
