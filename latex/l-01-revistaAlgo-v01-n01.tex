@@ -1,0 +1,200 @@
+\documentclass{article}
+
+% --- FUENTES Y CODIFICACIÓN ---
+\usepackage[final,babel=True]{microtype}
+\microtypecontext{spacing=nonfrench}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setsansfont[Scale=MatchLowercase,
+  Ligatures=TeX,
+  Extension=.otf,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-SemiBold,
+  BoldItalicFont=*-SemiBoldItalic]{IBMPlexSansCondensed}
+\setmonofont[Scale=0.91,
+  Extension=.otf,
+  UprightFont=*-Regular,
+  ItalicFont=IBMPlexMono-Italic.otf,
+  BoldFont=IBMPlexMono-Bold.otf,
+  BoldItalicFont=IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
+
+% --- IDIOMAS ---
+\usepackage[english,portuguese,main=spanish]{babel}
+\usepackage[autostyle=true]{csquotes}
+\setmainfont[Numbers={OldStyle,Proportional},Ligatures={TeX,Common,Discretionary},Scale=1.18]{Libertinus Serif}
+\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
+
+% --- BIBLIOGRAFÍA ---
+\usepackage[style=apa,backend=biber,sorting=nyt]{biblatex}
+
+
+% --- PÁGINA ---
+\usepackage[paperwidth=210mm,paperheight=297mm,top=13mm,bottom=23mm,left=13mm,right=87mm,headsep=0mm,footskip=12mm,headheight=29mm,headsep=10mm,marginparsep=6mm,marginparwidth=68mm,includehead,includefoot]{geometry}
+\setcounter{secnumdepth}{0}
+
+% --- POSICIONAMIENTO ABSOLUTO ---
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+\textblockorigin{0mm}{0mm}
+\newlength{\gbbloquex}
+\AtBeginDocument{\setlength{\gbbloquex}{\dimexpr 1in+\hoffset+\oddsidemargin+\textwidth+\marginparsep\relax}}
+
+% --- TABLAS Y FIGURAS ---
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[labelfont=bf]{caption}
+
+% --- VARIOS ---
+\usepackage[hidelinks]{hyperref}
+\usepackage[bottom]{footmisc}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\usepackage{siunitx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+% --- COLOR ---
+\usepackage[svgnames]{xcolor}
+\definecolor{azulrevista}{HTML}{2d5a8e}
+
+\usepackage[hyphenation,homeoarchy,homeoarchywordcolor=orange,homeoarchycharcolor=orange,draft]{impnattypo}
+
+\newcommand{\articulotipo}{}
+
+% --- HEADER / FOOTER ---
+\usepackage{fancyhdr}
+\setlength{\headwidth}{\textwidth}
+\addtolength{\headwidth}{\marginparsep}
+\addtolength{\headwidth}{\marginparwidth}
+
+\fancypagestyle{firstpage}{%
+  \fancyhf{}%
+  \fancyhead[L]{%
+    \begin{minipage}[t]{\headwidth}%
+    \includegraphics[width=184mm,height=20mm,keepaspectratio=false]{/home/alberto/00_Produccion/99_ejercicios/04-revista-MD/media/logo-revista.png}\\[3mm]%
+      {\setlength{\fboxsep}{0pt}%
+      \colorbox{azulrevista}{%
+        \parbox[c][6mm][c]{\headwidth}{%
+          \hspace{12pt}\sffamily\bfseries\color{white}\articulotipo%
+        }%
+      }}%
+    \end{minipage}%
+  }%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[L]{%
+    \begin{minipage}[t]{\headwidth}%
+      \textcolor{azulrevista}{\rule{\headwidth}{1pt}}\\[1pt]%
+      \sffamily\thepage\hfill%
+      \small\articulorevista{} / e-ISSN: \texttt{\articuloissne}{} / Vol.~\articulovolumen{},~n.\textsuperscript{o}~\articulonumero{} / \articulofecha%
+    \end{minipage}%
+  }%
+  \renewcommand{\footrulewidth}{0pt}%
+}%
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{%
+  \raisebox{\dimexpr\headheight-7mm\relax}[0pt][0pt]{%
+    \begin{minipage}[b]{\headwidth}%
+      \sffamily\thepage\hfill%
+      \small\articulorevista{} / e-ISSN: \texttt{\articuloissne}{} / Vol.~\articulovolumen{},~n.\textsuperscript{o}~\articulonumero{} / \articulofecha\\[1pt]%
+      \textcolor{azulrevista}{\rule{\headwidth}{1pt}}%
+    \end{minipage}%
+  }%
+}%
+\renewcommand{\headrulewidth}{0pt}
+
+% --- MACROS DEL ARTÍCULO (SOBREESCRITAS POR EL XSLT) ---
+\newcommand{\articulotitulo}{}
+\newcommand{\articulosubtitulo}{}
+\newcommand{\articulotitulotrans}{}
+\newcommand{\articuloautores}{}
+\newcommand{\articulodoi}{}
+\newcommand{\articuloidiomaxml}{es}
+\newcommand{\articulorevista}{}
+\newcommand{\articuloissne}{}
+\newcommand{\articulovolumen}{}
+\newcommand{\articulonumero}{}
+\newcommand{\articulofecha}{}
+\newcommand{\articulopagina}{0}
+
+\begin{document}
+
+\selectlanguage{spanish}
+
+\renewcommand{\articuloidiomaxml}{es}
+\renewcommand{\articulotitulo}{Editorial}
+\renewcommand{\articuloautores}{Camilo Mason, Luciana V. Gil}
+\renewcommand{\articulodoi}{doi-del-ariculo}
+\renewcommand{\articulotipo}{EDITORIAL}
+\renewcommand{\articulorevista}{H-industria}
+\renewcommand{\articuloissne}{1851-703X}
+\renewcommand{\articulovolumen}{19}
+\renewcommand{\articulonumero}{37}
+\renewcommand{\articulofecha}{NOVIEMBRE 2025}
+\renewcommand{\articulopagina}{I}
+
+\setcounter{page}{1}
+\thispagestyle{firstpage}
+
+% --- TÍTULO A ANCHO COMPLETO ---
+\noindent\begin{minipage}[t]{\dimexpr\textwidth+\marginparsep+\marginparwidth\relax}%
+{\sffamily\bfseries\Large\articulotitulo\par}%
+\end{minipage}\par
+\vspace{3mm}%
+\renewcommand{\articulotitulotrans}{Editor's Note}
+\noindent\begin{minipage}[t]{\dimexpr\textwidth+\marginparsep+\marginparwidth\relax}%
+{\sffamily\itshape\normalsize\articulotitulotrans\par}%
+\end{minipage}\par
+\vspace{4mm}%
+
+% --- BLOQUE LATERAL DE METADATOS ---
+\begin{textblock*}{68mm}(\gbbloquex,92mm)
+{\setlength{\leftskip}{0pt}\setlength{\parindent}{0pt}%
+\noindent\begin{minipage}[t]{68mm}
+\sffamily\small\setlength{\parskip}{1pt}
+{\bfseries\color{azulrevista}Camilo Mason}\par
+{\scriptsize\texttt{\href{https://orcid.org/0000-0002-2257-2160}{https://orcid.org/0000-0002-2257-2160}}}\par
+Departameno, AfiliaciónActual, Ciudad Autónoma de Buenos Aires, Argenttina\par
+\vspace{4pt}
+{\bfseries\color{azulrevista}Luciana V. Gil}\par
+{\scriptsize\texttt{\href{https://orcid.org/0000-0003-0167-7155}{https://orcid.org/0000-0003-0167-7155}}}\par
+Departamento, Consejo Nacional de Investigaciones Científicas y Técnicas. Universidad Nacional de San Martín. Universidad de Buenos Aires, Instituto Interdisciplinario de Economía Política, Centro de Estudios de Historia Económica Argentina y Latinoamericana, CiudadAfiliación, PaísAfiliación\par
+\vspace{6pt}
+{\bfseries\color{azulrevista!70}Publicación:} 2025, vol.~19, n\'um.~37, pp.~I--IV\par\vspace{6pt}
+{\bfseries\color{azulrevista!70}DOI:} {\scriptsize\texttt{\href{https://doi.org/doi-del-ariculo}{doi-del-ariculo}}}\par\vspace{6pt}
+{\bfseries\color{azulrevista!70}Licencia:} CC BY-NC-SA 4.0\par
+{\scriptsize\texttt{\href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0/}}}\par
+\vspace{6pt}
+{\bfseries\color{azulrevista!70}Fechas}\par\vspace{2pt}
+Recibido: 24/01/2026\par
+Aceptado: 24/01/2026\par
+Online: 24/01/2026\par
+\vspace{6pt}
+\end{minipage}%
+}% FIN GRUPO leftskip
+\end{textblock*}
+
+
+\bigskip
+\noindent\rule{\linewidth}{0.4pt}
+\bigskip
+
+\section{Editorial}
+Nos complace anunciar a nuestros lectores una serie de cambios y avances en la estructura y alcance de H-industria, que reflejan el compromiso continuo de la revista con la excelencia académica y la expansión de su impacto en la comunidad científica.
+
+Por un lado, seguimos avanzando en la ampliación de la visibilidad de H-industria en el ámbito académico. Desde octubre, formamos parte del Directorio Open Policy Finder (antes conocido como Sherpa Romeo), una plataforma clave para la visibilidad de las publicaciones académicas, que permite a los autores y lectores consultar las políticas de acceso abierto y los derechos de autor asociados a la publicación. Otro paso fundamental para fortalecer nuestra presencia en el ámbito de las publicaciones académicas.
+
+Por el otro, a partir de este número, implementamos el modelo de publicación continua, lo que permitirá una mayor flexibilidad y rapidez en la difusión de los artículos que conforman cada edición. En este sentido, cada número de H-industria se mantendrá abierto hasta la publicación en línea de todos sus elementos, y su próximo cierre corresponderá al mes de diciembre.
+
+El presente número explora los debates y desarrollos que marcaron el siglo XX en Argentina en lo que respecta a su sector agropecuario. El dossier titulado “El desarrollo agropecuario argentino en la segunda posguerra: debates, políticas y agroindustria”, coordinado por Federico Martocci y Pablo Volkind, reúne una serie de artículos que abordan los complejos procesos de modernización y transformación del campo argentino. Los estudios aquí presentados se enfocan en los debates sobre las políticas agropecuarias y los proyectos planificadores, al tiempo que analizan los dilemas vinculados a la regulación económica, el acceso al crédito, y las tensiones en torno al uso del agua y la tierra. La producción lechera y la agroindustria también ocupan un lugar destacado en este análisis, pues representan áreas clave del desarrollo económico de la Argentina en ese período.
+
+Además del dossier central, este número presenta una variedad de artículos que lo enriquecen, incluyendo estudios sobre la historia del capital italiano en el sector textil brasileño, los orígenes y la consolidación del financiamiento del Corporación Financiera Internacional y las características de la industria cervecera en la economía nacional.
+
+Los invitamos a seguir leyendo, discutiendo y participando activamente en la construcción del conocimiento sobre estos temas y debates. Continuaremos trabajando para garantizar que nuestra revista sea un espacio de reflexión crítica, rigor académico y acceso libre a dicho conocimiento.
+
+
+
+\end{document}
