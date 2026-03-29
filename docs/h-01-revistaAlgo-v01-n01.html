@@ -1027,20 +1027,156 @@
           /* ============================================
              RESPONSIVE
              ============================================ */
-          @media (max-width: 600px) {
+          /* ============================================
+             DRAWER — METADATA Y PANEL (TABLET/MÓVIL)
+             ============================================ */
+
+          /* BACKDROP SEMITRANSPARENTE */
+          .drawer-backdrop {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.45);
+            z-index: 200;
+          }
+          .drawer-backdrop.open { display: block; }
+
+          /* DRAWER IZQUIERDO — METADATOS */
+          .drawer-meta {
+            position: fixed;
+            top: 0; left: 0; bottom: 0;
+            width: min(320px, 85vw);
+            background: var(--color-surface);
+            border-right: 1px solid var(--color-border);
+            overflow-y: auto;
+            scrollbar-width: thin;
+            z-index: 201;
+            padding: 1rem 1.25rem 2rem;
+            transform: translateX(-100%);
+            transition: transform 0.25s ease;
+          }
+          .drawer-meta.open { transform: translateX(0); }
+
+          /* DRAWER DERECHO — PANEL (SOLO TABLET) */
+          .drawer-panel {
+            position: fixed;
+            top: 0; right: 0; bottom: 0;
+            width: min(340px, 85vw);
+            background: var(--color-surface);
+            border-left: 1px solid var(--color-border);
+            overflow-y: auto;
+            scrollbar-width: thin;
+            z-index: 201;
+            transform: translateX(100%);
+            transition: transform 0.25s ease;
+            display: flex;
+            flex-direction: column;
+          }
+          .drawer-panel.open { transform: translateX(0); }
+
+          /* BOTÓN CIERRE DENTRO DEL DRAWER */
+          .drawer-close {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0.5rem 0 1rem;
+          }
+          .drawer-close button {
+            background: none;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 0.25rem 0.6rem;
+            font-family: var(--font-sans);
+            font-size: var(--text-xs);
+            color: var(--color-text-muted);
+            cursor: pointer;
+          }
+
+          /* BOTONES FLOTANTES (FAB) */
+          .fab-meta, .fab-panel-mobile {
+            display: none;
+            position: fixed;
+            z-index: 150;
+            background: var(--color-accent);
+            color: #fff;
+            border: none;
+            border-radius: 24px;
+            padding: 0.45rem 1rem;
+            font-family: var(--font-sans);
+            font-size: var(--text-xs);
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: opacity 0.15s;
+          }
+          .fab-meta       { top: 1rem; left: 1rem; }
+          .fab-panel-mobile { top: 1rem; right: 1rem; }
+          .fab-meta:hover, .fab-panel-mobile:hover { opacity: 0.88; }
+
+          /* PANEL INLINE AL FINAL (SOLO MÓVIL) */
+          .panel-inline {
+            display: none;
+            margin-top: 2.5rem;
+            border-top: 2px solid var(--color-border);
+          }
+
+          /* ============================================
+             TABLET — 768px a 1199px
+             Solo columna central. Ambos laterales
+             como drawers con botones flotantes.
+             ============================================ */
+          @media (max-width: 1199px) {
             .layout {
               grid-template-columns: 1fr;
               grid-template-areas: "center";
             }
-            .col-left, .col-right { display: none; }
-            .col-center           { padding: 1.5rem; }
-            .panel-toggle         { display: none; }
+            .col-left  { display: none; }
+            .col-right { display: none; }
+            .col-center { padding: 2rem 1.5rem 4rem; }
+            .panel-toggle { display: none; }
+            .fab-meta       { display: block; }
+            .fab-panel-mobile { display: block; }
+          }
+
+          /* ============================================
+             MÓVIL — hasta 767px
+             Solo columna central. Izquierda como drawer.
+             Panel de refs/notas/figs inline al final.
+             ============================================ */
+          @media (max-width: 767px) {
+            .col-center { padding: 1.25rem 1rem 3rem; }
+            .fab-panel-mobile { display: none; }
+            .panel-inline     { display: block; }
+            .article-title    { font-size: var(--text-2xl); }
+          }
+
+          /* DESKTOP — desde 1200px: comportamiento original */
+          @media (min-width: 1200px) {
+            .drawer-backdrop { display: none !important; }
+            .drawer-meta     { display: none !important; }
+            .drawer-panel    { display: none !important; }
+            .fab-meta        { display: none !important; }
+            .fab-panel-mobile { display: none !important; }
+            .panel-inline    { display: none !important; }
           }
         </style>
    </head>
    <body><button class="panel-toggle" id="panelToggle" onclick="togglePanel()">
          → Mostrar panel
-         </button><div class="layout panel-hidden" id="mainLayout">
+         </button><button class="fab-meta" id="fabMeta" onclick="openDrawerMeta()">
+         ☰ Metadatos
+         </button><button class="fab-panel-mobile" id="fabPanelMobile" onclick="openDrawerPanel()">
+         Referencias ☰
+         </button><div class="drawer-backdrop" id="drawerBackdrop" onclick="closeDrawers()"></div>
+      <div class="drawer-meta" id="drawerMeta">
+         <div class="drawer-close"><button onclick="closeDrawers()">✕ Cerrar</button></div>
+         <div id="drawerMetaContent"></div>
+      </div>
+      <div class="drawer-panel" id="drawerPanel">
+         <div class="drawer-close"><button onclick="closeDrawers()">✕ Cerrar</button></div>
+         <div id="drawerPanelContent"></div>
+      </div>
+      <div class="layout panel-hidden" id="mainLayout">
          <aside class="col-left">
             <div class="tapa-wrapper"><img src="media/tapita1.png" alt="Tapa de H-industria"></div>
             <div class="meta-revista">H-industria</div>
@@ -1126,6 +1262,20 @@
                      libre a dicho conocimiento.</p>
                </div>
             </div>
+            <div class="panel-inline" id="panelInline">
+               <div class="panel-tabs" id="panelInlineTabs"><button class="panel-tab active" id="tab-notas-inline" onclick="switchTabInline('notas')">
+                     Notas
+                     <span class="tab-count" id="count-notas-inline">0</span></button><button class="panel-tab" id="tab-refs-inline" onclick="switchTabInline('refs')">
+                     Referencias
+                     <span class="tab-count" id="count-refs-inline">0</span></button><button class="panel-tab" id="tab-figs-inline" onclick="switchTabInline('figs')">
+                     Figuras
+                     <span class="tab-count" id="count-figs-inline">0</span></button></div>
+               <div class="panel-content">
+                  <div class="panel-section active" id="panel-notas-inline"></div>
+                  <div class="panel-section" id="panel-refs-inline"></div>
+                  <div class="panel-section" id="panel-figs-inline"></div>
+               </div>
+            </div>
          </main>
          <aside class="col-right" id="rightPanel">
             <div class="panel-tabs"><button class="panel-tab active" id="tab-notas" onclick="switchTab('notas')">
@@ -1142,7 +1292,7 @@
             </div>
          </aside>
       </div>
-      <footer style="           background: #2a2a28;           color: #c8c6c0;           text-align: center;           padding: 1.25rem;           font-family: var(--font-sans);           font-size: 0.9rem;           font-weight: 300;           letter-spacing: 0.03em;           margin-top: 1.5rem;         ">Página generada el 27 de marzo de 2026 con <a href="https://estudio2a.netlify.app/" target="_blank" rel="noopener noreferrer" style="color: #8ab4d8; text-decoration: none;">gbpublisher</a></footer><script>
+      <footer style="           background: #2a2a28;           color: #c8c6c0;           text-align: center;           padding: 1.25rem;           font-family: var(--font-sans);           font-size: 0.9rem;           font-weight: 300;           letter-spacing: 0.03em;           margin-top: 1.5rem;         ">Página generada el 29 de marzo de 2026 con <a href="https://estudio2a.netlify.app/" target="_blank" rel="noopener noreferrer" style="color: #8ab4d8; text-decoration: none;">gbpublisher</a></footer><script>
 
           // ============================================
           // DATOS DE LA CITA — INYECTADOS POR XSLT
@@ -1168,6 +1318,8 @@
             updateCounts();
             // MOSTRAR APA POR DEFECTO SIN EVENTO
             document.getElementById('citar-output').textContent = generarCita('apa');
+            // INICIALIZAR DRAWERS Y PANEL INLINE RESPONSIVE
+            initResponsivePanels();
           });
 
           // ============================================
@@ -1506,7 +1658,7 @@
           }
 
           // ============================================
-          // TOGGLE PANEL DERECHO
+          // TOGGLE PANEL DERECHO (SOLO DESKTOP)
           // ============================================
           function togglePanel() {
             var layout = document.getElementById('mainLayout');
@@ -1514,6 +1666,84 @@
             panelVisible = !panelVisible;
             layout.classList.toggle('panel-hidden', !panelVisible);
             btn.textContent = panelVisible ? '\u2190 Ocultar panel' : '\u2192 Mostrar panel';
+          }
+
+          // ============================================
+          // DRAWERS — TABLET / MÓVIL
+          // ============================================
+
+          // ABRIR DRAWER DE METADATOS
+          function openDrawerMeta() {
+            document.getElementById('drawerMeta').classList.add('open');
+            document.getElementById('drawerBackdrop').classList.add('open');
+          }
+
+          // ABRIR DRAWER DE PANEL (SOLO TABLET)
+          function openDrawerPanel() {
+            document.getElementById('drawerPanel').classList.add('open');
+            document.getElementById('drawerBackdrop').classList.add('open');
+          }
+
+          // CERRAR TODOS LOS DRAWERS
+          function closeDrawers() {
+            document.getElementById('drawerMeta').classList.remove('open');
+            document.getElementById('drawerPanel').classList.remove('open');
+            document.getElementById('drawerBackdrop').classList.remove('open');
+          }
+
+          // ============================================
+          // INIT RESPONSIVE PANELS
+          // CLONA CONTENIDO DE col-left Y rightPanel
+          // A LOS DRAWERS Y AL PANEL INLINE
+          // SE EJECUTA TRAS DOMContentLoaded
+          // ============================================
+          function initResponsivePanels() {
+
+            // CLONAR METADATOS A DRAWER IZQUIERDO
+            var colLeft = document.querySelector('.col-left');
+            var drawerContent = document.getElementById('drawerMetaContent');
+            if (colLeft && drawerContent) {
+              drawerContent.innerHTML = colLeft.innerHTML;
+            }
+
+            // CLONAR PANEL NOTAS/REFS/FIGS A DRAWER DERECHO (TABLET)
+            var rightPanel = document.getElementById('rightPanel');
+            var drawerPanelContent = document.getElementById('drawerPanelContent');
+            if (rightPanel && drawerPanelContent) {
+              drawerPanelContent.innerHTML = rightPanel.innerHTML;
+            }
+
+            // POBLAR PANEL INLINE (MÓVIL):
+            // COPIAR ITEMS DE CADA SECCIÓN AL EQUIVALENTE INLINE
+            var secciones = ['notas', 'refs', 'figs'];
+            secciones.forEach(function(s) {
+              var orig   = document.getElementById('panel-' + s);
+              var inline = document.getElementById('panel-' + s + '-inline');
+              var cOrig  = document.getElementById('count-' + s);
+              var cInl   = document.getElementById('count-' + s + '-inline');
+              if (orig && inline) {
+                inline.innerHTML = orig.innerHTML;
+              }
+              if (cOrig && cInl) {
+                cInl.textContent = cOrig.textContent;
+              }
+            });
+          }
+
+          // ============================================
+          // SWITCH DE SOLAPAS DEL PANEL INLINE
+          // ============================================
+          function switchTabInline(tab) {
+            ['notas', 'refs', 'figs'].forEach(function(t) {
+              var tabEl  = document.getElementById('tab-' + t + '-inline');
+              var panEl  = document.getElementById('panel-' + t + '-inline');
+              if (tabEl) tabEl.classList.remove('active');
+              if (panEl) panEl.classList.remove('active');
+            });
+            var activeTab  = document.getElementById('tab-' + tab + '-inline');
+            var activePane = document.getElementById('panel-' + tab + '-inline');
+            if (activeTab)  activeTab.classList.add('active');
+            if (activePane) activePane.classList.add('active');
           }
 
         </script></body>
