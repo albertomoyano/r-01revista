@@ -14,3 +14,4 @@ Además del dossier central, este número presenta una variedad de artículos qu
 Los invitamos a seguir leyendo, discutiendo y participando activamente en la construcción del conocimiento sobre estos temas y debates. Continuaremos trabajando para garantizar que nuestra revista sea un espacio de reflexión crítica, rigor académico y acceso libre a dicho conocimiento.
 
 :::
+

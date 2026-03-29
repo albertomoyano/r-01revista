@@ -137,5 +137,4 @@ Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos 
 :::
 
 [^1]: En el período constitucional de 1979-1983 continuó el proceso de nacionalización de la industria petrolera, que a su vez tuvo un importante crecimiento, dado que aumentó la cantidad de reservas de petróleo comprobadas.
-
 [^2]: Los programas de transferencias condicionadas de ingresos (CCT) constituyen uno de los instrumentos más extendidos de política social en América Latina. Aunque diversos estudios han evaluado sus impactos sobre pobreza y capital humano, la dimensión de género ha recibido atención insuficiente.

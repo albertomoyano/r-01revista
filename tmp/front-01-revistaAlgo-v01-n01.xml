@@ -26,7 +26,7 @@
       </trans-title-group>
     </title-group>
     <contrib-group>
-      <contrib contrib-type="author">
+      <contrib contrib-type="author" id="a10">
         <name>
           <surname>Mason</surname>
           <given-names>Camilo</given-names>
@@ -39,7 +39,7 @@
           <country>Argenttina</country>
         </aff>
       </contrib>
-      <contrib contrib-type="author">
+      <contrib contrib-type="author" id="a11">
         <name>
           <surname>Gil</surname>
           <given-names>Luciana V.</given-names>
@@ -64,24 +64,24 @@
     <lpage>IV</lpage>
     <history>
       <date date-type="received">
-        <year>2026</year>
-        <month>01</month>
         <day>24</day>
+        <month>01</month>
+        <year>2026</year>
       </date>
       <date date-type="rev-recd">
-        <year>2026</year>
-        <month>01</month>
         <day>24</day>
+        <month>01</month>
+        <year>2026</year>
       </date>
       <date date-type="accepted">
-        <year>2026</year>
-        <month>01</month>
         <day>24</day>
+        <month>01</month>
+        <year>2026</year>
       </date>
       <date date-type="pub">
-        <year>2026</year>
-        <month>01</month>
         <day>24</day>
+        <month>01</month>
+        <year>2026</year>
       </date>
     </history>
     <permissions>

@@ -23,14 +23,14 @@
 \usepackage[english,portuguese,main=spanish]{babel}
 \usepackage[autostyle=true]{csquotes}
 \setmainfont[Numbers={OldStyle,Proportional},Ligatures={TeX,Common,Discretionary},Scale=1.18]{Libertinus Serif}
-\renewcommand{\normalsize}{\fontsize{10pt}{14pt}\selectfont}
+\renewcommand{\normalsize}{\fontsize{10pt}{13pt}\selectfont}
 
 % --- BIBLIOGRAFÍA ---
-\usepackage[style=apa,backend=biber,sorting=nyt]{biblatex}
+\usepackage[style=apa,backend=biber]{biblatex}
 
 
 % --- PÁGINA ---
-\usepackage[paperwidth=210mm,paperheight=297mm,top=13mm,bottom=23mm,left=13mm,right=87mm,headsep=0mm,footskip=12mm,headheight=29mm,headsep=10mm,marginparsep=6mm,marginparwidth=68mm,includehead,includefoot]{geometry}
+\usepackage[paperwidth=210mm,paperheight=297mm,top=13mm,bottom=23mm,left=13mm,right=87mm,headsep=0mm,footskip=12mm,headheight=29mm,headsep=10mm,marginparsep=6mm,marginparwidth=68mm,includehead,includefoot,showframe]{geometry}
 \setcounter{secnumdepth}{0}
 
 % --- POSICIONAMIENTO ABSOLUTO ---
@@ -48,7 +48,7 @@
 
 % --- VARIOS ---
 \usepackage[hidelinks]{hyperref}
-\usepackage[bottom]{footmisc}
+\usepackage[bottom,stable]{footmisc}
 \raggedbottom
 \clubpenalty=10000
 \widowpenalty=10000
@@ -57,7 +57,10 @@
 \usepackage{titlesec}
 % --- COLOR ---
 \usepackage[svgnames]{xcolor}
+\usepackage{tcolorbox}
 \definecolor{azulrevista}{HTML}{2d5a8e}
+
+\renewenvironment{quote}{\normalsize\list{}{\sf\leftmargin=14pt\rightmargin=0pt}\item\relax}{\endlist}
 
 \usepackage[hyphenation,homeoarchy,homeoarchywordcolor=orange,homeoarchycharcolor=orange,draft]{impnattypo}
 

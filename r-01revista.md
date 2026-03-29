@@ -1,4 +1,4 @@
-# Estructura y elementos del proyecto
+## Estructura y elementos del proyecto
 
 r-01revista.md = este archivo
 a-01-revistaAlgo-v01-n01.md = editorial
