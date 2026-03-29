@@ -1034,10 +1034,8 @@
              RESPONSIVE
              ============================================ */
           /* ============================================
-             DRAWER — METADATA Y PANEL (TABLET/MÓVIL)
+             BACKDROP PARA DRAWERS (TABLET/MÓVIL)
              ============================================ */
-
-          /* BACKDROP SEMITRANSPARENTE */
           .drawer-backdrop {
             display: none;
             position: fixed;
@@ -1047,59 +1045,8 @@
           }
           .drawer-backdrop.open { display: block; }
 
-          /* DRAWER IZQUIERDO — METADATOS */
-          .drawer-meta {
-            position: fixed;
-            top: 0; left: 0; bottom: 0;
-            width: min(320px, 85vw);
-            background: var(--color-surface);
-            border-right: 1px solid var(--color-border);
-            overflow-y: auto;
-            scrollbar-width: thin;
-            z-index: 201;
-            padding: 1rem 1.25rem 2rem;
-            transform: translateX(-100%);
-            transition: transform 0.25s ease;
-          }
-          .drawer-meta.open { transform: translateX(0); }
-
-          /* DRAWER DERECHO — PANEL (SOLO TABLET) */
-          .drawer-panel {
-            position: fixed;
-            top: 0; right: 0; bottom: 0;
-            width: min(340px, 85vw);
-            background: var(--color-surface);
-            border-left: 1px solid var(--color-border);
-            overflow-y: auto;
-            scrollbar-width: thin;
-            z-index: 201;
-            transform: translateX(100%);
-            transition: transform 0.25s ease;
-            display: flex;
-            flex-direction: column;
-          }
-          .drawer-panel.open { transform: translateX(0); }
-
-          /* BOTÓN CIERRE DENTRO DEL DRAWER */
-          .drawer-close {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            padding: 0.5rem 0 1rem;
-          }
-          .drawer-close button {
-            background: none;
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius);
-            padding: 0.25rem 0.6rem;
-            font-family: var(--font-sans);
-            font-size: var(--text-xs);
-            color: var(--color-text-muted);
-            cursor: pointer;
-          }
-
-          /* BOTONES FLOTANTES (FAB) */
-          .fab-meta, .fab-panel-mobile {
+          /* BOTONES FLOTANTES FAB */
+          .fab-meta, .fab-panel-tablet {
             display: none;
             position: fixed;
             z-index: 150;
@@ -1113,75 +1060,105 @@
             font-weight: 600;
             cursor: pointer;
             box-shadow: var(--shadow);
-            transition: opacity 0.15s;
           }
-          .fab-meta       { top: 1rem; left: 1rem; }
-          .fab-panel-mobile { top: 1rem; right: 1rem; }
-          .fab-meta:hover, .fab-panel-mobile:hover { opacity: 0.88; }
-
-          /* PANEL INLINE AL FINAL (SOLO MÓVIL) */
-          .panel-inline {
-            display: none;
-            margin-top: 2.5rem;
-            border-top: 2px solid var(--color-border);
-          }
+          .fab-meta         { top: 1rem; left: 1rem; }
+          .fab-panel-tablet { top: 1rem; right: 1rem; }
 
           /* ============================================
              TABLET — 768px a 1199px
-             Solo columna central. Ambos laterales
-             como drawers con botones flotantes.
+             Layout en bloque (sin grid). col-left y
+             col-right son drawers fijos ocultos por
+             defecto. Se abren con display:block + fixed.
              ============================================ */
           @media (max-width: 1199px) {
-            .layout {
-              grid-template-columns: 1fr;
-              grid-template-areas: "center";
+
+            /* MATAR EL GRID — TODO EN BLOQUE */
+            .layout,
+            .layout.panel-hidden {
+              display: block;
+              grid-template-columns: none;
+              grid-template-areas: none;
             }
-            .col-left  { display: none; }
-            .col-right { display: none; }
-            .col-center { padding: 2rem 1.5rem 4rem; }
-            .panel-toggle { display: none; }
-            .fab-meta       { display: block; }
-            .fab-panel-mobile { display: block; }
+
+            /* COL-LEFT: OCULTO POR DEFECTO, DRAWER AL ABRIR */
+            .col-left {
+              display: none;
+              position: fixed;
+              top: 0; left: 0; bottom: 0;
+              width: min(320px, 85vw);
+              height: 100vh !important;
+              overflow-y: auto;
+              z-index: 201;
+              border-right: 1px solid var(--color-border);
+              box-shadow: var(--shadow);
+            }
+            .col-left.drawer-open { display: block; }
+
+            /* COL-RIGHT: OCULTO POR DEFECTO, DRAWER AL ABRIR */
+            .col-right {
+              display: none;
+              position: fixed;
+              top: 0; right: 0; bottom: 0;
+              width: min(340px, 85vw);
+              height: 100vh !important;
+              overflow-y: auto;
+              z-index: 201;
+              border-left: 1px solid var(--color-border);
+              box-shadow: var(--shadow);
+            }
+            .col-right.drawer-open { display: flex; }
+
+            /* COL-CENTER: OCUPA TODO EL ANCHO */
+            .col-center { padding: 3.5rem 1.5rem 4rem; }
+
+            .panel-toggle     { display: none; }
+            .fab-meta         { display: block; }
+            .fab-panel-tablet { display: block; }
           }
 
           /* ============================================
              MÓVIL — hasta 767px
-             Solo columna central. Izquierda como drawer.
-             Panel de refs/notas/figs inline al final.
+             col-right vuelve a posición estática y cae
+             debajo del centro como sección inline.
              ============================================ */
           @media (max-width: 767px) {
-            .col-center { padding: 1.25rem 1rem 3rem; }
-            .fab-panel-mobile { display: none; }
-            .panel-inline     { display: block; }
+
+            /* COL-RIGHT: INLINE AL FINAL DEL CONTENIDO */
+            .col-right,
+            .col-right.drawer-open {
+              display: block;
+              position: static;
+              width: 100%;
+              height: auto !important;
+              max-height: none;
+              border-left: none;
+              border-top: 2px solid var(--color-border);
+              box-shadow: none;
+            }
+
+            .fab-panel-tablet { display: none; }
+            .col-center       { padding: 3.5rem 1rem 2rem; }
             .article-title    { font-size: var(--text-2xl); }
           }
 
-          /* DESKTOP — desde 1200px: comportamiento original */
+          /* ============================================
+             DESKTOP — desde 1200px: comportamiento
+             original sin cambios
+             ============================================ */
           @media (min-width: 1200px) {
-            .drawer-backdrop { display: none !important; }
-            .drawer-meta     { display: none !important; }
-            .drawer-panel    { display: none !important; }
-            .fab-meta        { display: none !important; }
-            .fab-panel-mobile { display: none !important; }
-            .panel-inline    { display: none !important; }
+            .fab-meta         { display: none !important; }
+            .fab-panel-tablet { display: none !important; }
+            .drawer-backdrop  { display: none !important; }
           }
         </style>
    </head>
    <body><button class="panel-toggle" id="panelToggle" onclick="togglePanel()">
          → Mostrar panel
-         </button><button class="fab-meta" id="fabMeta" onclick="openDrawerMeta()">
+         </button><button class="fab-meta" onclick="openDrawerMeta()">
          ☰ Metadatos
-         </button><button class="fab-panel-mobile" id="fabPanelMobile" onclick="openDrawerPanel()">
+         </button><button class="fab-panel-tablet" onclick="openDrawerPanel()">
          Referencias ☰
          </button><div class="drawer-backdrop" id="drawerBackdrop" onclick="closeDrawers()"></div>
-      <div class="drawer-meta" id="drawerMeta">
-         <div class="drawer-close"><button onclick="closeDrawers()">✕ Cerrar</button></div>
-         <div id="drawerMetaContent"></div>
-      </div>
-      <div class="drawer-panel" id="drawerPanel">
-         <div class="drawer-close"><button onclick="closeDrawers()">✕ Cerrar</button></div>
-         <div id="drawerPanelContent"></div>
-      </div>
       <div class="layout panel-hidden" id="mainLayout">
          <aside class="col-left">
             <div class="tapa-wrapper"><img src="media/tapita1.png" alt="Tapa de H-industria"></div>
@@ -1694,20 +1671,6 @@
                      populares mediante reformas orientadas a mejorar las condiciones de vida.</p>
                </div>
             </div>
-            <div class="panel-inline" id="panelInline">
-               <div class="panel-tabs" id="panelInlineTabs"><button class="panel-tab active" id="tab-notas-inline" onclick="switchTabInline('notas')">
-                     Notas
-                     <span class="tab-count" id="count-notas-inline">0</span></button><button class="panel-tab" id="tab-refs-inline" onclick="switchTabInline('refs')">
-                     Referencias
-                     <span class="tab-count" id="count-refs-inline">0</span></button><button class="panel-tab" id="tab-figs-inline" onclick="switchTabInline('figs')">
-                     Figuras
-                     <span class="tab-count" id="count-figs-inline">0</span></button></div>
-               <div class="panel-content">
-                  <div class="panel-section active" id="panel-notas-inline"></div>
-                  <div class="panel-section" id="panel-refs-inline"></div>
-                  <div class="panel-section" id="panel-figs-inline"></div>
-               </div>
-            </div>
          </main>
          <aside class="col-right" id="rightPanel">
             <div class="panel-tabs"><button class="panel-tab active" id="tab-notas" onclick="switchTab('notas')">
@@ -1768,8 +1731,6 @@
             updateCounts();
             // MOSTRAR APA POR DEFECTO SIN EVENTO
             document.getElementById('citar-output').textContent = generarCita('apa');
-            // INICIALIZAR DRAWERS Y PANEL INLINE RESPONSIVE
-            initResponsivePanels();
           });
 
           // ============================================
@@ -2120,80 +2081,25 @@
 
           // ============================================
           // DRAWERS — TABLET / MÓVIL
+          // SIN CLONACIÓN DE CONTENIDO: col-left y
+          // col-right se convierten en drawers via CSS.
+          // Los IDs originales permanecen únicos.
           // ============================================
 
-          // ABRIR DRAWER DE METADATOS
           function openDrawerMeta() {
-            document.getElementById('drawerMeta').classList.add('open');
+            document.querySelector('.col-left').classList.add('drawer-open');
             document.getElementById('drawerBackdrop').classList.add('open');
           }
 
-          // ABRIR DRAWER DE PANEL (SOLO TABLET)
           function openDrawerPanel() {
-            document.getElementById('drawerPanel').classList.add('open');
+            document.getElementById('rightPanel').classList.add('drawer-open');
             document.getElementById('drawerBackdrop').classList.add('open');
           }
 
-          // CERRAR TODOS LOS DRAWERS
           function closeDrawers() {
-            document.getElementById('drawerMeta').classList.remove('open');
-            document.getElementById('drawerPanel').classList.remove('open');
+            document.querySelector('.col-left').classList.remove('drawer-open');
+            document.getElementById('rightPanel').classList.remove('drawer-open');
             document.getElementById('drawerBackdrop').classList.remove('open');
-          }
-
-          // ============================================
-          // INIT RESPONSIVE PANELS
-          // CLONA CONTENIDO DE col-left Y rightPanel
-          // A LOS DRAWERS Y AL PANEL INLINE
-          // SE EJECUTA TRAS DOMContentLoaded
-          // ============================================
-          function initResponsivePanels() {
-
-            // CLONAR METADATOS A DRAWER IZQUIERDO
-            var colLeft = document.querySelector('.col-left');
-            var drawerContent = document.getElementById('drawerMetaContent');
-            if (colLeft && drawerContent) {
-              drawerContent.innerHTML = colLeft.innerHTML;
-            }
-
-            // CLONAR PANEL NOTAS/REFS/FIGS A DRAWER DERECHO (TABLET)
-            var rightPanel = document.getElementById('rightPanel');
-            var drawerPanelContent = document.getElementById('drawerPanelContent');
-            if (rightPanel && drawerPanelContent) {
-              drawerPanelContent.innerHTML = rightPanel.innerHTML;
-            }
-
-            // POBLAR PANEL INLINE (MÓVIL):
-            // COPIAR ITEMS DE CADA SECCIÓN AL EQUIVALENTE INLINE
-            var secciones = ['notas', 'refs', 'figs'];
-            secciones.forEach(function(s) {
-              var orig   = document.getElementById('panel-' + s);
-              var inline = document.getElementById('panel-' + s + '-inline');
-              var cOrig  = document.getElementById('count-' + s);
-              var cInl   = document.getElementById('count-' + s + '-inline');
-              if (orig && inline) {
-                inline.innerHTML = orig.innerHTML;
-              }
-              if (cOrig && cInl) {
-                cInl.textContent = cOrig.textContent;
-              }
-            });
-          }
-
-          // ============================================
-          // SWITCH DE SOLAPAS DEL PANEL INLINE
-          // ============================================
-          function switchTabInline(tab) {
-            ['notas', 'refs', 'figs'].forEach(function(t) {
-              var tabEl  = document.getElementById('tab-' + t + '-inline');
-              var panEl  = document.getElementById('panel-' + t + '-inline');
-              if (tabEl) tabEl.classList.remove('active');
-              if (panEl) panEl.classList.remove('active');
-            });
-            var activeTab  = document.getElementById('tab-' + tab + '-inline');
-            var activePane = document.getElementById('panel-' + tab + '-inline');
-            if (activeTab)  activeTab.classList.add('active');
-            if (activePane) activePane.classList.add('active');
           }
 
         </script></body>
