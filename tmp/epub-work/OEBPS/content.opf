@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:identifier id="uid">isbn-1851-703X-v19-n37</dc:identifier>
+<dc:title>H-industria Vol. 19 N&#xFA;m. 37 (2025)</dc:title>
+<dc:language>es</dc:language>
+<dc:publisher>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</dc:publisher>
+<dc:date>2025</dc:date>
+<dc:identifier>urn:issn:1851-703X</dc:identifier>
+<meta property="dcterms:modified">2026-04-09T00:00:00Z</meta>
+<meta property="schema:accessMode">textual</meta>
+<meta property="schema:accessMode">visual</meta>
+<meta property="schema:accessModeSufficient">textual</meta>
+<meta property="schema:accessibilityFeature">structuralNavigation</meta>
+<meta property="schema:accessibilityFeature">alternativeText</meta>
+<meta property="schema:accessibilityFeature">readingOrder</meta>
+<meta property="schema:accessibilityFeature">tableOfContents</meta>
+<meta property="schema:accessibilityHazard">none</meta>
+<meta property="schema:accessibilitySummary">Publicaci&#xF3;n con navegaci&#xF3;n estructural, texto alternativo en im&#xE1;genes, referencias navegables y tabla de contenidos completa.</meta>
+</metadata>
+<manifest>
+<item id="css" href="css/epub.css" media-type="text/css"/>
+<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+<item id="font-NotoSerif-Regular" href="fonts/NotoSerif-Regular.ttf" media-type="font/ttf"/>
+<item id="font-NotoSerif-Bold" href="fonts/NotoSerif-Bold.ttf" media-type="font/ttf"/>
+<item id="font-NotoSerif-Italic" href="fonts/NotoSerif-Italic.ttf" media-type="font/ttf"/>
+<item id="font-NotoSerif-BoldItalic" href="fonts/NotoSerif-BoldItalic.ttf" media-type="font/ttf"/>
+<item id="img-logo-revista" href="images/logo-revista.png" media-type="image/png"/>
+<item id="img-desconocido" href="images/desconocido.png" media-type="image/png"/>
+<item id="img-foto-tapa" href="images/foto-tapa.png" media-type="image/png" properties="cover-image"/>
+<item id="img-logo-cabecera" href="images/logo-cabecera.png" media-type="image/png"/>
+<item id="img-9789507934957" href="images/9789507934957.jpg" media-type="image/jpeg"/>
+<item id="img-10000000000001C00000021F313375FD" href="images/10000000000001C00000021F313375FD.jpg" media-type="image/jpeg"/>
+<item id="img-falta-tapa" href="images/falta-tapa.png" media-type="image/png"/>
+<item id="front-matter-fm-00-portada" href="front-matter/fm-00-portada.xhtml" media-type="application/xhtml+xml"/>
+<item id="front-matter-fm-01-comite" href="front-matter/fm-01-comite.xhtml" media-type="application/xhtml+xml"/>
+<item id="front-matter-fm-02-carta-editor" href="front-matter/fm-02-carta-editor.xhtml" media-type="application/xhtml+xml"/>
+<item id="front-matter-fm-03-toc" href="front-matter/fm-03-toc.xhtml" media-type="application/xhtml+xml"/>
+<item id="articles-h-01-revistaAlgo-v01-n01" href="articles/h-01-revistaAlgo-v01-n01.xhtml" media-type="application/xhtml+xml"/>
+<item id="articles-h-02-revistaAlgo-v01-n01" href="articles/h-02-revistaAlgo-v01-n01.xhtml" media-type="application/xhtml+xml"/>
+<item id="back-matter-bm-00-indice-autores" href="back-matter/bm-00-indice-autores.xhtml" media-type="application/xhtml+xml"/>
+<item id="back-matter-bm-01-info-revista" href="back-matter/bm-01-info-revista.xhtml" media-type="application/xhtml+xml"/>
+<item id="back-matter-bm-02-instrucciones" href="back-matter/bm-02-instrucciones.xhtml" media-type="application/xhtml+xml"/>
+<item id="back-matter-bm-03-convocatoria" href="back-matter/bm-03-convocatoria.xhtml" media-type="application/xhtml+xml"/>
+<item id="back-matter-bm-04-contacto" href="back-matter/bm-04-contacto.xhtml" media-type="application/xhtml+xml"/>
+<item id="back-matter-bm-99-gbpublisher" href="back-matter/bm-99-gbpublisher.xhtml" media-type="application/xhtml+xml"/>
+</manifest>
+<spine>
+<itemref idref="front-matter-fm-00-portada"/>
+<itemref idref="front-matter-fm-01-comite"/>
+<itemref idref="front-matter-fm-02-carta-editor"/>
+<itemref idref="front-matter-fm-03-toc"/>
+<itemref idref="articles-h-01-revistaAlgo-v01-n01"/>
+<itemref idref="articles-h-02-revistaAlgo-v01-n01"/>
+<itemref idref="back-matter-bm-00-indice-autores"/>
+<itemref idref="back-matter-bm-01-info-revista"/>
+<itemref idref="back-matter-bm-02-instrucciones"/>
+<itemref idref="back-matter-bm-03-convocatoria"/>
+<itemref idref="back-matter-bm-04-contacto"/>
+<itemref idref="back-matter-bm-99-gbpublisher"/>
+</spine>
+</package>

@@ -4,7 +4,7 @@
 Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos de des­colonización en Asia y África, los movimientos de liberación nacional y las revoluciones so­cialistas, surgieron diversas teorías y debates en torno a las vías de desarrollo que debían seguir los países considerados "atrasados" para alcanzar los estándares económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.
 
 ::: epigraph
-El conocimiento es poder.
+Contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida..
 — Francis Bacon
 :::
 
