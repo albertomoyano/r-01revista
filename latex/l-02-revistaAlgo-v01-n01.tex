@@ -5,32 +5,31 @@
 \microtypecontext{spacing=nonfrench}
 \usepackage{fontspec}
 \usepackage{unicode-math}
-\setsansfont[Scale=MatchLowercase,
-  Ligatures=TeX,
-  Extension=.otf,
-  UprightFont=*-Regular,
-  ItalicFont=*-Italic,
-  BoldFont=*-SemiBold,
-  BoldItalicFont=*-SemiBoldItalic]{IBMPlexSansCondensed}
-\setmonofont[Scale=0.91,
-  Extension=.otf,
-  UprightFont=*-Regular,
-  ItalicFont=IBMPlexMono-Italic.otf,
-  BoldFont=IBMPlexMono-Bold.otf,
+\setmathfont{Libertinus Math}[Scale=MatchLowercase]
+\setsansfont[Scale=MatchLowercase,Ligatures=TeX,
+  Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,
+  BoldFont=*-SemiBold,BoldItalicFont=*-SemiBoldItalic]{IBMPlexSansCondensed}
+\setmonofont[Scale=0.91,Extension=.otf,UprightFont=*-Regular,
+  ItalicFont=IBMPlexMono-Italic.otf,BoldFont=IBMPlexMono-Bold.otf,
   BoldItalicFont=IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
 
 % --- IDIOMAS ---
 \usepackage[english,portuguese,main=spanish]{babel}
 \usepackage[autostyle=true]{csquotes}
-\setmainfont[Numbers={OldStyle,Proportional},Ligatures={TeX,Common,Discretionary},Scale=1.18]{Libertinus Serif}
+\setmainfont[Numbers={OldStyle,Proportional},
+  Ligatures={TeX,Common,Discretionary},Scale=1.18]{Libertinus Serif}
 \renewcommand{\normalsize}{\fontsize{10pt}{13pt}\selectfont}
 
 % --- BIBLIOGRAFÍA ---
-\usepackage[style=apa,backend=biber,sorting=nyt]{biblatex}
+\usepackage[style=apa,backend=biber]{biblatex}
 \addbibresource{/home/alberto/00_Produccion/99_ejercicios/04-revista-MD/referencias/ref-r-01revista.bib}
 
 % --- PÁGINA ---
-\usepackage[paperwidth=210mm,paperheight=297mm,top=13mm,bottom=23mm,left=13mm,right=87mm,headsep=0mm,footskip=12mm,headheight=29mm,headsep=10mm,marginparsep=6mm,marginparwidth=68mm,includehead,includefoot,showframe]{geometry}
+\usepackage[paperwidth=210mm,paperheight=297mm,
+  top=13mm,bottom=23mm,left=13mm,right=87mm,
+  headsep=0mm,footskip=12mm,headheight=29mm,headsep=10mm,
+  marginparsep=6mm,marginparwidth=68mm,
+  includehead,includefoot]{geometry}
 \setcounter{secnumdepth}{0}
 
 % --- POSICIONAMIENTO ABSOLUTO ---
@@ -44,9 +43,21 @@
 % --- TABLAS Y FIGURAS ---
 \usepackage{booktabs}
 \usepackage{graphicx}
-\usepackage[labelfont=bf]{caption}
+\usepackage[labelfont=bf,font=small,labelsep=period,format=plain]{caption}
 
 % --- VARIOS ---
+\newcommand{\epigraph}[2]{%
+  \par\nobreak\noindent\par\nobreak\vspace{.5\baselineskip}%
+  \hfill{%
+    \small
+    \begin{tabular}{@{}>{{\raggedright\arraybackslash}}m{.65\textwidth}@{}}%
+      #1 \\[1ex]%
+      \midrule%
+      \hfill #2%
+    \end{tabular}%
+  }%
+  \vspace{.5\baselineskip}%
+}
 \usepackage[hidelinks]{hyperref}
 \usepackage[bottom,stable]{footmisc}
 \raggedbottom
@@ -62,7 +73,6 @@
 
 \renewenvironment{quote}{\normalsize\list{}{\sf\leftmargin=14pt\rightmargin=0pt}\item\relax}{\endlist}
 
-\usepackage[hyphenation,homeoarchy,homeoarchywordcolor=orange,homeoarchycharcolor=orange,draft]{impnattypo}
 
 \newcommand{\articulotipo}{}
 
@@ -134,8 +144,8 @@
 \renewcommand{\articulotipo}{ARTÍCULO DE INVESTIGACIÓN}
 \renewcommand{\articulorevista}{H-industria}
 \renewcommand{\articuloissne}{1851-703X}
-\renewcommand{\articulovolumen}{19}
-\renewcommand{\articulonumero}{37}
+\renewcommand{\articulovolumen}{01}
+\renewcommand{\articulonumero}{01}
 \renewcommand{\articulofecha}{ 2026}
 \renewcommand{\articulopagina}{23}
 
@@ -162,7 +172,7 @@
 {\scriptsize\texttt{\href{https://orcid.org/0009-0002-5273-5191}{https://orcid.org/0009-0002-5273-5191}}}\par
 Consejo Nacional de Investigaciones Científicas y Técnicas\par
 \vspace{6pt}
-{\bfseries\color{azulrevista!70}Publicación:} 2026, vol.~19, n\'um.~37, pp.~23--43\par\vspace{6pt}
+{\bfseries\color{azulrevista!70}Publicación:} 2026, vol.~01, n\'um.~01, pp.~23--43\par\vspace{6pt}
 {\bfseries\color{azulrevista!70}DOI:} {\scriptsize\texttt{\href{https://doi.org/10.56503/H-Industria/n.37(19)/3473}{10.56503/H-Industria/n.37(19)/3473}}}\par\vspace{6pt}
 {\bfseries\color{azulrevista!70}Licencia:} CC BY-NC-SA 4.0\par
 {\scriptsize\texttt{\href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0/}}}\par
@@ -172,66 +182,52 @@ Recibido: 05/01/2026\par
 Aceptado: 19/01/2026\par
 Online: 25/02/2026\par
 \vspace{6pt}
-{\bfseries\color{azulrevista!70}Palabras clave}\par\vspace{2pt}
-(es)~Desarrollo agropecuario $\cdot$ Industrialización $\cdot$ Políticas públicas $\cdot$ Agroindustria $\cdot$ Tecnología agraria $\cdot$ Argentina\par
-(en)~Agricultural development $\cdot$ Industrialization $\cdot$ Public policy $\cdot$ Agribusiness $\cdot$ Agricultural technology $\cdot$ Argentina\par
-(pt)~Desenvolvimento agropecuário $\cdot$ Industrialização $\cdot$ Políticas públicas $\cdot$ Agroindústria $\cdot$ Tecnologia agrícola $\cdot$ Argentina\par
 \end{minipage}%
 }% FIN GRUPO leftskip
 \end{textblock*}
 
+
+\begin{tcolorbox}[colback=brown!8!white,colframe=brown!8!white,boxrule=0pt,arc=2pt,left=4pt,right=4pt,top=3pt,bottom=3pt,before skip=4pt,after skip=4pt]
 \begin{otherlanguage}{spanish}
-\begin{abstract}
-El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.\end{abstract}
+\sffamily\small \textbf{Resumen:} El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.
+\par\smallskip\noindent\textbf{Palabras clave:} Desarrollo agropecuario, Industrialización, Políticas públicas, Agroindustria, Tecnología agraria, Argentina
 \end{otherlanguage}
+\end{tcolorbox}
 
+\begin{tcolorbox}[colback=brown!8!white,colframe=brown!8!white,boxrule=0pt,arc=2pt,left=4pt,right=4pt,top=3pt,bottom=3pt,before skip=4pt,after skip=4pt]
 \begin{otherlanguage}{english}
-\begin{abstract}
-This dossier examines Argentine agricultural development from the 1950s to the 1970s within debates on development and industrialization. It explores public policies, credit, technology, and regional agribusiness, highlighting tensions, continuities, and their social, productive, and environmental impact.\end{abstract}
+\sffamily\small \textbf{Abstract:} This dossier examines Argentine agricultural development from the 1950s to the 1970s within debates on development and industrialization. It explores public policies, credit, technology, and regional agribusiness, highlighting tensions, continuities, and their social, productive, and environmental impact.
+\par\smallskip\noindent\textbf{Keywords:} Agricultural development, Industrialization, Public policy, Agribusiness, Agricultural technology, Argentina
 \end{otherlanguage}
+\end{tcolorbox}
 
+\begin{tcolorbox}[colback=brown!8!white,colframe=brown!8!white,boxrule=0pt,arc=2pt,left=4pt,right=4pt,top=3pt,bottom=3pt,before skip=4pt,after skip=4pt]
 \begin{otherlanguage}{portuguese}
-\begin{abstract}
-O dossiê analisa o desenvolvimento agropecuário argentino entre as décadas de 1950 e 1970, no contexto dos debates sobre desenvolvimento e industrialização. Examina políticas públicas, crédito, tecnologia e agroindústrias regionais, destacando tensões, continuidades e impactos sociais, produtivos e ambientais.\end{abstract}
+\sffamily\small \textbf{Resumo:} O dossiê analisa o desenvolvimento agropecuário argentino entre as décadas de 1950 e 1970, no contexto dos debates sobre desenvolvimento e industrialização. Examina políticas públicas, crédito, tecnologia e agroindústrias regionais, destacando tensões, continuidades e impactos sociais, produtivos e ambientais.
+\par\smallskip\noindent\textbf{Palavras-chave:} Desenvolvimento agropecuário, Industrialização, Políticas públicas, Agroindústria, Tecnologia agrícola, Argentina
 \end{otherlanguage}
-
-\begin{otherlanguage}{spanish}
-\noindent\textbf{Palabras clave:} Desarrollo agropecuario, Industrialización, Políticas públicas, Agroindustria, Tecnología agraria, Argentina\par
-\end{otherlanguage}
-
-\begin{otherlanguage}{english}
-\noindent\textbf{Keywords:} Agricultural development, Industrialization, Public policy, Agribusiness, Agricultural technology, Argentina\par
-\end{otherlanguage}
-
-\begin{otherlanguage}{portuguese}
-\noindent\textbf{Palavras-chave:} Desenvolvimento agropecuário, Industrialização, Políticas públicas, Agroindústria, Tecnologia agrícola, Argentina\par
-\end{otherlanguage}
-
+\end{tcolorbox}
 
 \bigskip
 \noindent\rule{\linewidth}{0.4pt}
 \bigskip
 
-\section{El desarrollo agropecuario argentino en la segunda posguerra: debates, políticas y agroindustria}
+
+\epigraph{Contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.
+
+}{Francis Bacon}
+
 Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos de des­colonización en Asia y África, los movimientos de liberación nacional y las revoluciones so­cialistas, surgieron diversas teorías y debates en torno a las vías de desarrollo que debían seguir los países considerados “atrasados” para alcanzar los estándares económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.
 
 
-\begin{quote}
-El conocimiento es poder.
+\epigraph{A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.
 
-\hfill --- Francis Bacon
-\end{quote}
-
-
-\begin{quote}
-A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.
-
-\end{quote}
+}{}
 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\linewidth]{../figuras/media/desconocido.png}
+  \includegraphics[width=\linewidth]{../media/desconocido.png}
   \caption{descripción de la imagen}
   \label{fig-1}
 \end{figure}
@@ -275,42 +271,59 @@ El trabajo de Pablo Volkind y Jorge Domínguez indaga sobre las políticas agrop
 Juliana López Pascual incorpora una temática fundamental para la producción agro­pecuaria: las políticas legislativas de la provincia de Buenos Aires orientadas a regular y ra­cionalizar los recursos naturales –en particular las tierras irrigables– en el sudoeste bonae­rense entre fines de la década de 1950 y la siguiente. Enfocada en la indagación sobre un espacio y una problemática escasamente explorada, la autora analiza las iniciativas legislativas que buscaron promover la diversificación productiva, el uso intensivo del suelo, la mecani­zación de las tareas agrarias y la radicación de población. Al mismo tiempo, en este artículo también se reconstruye la dinámica política y social que generaron dichas medidas y se pun­tualiza en los conflictos de intereses que se desplegaron entre organizaciones empresariales, de productores y las cooperativas. Demuestra como en un clima marcado por una fuerte conflictividad, se consolidaron entes asociativos como el Consorcio Financiero del Sur y, posteriormente, la Corporación de Fomento del Valle Bonaerense del Río Colorado, que desempeñaron un papel protagónico en las disputas por la tenencia de las tierras irrigables y en los debates sobre el aprovechamiento del río Colorado para impulsar una agroindustria azucarera.
 
 
-\begin{table}[htbp]
-  \centering
-  \label{tbl-1}
+\begin{table}[!ht]
+\centering
+{\sf\footnotesize\setlength\tabcolsep{4pt}%
   \begin{tabular}{@{}lllll@{}}
     \toprule
     \textbf{ID} & \textbf{Nombre} & \textbf{Cantidad} & \textbf{Estado} & \textbf{Puntaje} \\
     \midrule
     101 & Alfa & 34 & Activo & 78 \\
+    \midrule
     102 & Beta & 12 & Inactivo & 65 \\
+    \midrule
     103 & Gamma & 56 & Activo & 88 \\
+    \midrule
     104 & Delta & 23 & Pendiente & 72 \\
+    \midrule
     105 & Épsilon & 45 & Activo & 91 \\
+    \midrule
     106 & Zeta & 67 & Inactivo & 54 \\
+    \midrule
     107 & Eta & 29 & Activo & 83 \\
+    \midrule
     108 & Theta & 10 & Pendiente & 60 \\
+    \midrule
     109 & Iota & 38 & Activo & 76 \\
+    \midrule
     110 & Kappa & 51 & Inactivo & 69 \\
     \bottomrule
   \end{tabular}
+}%
+\caption{Título descriptivo del cuadro}\label{tbl-1}
 \end{table}
 
 
-\begin{table}[htbp]
-  \centering
-  \label{tbl-2}
+\begin{table}[!ht]
+\centering
+{\sf\footnotesize\setlength\tabcolsep{4pt}%
   \begin{tabular}{@{}lllll@{}}
     \toprule
     \textbf{Código} & \textbf{Producto} & \textbf{Unidades} & \textbf{Categoría} & \textbf{Precio} \\
     \midrule
     201 & Roble & 18 & Madera & 1500 \\
+    \midrule
     202 & Mármol & 7 & Piedra & 3200 \\
+    \midrule
     203 & Cobre & 42 & Metal & 980 \\
+    \midrule
     204 & Lino & 25 & Textil & 760 \\
+    \midrule
     205 & Granito & 11 & Piedra & 2100 \\
     \bottomrule
   \end{tabular}
+}%
+\caption{Título descriptivo del cuadro}\label{tbl-2}
 \end{table}
 
 La contribución de Federico Martocci se detiene en las políticas de gobierno aplica­das entre 1960 y 1973 en La Pampa para incrementar la producción lechera, recorte temporal que incluye la gestión de Ismael Amit, principal referente de la Unión Cívica Radical Intran­sigente en esa provincia, y toda la etapa de la dictadura instaurada en 1966. A partir de infor­mes técnicos, memorias de gobernadores, prensa local, notas en revistas especializadas, es­tudios de profesionales sobre temáticas agropecuarias, registros estadísticos y testimonios orales, se muestra la continuidad de ciertas líneas de acción para fomentar la actividad láctea, en un marco en el que las autoridades locales apostaron a industrializar productos obtenidos en La Pampa. Esto último se evidencia especialmente en la primera mitad de la década de 1960, pero ese continuum no solo generó un conjunto de estudios sobre el tema sino que, además, habilitó créditos para financiar pequeñas industrias lácteas, incentivó el interés por la sanidad del ganado, el mejoramiento de la genética animal y la mecanización de los tambos, robusteció los servicios veterinarios del Estado provincial y, en definitiva, posicionó a la le­chería como una alternativa interesante para los productores de algunas zonas pampeanas. Ello se puede advertir, por ejemplo, en la redefinición que experimentó la actividad láctea en términos espaciales en la pampa seca durante la etapa en estudio.

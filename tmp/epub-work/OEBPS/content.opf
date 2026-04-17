@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-<dc:identifier id="uid">isbn-1851-703X-v19-n37</dc:identifier>
-<dc:title>H-industria Vol. 19 N&#xFA;m. 37 (2025)</dc:title>
+<dc:identifier id="uid">isbn-1851-703X-v01-n01</dc:identifier>
+<dc:title>H-industria Vol. 01 N&#xFA;m. 01 (2025)</dc:title>
 <dc:language>es</dc:language>
 <dc:publisher>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</dc:publisher>
 <dc:date>2025</dc:date>
 <dc:identifier>urn:issn:1851-703X</dc:identifier>
-<meta property="dcterms:modified">2026-04-09T00:00:00Z</meta>
+<meta property="dcterms:modified">2026-04-15T00:00:00Z</meta>
 <meta property="schema:accessMode">textual</meta>
 <meta property="schema:accessMode">visual</meta>
 <meta property="schema:accessModeSufficient">textual</meta>

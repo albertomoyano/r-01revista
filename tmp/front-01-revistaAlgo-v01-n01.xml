@@ -20,7 +20,7 @@
       </subj-group>
     </article-categories>
     <title-group>
-      <article-title>Editorial</article-title>
+      <article-title>Editorial puesto desde los metadatos</article-title>
       <trans-title-group xml:lang="en">
         <trans-title>Editor&apos;s Note</trans-title>
       </trans-title-group>
@@ -58,8 +58,8 @@
       <month>11</month>
       <day>23</day>
     </pub-date>
-    <volume>19</volume>
-    <issue>37</issue>
+    <volume>01</volume>
+    <issue>01</issue>
     <fpage>I</fpage>
     <lpage>IV</lpage>
     <history>
