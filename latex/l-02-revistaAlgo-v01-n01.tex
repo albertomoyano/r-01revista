@@ -4,6 +4,7 @@
 \usepackage[final,babel=True]{microtype}
 \microtypecontext{spacing=nonfrench}
 \usepackage{fontspec}
+\usepackage{fontawesome5}
 \usepackage{unicode-math}
 \setmathfont{Libertinus Math}[Scale=MatchLowercase]
 \setsansfont[Scale=MatchLowercase,Ligatures=TeX,
@@ -21,7 +22,7 @@
 \renewcommand{\normalsize}{\fontsize{10pt}{13pt}\selectfont}
 
 % --- BIBLIOGRAFÍA ---
-\usepackage[style=apa,backend=biber]{biblatex}
+\usepackage[style=ieee,citestyle=numeric,backref=true,backend=biber]{biblatex}
 \addbibresource{/home/alberto/00_Produccion/99_ejercicios/04-revista-MD/referencias/ref-r-01revista.bib}
 
 % --- PÁGINA ---
@@ -59,21 +60,92 @@
   \vspace{.5\baselineskip}%
 }
 \usepackage[hidelinks]{hyperref}
-\usepackage[bottom,stable]{footmisc}
+\usepackage[bottom,stable,hang]{footmisc}
+\usepackage{scrextend}
+\usepackage{changepage}
+\newcommand{\fullwidthblock}[1]{%
+  \begin{adjustwidth}{0pt}{-\dimexpr\marginparsep+\marginparwidth\relax}%
+  \centering #1%
+  \end{adjustwidth}%
+}
+\usepackage{rotating}
+\setlength{\footnotesep}{10pt}
+\renewcommand{\footnoterule}{%
+  \kern -3pt%
+  \hrule height 0.5pt width 0.4\columnwidth%
+  \kern 6pt}
+\renewcommand*{\thefootnote}{\scriptsize\sf{[\arabic{footnote}]}}
+\makeatletter
+\patchcmd{\@footnotetext}{\footnotesize}{\small}{}{}
+\makeatother
+\newcommand*\footnotemarkspace{0em}
+\deffootnote{\footnotemarkspace}
+  {\parindent}
+  {\makebox[\footnotemarkspace][r]{\llap{\thefootnotemark\quad}}}
 \raggedbottom
 \clubpenalty=10000
 \widowpenalty=10000
 \usepackage{siunitx}
 \usepackage{enumitem}
+\setlist{nosep,topsep=4pt}
 \usepackage{titlesec}
+\titleformat{\section}[hang]
+  {\sf\bfseries\Large\color{azulrevista}\raggedright}
+  {\thesection}{.5em}{}[]
+\titlespacing{\section}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\subsection}[hang]
+  {\sf\large\color{azulrevista}\raggedright}
+  {\thesubsection}{.5em}{}[]
+\titlespacing{\subsection}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\subsubsection}[hang]
+  {\rm\bfseries\normalsize\color{azulrevista}\raggedright}
+  {\thesubsubsection}{.5em}{}[]
+\titlespacing{\subsubsection}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\paragraph}[runin]
+  {\bfseries\color{azulrevista}}{}{0em}{}[\mbox{ --- }]
+\titlespacing{\paragraph}
+  {0pt}{6.75pt plus 0.5pt minus 0.5pt}{0pt}
+\titleformat{\subparagraph}[hang]
+  {\sf\bfseries\large\color{azulrevista}\centering}
+  {\thesubparagraph}{.5em}{}[]
+\titlespacing{\subparagraph}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
 % --- COLOR ---
 \usepackage[svgnames]{xcolor}
 \usepackage{tcolorbox}
 \definecolor{azulrevista}{HTML}{2d5a8e}
 
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  breakatwhitespace=false,
+  frame=single,
+  framerule=0pt,
+  backgroundcolor=\color{black!5!white},
+  fillcolor=\color{black!5!white},
+  rulecolor=\color{black!5!white},
+  xleftmargin=8pt,xrightmargin=8pt,
+  framexleftmargin=8pt,framexrightmargin=8pt,
+  framextopmargin=6pt,framexbottommargin=6pt,
+  aboveskip=8pt,belowskip=8pt,
+  keywordstyle=\color{blue!70!black}\bfseries,
+  commentstyle=\color{green!50!black}\itshape,
+  stringstyle=\color{orange!80!black},
+  showstringspaces=false,
+  numbers=none,
+  captionpos=b
+}
 \renewenvironment{quote}{\normalsize\list{}{\sf\leftmargin=14pt\rightmargin=0pt}\item\relax}{\endlist}
 
 
+\renewenvironment{verse}
+  {\normalsize\list{}{\leftmargin=14pt\rightmargin=0pt\parsep=0pt}
+   \item\relax\itshape}
+  {\endlist}
 \newcommand{\articulotipo}{}
 
 % --- HEADER / FOOTER ---
@@ -172,7 +244,10 @@
 {\scriptsize\texttt{\href{https://orcid.org/0009-0002-5273-5191}{https://orcid.org/0009-0002-5273-5191}}}\par
 Consejo Nacional de Investigaciones Científicas y Técnicas\par
 \vspace{6pt}
+{\bfseries\color{azulrevista!70}Derechos de autor\'ia:}\par
+\textcopyright\ 2026 Rougier, M. Publicado por H-industria. Se permite el uso, distribución y reproducción sin fines comerciales, siempre que se cite la obra original y las obras derivadas se distribuyan bajo la misma licencia. (\href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0/})\par\vspace{6pt}
 {\bfseries\color{azulrevista!70}Publicación:} 2026, vol.~01, n\'um.~01, pp.~23--43\par\vspace{6pt}
+{\bfseries\color{azulrevista!70}URL:} {\scriptsize\texttt{\href{https://www.edicionesimagomundi.com/}{https://www.edicionesimagomundi.com/}}}\par\vspace{6pt}
 {\bfseries\color{azulrevista!70}DOI:} {\scriptsize\texttt{\href{https://doi.org/10.56503/H-Industria/n.37(19)/3473}{10.56503/H-Industria/n.37(19)/3473}}}\par\vspace{6pt}
 {\bfseries\color{azulrevista!70}Licencia:} CC BY-NC-SA 4.0\par
 {\scriptsize\texttt{\href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0/}}}\par
@@ -182,6 +257,18 @@ Recibido: 05/01/2026\par
 Aceptado: 19/01/2026\par
 Online: 25/02/2026\par
 \vspace{6pt}
+\vspace{6pt}
+{\bfseries\color{azulrevista!70}Compartir:}\par\vspace{3pt}
+{\large
+\href{https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2F}{\textcolor{azulrevista}{\faLinkedin}}~
+\href{https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2F&text=El%20desarrollo%20agropecuario%20argentino%20en%20la%20segunda%20posguerra}{\textcolor{azulrevista}{\faTwitter}}~
+\href{https://www.researchgate.net/search?q=El%20desarrollo%20agropecuario%20argentino%20en%20la%20segunda%20posguerra}{\textcolor{azulrevista}{\faResearchgate}}~
+\href{https://www.reddit.com/submit?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2F&title=El%20desarrollo%20agropecuario%20argentino%20en%20la%20segunda%20posguerra}{\textcolor{azulrevista}{\faReddit}}~
+\href{mailto:?subject=El%20desarrollo%20agropecuario%20argentino%20en%20la%20segunda%20posguerra&body=https%3A%2F%2Fwww.edicionesimagomundi.com%2F}{\textcolor{azulrevista}{\faEnvelope}}~
+\href{https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.edicionesimagomundi.com%2F}{\textcolor{azulrevista}{\faFacebook}}~
+\href{https://wa.me/?text=https%3A%2F%2Fwww.edicionesimagomundi.com%2F}{\textcolor{azulrevista}{\faWhatsapp}}~
+\href{https://t.me/share/url?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2F&text=El%20desarrollo%20agropecuario%20argentino%20en%20la%20segunda%20posguerra}{\textcolor{azulrevista}{\faTelegram}}
+}\par
 \end{minipage}%
 }% FIN GRUPO leftskip
 \end{textblock*}
@@ -220,27 +307,59 @@ Online: 25/02/2026\par
 Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos de des­colonización en Asia y África, los movimientos de liberación nacional y las revoluciones so­cialistas, surgieron diversas teorías y debates en torno a las vías de desarrollo que debían seguir los países considerados “atrasados” para alcanzar los estándares económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.
 
 
-\epigraph{A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.
+\begin{quote}
+A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.
 
-}{}
+\end{quote}
 
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=\linewidth]{../media/desconocido.png}
-  \caption{descripción de la imagen}
-  \label{fig-1}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\linewidth]{../media/desconocido.png}
+\captionof{figure}{descripción de la imagen}
+\label{fig-1}
+\label{fig-1}
+\vspace{\intextsep}
 \end{figure}
 
-Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro de sus preocupaciones: era imperioso modificar la estructura productiva a través de la trans­ferencia de recursos desde sectores como la agricultura. Para la mayoría de los intelectuales y profesionales que participaron del debate, esta era la “llave” para el despegue. En América Latina, aunque el impulso a un crecimiento industrial integrado ocupó un lugar destacado en la agenda pública, las problemáticas agrarias y las discusiones sobre la propiedad de la tierra también adquirieron gran relevancia. Por cierto, muchos intelectuales latinoamericanos –en­tre los que se contaban los cepalinos– cuestionaron la orientación “hacia afuera” de las eco­nomías del subcontinente y comenzaron a legitimar una nueva, para lo que resultaba rele­vante analizar la producción agraria y su rol como proveedora de divisas en un contexto en el que, desde la Comisión Económica para América Latina, se defendía la industrialización como un medio para alcanzar el desarrollo \cite{1254-FAJARDO2025}.
 
-Caminante, son tus huellasel camino y nada más;caminante, no hay camino,se hace camino al andar.Estas concepciones, profusamente difundidas por diversos canales, tuvieron un fuerte impacto en la Argentina \cite{1255-MASON2023}. Si hasta entonces los debates agra­rios se habían centrado en la distribución de la tierra, desde la década de 1950 comenzó a predominar la preocupación por superar el denominado “estancamiento agropecuario del espacio pampeano” y otros problemas que afectaban las producciones regionales. Según al­gunas teorías en boga, la solución ya no residía en una reforma agraria basada en el reparto de parcelas, sino en el incremento de la inversión de capital por hectárea y la incorporación de tecnología. Las discusiones sobre cómo aumentar la producción y la productividad resul­taron especialmente sensibles en un país que tenía una perentoria necesidad de incrementar sus reservas en moneda extranjera.
+\begin{adjustwidth}{0pt}{-\dimexpr\marginparsep+\marginparwidth\relax}%
+\centering
+\includegraphics[width=\linewidth]{../media/imagen3.png}
+\captionof{figure}{descripción de la imagen}
+\label{fig-2}
+\label{fig-2}
+\vspace{\intextsep}
+\end{adjustwidth}
 
-\texttt{def factorial(n):
+Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro de sus preocupaciones: era imperioso modificar la estructura productiva a través de la trans­ferencia de recursos desde sectores como la agricultura. Para la mayoría de los intelectuales y profesionales que participaron del debate, esta era la “llave” para el despegue. En América Latina, aunque el impulso a un crecimiento industrial integrado ocupó un lugar destacado en la agenda pública, las problemáticas agrarias y las discusiones sobre la propiedad de la tierra también adquirieron gran relevancia. Por cierto, muchos intelectuales latinoamericanos –en­tre los que se contaban los cepalinos– cuestionaron la orientación “hacia afuera” de las eco­nomías del subcontinente y comenzaron a legitimar una nueva, para lo que resultaba rele­vante analizar la producción agraria y su rol como proveedora de divisas en un contexto en el que, desde la Comisión Económica para América Latina, se defendía la industrialización como un medio para alcanzar el desarrollo \autocite{1254-FAJARDO2025}.
+
+
+\begin{verse}
+\textit{Caminante, son tus huellas}\\
+\textit{el camino y nada más;}\\
+\textit{caminante, no hay camino,}\\
+\textit{se hace camino al andar.}
+\end{verse}
+
+Estas concepciones, profusamente difundidas por diversos canales, tuvieron un fuerte impacto en la Argentina \autocite{1255-MASON2023}. Si hasta entonces los debates agra­rios se habían centrado en la distribución de la tierra, desde la década de 1950 comenzó a predominar la preocupación por superar el denominado “estancamiento agropecuario del espacio pampeano” y otros problemas que afectaban las producciones regionales. Según al­gunas teorías en boga, la solución ya no residía en una reforma agraria basada en el reparto de parcelas, sino en el incremento de la inversión de capital por hectárea y la incorporación de tecnología. Las discusiones sobre cómo aumentar la producción y la productividad resul­taron especialmente sensibles en un país que tenía una perentoria necesidad de incrementar sus reservas en moneda extranjera.
+
+
+\begin{lstlisting}[language=Python]
+def factorial(n):
       if n <= 1:
           return 1
-      return n * factorial(n-1)}\textbf{Advertencia}: Los resultados pueden variar según las
+      return n * factorial(n-1)
+\end{lstlisting}
+
+
+\begin{tcolorbox}[colback=brown!8!white,colframe=brown!8!white,boxrule=0pt,arc=2pt,left=4pt,right=4pt,top=3pt,bottom=3pt,before skip=4pt,after skip=4pt]
+{\sffamily\small
+\textbf{Advertencia}: Los resultados pueden variar según las
   condiciones ambientales.
+
+}
+\end{tcolorbox}
 
 En este contexto, la necesidad de transformar la estructura de propiedad de la tierra quedó relegada a un plano marginal mientras que el centro de las políticas giró en torno a la creación de instituciones específicas –como el Instituto Nacional de Tecnología Agropecua­ria (INTA)–, el impulso a la tecnificación del agro, la promoción del crédito para la adquisi­ción de insumos y la adopción de medidas de corte productivista y eficientista. En este pro­ceso, tal como se analizan en algunos de los artículos que conforman este dossier, es posible identificar cambios más abruptos entre los objetivos, iniciativas e instituciones impulsadas por los gobiernos peronistas y lo acaecido luego del golpe de Estado de 1955 mientras que, en otras oportunidades, se advierten claros puntos de contacto que permiten repensar la dinámica en torno a los cambios y continuidades a lo largo del período.\footnote{En el período constitucional de 1979-1983 continuó el proceso de
   nacionalización de la industria petrolera, que a su vez tuvo un
@@ -252,19 +371,51 @@ En este contexto, la necesidad de transformar la estructura de propiedad de la t
 E = mc^2
 \end{equation}
 
-Este dossier se propone enriquecer el análisis historiográfico sobre las transformacio­nes agropecuarias que se desplegaron entre las décadas de 1950 y 1970, ya que en términos temáticos los estudios estuvieron mayoritariamente enfocados en aspectos como la recupe­ración de la agricultura pampeana luego del “estancamiento”, los cambios acaecidos en la producción ganadera y en las transformaciones de la estructura social agraria en la zona nú­cleo, tal como recuperaron y sintetizaron algunas obras en los albores del siglo XXI \cite{1251-AZCUYAMEGHINO2024}, \cite{1256-BARSKY2001}.
+Este dossier se propone enriquecer el análisis historiográfico sobre las transformacio­nes agropecuarias que se desplegaron entre las décadas de 1950 y 1970, ya que en términos temáticos los estudios estuvieron mayoritariamente enfocados en aspectos como la recupe­ración de la agricultura pampeana luego del “estancamiento”, los cambios acaecidos en la producción ganadera y en las transformaciones de la estructura social agraria en la zona nú­cleo, tal como recuperaron y sintetizaron algunas obras en los albores del siglo XXI \autocite{1251-AZCUYAMEGHINO2024,1256-BARSKY2001}.
 
-EntrevistadorCrees que cambio la situación a partir de 1990…
 
-Entrevistado AYo creo que la situación cambió radicalmente a partir de 1990…
+\paragraph{Entrevistador} Crees que cambio la situación a partir de 1990…
 
-Entrevistado BYo no lo creo…
+\paragraph{Entrevistado A} Yo creo que la situación cambió radicalmente a partir de 1990…
 
-Si bien en las últimas décadas se desarrollaron otras valiosas investigaciones –que aquí no podemos reseñar con exhaustividad– sobre el papel del agro en el “clima de ideas” signado por el desarrollismo \cite{1249-LAZZARO2004}, \cite{1250-LAZZARO2012}, \cite{1257-ASCOLANI2015}, el desempeño de una institución como el INTA (objeto de es­tudio de diversos cientistas sociales) o la importancia asumida por algunas agroindustrias en espacios regionales a lo largo de los decenios en cuestión (Rodríguez Vázquez y Rougier, 2024), es claro que resultan necesarias pesquisas que revisen el período en función de inte­rrogantes renovados y que permitan dar cuenta de la simultaneidad y diversidad de los pro­cesos en curso.
+\paragraph{Entrevistado B} Yo no lo creo…
+Si bien en las últimas décadas se desarrollaron otras valiosas investigaciones –que aquí no podemos reseñar con exhaustividad– sobre el papel del agro en el “clima de ideas” signado por el desarrollismo \autocite{1249-LAZZARO2004,1250-LAZZARO2012,1257-ASCOLANI2015}, el desempeño de una institución como el INTA (objeto de es­tudio de diversos cientistas sociales) o la importancia asumida por algunas agroindustrias en espacios regionales a lo largo de los decenios en cuestión, es claro que resultan necesarias pesquisas que revisen el período en función de inte­rrogantes renovados y que permitan dar cuenta de la simultaneidad y diversidad de los pro­cesos en curso.
 
 Los trabajos reunidos aquí examinan diversas problemáticas agropecuarias en dife­rentes regiones del país. El objetivo, en definitiva, es ofrecer acercamientos que propicien una mirada calidoscópica sobre políticas gubernamentales, iniciativas institucionales, debates sobre el desarrollo agrario, procesos de innovación tecnológica, dinámicas productivas y tra­yectorias agroindustriales en distintos espacios de Argentina. Lejos de una revisión focalizada en la región pampeana, los artículos pretenden iluminar aspectos poco explorados sobre el devenir agrario y sus vínculos con la actividad industrial durante las décadas de 1950, 1960 y 1970 en diferentes regiones, ya sea en aquellas aptas para la actividad ganadera, en zonas marginales dentro de las pampas (como el suroeste de Buenos Aires y el este de La Pampa) o en provincias del norte del país, con características ecológicas, étnicas y productivas parti­culares, según se refleja en los casos de Chaco, Formosa y Misiones. Se privilegió una pers­pectiva que no solo analiza las políticas públicas, sino también su impacto en la producción, el medio ambiente y, especialmente, en las condiciones de vida de las distintas –y a veces contrapuestas– clases y sectores rurales. Estas temáticas resultan relevantes tanto para com­prender los mecanismos que se aplicaron para superar las dificultades de aquel período, como para revisar, a partir de nuevas preguntas, problemas actuales vinculados al acceso a la tierra, el manejo de los recursos naturales y la incidencia de la producción agropecuaria en los in­gresos nacionales.
 
+
+\begin{tcolorbox}[colback=white,colframe=azulrevista,leftrule=3pt,rightrule=0pt,toprule=0pt,bottomrule=0pt,arc=0pt,left=8pt,right=4pt,top=3pt,bottom=3pt,before skip=4pt,after skip=4pt]
+{\sffamily\small
+\textbf{Contexto}: Empresa mediana del sector manufacturero…
+
+\textbf{Problema}: Caída de productividad del 15\%…
+
+}
+\end{tcolorbox}
+
 El dossier se inicia con el artículo de Noemí Girbal-Blacha, que examina la política crediticia dirigida al sector agrario y agroindustrial entre las décadas de 1940 y 1960 a partir de estudios de casos significativos. Mediante un minucioso análisis de la legislación vigente y de la documentación del Banco de la Nación Argentina, el Banco de Crédito Industrial Ar­gentino y el Banco de la Provincia de Buenos Aires, la autora demuestra que los créditos beneficiaron a un amplio y heterogéneo conjunto de productores, industrias y empresas co­mercializadoras, y no exclusivamente a pequeños y medianos agricultores. Asimismo, destaca las diferencias entre el primer y el segundo gobierno peronista en materia de políticas agrarias y concluye señalando las iniciativas impulsadas tras el golpe de Estado de 1955 para incor­porar innovaciones técnicas y científicas en el sector.
+
+\begin{enumerate}
+  \item Primero de la lista
+  \item Segundo de la lista
+\begin{enumerate}
+  \item Primero del segundo de la lista
+\end{enumerate}
+
+  \item Tercero de la lista
+\end{enumerate}
+
+Asimismo, destaca las diferencias entre el primer y el segundo gobierno peronista en materia de políticas agrarias y concluye señalando las iniciativas impulsadas tras el golpe de Estado de 1955 para incor­porar innovaciones técnicas y científicas en el sector.
+
+\begin{itemize}
+  \item Primero de la lista
+  \item Segundo de la lista
+\begin{itemize}
+  \item Primero del segundo de la lista
+\end{itemize}
+
+  \item Tercero de la lista
+\end{itemize}
 
 El trabajo de Pablo Volkind y Jorge Domínguez indaga sobre las políticas agrope­cuarias desplegadas por la dictadura cívico-militar entre 1955 y 1958, especialmente aquellas vinculadas con el acceso a la tierra y a la innovación tecnológica. En un contexto marcado por los debates sobre el desarrollo y la necesidad de superar el “estancamiento” del agro pampeano, los autores examinan los inicios de la transición entre una etapa caracterizada por el predominio de la gran propiedad, la expansión de las explotaciones, los conflictos por el arrendamiento y la alta demanda de mano de obra, y otra –aún en curso– definida por la concentración, la reducción del número de unidades productivas, la tecnificación y la dismi­nución del empleo rural. El artículo ofrece una mirada de conjunto que contempla el impacto de las medidas, su relación con las protestas agrarias, la influencia del alineamiento con Es­tados Unidos y el posicionamiento de las diversas corporaciones del agro. A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.
 

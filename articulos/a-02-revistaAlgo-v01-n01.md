@@ -14,6 +14,10 @@ Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos 
 ![descripción de la imagen](media/desconocido.png)
 :::
 
+::: {.fig #fig-resultados .fullwidth}
+![descripción de la imagen](media/imagen3.png)
+:::
+
 Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro de sus preocupaciones: era imperioso modificar la estructura productiva a través de la trans­ferencia de recursos desde sectores como la agricultura. Para la mayoría de los intelectuales y profesionales que participaron del debate, esta era la "llave" para el despegue. En América Latina, aunque el impulso a un crecimiento industrial integrado ocupó un lugar destacado en la agenda pública, las problemáticas agrarias y las discusiones sobre la propiedad de la tierra también adquirieron gran relevancia. Por cierto, muchos intelectuales latinoamericanos –en­tre los que se contaban los cepalinos– cuestionaron la orientación "hacia afuera" de las eco­nomías del subcontinente y comenzaron a legitimar una nueva, para lo que resultaba rele­vante analizar la producción agraria y su rol como proveedora de divisas en un contexto en el que, desde la Comisión Económica para América Latina, se defendía la industrialización como un medio para alcanzar el desarrollo [@1254-FAJARDO2025].
 
 ::: verse
@@ -58,11 +62,29 @@ Yo creo que la situación cambió radicalmente a partir de 1990...
 Yo no lo creo...
 :::
 
-Si bien en las últimas décadas se desarrollaron otras valiosas investigaciones –que aquí no podemos reseñar con exhaustividad– sobre el papel del agro en el "clima de ideas" signado por el desarrollismo [@1249-LAZZARO2004; @1250-LAZZARO2012; @1257-ASCOLANI2015], el desempeño de una institución como el INTA (objeto de es­tudio de diversos cientistas sociales) o la importancia asumida por algunas agroindustrias en espacios regionales a lo largo de los decenios en cuestión (Rodríguez Vázquez y Rougier, 2024), es claro que resultan necesarias pesquisas que revisen el período en función de inte­rrogantes renovados y que permitan dar cuenta de la simultaneidad y diversidad de los pro­cesos en curso.
+Si bien en las últimas décadas se desarrollaron otras valiosas investigaciones –que aquí no podemos reseñar con exhaustividad– sobre el papel del agro en el "clima de ideas" signado por el desarrollismo [@1249-LAZZARO2004; @1250-LAZZARO2012; @1257-ASCOLANI2015], el desempeño de una institución como el INTA (objeto de es­tudio de diversos cientistas sociales) o la importancia asumida por algunas agroindustrias en espacios regionales a lo largo de los decenios en cuestión, es claro que resultan necesarias pesquisas que revisen el período en función de inte­rrogantes renovados y que permitan dar cuenta de la simultaneidad y diversidad de los pro­cesos en curso.
 
 Los trabajos reunidos aquí examinan diversas problemáticas agropecuarias en dife­rentes regiones del país. El objetivo, en definitiva, es ofrecer acercamientos que propicien una mirada calidoscópica sobre políticas gubernamentales, iniciativas institucionales, debates sobre el desarrollo agrario, procesos de innovación tecnológica, dinámicas productivas y tra­yectorias agroindustriales en distintos espacios de Argentina. Lejos de una revisión focalizada en la región pampeana, los artículos pretenden iluminar aspectos poco explorados sobre el devenir agrario y sus vínculos con la actividad industrial durante las décadas de 1950, 1960 y 1970 en diferentes regiones, ya sea en aquellas aptas para la actividad ganadera, en zonas marginales dentro de las pampas (como el suroeste de Buenos Aires y el este de La Pampa) o en provincias del norte del país, con características ecológicas, étnicas y productivas parti­culares, según se refleja en los casos de Chaco, Formosa y Misiones. Se privilegió una pers­pectiva que no solo analiza las políticas públicas, sino también su impacto en la producción, el medio ambiente y, especialmente, en las condiciones de vida de las distintas –y a veces contrapuestas– clases y sectores rurales. Estas temáticas resultan relevantes tanto para com­prender los mecanismos que se aplicaron para superar las dificultades de aquel período, como para revisar, a partir de nuevas preguntas, problemas actuales vinculados al acceso a la tierra, el manejo de los recursos naturales y la incidencia de la producción agropecuaria en los in­gresos nacionales.
 
+::: {.case id="Empresa-Alpha"}
+**Contexto**: Empresa mediana del sector manufacturero...
+
+**Problema**: Caída de productividad del 15%...
+:::
+
 El dossier se inicia con el artículo de Noemí Girbal-Blacha, que examina la política crediticia dirigida al sector agrario y agroindustrial entre las décadas de 1940 y 1960 a partir de estudios de casos significativos. Mediante un minucioso análisis de la legislación vigente y de la documentación del Banco de la Nación Argentina, el Banco de Crédito Industrial Ar­gentino y el Banco de la Provincia de Buenos Aires, la autora demuestra que los créditos beneficiaron a un amplio y heterogéneo conjunto de productores, industrias y empresas co­mercializadoras, y no exclusivamente a pequeños y medianos agricultores. Asimismo, destaca las diferencias entre el primer y el segundo gobierno peronista en materia de políticas agrarias y concluye señalando las iniciativas impulsadas tras el golpe de Estado de 1955 para incor­porar innovaciones técnicas y científicas en el sector.
+
+1. Primero de la lista
+2. Segundo de la lista
+    1. Primero del segundo de la lista
+3. Tercero de la lista
+
+Asimismo, destaca las diferencias entre el primer y el segundo gobierno peronista en materia de políticas agrarias y concluye señalando las iniciativas impulsadas tras el golpe de Estado de 1955 para incor­porar innovaciones técnicas y científicas en el sector.
+
+- Primero de la lista
+- Segundo de la lista
+    - Primero del segundo de la lista
+- Tercero de la lista
 
 El trabajo de Pablo Volkind y Jorge Domínguez indaga sobre las políticas agrope­cuarias desplegadas por la dictadura cívico-militar entre 1955 y 1958, especialmente aquellas vinculadas con el acceso a la tierra y a la innovación tecnológica. En un contexto marcado por los debates sobre el desarrollo y la necesidad de superar el "estancamiento" del agro pampeano, los autores examinan los inicios de la transición entre una etapa caracterizada por el predominio de la gran propiedad, la expansión de las explotaciones, los conflictos por el arrendamiento y la alta demanda de mano de obra, y otra –aún en curso– definida por la concentración, la reducción del número de unidades productivas, la tecnificación y la dismi­nución del empleo rural. El artículo ofrece una mirada de conjunto que contempla el impacto de las medidas, su relación con las protestas agrarias, la influencia del alineamiento con Es­tados Unidos y el posicionamiento de las diversas corporaciones del agro. A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.
 

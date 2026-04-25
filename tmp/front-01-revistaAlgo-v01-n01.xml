@@ -12,7 +12,7 @@
     </publisher>
   </journal-meta>
   <article-meta>
-    <article-id pub-id-type="doi">doi-del-ariculo</article-id>
+    <article-id pub-id-type="doi">doi-del-articulo</article-id>
     <article-id pub-id-type="pmid">a</article-id>
     <article-categories>
       <subj-group subj-group-type="heading">
@@ -42,7 +42,7 @@
       <contrib contrib-type="author" id="a11">
         <name>
           <surname>Gil</surname>
-          <given-names>Luciana V.</given-names>
+          <given-names>Luciana Victoria</given-names>
         </name>
         <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0167-7155</contrib-id>
         <aff>
@@ -60,8 +60,8 @@
     </pub-date>
     <volume>01</volume>
     <issue>01</issue>
-    <fpage>I</fpage>
-    <lpage>IV</lpage>
+    <fpage>1</fpage>
+    <lpage>4</lpage>
     <history>
       <date date-type="received">
         <day>24</day>
