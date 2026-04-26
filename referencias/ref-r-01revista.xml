@@ -96,6 +96,16 @@
           <given-names>J.</given-names>
         </name>
       </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Ascolani</surname>
+          <given-names>A.</given-names>
+        </name>
+        <name>
+          <surname>Gutiérrez</surname>
+          <given-names>T.</given-names>
+        </name>
+      </person-group>
       <source>Historia del agro argentino. Desde la Conquista hasta fines del siglo XX</source>
       <publisher-name>Grijalbo and Mondadori</publisher-name>
       <year>2001</year>
@@ -103,7 +113,7 @@
   </ref>
   <ref id="1257-ASCOLANI2015">
     <element-citation publication-type="book">
-      <person-group person-group-type="editor">
+      <person-group person-group-type="compiler">
         <name>
           <surname>Ascolani</surname>
           <given-names>A.</given-names>
