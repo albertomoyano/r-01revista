@@ -4,6 +4,8 @@
 \usepackage[final,babel=True]{microtype}
 \microtypecontext{spacing=nonfrench}
 \usepackage{fontspec}
+\usepackage{svg}
+\svgsetup{inkscapelatex=false,inkscapearea=drawing}
 \usepackage{unicode-math}
 \setmathfont{Libertinus Math}[Scale=MatchLowercase]
 \setsansfont[Scale=MatchLowercase,Ligatures=TeX,
@@ -21,7 +23,8 @@
 \renewcommand{\normalsize}{\fontsize{10pt}{13pt}\selectfont}
 
 % --- BIBLIOGRAFÍA ---
-\usepackage[style=apa,backend=biber]{biblatex}
+\usepackage[style=apa,backref=true,backend=biber]{biblatex}
+\input{/home/alberto/.gbpublisher/biblatex/apa-config.tex}
 
 
 % --- PÁGINA ---
@@ -59,21 +62,92 @@
   \vspace{.5\baselineskip}%
 }
 \usepackage[hidelinks]{hyperref}
-\usepackage[bottom,stable]{footmisc}
+\usepackage[bottom,stable,hang]{footmisc}
+\usepackage{scrextend}
+\usepackage{changepage}
+\newcommand{\fullwidthblock}[1]{%
+  \begin{adjustwidth}{0pt}{-\dimexpr\marginparsep+\marginparwidth\relax}%
+  \centering #1%
+  \end{adjustwidth}%
+}
+\usepackage{rotating}
+\setlength{\footnotesep}{10pt}
+\renewcommand{\footnoterule}{%
+  \kern -3pt%
+  \hrule height 0.5pt width 0.4\columnwidth%
+  \kern 6pt}
+\renewcommand*{\thefootnote}{\scriptsize\sf{[\arabic{footnote}]}}
+\makeatletter
+\patchcmd{\@footnotetext}{\footnotesize}{\small}{}{}
+\makeatother
+\newcommand*\footnotemarkspace{0em}
+\deffootnote{\footnotemarkspace}
+  {\parindent}
+  {\makebox[\footnotemarkspace][r]{\llap{\thefootnotemark\quad}}}
 \raggedbottom
 \clubpenalty=10000
 \widowpenalty=10000
 \usepackage{siunitx}
 \usepackage{enumitem}
+\setlist{nosep,topsep=4pt}
 \usepackage{titlesec}
+\titleformat{\section}[hang]
+  {\sf\bfseries\Large\color{azulrevista}\raggedright}
+  {\thesection}{.5em}{}[]
+\titlespacing{\section}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\subsection}[hang]
+  {\sf\large\color{azulrevista}\raggedright}
+  {\thesubsection}{.5em}{}[]
+\titlespacing{\subsection}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\subsubsection}[hang]
+  {\rm\bfseries\normalsize\color{azulrevista}\raggedright}
+  {\thesubsubsection}{.5em}{}[]
+\titlespacing{\subsubsection}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\paragraph}[runin]
+  {\bfseries\color{azulrevista}}{}{0em}{}[\mbox{ --- }]
+\titlespacing{\paragraph}
+  {0pt}{6.75pt plus 0.5pt minus 0.5pt}{0pt}
+\titleformat{\subparagraph}[hang]
+  {\sf\bfseries\large\color{azulrevista}\centering}
+  {\thesubparagraph}{.5em}{}[]
+\titlespacing{\subparagraph}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
 % --- COLOR ---
 \usepackage[svgnames]{xcolor}
 \usepackage{tcolorbox}
 \definecolor{azulrevista}{HTML}{2d5a8e}
 
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  breakatwhitespace=false,
+  frame=single,
+  framerule=0pt,
+  backgroundcolor=\color{black!5!white},
+  fillcolor=\color{black!5!white},
+  rulecolor=\color{black!5!white},
+  xleftmargin=8pt,xrightmargin=8pt,
+  framexleftmargin=8pt,framexrightmargin=8pt,
+  framextopmargin=6pt,framexbottommargin=6pt,
+  aboveskip=8pt,belowskip=8pt,
+  keywordstyle=\color{blue!70!black}\bfseries,
+  commentstyle=\color{green!50!black}\itshape,
+  stringstyle=\color{orange!80!black},
+  showstringspaces=false,
+  numbers=none,
+  captionpos=b
+}
 \renewenvironment{quote}{\normalsize\list{}{\sf\leftmargin=14pt\rightmargin=0pt}\item\relax}{\endlist}
 
 
+\renewenvironment{verse}
+  {\normalsize\list{}{\leftmargin=14pt\rightmargin=0pt\parsep=0pt}
+   \item\relax\itshape}
+  {\endlist}
 \newcommand{\articulotipo}{}
 
 % --- HEADER / FOOTER ---
@@ -140,7 +214,7 @@
 \renewcommand{\articuloidiomaxml}{es}
 \renewcommand{\articulotitulo}{Editorial puesto desde los metadatos}
 \renewcommand{\articuloautores}{Camilo Mason, Luciana Victoria Gil}
-\renewcommand{\articulodoi}{doi-del-articulo}
+\renewcommand{\articulodoi}{https://www.edicionesimagomundi.com/producto/de-la-guerra-a-la-cooperacion/}
 \renewcommand{\articulotipo}{EDITORIAL}
 \renewcommand{\articulorevista}{H-industria}
 \renewcommand{\articuloissne}{1851-703X}
@@ -176,8 +250,11 @@ Departameno, AfiliaciónActual, Ciudad Autónoma de Buenos Aires, Argenttina\par
 {\scriptsize\texttt{\href{https://orcid.org/0000-0003-0167-7155}{https://orcid.org/0000-0003-0167-7155}}}\par
 Departamento, Consejo Nacional de Investigaciones Científicas y Técnicas. Universidad Nacional de San Martín. Universidad de Buenos Aires, Instituto Interdisciplinario de Economía Política, Centro de Estudios de Historia Económica Argentina y Latinoamericana, CiudadAfiliación, PaísAfiliación\par
 \vspace{6pt}
+{\bfseries\color{azulrevista!70}Derechos de autor\'ia:}\par
+\textcopyright\ 2025 Mason, C. y Gil, L. Publicado por H-industria. Se permite el uso, distribución y reproducción sin fines comerciales, siempre que se cite la obra original y las obras derivadas se distribuyan bajo la misma licencia. (\href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0/})\par\vspace{6pt}
 {\bfseries\color{azulrevista!70}Publicación:} 2025, vol.~01, n\'um.~01, pp.~1--4\par\vspace{6pt}
-{\bfseries\color{azulrevista!70}DOI:} {\scriptsize\texttt{\href{https://doi.org/doi-del-articulo}{doi-del-articulo}}}\par\vspace{6pt}
+{\bfseries\color{azulrevista!70}URL:} {\scriptsize\texttt{\href{https://www.edicionesimagomundi.com/producto/de-la-guerra-a-la-cooperacion/}{https://www.edicionesimagomundi.com/producto/de-la-guerra-a-la-cooperacion/}}}\par\vspace{6pt}
+{\bfseries\color{azulrevista!70}DOI:} {\scriptsize\texttt{\href{https://doi.org/https://www.edicionesimagomundi.com/producto/de-la-guerra-a-la-cooperacion/}{https://www.edicionesimagomundi.com/producto/de-la-guerra-a-la-cooperacion/}}}\par\vspace{6pt}
 {\bfseries\color{azulrevista!70}Licencia:} CC BY-NC-SA 4.0\par
 {\scriptsize\texttt{\href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0/}}}\par
 \vspace{6pt}
@@ -186,6 +263,19 @@ Recibido: 24/01/2026\par
 Aceptado: 24/01/2026\par
 Online: 24/01/2026\par
 \vspace{6pt}
+\vspace{6pt}
+{\bfseries\color{azulrevista!70}Compartir:}\par\vspace{3pt}
+{\large
+\href{https://bsky.app/intent/compose?text=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/bluesky}}~
+\href{mailto:?subject=Editorial%20puesto%20desde%20los%20metadatos&body=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/envelope}}~
+\href{https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/facebook}}~
+\href{https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/linkedin}}~
+\href{https://www.reddit.com/submit?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F&title=Editorial%20puesto%20desde%20los%20metadatos}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/reddit}}~
+\href{https://www.researchgate.net/search?q=Editorial%20puesto%20desde%20los%20metadatos}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/researchgate}}~
+\href{https://t.me/share/url?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F&text=Editorial%20puesto%20desde%20los%20metadatos}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/telegram}}~
+\href{https://wa.me/?text=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/whatsapp}}~
+\href{https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.edicionesimagomundi.com%2Fproducto%2Fde-la-guerra-a-la-cooperacion%2F&text=Editorial%20puesto%20desde%20los%20metadatos}{\includesvg[height=0.9em]{/home/alberto/.gbpublisher/fonts/x-twitter}}
+}\par
 \end{minipage}%
 }% FIN GRUPO leftskip
 \end{textblock*}

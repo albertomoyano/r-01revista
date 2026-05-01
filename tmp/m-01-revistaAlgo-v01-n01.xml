@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta-articulo>
   <identidad>
-    <doi>doi-del-ariculo</doi>
-    <url-texto-completo>a</url-texto-completo>
+    <doi>doi</doi>
+    <url-texto-completo>url-html</url-texto-completo>
   </identidad>
   <revista>
   </revista>
   <autores>
     <autor ref="a10">
+      <credit>Supervision</credit>
       <ror-afiliacion>ROR-ID</ror-afiliacion>
     </autor>
     <autor ref="a11">
