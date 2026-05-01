@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-<dc:identifier id="uid">isbn-1851-703X-v01-n01</dc:identifier>
-<dc:title>H-industria Vol. 01 N&#xFA;m. 01 (2025)</dc:title>
+<dc:identifier id="uid">isbn--v-n</dc:identifier>
+<dc:title> Vol.  N&#xFA;m.  ()</dc:title>
 <dc:language>es</dc:language>
-<dc:publisher>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</dc:publisher>
-<dc:date>2025</dc:date>
-<dc:identifier>urn:issn:1851-703X</dc:identifier>
-<meta property="dcterms:modified">2026-04-15T00:00:00Z</meta>
+<meta property="dcterms:modified">2026-05-01T00:00:00Z</meta>
 <meta property="schema:accessMode">textual</meta>
 <meta property="schema:accessMode">visual</meta>
 <meta property="schema:accessModeSufficient">textual</meta>
@@ -27,7 +24,8 @@
 <item id="font-NotoSerif-BoldItalic" href="fonts/NotoSerif-BoldItalic.ttf" media-type="font/ttf"/>
 <item id="img-logo-revista" href="images/logo-revista.png" media-type="image/png"/>
 <item id="img-desconocido" href="images/desconocido.png" media-type="image/png"/>
-<item id="img-foto-tapa" href="images/foto-tapa.png" media-type="image/png" properties="cover-image"/>
+<item id="img-foto-tapa" href="images/foto-tapa.png" media-type="image/png"/>
+<item id="img-imagen3" href="images/imagen3.png" media-type="image/png"/>
 <item id="img-logo-cabecera" href="images/logo-cabecera.png" media-type="image/png"/>
 <item id="img-9789507934957" href="images/9789507934957.jpg" media-type="image/jpeg"/>
 <item id="img-10000000000001C00000021F313375FD" href="images/10000000000001C00000021F313375FD.jpg" media-type="image/jpeg"/>
