@@ -158,6 +158,12 @@ li { margin-bottom: 0.2em; }
   margin-bottom: 0.4em;
 }
 
+.abstract-keywords {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
 .kwd-group { font-size: 0.9em; margin-top: 0; margin-bottom: 0.5em; }
 .kwd-lang { font-weight: bold; }
 
@@ -318,7 +324,10 @@ nav ol li a {
 .colofon a { color: #2d5a8e; }
 
 .verse-group { margin-top: 0.5em; margin-bottom: 0.5em; }
-.verse-line { margin-top: 0; margin-bottom: 0.1em; }
+.verse-line { font-style: italic; margin-top: 0; margin-bottom: 0.1em; display: block; }
+
+.speech-item { margin-top: 0; margin-bottom: 0.5em; }
+.speech-speaker { font-weight: bold; color: #2d5a8e; }
 
 .code-block { margin-top: 0.5em; margin-bottom: 0.5em; }
 .code-lang { font-size: 0.75em; color: #888; display: block; }
