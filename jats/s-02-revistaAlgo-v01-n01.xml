@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article
-  PUBLIC "-//NLM//DTD JATS (Z39.96) Article Archiving and Interchange DTD v1.4//EN" "https://jats.nlm.nih.gov/archiving/1.4/JATS-archivearticle1-4.dtd">
-<article xmlns:xlink="http://www.w3.org/1999/xlink"
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         dtd-version="1.0"
+         specific-use="sps-1.9"
          article-type="research-article"
          xml:lang="es">
    <front>
       <journal-meta>
          <journal-id journal-id-type="publisher-id">1851-703X</journal-id>
+         <journal-id journal-id-type="nlm-ta">hind</journal-id>
          <journal-title-group>
             <journal-title>H-industria</journal-title>
+            <abbrev-journal-title abbrev-type="publisher">hind</abbrev-journal-title>
          </journal-title-group>
          <issn pub-type="epub">1851-703X</issn>
          <publisher>
@@ -17,8 +22,8 @@
          </publisher>
       </journal-meta>
       <article-meta>
+         <article-id pub-id-type="publisher-id">1851-703X-hind-01-01-00023</article-id>
          <article-id pub-id-type="doi">10.56503/H-Industria/n.37(19)/3473</article-id>
-         <article-id pub-id-type="pmid">pm-id</article-id>
          <article-categories>
             <subj-group subj-group-type="heading">
                <subject>research-article</subject>
@@ -32,20 +37,25 @@
          </title-group>
          <contrib-group>
             <contrib contrib-type="author" id="a5">
-               <name>
+               <contrib-id contrib-id-type="orcid">https://orcid.org/0009-0002-5273-5191</contrib-id>
+               <name name-style="western">
                   <surname>Rougier</surname>
                   <given-names>Marcelo</given-names>
                </name>
-               <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0002-5273-5191</contrib-id>
                <aff>
-                  <institution>Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
+                  <institution content-type="orgname">Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
+                  <country>Argentina</country>
                </aff>
             </contrib>
          </contrib-group>
-         <pub-date pub-type="epub-ppub">
-            <year>2026</year>
+         <pub-date date-type="collection" publication-format="electronic">
             <month>02</month>
-            <day>18</day>
+            <year>2026</year>
+         </pub-date>
+         <pub-date date-type="pub" publication-format="electronic">
+            <day>25</day>
+            <month>02</month>
+            <year>2026</year>
          </pub-date>
          <volume>01</volume>
          <issue>01</issue>
@@ -71,11 +81,13 @@
          <permissions>
             <copyright-year>2026</copyright-year>
             <license license-type="open-access"
-                     xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                     xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                     xml:lang="es">
                <license-p>CC BY-NC-SA 4.0</license-p>
             </license>
          </permissions>
-         <abstract xml:lang="es">
+         <self-uri xlink:href="url-articulo"/>
+         <abstract>
             <p>El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.</p>
          </abstract>
          <trans-abstract xml:lang="en">
@@ -108,12 +120,6 @@
             <kwd>Tecnologia agrícola</kwd>
             <kwd>Argentina</kwd>
          </kwd-group>
-         <custom-meta-group>
-            <custom-meta>
-               <meta-name>xml-lang</meta-name>
-               <meta-value>es</meta-value>
-            </custom-meta>
-         </custom-meta-group>
       </article-meta>
    </front>
    <body>
@@ -127,11 +133,28 @@
          <disp-quote>
             <p>A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.</p>
          </disp-quote>
-         <fig id="fig-1" specific-use="fullwidth">
+         <fig id="fig-1" position="float" orientation="portrait">
             <caption>
-               <p>descripción de la imagen</p>
+               <title>descripción de la imagen</title>
             </caption>
-            <graphic mimetype="image" mime-subtype="png" xlink:href="media/imagen3.png"/>
+            <graphic mimetype="image"
+                     mime-subtype="png"
+                     xlink:href="media/desconocido.png"
+                     position="float"
+                     orientation="portrait"/>
+         </fig>
+         <fig id="fig-2"
+              specific-use="fullwidth"
+              position="float"
+              orientation="portrait">
+            <caption>
+               <title>descripción de la imagen</title>
+            </caption>
+            <graphic mimetype="image"
+                     mime-subtype="png"
+                     xlink:href="media/imagen3.png"
+                     position="float"
+                     orientation="portrait"/>
          </fig>
          <p>Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro de sus preocupaciones: era imperioso modificar la estructura productiva a través de la trans­ferencia de recursos desde sectores como la agricultura. Para la mayoría de los intelectuales y profesionales que participaron del debate, esta era la “llave” para el despegue. En América Latina, aunque el impulso a un crecimiento industrial integrado ocupó un lugar destacado en la agenda pública, las problemáticas agrarias y las discusiones sobre la propiedad de la tierra también adquirieron gran relevancia. Por cierto, muchos intelectuales latinoamericanos –en­tre los que se contaban los cepalinos– cuestionaron la orientación “hacia afuera” de las eco­nomías del subcontinente y comenzaron a legitimar una nueva, para lo que resultaba rele­vante analizar la producción agraria y su rol como proveedora de divisas en un contexto en el que, desde la Comisión Económica para América Latina, se defendía la industrialización como un medio para alcanzar el desarrollo <xref ref-type="bibr" rid="bib-1254-FAJARDO2025">1254-FAJARDO2025</xref>.</p>
          <verse-group>
@@ -141,11 +164,11 @@
             <verse-line>se hace camino al andar.</verse-line>
          </verse-group>
          <p>Estas concepciones, profusamente difundidas por diversos canales, tuvieron un fuerte impacto en la Argentina <xref ref-type="bibr" rid="bib-1255-MASON2023">1255-MASON2023</xref>. Si hasta entonces los debates agra­rios se habían centrado en la distribución de la tierra, desde la década de 1950 comenzó a predominar la preocupación por superar el denominado “estancamiento agropecuario del espacio pampeano” y otros problemas que afectaban las producciones regionales. Según al­gunas teorías en boga, la solución ya no residía en una reforma agraria basada en el reparto de parcelas, sino en el incremento de la inversión de capital por hectárea y la incorporación de tecnología. Las discusiones sobre cómo aumentar la producción y la productividad resul­taron especialmente sensibles en un país que tenía una perentoria necesidad de incrementar sus reservas en moneda extranjera.</p>
-         <code language="python">def factorial(n):
+         <preformat preformat-type="code" specific-use="python">def factorial(n):
       if n &lt;= 1:
           return 1
-      return n * factorial(n-1)</code>
-         <boxed-text content-type="warning">
+      return n * factorial(n-1)</preformat>
+         <boxed-text content-type="warning" position="float" orientation="portrait">
             <p>
                <bold>Advertencia</bold>: Los resultados pueden variar según las
   condiciones ambientales.</p>
@@ -179,7 +202,7 @@
                   specific-use="suppress||">1254-FAJARDO2025</xref> los trabajos reunidos aquí examinan diversas problemáticas agropecuarias en dife­rentes regiones del país. El objetivo, en definitiva, es ofrecer acercamientos que propicien una mirada calidoscópica sobre políticas gubernamentales, iniciativas institucionales, debates sobre el desarrollo agrario, procesos de innovación tecnológica, dinámicas productivas y tra­yectorias agroindustriales en distintos espacios de Argentina. Lejos de una revisión focalizada en la región pampeana, los artículos pretenden iluminar aspectos poco explorados sobre el devenir agrario y sus vínculos con la actividad industrial durante las décadas de 1950, 1960 y 1970 en diferentes regiones, ya sea en aquellas aptas para la actividad ganadera, en zonas marginales dentro de las pampas (como el suroeste de Buenos Aires y el este de La Pampa) o en provincias del norte del país, con características ecológicas, étnicas y productivas parti­culares, según se refleja en los casos de Chaco, Formosa y Misiones. Se privilegió una pers­pectiva que no solo analiza las políticas públicas, sino también su impacto en la producción, el medio ambiente y, especialmente, en las condiciones de vida de las distintas –y a veces contrapuestas– clases y sectores rurales. Estas temáticas resultan relevantes tanto para com­prender los mecanismos que se aplicaron para superar las dificultades de aquel período, como para revisar, a partir de nuevas preguntas, problemas actuales vinculados al acceso a la tierra, el manejo de los recursos naturales y la incidencia de la producción agropecuaria en los in­gresos nacionales <xref ref-type="bibr"
                   rid="bib-1254-FAJARDO2025"
                   specific-use="normal|véase|pp. 45-48, para una discusión más extensa">1254-FAJARDO2025</xref>.</p>
-         <boxed-text id="Empresa-Alpha">
+         <boxed-text id="Empresa-Alpha" position="float" orientation="portrait">
             <p>
                <bold>Contexto</bold>: Empresa mediana del sector manufacturero…</p>
             <p>
@@ -221,157 +244,149 @@
          </list>
          <p>El trabajo de Pablo Volkind y Jorge Domínguez indaga sobre las políticas agrope­cuarias desplegadas por la dictadura cívico-militar entre 1955 y 1958, especialmente aquellas vinculadas con el acceso a la tierra y a la innovación tecnológica. En un contexto marcado por los debates sobre el desarrollo y la necesidad de superar el “estancamiento” del agro pampeano, los autores examinan los inicios de la transición entre una etapa caracterizada por el predominio de la gran propiedad, la expansión de las explotaciones, los conflictos por el arrendamiento y la alta demanda de mano de obra, y otra –aún en curso– definida por la concentración, la reducción del número de unidades productivas, la tecnificación y la dismi­nución del empleo rural. El artículo ofrece una mirada de conjunto que contempla el impacto de las medidas, su relación con las protestas agrarias, la influencia del alineamiento con Es­tados Unidos y el posicionamiento de las diversas corporaciones del agro. A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.</p>
          <p>Juliana López Pascual incorpora una temática fundamental para la producción agro­pecuaria: las políticas legislativas de la provincia de Buenos Aires orientadas a regular y ra­cionalizar los recursos naturales –en particular las tierras irrigables– en el sudoeste bonae­rense entre fines de la década de 1950 y la siguiente. Enfocada en la indagación sobre un espacio y una problemática escasamente explorada, la autora analiza las iniciativas legislativas que buscaron promover la diversificación productiva, el uso intensivo del suelo, la mecani­zación de las tareas agrarias y la radicación de población. Al mismo tiempo, en este artículo también se reconstruye la dinámica política y social que generaron dichas medidas y se pun­tualiza en los conflictos de intereses que se desplegaron entre organizaciones empresariales, de productores y las cooperativas. Demuestra como en un clima marcado por una fuerte conflictividad, se consolidaron entes asociativos como el Consorcio Financiero del Sur y, posteriormente, la Corporación de Fomento del Valle Bonaerense del Río Colorado, que desempeñaron un papel protagónico en las disputas por la tenencia de las tierras irrigables y en los debates sobre el aprovechamiento del río Colorado para impulsar una agroindustria azucarera.</p>
-         <table-wrap id="tbl-1">
+         <table-wrap id="tbl-1" position="float" orientation="portrait">
             <caption>
-               <p>Título descriptivo del cuadro</p>
+               <title>Título descriptivo del cuadro</title>
             </caption>
             <table>
                <thead>
                   <tr>
-                     <th>ID</th>
-                     <th>Nombre</th>
-                     <th>Cantidad</th>
-                     <th>Estado</th>
-                     <th>Puntaje</th>
+                     <th rowspan="1" colspan="1">ID</th>
+                     <th rowspan="1" colspan="1">Nombre</th>
+                     <th rowspan="1" colspan="1">Cantidad</th>
+                     <th rowspan="1" colspan="1">Estado</th>
+                     <th rowspan="1" colspan="1">Puntaje</th>
                   </tr>
                </thead>
                <tbody>
                   <tr>
-                     <td>101</td>
-                     <td>Alfa</td>
-                     <td>34</td>
-                     <td>Activo</td>
-                     <td>78</td>
+                     <td rowspan="1" colspan="1">101</td>
+                     <td rowspan="1" colspan="1">Alfa</td>
+                     <td rowspan="1" colspan="1">34</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">78</td>
                   </tr>
                   <tr>
-                     <td>102</td>
-                     <td>Beta</td>
-                     <td>12</td>
-                     <td>Inactivo</td>
-                     <td>65</td>
+                     <td rowspan="1" colspan="1">102</td>
+                     <td rowspan="1" colspan="1">Beta</td>
+                     <td rowspan="1" colspan="1">12</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">65</td>
                   </tr>
                   <tr>
-                     <td>103</td>
-                     <td>Gamma</td>
-                     <td>56</td>
-                     <td>Activo</td>
-                     <td>88</td>
+                     <td rowspan="1" colspan="1">103</td>
+                     <td rowspan="1" colspan="1">Gamma</td>
+                     <td rowspan="1" colspan="1">56</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">88</td>
                   </tr>
                   <tr>
-                     <td>104</td>
-                     <td>Delta</td>
-                     <td>23</td>
-                     <td>Pendiente</td>
-                     <td>72</td>
+                     <td rowspan="1" colspan="1">104</td>
+                     <td rowspan="1" colspan="1">Delta</td>
+                     <td rowspan="1" colspan="1">23</td>
+                     <td rowspan="1" colspan="1">Pendiente</td>
+                     <td rowspan="1" colspan="1">72</td>
                   </tr>
                   <tr>
-                     <td>105</td>
-                     <td>Épsilon</td>
-                     <td>45</td>
-                     <td>Activo</td>
-                     <td>91</td>
+                     <td rowspan="1" colspan="1">105</td>
+                     <td rowspan="1" colspan="1">Épsilon</td>
+                     <td rowspan="1" colspan="1">45</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">91</td>
                   </tr>
                   <tr>
-                     <td>106</td>
-                     <td>Zeta</td>
-                     <td>67</td>
-                     <td>Inactivo</td>
-                     <td>54</td>
+                     <td rowspan="1" colspan="1">106</td>
+                     <td rowspan="1" colspan="1">Zeta</td>
+                     <td rowspan="1" colspan="1">67</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">54</td>
                   </tr>
                   <tr>
-                     <td>107</td>
-                     <td>Eta</td>
-                     <td>29</td>
-                     <td>Activo</td>
-                     <td>83</td>
+                     <td rowspan="1" colspan="1">107</td>
+                     <td rowspan="1" colspan="1">Eta</td>
+                     <td rowspan="1" colspan="1">29</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">83</td>
                   </tr>
                   <tr>
-                     <td>108</td>
-                     <td>Theta</td>
-                     <td>10</td>
-                     <td>Pendiente</td>
-                     <td>60</td>
+                     <td rowspan="1" colspan="1">108</td>
+                     <td rowspan="1" colspan="1">Theta</td>
+                     <td rowspan="1" colspan="1">10</td>
+                     <td rowspan="1" colspan="1">Pendiente</td>
+                     <td rowspan="1" colspan="1">60</td>
                   </tr>
                   <tr>
-                     <td>109</td>
-                     <td>Iota</td>
-                     <td>38</td>
-                     <td>Activo</td>
-                     <td>76</td>
+                     <td rowspan="1" colspan="1">109</td>
+                     <td rowspan="1" colspan="1">Iota</td>
+                     <td rowspan="1" colspan="1">38</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">76</td>
                   </tr>
                   <tr>
-                     <td>110</td>
-                     <td>Kappa</td>
-                     <td>51</td>
-                     <td>Inactivo</td>
-                     <td>69</td>
+                     <td rowspan="1" colspan="1">110</td>
+                     <td rowspan="1" colspan="1">Kappa</td>
+                     <td rowspan="1" colspan="1">51</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">69</td>
                   </tr>
                </tbody>
             </table>
          </table-wrap>
-         <table-wrap id="tbl-2">
+         <table-wrap id="tbl-2" position="float" orientation="portrait">
             <caption>
-               <p>Título descriptivo del cuadro</p>
+               <title>Título descriptivo del cuadro</title>
             </caption>
             <table>
                <thead>
                   <tr>
-                     <th>Código</th>
-                     <th>Producto</th>
-                     <th>Unidades</th>
-                     <th>Categoría</th>
-                     <th>Precio</th>
+                     <th rowspan="1" colspan="1">Código</th>
+                     <th rowspan="1" colspan="1">Producto</th>
+                     <th rowspan="1" colspan="1">Unidades</th>
+                     <th rowspan="1" colspan="1">Categoría</th>
+                     <th rowspan="1" colspan="1">Precio</th>
                   </tr>
                </thead>
                <tbody>
                   <tr>
-                     <td>201</td>
-                     <td>Roble</td>
-                     <td>18</td>
-                     <td>Madera</td>
-                     <td>1500</td>
+                     <td rowspan="1" colspan="1">201</td>
+                     <td rowspan="1" colspan="1">Roble</td>
+                     <td rowspan="1" colspan="1">18</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1500</td>
                   </tr>
                   <tr>
-                     <td>202</td>
-                     <td>Mármol</td>
-                     <td>7</td>
-                     <td>Piedra</td>
-                     <td>3200</td>
+                     <td rowspan="1" colspan="1">202</td>
+                     <td rowspan="1" colspan="1">Mármol</td>
+                     <td rowspan="1" colspan="1">7</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">3200</td>
                   </tr>
                   <tr>
-                     <td>203</td>
-                     <td>Cobre</td>
-                     <td>42</td>
-                     <td>Metal</td>
-                     <td>980</td>
+                     <td rowspan="1" colspan="1">203</td>
+                     <td rowspan="1" colspan="1">Cobre</td>
+                     <td rowspan="1" colspan="1">42</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">980</td>
                   </tr>
                   <tr>
-                     <td>204</td>
-                     <td>Lino</td>
-                     <td>25</td>
-                     <td>Textil</td>
-                     <td>760</td>
+                     <td rowspan="1" colspan="1">204</td>
+                     <td rowspan="1" colspan="1">Lino</td>
+                     <td rowspan="1" colspan="1">25</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">760</td>
                   </tr>
                   <tr>
-                     <td>205</td>
-                     <td>Granito</td>
-                     <td>11</td>
-                     <td>Piedra</td>
-                     <td>2100</td>
+                     <td rowspan="1" colspan="1">205</td>
+                     <td rowspan="1" colspan="1">Granito</td>
+                     <td rowspan="1" colspan="1">11</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2100</td>
                   </tr>
                </tbody>
             </table>
          </table-wrap>
          <p>La contribución de Federico Martocci se detiene en las políticas de gobierno aplica­das entre 1960 y 1973 en La Pampa para incrementar la producción lechera, recorte temporal que incluye la gestión de Ismael Amit, principal referente de la Unión Cívica Radical Intran­sigente en esa provincia, y toda la etapa de la dictadura instaurada en 1966. A partir de infor­mes técnicos, memorias de gobernadores, prensa local, notas en revistas especializadas, es­tudios de profesionales sobre temáticas agropecuarias, registros estadísticos y testimonios orales, se muestra la continuidad de ciertas líneas de acción para fomentar la actividad láctea, en un marco en el que las autoridades locales apostaron a industrializar productos obtenidos en La Pampa. Esto último se evidencia especialmente en la primera mitad de la década de 1960, pero ese continuum no solo generó un conjunto de estudios sobre el tema sino que, además, habilitó créditos para financiar pequeñas industrias lácteas, incentivó el interés por la sanidad del ganado, el mejoramiento de la genética animal y la mecanización de los tambos, robusteció los servicios veterinarios del Estado provincial y, en definitiva, posicionó a la le­chería como una alternativa interesante para los productores de algunas zonas pampeanas. Ello se puede advertir, por ejemplo, en la redefinición que experimentó la actividad láctea en términos espaciales en la pampa seca durante la etapa en estudio.</p>
          <p>Lisandro Rodríguez y Laura Zang se concentran en el estudio de las transformaciones agrarias que se produjeron en la provincia de Misiones entre 1958 y 1976. El trabajo, que abarca un período más extenso de tiempo, reconstruye los efectos de las políticas desarro­llistas y, posteriormente, de las liberales sobre los cambios en el uso de los espacios rurales. Para ello no solo indagan sobre los cambios en la producción de yerba mate, sino que tam­bién analizan el impacto de la actividad forestal en el distrito durante la década de 1970, tanto en términos económicos, sociales como medioambientales. Luego de sintetizar el devenir productivo desde fines del siglo XIX, los autores ofrecen una periodización de la actividad agroindustrial que se centra en dos momentos (1958-1962 y 1962-1976). Justamente, el pri­mero coincide con el predominio de la yerba mate y el segundo con las actividades de fores­tación. En el escrito puntualizan las políticas públicas destinadas a cada cultivo, los procesos de tecnificación, el efecto de la deforestación y el incremento de las inversiones de capital extranjero que modificaron el paisaje agrario. A partir de la integración de resoluciones ofi­ciales y fuentes cualitativas y cuantitativas, identifican las principales transformaciones agra­rias, así como las diversas tensiones que se manifestaron entre los distintos agrupamientos de la sociedad civil y el Estado misionero en un contexto caracterizado por el acelerado pro­ceso de diferenciación de la estructura social agraria y en los patrones de tenencia de la tierra.</p>
-         <fig id="fig-2">
-            <caption>
-               <p>descripción de la imagen</p>
-            </caption>
-            <graphic mimetype="image"
-                     mime-subtype="png"
-                     xlink:href="media/fi02-01-revistaAlgo-v01-n01.png"/>
-         </fig>
          <p>El trabajo de Leandro Eduardo Moglia y Matías Javier Sosa estudia lo ocurrido en la provincia del Chaco durante la década de 1960 en cuanto a la actividad del sector agroindus­trial, con particular atención en lo que respecta a la producción de algodón, que atravesaba desde el decenio anterior una etapa de estancamiento que decantó en crisis. A partir de un nutrido corpus documental, se reconstruye el devenir del sector industrial primarizado –direc­tamente vinculado con dicho cultivo– para luego detenerse en el inicio del proceso de priva­tización de la Fábrica de Envases Textil (FANDET) y sus consecuencias. De ese modo, con el traspaso de esta última a la Unión de Cooperativas Algodoneras (UCAL), en 1961, se evidenciaba el peso de esta actividad histórica en el Chaco, por un lado, a la vez que, por otro lado, se concretaba la aspiración que la UCAL ambicionaba desde su organización en la dé­cada de 1930: cerrar el círculo de la cadena agroindustrial chaqueña, lo que en ese contexto implicó reforzar el perfil algodonero regional. La iniciativa no solo coloca en foco el accionar de este actor colectivo, también demuestra –como se advierte en el artículo– el papel del gobierno provincial ya sea en términos políticos o, incluso, financieros. El logro de este ob­jetivo, sin embargo, no pudo evitar que la UCAL se viera afectada por la profunda crisis que azotaría al sector.</p>
          <p>Darío Machuca, Sergio Omar Sapkus y Cristian Eduardo Vázquez, por su parte, re­cortan como objeto de estudio un caso poco conocido y analizan cuáles fueron las iniciativas que desplegó el gobierno provincial en Formosa durante la autodenominada “Revolución Argentina”; más específicamente, qué propusieron las autoridades de facto para abordar la “cuestión agraria”. Esta denominación, que desde luego no resultaba novedosa en el país, presentaba sin embargo algunas particularidades en el ámbito local. En ese sentido, la orga­nización productiva de la tierra jugaba un rol significativo, aunque también estaba relacionada con las características étnicas regionales y lo que se solía llamar el “latifundio estatal”. El estudio de las representaciones oficiales sobre estas últimas dos cuestiones es muy valioso para avanzar en futuras pesquisas que –sobre la base de este acercamiento– expliquen aspec­tos de las concepciones gubernamentales posteriores para hacer de la agricultura una práctica “racional” y de la tecnología un recurso básico para dar ese “salto” (que para entonces parecía abismal en Formosa). El discurso de los agentes estatales asume un rol preponderante en la justificación de las medidas socioeconómicas en esa larga década, puesto que el recorte de fuentes avala esa perspectiva, lo que constituye un mirador interesante para cotejar cómo pensaban el agro los gobernantes nacionales y, en cambio, cuáles eran las coordenadas que empleaban para ello las autoridades en un espacio situado del norte argentino.</p>
          <p>Finalmente, el trabajo de Mauro Cuk retoma una temática que ha merecido menos atención: las iniciativas impulsadas por la Comisión Nacional de Administración del Fondo de Apoyo al Desarrollo Económico (CAFADE), el Consejo Nacional de Desarrollo (CO­NADE) y el Instituto Nacional de Tecnología Agropecuaria (INTA) destinadas a fomentar el aumento de la producción y exportación de carne vacuna a lo largo de las décadas bajo estudio. Estas iniciativas se concretaron a través de diversos proyectos como los denomina­dos “Operación Carnes” y “Proyecto Balcarce” que, al igual que otras políticas del período analizadas en este dossier, trascendieron distintos gobiernos. En un contexto caracterizado por el mayor alineamiento con los Estados Unidos, dichos proyectos fueron financiados me­diante líneas crediticias acordadas con bancos norteamericanos y organismos multilaterales, y reforzados por convenios de asistencia técnica. Si bien lograron incorporar innovaciones y contribuyeron a la recuperación del sector ganadero en el país, también se evidenciaron ten­siones entre las políticas de corto y largo plazo, así como la persistencia de problemas estruc­turales.</p>
@@ -403,9 +418,10 @@
    <back>
       <ref-list>
          <ref id="bib-1254-FAJARDO2025">
+            <mixed-citation publication-type="book">Fajardo, M. (2025). <italic>El mundo según América Latina. La CEPAL en la era del desarrollo</italic>. Buenos Aires: Fondo de Cultura Econó­mica.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Fajardo</surname>
                      <given-names>M.</given-names>
                   </name>
@@ -417,13 +433,14 @@
             </element-citation>
          </ref>
          <ref id="bib-1255-MASON2023">
+            <mixed-citation publication-type="book"> (2023). <italic>A las palabras se las lleva el viento; lo escrito queda. Las revistas en los orígenes de la profesionalización del campo de la economía (1956-1966)</italic>. Buenos Aires: Ediciones Imago Mundi.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="editor">
-                  <name>
+                  <name name-style="western">
                      <surname>Mason</surname>
                      <given-names>C.</given-names>
                   </name>
-                  <name>
+                  <name name-style="western">
                      <surname>Rougier</surname>
                      <given-names>M.</given-names>
                   </name>
@@ -435,9 +452,10 @@
             </element-citation>
          </ref>
          <ref id="bib-1251-AZCUYAMEGHINO2024">
+            <mixed-citation publication-type="book">Azcuy Ameghino, E. (2024). <italic>La cuestión agraria argentina en el siglo XXI</italic>. Buenos Aires: Ediciones Imago Mundi.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Azcuy Ameghino</surname>
                      <given-names>E.</given-names>
                   </name>
@@ -449,23 +467,24 @@
             </element-citation>
          </ref>
          <ref id="bib-1256-BARSKY2001">
+            <mixed-citation publication-type="book">Barsky, O. y Gelman, J. (2001). <italic>Historia del agro argentino. Desde la Conquista hasta fines del siglo XX</italic>. Grijalbo and Mondadori.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Barsky</surname>
                      <given-names>O.</given-names>
                   </name>
-                  <name>
+                  <name name-style="western">
                      <surname>Gelman</surname>
                      <given-names>J.</given-names>
                   </name>
                </person-group>
                <person-group person-group-type="editor">
-                  <name>
+                  <name name-style="western">
                      <surname>Ascolani</surname>
                      <given-names>A.</given-names>
                   </name>
-                  <name>
+                  <name name-style="western">
                      <surname>Gutiérrez</surname>
                      <given-names>T.</given-names>
                   </name>
@@ -476,15 +495,16 @@
             </element-citation>
          </ref>
          <ref id="bib-1249-LAZZARO2004">
+            <mixed-citation publication-type="book">Lázzaro, S. (2004). <italic>El campo diverso. Enfoques y perspectivas de la Argentina agraria del siglo XX</italic>. Buenos Aires: Universidad Nacional de Quilmes.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Lázzaro</surname>
                      <given-names>S.</given-names>
                   </name>
                </person-group>
                <person-group person-group-type="editor">
-                  <name>
+                  <name name-style="western">
                      <surname>Galafassi</surname>
                      <given-names>G.</given-names>
                   </name>
@@ -499,9 +519,10 @@
             </element-citation>
          </ref>
          <ref id="bib-1250-LAZZARO2012">
+            <mixed-citation publication-type="journal">Lázzaro, S. (2013). El desarrollismo y el problema agrario durante las décadas de 1950 y 1960. <italic>Secuencia. Revista de historia y ciencias sociales</italic>, (84). https://doi.org/10.18234/secuencia.v0i84.1171.</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Lázzaro</surname>
                      <given-names>S.</given-names>
                   </name>
@@ -514,13 +535,14 @@
             </element-citation>
          </ref>
          <ref id="bib-1257-ASCOLANI2015">
+            <mixed-citation publication-type="book"> (2015). <italic>Agro y política en Argentina</italic>. Buenos Aires: CICCUS.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="compiler">
-                  <name>
+                  <name name-style="western">
                      <surname>Ascolani</surname>
                      <given-names>A.</given-names>
                   </name>
-                  <name>
+                  <name name-style="western">
                      <surname>Gutiérrez</surname>
                      <given-names>T.</given-names>
                   </name>

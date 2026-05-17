@@ -1,5 +1,5 @@
 ::: {.editorial}
-## Esta es el editorial de la revista
+## Este es el editorial de la revista
 
 Nos complace anunciar a nuestros lectores una serie de cambios y avances en la estructura y alcance de H-industria, que reflejan el compromiso continuo de la revista con la excelencia académica y la expansión de su impacto en la comunidad científica.
 
