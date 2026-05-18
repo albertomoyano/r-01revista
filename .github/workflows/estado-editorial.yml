@@ -1,0 +1,174 @@
+
+# ============================================================
+# Workflow  : estado-editorial.yml
+# Propósito : Procesa .estado-proyecto.json al recibir un push
+#             y gestiona Discussions en GitHub para el
+#             seguimiento editorial del director.
+# Trigger   : push a main que modifique .estado-proyecto.json
+# ============================================================
+
+name: Estado Editorial
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.estado-proyecto.json'
+
+permissions:
+  discussions: write
+  contents: write
+
+jobs:
+  procesar-estado:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Procesar artículos y actualizar Discussions
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+
+            // LEER EL ARCHIVO DE ESTADO GENERADO POR GBPUBLISHER
+            const jsonPath = '.estado-proyecto.json';
+            const estado = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+
+            // OBTENER ID DEL REPOSITORIO Y DE LA CATEGORÍA
+            const repoData = await github.graphql(`
+              query($owner: String!, $name: String!) {
+                repository(owner: $owner, name: $name) {
+                  id
+                  discussionCategories(first: 20) {
+                    nodes { id name }
+                  }
+                }
+              }
+            `, {
+              owner: context.repo.owner,
+              name: context.repo.repo
+            });
+
+            const repoId = repoData.repository.id;
+            const categoria = repoData.repository.discussionCategories.nodes
+              .find(c => c.name === 'Seguimiento Editorial');
+
+            if (!categoria) {
+              core.setFailed('No se encontró la categoría "Seguimiento Editorial".');
+              return;
+            }
+
+            let modificado = false;
+
+            // PROCESAR CADA ARTÍCULO DEL PROYECTO
+            for (const articulo of estado.articulos) {
+
+              // ARTÍCULO NUEVO: CREAR DISCUSSION
+              if (!articulo.github_discussion_id) {
+
+                const autores = Array.isArray(articulo.autores) && articulo.autores.length > 0
+                  ? articulo.autores.join(' · ')
+                  : 'N/D';
+
+                const cuerpo = [
+                  `**Proyecto:** ${estado.proyecto}`,
+                  `**Archivo:** \`${articulo.nombre_archivo}\``,
+                  `**Tipo:** ${articulo.tipo_articulo || 'N/D'}`,
+                  `**DOI:** ${articulo.doi || 'pendiente'}`,
+                  `**Autores:** ${autores}`,
+                  `**Responsable:** ${articulo.responsable_edicion || 'N/D'}`,
+                  ``,
+                  `| Evento | Fecha |`,
+                  `|--------|-------|`,
+                  `| Recepción | ${articulo.fecha_recepcion || '—'} |`,
+                  `| Aceptación | ${articulo.fecha_aceptacion || '—'} |`,
+                  `| Publicación online | ${articulo.fecha_publicacion_online || '—'} |`,
+                  ``,
+                  `**Estado inicial:** \`${articulo.estado}\``,
+                  ``,
+                  `---`,
+                  `*Seguimiento generado automáticamente por gbpublisher*`
+                ].join('\n');
+
+                const resultado = await github.graphql(`
+                  mutation($repoId: ID!, $catId: ID!, $titulo: String!, $cuerpo: String!) {
+                    createDiscussion(input: {
+                      repositoryId: $repoId
+                      categoryId: $catId
+                      title: $titulo
+                      body: $cuerpo
+                    }) {
+                      discussion { id url }
+                    }
+                  }
+                `, {
+                  repoId,
+                  catId: categoria.id,
+                  titulo: `[${articulo.estado.toUpperCase()}] ${articulo.titulo}`,
+                  cuerpo
+                });
+
+                articulo.github_discussion_id =
+                  resultado.createDiscussion.discussion.id;
+                core.info(`Discussion creada: ${resultado.createDiscussion.discussion.url}`);
+                modificado = true;
+              }
+
+              // ESTADO CAMBIÓ: AGREGAR COMENTARIO A LA DISCUSSION EXISTENTE
+              else if (
+                articulo.estado_anterior &&
+                articulo.estado !== articulo.estado_anterior
+              ) {
+
+                const comentario = [
+                  `### ✅ Cambio de estado`,
+                  ``,
+                  `| | |`,
+                  `|---|---|`,
+                  `| **Estado anterior** | \`${articulo.estado_anterior}\` |`,
+                  `| **Estado actual** | \`${articulo.estado}\` |`,
+                  `| **Fecha** | ${new Date().toISOString().split('T')[0]} |`,
+                  ``,
+                  `*Actualización automática por gbpublisher*`
+                ].join('\n');
+
+                await github.graphql(`
+                  mutation($discId: ID!, $cuerpo: String!) {
+                    addDiscussionComment(input: {
+                      discussionId: $discId
+                      body: $cuerpo
+                    }) {
+                      comment { id }
+                    }
+                  }
+                `, {
+                  discId: articulo.github_discussion_id,
+                  cuerpo: comentario
+                });
+
+                core.info(`Comentario agregado: ${articulo.nombre_archivo}`);
+                modificado = true;
+              }
+            }
+
+            // GUARDAR JSON CON IDS ACTUALIZADOS Y HACER COMMIT DE VUELTA
+            // [skip ci] EVITA QUE ESTE COMMIT DISPARE EL WORKFLOW NUEVAMENTE
+            if (modificado) {
+              fs.writeFileSync(jsonPath, JSON.stringify(estado));
+
+              const { execSync } = require('child_process');
+              execSync('git config user.name "github-actions[bot]"');
+              execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
+              execSync(`git add ${jsonPath}`);
+              execSync('git commit -m "meta: IDs de GitHub actualizados [skip ci]"');
+              execSync('git push');
+
+              core.info('JSON actualizado y commiteado.');
+            } else {
+              core.info('Sin cambios en esta ejecución.');
+            }
