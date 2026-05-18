@@ -1,12 +1,3 @@
-
-# ============================================================
-# Workflow  : estado-editorial.yml
-# Propósito : Procesa .estado-proyecto.json al recibir un push
-#             y gestiona Discussions en GitHub para el
-#             seguimiento editorial del director.
-# Trigger   : push a main que modifique .estado-proyecto.json
-# ============================================================
-
 name: Estado Editorial
 
 on:
@@ -35,11 +26,25 @@ jobs:
           script: |
             const fs = require('fs');
 
-            // LEER EL ARCHIVO DE ESTADO GENERADO POR GBPUBLISHER
-            const jsonPath = '.estado-proyecto.json';
-            const estado = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+            // LEER ESTADO EDITORIAL GENERADO POR GBPUBLISHER
+            const estado = JSON.parse(fs.readFileSync('.estado-proyecto.json', 'utf8'));
 
-            // OBTENER ID DEL REPOSITORIO Y DE LA CATEGORÍA
+            // LEER IDS VÍA API — SIEMPRE OBTIENE LA VERSIÓN MÁS RECIENTE DEL REPO
+            // SIN DEPENDER DEL ESTADO DEL CHECKOUT NI DE RACE CONDITIONS
+            const idsPath = '.github-ids.json';
+            let ids = {};
+            try {
+              const { data } = await github.rest.repos.getContent({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path: idsPath
+              });
+              ids = JSON.parse(Buffer.from(data.content, 'base64').toString('utf8'));
+            } catch (e) {
+              ids = {};
+            }
+
+            // OBTENER ID DEL REPOSITORIO Y CATEGORÍA
             const repoData = await github.graphql(`
               query($owner: String!, $name: String!) {
                 repository(owner: $owner, name: $name) {
@@ -65,11 +70,12 @@ jobs:
 
             let modificado = false;
 
-            // PROCESAR CADA ARTÍCULO DEL PROYECTO
             for (const articulo of estado.articulos) {
+              const clave = articulo.nombre_archivo;
+              const entrada = ids[clave] || {};
 
               // ARTÍCULO NUEVO: CREAR DISCUSSION
-              if (!articulo.github_discussion_id) {
+              if (!entrada.discussion_id) {
 
                 const autores = Array.isArray(articulo.autores) && articulo.autores.length > 0
                   ? articulo.autores.join(' · ')
@@ -113,24 +119,22 @@ jobs:
                   cuerpo
                 });
 
-                articulo.github_discussion_id =
-                  resultado.createDiscussion.discussion.id;
+                ids[clave] = {
+                  discussion_id: resultado.createDiscussion.discussion.id,
+                  ultimo_estado: articulo.estado
+                };
                 core.info(`Discussion creada: ${resultado.createDiscussion.discussion.url}`);
                 modificado = true;
-              }
 
               // ESTADO CAMBIÓ: AGREGAR COMENTARIO A LA DISCUSSION EXISTENTE
-              else if (
-                articulo.estado_anterior &&
-                articulo.estado !== articulo.estado_anterior
-              ) {
+              } else if (entrada.ultimo_estado && articulo.estado !== entrada.ultimo_estado) {
 
                 const comentario = [
                   `### ✅ Cambio de estado`,
                   ``,
                   `| | |`,
                   `|---|---|`,
-                  `| **Estado anterior** | \`${articulo.estado_anterior}\` |`,
+                  `| **Estado anterior** | \`${entrada.ultimo_estado}\` |`,
                   `| **Estado actual** | \`${articulo.estado}\` |`,
                   `| **Fecha** | ${new Date().toISOString().split('T')[0]} |`,
                   ``,
@@ -147,22 +151,20 @@ jobs:
                     }
                   }
                 `, {
-                  discId: articulo.github_discussion_id,
+                  discId: entrada.discussion_id,
                   cuerpo: comentario
                 });
 
-                core.info(`Comentario agregado: ${articulo.nombre_archivo}`);
+                ids[clave].ultimo_estado = articulo.estado;
+                core.info(`Comentario agregado: ${clave}`);
                 modificado = true;
               }
             }
 
-            // GUARDAR .github-ids.json VÍA API REST DE GITHUB
-            // LA API MANEJA CONCURRENCIA CORRECTAMENTE SIN PROBLEMAS DE FAST-FORWARD
-            // GBPUBLISHER NUNCA TOCA ESTE ARCHIVO: SIN CONFLICTOS POSIBLES
+            // GUARDAR IDS VÍA API REST — SIN GIT, SIN RACE CONDITIONS
             if (modificado) {
               const contenido = Buffer.from(JSON.stringify(ids, null, 2)).toString('base64');
 
-              // OBTENER SHA ACTUAL DEL ARCHIVO SI YA EXISTE
               let sha;
               try {
                 const { data } = await github.rest.repos.getContent({
@@ -175,7 +177,6 @@ jobs:
                 sha = undefined;
               }
 
-              // CREAR O ACTUALIZAR EL ARCHIVO VÍA API
               await github.rest.repos.createOrUpdateFileContents({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
