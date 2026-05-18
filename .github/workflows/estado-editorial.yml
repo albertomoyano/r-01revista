@@ -156,19 +156,37 @@ jobs:
               }
             }
 
-            // GUARDAR JSON CON IDS ACTUALIZADOS Y HACER COMMIT DE VUELTA
-            // [skip ci] EVITA QUE ESTE COMMIT DISPARE EL WORKFLOW NUEVAMENTE
+            // GUARDAR .github-ids.json VÍA API REST DE GITHUB
+            // LA API MANEJA CONCURRENCIA CORRECTAMENTE SIN PROBLEMAS DE FAST-FORWARD
+            // GBPUBLISHER NUNCA TOCA ESTE ARCHIVO: SIN CONFLICTOS POSIBLES
             if (modificado) {
-              fs.writeFileSync(jsonPath, JSON.stringify(estado));
+              const contenido = Buffer.from(JSON.stringify(ids, null, 2)).toString('base64');
 
-              const { execSync } = require('child_process');
-              execSync('git config user.name "github-actions[bot]"');
-              execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-              execSync(`git add ${jsonPath}`);
-              execSync('git commit -m "meta: IDs de GitHub actualizados [skip ci]"');
-              execSync('git push');
+              // OBTENER SHA ACTUAL DEL ARCHIVO SI YA EXISTE
+              let sha;
+              try {
+                const { data } = await github.rest.repos.getContent({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  path: idsPath
+                });
+                sha = data.sha;
+              } catch (e) {
+                sha = undefined;
+              }
 
-              core.info('JSON actualizado y commiteado.');
+              // CREAR O ACTUALIZAR EL ARCHIVO VÍA API
+              await github.rest.repos.createOrUpdateFileContents({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path: idsPath,
+                message: 'meta: IDs de GitHub actualizados [skip ci]',
+                content: contenido,
+                sha: sha,
+                branch: 'main'
+              });
+
+              core.info('IDs actualizados en .github-ids.json via API');
             } else {
               core.info('Sin cambios en esta ejecución.');
             }
