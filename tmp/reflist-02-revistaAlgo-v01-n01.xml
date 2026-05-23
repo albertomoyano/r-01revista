@@ -73,7 +73,7 @@
     </element-citation>
   </ref>
   <ref id="bib-1249-LAZZARO2004">
-    <element-citation publication-type="book">
+    <element-citation publication-type="book-chapter">
       <person-group person-group-type="author">
         <name>
           <surname>Lázzaro</surname>
@@ -111,8 +111,8 @@
     </element-citation>
   </ref>
   <ref id="bib-1257-ASCOLANI2015">
-    <element-citation publication-type="book">
-      <person-group person-group-type="compiler">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
         <name>
           <surname>Ascolani</surname>
           <given-names>A.</given-names>

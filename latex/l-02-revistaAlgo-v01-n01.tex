@@ -5,6 +5,7 @@
 \microtypecontext{spacing=nonfrench}
 \usepackage{fontspec}
 \usepackage{svg}
+\usepackage{afterpage}
 \svgsetup{inkscapelatex=false,inkscapearea=drawing}
 \usepackage{unicode-math}
 \setmathfont{Libertinus Math}[Scale=MatchLowercase]
@@ -61,7 +62,9 @@
   }%
   \vspace{.5\baselineskip}%
 }
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\hypersetup{colorlinks=True,linkcolor=azulrevista,citecolor=azulrevista,urlcolor=azulrevista,filecolor=azulrevista,
+linktoc=all,breaklinks=True,bookmarksopen=True,bookmarksnumbered=True}
 \usepackage[bottom,stable,hang]{footmisc}
 \usepackage{scrextend}
 \usepackage{changepage}
@@ -320,8 +323,8 @@ A través del análisis e integración de fuentes oficiales y de las publicacion
 \centering
 \includegraphics[width=\linewidth]{../media/imagen3.png}
 \captionof{figure}{descripción de la imagen}
-\label{fig-1}
-\label{fig-1}
+\label{fig-resultados}
+\label{fig-resultados}
 \vspace{\intextsep}
 \end{adjustwidth}
 
@@ -374,7 +377,7 @@ Este dossier se propone enriquecer el análisis historiográfico sobre las trans
 \paragraph{Entrevistado B} Yo no lo creo…
 Si bien en las últimas décadas se desarrollaron otras valiosas investigaciones –que aquí no podemos reseñar con exhaustividad– sobre el papel del agro en el “clima de ideas” signado por el desarrollismo \autocite{1249-LAZZARO2004,1250-LAZZARO2012,1257-ASCOLANI2015}, el desempeño de una institución como el INTA (objeto de es­tudio de diversos cientistas sociales) o la importancia asumida por algunas agroindustrias en espacios regionales a lo largo de los decenios en cuestión, es claro que resultan necesarias pesquisas que revisen el período en función de inte­rrogantes renovados y que permitan dar cuenta de la simultaneidad y diversidad de los pro­cesos en curso.
 
-Según Fajardo \autocite*{1254-FAJARDO2025} los trabajos reunidos aquí examinan diversas problemáticas agropecuarias en dife­rentes regiones del país. El objetivo, en definitiva, es ofrecer acercamientos que propicien una mirada calidoscópica sobre políticas gubernamentales, iniciativas institucionales, debates sobre el desarrollo agrario, procesos de innovación tecnológica, dinámicas productivas y tra­yectorias agroindustriales en distintos espacios de Argentina. Lejos de una revisión focalizada en la región pampeana, los artículos pretenden iluminar aspectos poco explorados sobre el devenir agrario y sus vínculos con la actividad industrial durante las décadas de 1950, 1960 y 1970 en diferentes regiones, ya sea en aquellas aptas para la actividad ganadera, en zonas marginales dentro de las pampas (como el suroeste de Buenos Aires y el este de La Pampa) o en provincias del norte del país, con características ecológicas, étnicas y productivas parti­culares, según se refleja en los casos de Chaco, Formosa y Misiones. Se privilegió una pers­pectiva que no solo analiza las políticas públicas, sino también su impacto en la producción, el medio ambiente y, especialmente, en las condiciones de vida de las distintas –y a veces contrapuestas– clases y sectores rurales. Estas temáticas resultan relevantes tanto para com­prender los mecanismos que se aplicaron para superar las dificultades de aquel período, como para revisar, a partir de nuevas preguntas, problemas actuales vinculados al acceso a la tierra, el manejo de los recursos naturales y la incidencia de la producción agropecuaria en los in­gresos nacionales \autocite[véase][pp. 45-48, para una discusión más extensa]{1254-FAJARDO2025}.
+Según Fajardo \autocite{1254-FAJARDO2025} los trabajos reunidos aquí examinan diversas problemáticas agropecuarias en dife­rentes regiones del país. El objetivo, en definitiva, es ofrecer acercamientos que propicien una mirada calidoscópica sobre políticas gubernamentales, iniciativas institucionales, debates sobre el desarrollo agrario, procesos de innovación tecnológica, dinámicas productivas y tra­yectorias agroindustriales en distintos espacios de Argentina. Lejos de una revisión focalizada en la región pampeana, los artículos pretenden iluminar aspectos poco explorados sobre el devenir agrario y sus vínculos con la actividad industrial durante las décadas de 1950, 1960 y 1970 en diferentes regiones, ya sea en aquellas aptas para la actividad ganadera, en zonas marginales dentro de las pampas (como el suroeste de Buenos Aires y el este de La Pampa) o en provincias del norte del país, con características ecológicas, étnicas y productivas parti­culares, según se refleja en los casos de Chaco, Formosa y Misiones. Se privilegió una pers­pectiva que no solo analiza las políticas públicas, sino también su impacto en la producción, el medio ambiente y, especialmente, en las condiciones de vida de las distintas –y a veces contrapuestas– clases y sectores rurales. Estas temáticas resultan relevantes tanto para com­prender los mecanismos que se aplicaron para superar las dificultades de aquel período, como para revisar, a partir de nuevas preguntas, problemas actuales vinculados al acceso a la tierra, el manejo de los recursos naturales y la incidencia de la producción agropecuaria en los in­gresos nacionales \autocite{1254-FAJARDO2025}.
 
 
 \begin{tcolorbox}[colback=white,colframe=azulrevista,leftrule=3pt,rightrule=0pt,toprule=0pt,bottomrule=0pt,arc=0pt,left=8pt,right=4pt,top=3pt,bottom=3pt,before skip=4pt,after skip=4pt]
@@ -415,37 +418,56 @@ El trabajo de Pablo Volkind y Jorge Domínguez indaga sobre las políticas agrop
 Juliana López Pascual incorpora una temática fundamental para la producción agro­pecuaria: las políticas legislativas de la provincia de Buenos Aires orientadas a regular y ra­cionalizar los recursos naturales –en particular las tierras irrigables– en el sudoeste bonae­rense entre fines de la década de 1950 y la siguiente. Enfocada en la indagación sobre un espacio y una problemática escasamente explorada, la autora analiza las iniciativas legislativas que buscaron promover la diversificación productiva, el uso intensivo del suelo, la mecani­zación de las tareas agrarias y la radicación de población. Al mismo tiempo, en este artículo también se reconstruye la dinámica política y social que generaron dichas medidas y se pun­tualiza en los conflictos de intereses que se desplegaron entre organizaciones empresariales, de productores y las cooperativas. Demuestra como en un clima marcado por una fuerte conflictividad, se consolidaron entes asociativos como el Consorcio Financiero del Sur y, posteriormente, la Corporación de Fomento del Valle Bonaerense del Río Colorado, que desempeñaron un papel protagónico en las disputas por la tenencia de las tierras irrigables y en los debates sobre el aprovechamiento del río Colorado para impulsar una agroindustria azucarera.
 
 
-\begin{table}[!ht]
+\begin{adjustwidth}{0pt}{-\dimexpr\marginparsep+\marginparwidth\relax}%
 \centering
 {\sf\footnotesize\setlength\tabcolsep{4pt}%
-  \begin{tabular}{@{}lllll@{}}
+  \begin{tabular}{@{}lllllllll@{}}
     \toprule
-    \textbf{ID} & \textbf{Nombre} & \textbf{Cantidad} & \textbf{Estado} & \textbf{Puntaje} \\
+    \textbf{ID} & \textbf{Nombre} & \textbf{Cantidad} & \textbf{Estado} & \textbf{Puntaje} & \textbf{Nombre} & \textbf{Cantidad} & \textbf{Estado} & \textbf{Puntaje} \\
     \midrule
-    101 & Alfa & 34 & Activo & 78 \\
+    101 & Alfa & 34 & Activo & 78 & Alfa & 34 & Activo & 78 \\
     \midrule
-    102 & Beta & 12 & Inactivo & 65 \\
+    102 & Beta & 12 & Inactivo & 65 & Beta & 12 & Inactivo & 65 \\
     \midrule
-    103 & Gamma & 56 & Activo & 88 \\
+    103 & Gamma & 56 & Activo & 88 & Gamma & 56 & Activo & 88 \\
     \midrule
-    104 & Delta & 23 & Pendiente & 72 \\
+    104 & Delta & 23 & Pendiente & 72 & Delta & 23 & Pendiente & 72 \\
     \midrule
-    105 & Épsilon & 45 & Activo & 91 \\
+    105 & Épsilon & 45 & Activo & 91 & Épsilon & 45 & Activo & 91 \\
     \midrule
-    106 & Zeta & 67 & Inactivo & 54 \\
+    106 & Zeta & 67 & Inactivo & 54 & Zeta & 67 & Inactivo & 54 \\
     \midrule
-    107 & Eta & 29 & Activo & 83 \\
+    107 & Eta & 29 & Activo & 83 & Eta & 29 & Activo & 83 \\
     \midrule
-    108 & Theta & 10 & Pendiente & 60 \\
+    108 & Theta & 10 & Pendiente & 60 & Theta & 10 & Pendiente & 60 \\
     \midrule
-    109 & Iota & 38 & Activo & 76 \\
+    109 & Iota & 38 & Activo & 76 & Iota & 38 & Activo & 76 \\
     \midrule
-    110 & Kappa & 51 & Inactivo & 69 \\
+    110 & Kappa & 51 & Inactivo & 69 & Kappa & 51 & Inactivo & 69 \\
     \bottomrule
   \end{tabular}
 }%
-\caption{Título descriptivo del cuadro}\label{tbl-1}
-\end{table}
+\captionof{table}{Título descriptivo del cuadro}\label{tbl-id}
+\vspace{\intextsep}
+\end{adjustwidth}
+
+La contribución de Federico Martocci se detiene en las políticas de gobierno aplica­das entre 1960 y 1973 en La Pampa para incrementar la producción lechera, recorte temporal que incluye la gestión de Ismael Amit, principal referente de la Unión Cívica Radical Intran­sigente en esa provincia, y toda la etapa de la dictadura instaurada en 1966. A partir de infor­mes técnicos, memorias de gobernadores, prensa local, notas en revistas especializadas, es­tudios de profesionales sobre temáticas agropecuarias, registros estadísticos y testimonios orales, se muestra la continuidad de ciertas líneas de acción para fomentar la actividad láctea, en un marco en el que las autoridades locales apostaron a industrializar productos obtenidos en La Pampa. Esto último se evidencia especialmente en la primera mitad de la década de 1960, pero ese continuum no solo generó un conjunto de estudios sobre el tema sino que, además, habilitó créditos para financiar pequeñas industrias lácteas, incentivó el interés por la sanidad del ganado, el mejoramiento de la genética animal y la mecanización de los tambos, robusteció los servicios veterinarios del Estado provincial y, en definitiva, posicionó a la le­chería como una alternativa interesante para los productores de algunas zonas pampeanas. Ello se puede advertir, por ejemplo, en la redefinición que experimentó la actividad láctea en términos espaciales en la pampa seca durante la etapa en estudio.
+
+Lisandro Rodríguez y Laura Zang se concentran en el estudio de las transformaciones agrarias que se produjeron en la provincia de Misiones entre 1958 y 1976. El trabajo, que abarca un período más extenso de tiempo, reconstruye los efectos de las políticas desarro­llistas y, posteriormente, de las liberales sobre los cambios en el uso de los espacios rurales. Para ello no solo indagan sobre los cambios en la producción de yerba mate, sino que tam­bién analizan el impacto de la actividad forestal en el distrito durante la década de 1970, tanto en términos económicos, sociales como medioambientales. Luego de sintetizar el devenir productivo desde fines del siglo XIX, los autores ofrecen una periodización de la actividad agroindustrial que se centra en dos momentos (1958-1962 y 1962-1976). Justamente, el pri­mero coincide con el predominio de la yerba mate y el segundo con las actividades de fores­tación. En el escrito puntualizan las políticas públicas destinadas a cada cultivo, los procesos de tecnificación, el efecto de la deforestación y el incremento de las inversiones de capital extranjero que modificaron el paisaje agrario. A partir de la integración de resoluciones ofi­ciales y fuentes cualitativas y cuantitativas, identifican las principales transformaciones agra­rias, así como las diversas tensiones que se manifestaron entre los distintos agrupamientos de la sociedad civil y el Estado misionero en un contexto caracterizado por el acelerado pro­ceso de diferenciación de la estructura social agraria y en los patrones de tenencia de la tierra.
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\linewidth]{../media/fi02-02-revistaAlgo-v01-n01.png}
+\captionof{figure}{descripción de la imagen}
+\label{fig-1}
+\label{fig-1}
+\vspace{\intextsep}
+\end{figure}
+
+El trabajo de Leandro Eduardo Moglia y Matías Javier Sosa estudia lo ocurrido en la provincia del Chaco durante la década de 1960 en cuanto a la actividad del sector agroindus­trial, con particular atención en lo que respecta a la producción de algodón, que atravesaba desde el decenio anterior una etapa de estancamiento que decantó en crisis. A partir de un nutrido corpus documental, se reconstruye el devenir del sector industrial primarizado –direc­tamente vinculado con dicho cultivo– para luego detenerse en el inicio del proceso de priva­tización de la Fábrica de Envases Textil (FANDET) y sus consecuencias. De ese modo, con el traspaso de esta última a la Unión de Cooperativas Algodoneras (UCAL), en 1961, se evidenciaba el peso de esta actividad histórica en el Chaco, por un lado, a la vez que, por otro lado, se concretaba la aspiración que la UCAL ambicionaba desde su organización en la dé­cada de 1930: cerrar el círculo de la cadena agroindustrial chaqueña, lo que en ese contexto implicó reforzar el perfil algodonero regional. La iniciativa no solo coloca en foco el accionar de este actor colectivo, también demuestra –como se advierte en el artículo– el papel del gobierno provincial ya sea en términos políticos o, incluso, financieros. El logro de este ob­jetivo, sin embargo, no pudo evitar que la UCAL se viera afectada por la profunda crisis que azotaría al sector.
+
+Darío Machuca, Sergio Omar Sapkus y Cristian Eduardo Vázquez, por su parte, re­cortan como objeto de estudio un caso poco conocido y analizan cuáles fueron las iniciativas que desplegó el gobierno provincial en Formosa durante la autodenominada “Revolución Argentina”; más específicamente, qué propusieron las autoridades de facto para abordar la “cuestión agraria”. Esta denominación, que desde luego no resultaba novedosa en el país, presentaba sin embargo algunas particularidades en el ámbito local. En ese sentido, la orga­nización productiva de la tierra jugaba un rol significativo, aunque también estaba relacionada con las características étnicas regionales y lo que se solía llamar el “latifundio estatal”. El estudio de las representaciones oficiales sobre estas últimas dos cuestiones es muy valioso para avanzar en futuras pesquisas que –sobre la base de este acercamiento– expliquen aspec­tos de las concepciones gubernamentales posteriores para hacer de la agricultura una práctica “racional” y de la tecnología un recurso básico para dar ese “salto” (que para entonces parecía abismal en Formosa). El discurso de los agentes estatales asume un rol preponderante en la justificación de las medidas socioeconómicas en esa larga década, puesto que el recorte de fuentes avala esa perspectiva, lo que constituye un mirador interesante para cotejar cómo pensaban el agro los gobernantes nacionales y, en cambio, cuáles eran las coordenadas que empleaban para ello las autoridades en un espacio situado del norte argentino.
 
 
 \begin{table}[!ht]
@@ -467,28 +489,80 @@ Juliana López Pascual incorpora una temática fundamental para la producción a
     \bottomrule
   \end{tabular}
 }%
-\caption{Título descriptivo del cuadro}\label{tbl-2}
+\caption{Título descriptivo del cuadro}\label{tbl-1}
 \end{table}
 
-La contribución de Federico Martocci se detiene en las políticas de gobierno aplica­das entre 1960 y 1973 en La Pampa para incrementar la producción lechera, recorte temporal que incluye la gestión de Ismael Amit, principal referente de la Unión Cívica Radical Intran­sigente en esa provincia, y toda la etapa de la dictadura instaurada en 1966. A partir de infor­mes técnicos, memorias de gobernadores, prensa local, notas en revistas especializadas, es­tudios de profesionales sobre temáticas agropecuarias, registros estadísticos y testimonios orales, se muestra la continuidad de ciertas líneas de acción para fomentar la actividad láctea, en un marco en el que las autoridades locales apostaron a industrializar productos obtenidos en La Pampa. Esto último se evidencia especialmente en la primera mitad de la década de 1960, pero ese continuum no solo generó un conjunto de estudios sobre el tema sino que, además, habilitó créditos para financiar pequeñas industrias lácteas, incentivó el interés por la sanidad del ganado, el mejoramiento de la genética animal y la mecanización de los tambos, robusteció los servicios veterinarios del Estado provincial y, en definitiva, posicionó a la le­chería como una alternativa interesante para los productores de algunas zonas pampeanas. Ello se puede advertir, por ejemplo, en la redefinición que experimentó la actividad láctea en términos espaciales en la pampa seca durante la etapa en estudio.
-
-Lisandro Rodríguez y Laura Zang se concentran en el estudio de las transformaciones agrarias que se produjeron en la provincia de Misiones entre 1958 y 1976. El trabajo, que abarca un período más extenso de tiempo, reconstruye los efectos de las políticas desarro­llistas y, posteriormente, de las liberales sobre los cambios en el uso de los espacios rurales. Para ello no solo indagan sobre los cambios en la producción de yerba mate, sino que tam­bién analizan el impacto de la actividad forestal en el distrito durante la década de 1970, tanto en términos económicos, sociales como medioambientales. Luego de sintetizar el devenir productivo desde fines del siglo XIX, los autores ofrecen una periodización de la actividad agroindustrial que se centra en dos momentos (1958-1962 y 1962-1976). Justamente, el pri­mero coincide con el predominio de la yerba mate y el segundo con las actividades de fores­tación. En el escrito puntualizan las políticas públicas destinadas a cada cultivo, los procesos de tecnificación, el efecto de la deforestación y el incremento de las inversiones de capital extranjero que modificaron el paisaje agrario. A partir de la integración de resoluciones ofi­ciales y fuentes cualitativas y cuantitativas, identifican las principales transformaciones agra­rias, así como las diversas tensiones que se manifestaron entre los distintos agrupamientos de la sociedad civil y el Estado misionero en un contexto caracterizado por el acelerado pro­ceso de diferenciación de la estructura social agraria y en los patrones de tenencia de la tierra.
-
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\linewidth]{../media/fi02-01-revistaAlgo-v01-n01.png}
-\captionof{figure}{descripción de la imagen}
-\label{fig-2}
-\label{fig-2}
-\vspace{\intextsep}
-\end{figure}
-
-El trabajo de Leandro Eduardo Moglia y Matías Javier Sosa estudia lo ocurrido en la provincia del Chaco durante la década de 1960 en cuanto a la actividad del sector agroindus­trial, con particular atención en lo que respecta a la producción de algodón, que atravesaba desde el decenio anterior una etapa de estancamiento que decantó en crisis. A partir de un nutrido corpus documental, se reconstruye el devenir del sector industrial primarizado –direc­tamente vinculado con dicho cultivo– para luego detenerse en el inicio del proceso de priva­tización de la Fábrica de Envases Textil (FANDET) y sus consecuencias. De ese modo, con el traspaso de esta última a la Unión de Cooperativas Algodoneras (UCAL), en 1961, se evidenciaba el peso de esta actividad histórica en el Chaco, por un lado, a la vez que, por otro lado, se concretaba la aspiración que la UCAL ambicionaba desde su organización en la dé­cada de 1930: cerrar el círculo de la cadena agroindustrial chaqueña, lo que en ese contexto implicó reforzar el perfil algodonero regional. La iniciativa no solo coloca en foco el accionar de este actor colectivo, también demuestra –como se advierte en el artículo– el papel del gobierno provincial ya sea en términos políticos o, incluso, financieros. El logro de este ob­jetivo, sin embargo, no pudo evitar que la UCAL se viera afectada por la profunda crisis que azotaría al sector.
-
-Darío Machuca, Sergio Omar Sapkus y Cristian Eduardo Vázquez, por su parte, re­cortan como objeto de estudio un caso poco conocido y analizan cuáles fueron las iniciativas que desplegó el gobierno provincial en Formosa durante la autodenominada “Revolución Argentina”; más específicamente, qué propusieron las autoridades de facto para abordar la “cuestión agraria”. Esta denominación, que desde luego no resultaba novedosa en el país, presentaba sin embargo algunas particularidades en el ámbito local. En ese sentido, la orga­nización productiva de la tierra jugaba un rol significativo, aunque también estaba relacionada con las características étnicas regionales y lo que se solía llamar el “latifundio estatal”. El estudio de las representaciones oficiales sobre estas últimas dos cuestiones es muy valioso para avanzar en futuras pesquisas que –sobre la base de este acercamiento– expliquen aspec­tos de las concepciones gubernamentales posteriores para hacer de la agricultura una práctica “racional” y de la tecnología un recurso básico para dar ese “salto” (que para entonces parecía abismal en Formosa). El discurso de los agentes estatales asume un rol preponderante en la justificación de las medidas socioeconómicas en esa larga década, puesto que el recorte de fuentes avala esa perspectiva, lo que constituye un mirador interesante para cotejar cómo pensaban el agro los gobernantes nacionales y, en cambio, cuáles eran las coordenadas que empleaban para ello las autoridades en un espacio situado del norte argentino.
-
 Finalmente, el trabajo de Mauro Cuk retoma una temática que ha merecido menos atención: las iniciativas impulsadas por la Comisión Nacional de Administración del Fondo de Apoyo al Desarrollo Económico (CAFADE), el Consejo Nacional de Desarrollo (CO­NADE) y el Instituto Nacional de Tecnología Agropecuaria (INTA) destinadas a fomentar el aumento de la producción y exportación de carne vacuna a lo largo de las décadas bajo estudio. Estas iniciativas se concretaron a través de diversos proyectos como los denomina­dos “Operación Carnes” y “Proyecto Balcarce” que, al igual que otras políticas del período analizadas en este dossier, trascendieron distintos gobiernos. En un contexto caracterizado por el mayor alineamiento con los Estados Unidos, dichos proyectos fueron financiados me­diante líneas crediticias acordadas con bancos norteamericanos y organismos multilaterales, y reforzados por convenios de asistencia técnica. Si bien lograron incorporar innovaciones y contribuyeron a la recuperación del sector ganadero en el país, también se evidenciaron ten­siones entre las políticas de corto y largo plazo, así como la persistencia de problemas estruc­turales.
+
+
+\clearpage
+\noindent\begin{minipage}[c][\textheight][c]{\dimexpr\textwidth+\marginparsep+\marginparwidth\relax}%
+\centering
+\rotatebox{90}{%
+  \begin{minipage}[c]{\linewidth}
+  \centering
+  {\sf\footnotesize\setlength\tabcolsep{4pt}%
+  \begin{tabular}{@{}llllllllllllll@{}}
+    \toprule
+    \textbf{Código} & \textbf{Producto} & \textbf{Unidades} & \textbf{Categoría} & \textbf{Precio} & \textbf{Proveedor} & \textbf{Origen} & \textbf{Stock} & \textbf{Código Alt.} & \textbf{Producto Sec.} & \textbf{Unidades Sec.} & \textbf{Categoría Sec.} & \textbf{Precio Sec.} & \textbf{Proveedor Sec.} \\
+    \midrule
+    201 & Roble & 18 & Madera & 1500 & Forestal Sur & Argentina & 35 & A-201 & Roble Premium & 12 & Madera & 1850 & Bosques Andinos \\
+    \midrule
+    202 & Mármol & 7 & Piedra & 3200 & Rocas SA & Italia & 10 & B-202 & Mármol Blanco & 5 & Piedra & 4100 & Pietra Nova \\
+    \midrule
+    203 & Cobre & 42 & Metal & 980 & Minerales SRL & Perú & 60 & C-203 & Cobre Refinado & 30 & Metal & 1250 & Andes Metal \\
+    \midrule
+    204 & Lino & 25 & Textil & 760 & Telas Unión & India & 40 & D-204 & Lino Orgánico & 18 & Textil & 990 & EcoTextiles \\
+    \midrule
+    205 & Granito & 11 & Piedra & 2100 & Canteras Sur & Brasil & 14 & E-205 & Granito Negro & 9 & Piedra & 2750 & Rocas Premium \\
+    \midrule
+    206 & Acero & 55 & Metal & 1340 & Aceros Delta & México & 80 & F-206 & Acero Laminado & 40 & Metal & 1650 & Metalúrgica Sur \\
+    \midrule
+    207 & Cedro & 13 & Madera & 1720 & Maderas Unidas & Paraguay & 22 & G-207 & Cedro Rojo & 10 & Madera & 1980 & Selva Norte \\
+    \midrule
+    208 & Seda & 31 & Textil & 890 & Hilados Global & China & 50 & H-208 & Seda Natural & 21 & Textil & 1150 & Oriente Textil \\
+    \midrule
+    209 & Aluminio & 47 & Metal & 1120 & Aluminios SRL & Canadá & 70 & I-209 & Aluminio Puro & 28 & Metal & 1400 & North Metals \\
+    \midrule
+    210 & Pizarra & 9 & Piedra & 2500 & Rocas del Sur & Chile & 11 & J-210 & Pizarra Gris & 7 & Piedra & 2950 & Andes Rocas \\
+    \midrule
+    211 & Bambú & 38 & Madera & 640 & EcoBamboo & Vietnam & 65 & K-211 & Bambú Tratado & 26 & Madera & 820 & Green Woods \\
+    \midrule
+    212 & Lana & 29 & Textil & 710 & Textiles Patria & Argentina & 33 & L-212 & Lana Merino & 19 & Textil & 960 & Andes Textiles \\
+    \midrule
+    213 & Hierro & 61 & Metal & 870 & Forjas Unidas & Brasil & 90 & M-213 & Hierro Fundido & 44 & Metal & 1180 & Acería Central \\
+    \midrule
+    214 & Travertino & 6 & Piedra & 3400 & Piedras Elite & Turquía & 8 & N-214 & Travertino Beige & 4 & Piedra & 3890 & Stone World \\
+    \midrule
+    215 & Caoba & 15 & Madera & 2230 & Tropical Woods & Honduras & 19 & O-215 & Caoba Oscura & 11 & Madera & 2640 & Selva Export \\
+    \midrule
+    201 & Roble & 18 & Madera & 1500 & Forestal Sur & Argentina & 35 & A-201 & Roble Premium & 12 & Madera & 1850 & Bosques Andinos \\
+    \midrule
+    202 & Mármol & 7 & Piedra & 3200 & Rocas SA & Italia & 10 & B-202 & Mármol Blanco & 5 & Piedra & 4100 & Pietra Nova \\
+    \midrule
+    203 & Cobre & 42 & Metal & 980 & Minerales SRL & Perú & 60 & C-203 & Cobre Refinado & 30 & Metal & 1250 & Andes Metal \\
+    \midrule
+    204 & Lino & 25 & Textil & 760 & Telas Unión & India & 40 & D-204 & Lino Orgánico & 18 & Textil & 990 & EcoTextiles \\
+    \midrule
+    205 & Granito & 11 & Piedra & 2100 & Canteras Sur & Brasil & 14 & E-205 & Granito Negro & 9 & Piedra & 2750 & Rocas Premium \\
+    \midrule
+    206 & Acero & 55 & Metal & 1340 & Aceros Delta & México & 80 & F-206 & Acero Laminado & 40 & Metal & 1650 & Metalúrgica Sur \\
+    \midrule
+    207 & Cedro & 13 & Madera & 1720 & Maderas Unidas & Paraguay & 22 & G-207 & Cedro Rojo & 10 & Madera & 1980 & Selva Norte \\
+    \midrule
+    208 & Seda & 31 & Textil & 890 & Hilados Global & China & 50 & H-208 & Seda Natural & 21 & Textil & 1150 & Oriente Textil \\
+    \midrule
+    209 & Aluminio & 47 & Metal & 1120 & Aluminios SRL & Canadá & 70 & I-209 & Aluminio Puro & 28 & Metal & 1400 & North Metals \\
+    \bottomrule
+  \end{tabular}
+  }%
+  \captionof{table}{Título descriptivo del cuadro}
+  \label{tbl-id}
+  \vspace{\intextsep}
+  \end{minipage}%
+}%
+\end{minipage}%
+\clearpage
 
 
 \section{Título para el método}

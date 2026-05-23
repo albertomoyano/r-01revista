@@ -7,8 +7,8 @@
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd"
            version="5.3.1">
    <head>
-      <doi_batch_id>gbpublisher-02-revistaAlgo-v01-n01-20260508134706</doi_batch_id>
-      <timestamp>20260508134706</timestamp>
+      <doi_batch_id>gbpublisher-02-revistaAlgo-v01-n01-20260520095818</doi_batch_id>
+      <timestamp>20260520095818</timestamp>
       <depositor>
          <depositor_name>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</depositor_name>
          <email_address>hindustria@economicas.uba.ar</email_address>
@@ -74,26 +74,48 @@
             </doi_data>
             <citation_list>
                <citation key="bib-1254-FAJARDO2025">
-                  <unstructured_citation>Fajardo, M. (2025). El mundo según América Latina. La CEPAL en la era del desarrollo. Buenos Aires: Fondo de Cultura Econó­mica.</unstructured_citation>
+                  <unstructured_citation>Fajardo, M. (
+      2025
+     ). El mundo según América Latina. La CEPAL en la era del desarrollo. Buenos Aires: Fondo de Cultura Econó­mica.</unstructured_citation>
                </citation>
                <citation key="bib-1255-MASON2023">
-                  <unstructured_citation>Mason, C.; Rougier, M. (Eds.) (2023). A las palabras se las lleva el viento; lo escrito queda. Las revistas en los orígenes de la profesionalización del campo de la economía (1956-1966). Buenos Aires: Ediciones Imago Mundi.</unstructured_citation>
+                  <unstructured_citation>Mason, C.; Rougier, M. (Eds.) (
+      2023
+     ). A las palabras se las lleva el viento; lo escrito queda. Las revistas en los orígenes de la profesionalización del campo de la economía (1956-1966). Buenos Aires: Ediciones Imago Mundi.</unstructured_citation>
                </citation>
                <citation key="bib-1251-AZCUYAMEGHINO2024">
-                  <unstructured_citation>Azcuy Ameghino, E. (2024). La cuestión agraria argentina en el siglo XXI. Buenos Aires: Ediciones Imago Mundi.</unstructured_citation>
+                  <unstructured_citation>Azcuy Ameghino, E. (
+      2024
+     ). La cuestión agraria argentina en el siglo XXI. Buenos Aires: Ediciones Imago Mundi.</unstructured_citation>
                </citation>
                <citation key="bib-1256-BARSKY2001">
-                  <unstructured_citation>Barsky, O. y Gelman, J. (2001). Historia del agro argentino. Desde la Conquista hasta fines del siglo XX. Grijalbo and Mondadori.</unstructured_citation>
+                  <unstructured_citation>Barsky, O. y Gelman, J. (
+      2001
+     ). Historia del agro argentino. Desde la Conquista hasta fines del siglo XX. Grijalbo and Mondadori.</unstructured_citation>
                </citation>
                <citation key="bib-1249-LAZZARO2004">
-                  <unstructured_citation>Lázzaro, S. (2004). El campo diverso. Enfoques y perspectivas de la Argentina agraria del siglo XX. Buenos Aires: Universidad Nacional de Quilmes.</unstructured_citation>
+                  <unstructured_citation>Lázzaro, S. (
+      2004
+     ). La política agraria de la autodenominada Revolución argentina. En El campo diverso. Enfoques y perspectivas de la Argentina agraria del siglo XX (pp. 
+      311
+     -
+      341
+     ). Buenos Aires: Universidad Nacional de Quilmes.</unstructured_citation>
                </citation>
                <citation key="bib-1250-LAZZARO2012">
                   <doi>10.18234/secuencia.v0i84.1171</doi>
-                  <unstructured_citation>Lázzaro, S. (2013). El desarrollismo y el problema agrario durante las décadas de 1950 y 1960. Secuencia. Revista de historia y ciencias sociales, (84). https://doi.org/10.18234/secuencia.v0i84.1171.</unstructured_citation>
+                  <unstructured_citation>Lázzaro, S. (
+      2013
+     ). El desarrollismo y el problema agrario durante las décadas de 1950 y 1960. Secuencia. Revista de historia y ciencias sociales, (
+      84
+     ). https://doi.org/
+      10.18234/secuencia.v0i84.1171
+     .</unstructured_citation>
                </citation>
                <citation key="bib-1257-ASCOLANI2015">
-                  <unstructured_citation> (2015). Agro y política en Argentina. Buenos Aires: CICCUS.</unstructured_citation>
+                  <unstructured_citation> (
+      2015
+     ). Desarrollismo, reforma agraria y contrarrevolución, 1955-1976. En Agro y política en Argentina. Buenos Aires: CICCUS.</unstructured_citation>
                </citation>
             </citation_list>
          </journal_article>

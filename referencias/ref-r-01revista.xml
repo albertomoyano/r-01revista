@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ref-list>
   <ref id="1249-LAZZARO2004">
-    <element-citation publication-type="book">
+    <element-citation publication-type="book-chapter">
       <person-group person-group-type="author">
         <name>
           <surname>Lázzaro</surname>
@@ -112,8 +112,8 @@
     </element-citation>
   </ref>
   <ref id="1257-ASCOLANI2015">
-    <element-citation publication-type="book">
-      <person-group person-group-type="compiler">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
         <name>
           <surname>Ascolani</surname>
           <given-names>A.</given-names>

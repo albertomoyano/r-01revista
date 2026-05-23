@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article
-  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "JATS-journalpublishing1.dtd">
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.4 20151215//EN" "JATS-archivearticle1.dtd">
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:xlink="http://www.w3.org/1999/xlink"
-         dtd-version="1.0"
-         specific-use="sps-1.9"
+         dtd-version="1.4"
          article-type="research-article"
          xml:lang="es">
    <front>
@@ -12,12 +11,10 @@
          <journal-id journal-id-type="publisher-id">
     1851-703X
    </journal-id>
-         <journal-id journal-id-type="nlm-ta">hind</journal-id>
          <journal-title-group>
             <journal-title>
      H-industria
     </journal-title>
-            <abbrev-journal-title abbrev-type="publisher">hind</abbrev-journal-title>
          </journal-title-group>
          <issn pub-type="epub">
     1851-703X
@@ -32,9 +29,11 @@
          </publisher>
       </journal-meta>
       <article-meta>
-         <article-id pub-id-type="publisher-id">1851-703X-hind-01-01-00023</article-id>
          <article-id pub-id-type="doi">
     10.56503/H-Industria/n.37(19)/3473
+   </article-id>
+         <article-id pub-id-type="pmid">
+    pm-id
    </article-id>
          <article-categories>
             <subj-group subj-group-type="heading">
@@ -55,7 +54,6 @@
          </title-group>
          <contrib-group>
             <contrib contrib-type="author" id="a5">
-               <contrib-id contrib-id-type="orcid">https://orcid.org/0009-0002-5273-5191</contrib-id>
                <name>
                   <surname>
        Rougier
@@ -64,20 +62,24 @@
        Marcelo
       </given-names>
                </name>
+               <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0002-5273-5191</contrib-id>
                <aff>
-                  <institution content-type="orgname">Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
-                  <country>Argentina</country>
+                  <institution>
+       Consejo Nacional de Investigaciones Científicas y Técnicas
+      </institution>
                </aff>
             </contrib>
          </contrib-group>
-         <pub-date date-type="collection" publication-format="electronic">
-            <month>02</month>
-            <year>2026</year>
-         </pub-date>
-         <pub-date date-type="pub" publication-format="electronic">
-            <day>25</day>
-            <month>02</month>
-            <year>2026</year>
+         <pub-date pub-type="epub-ppub">
+            <year>
+     2026
+    </year>
+            <month>
+     02
+    </month>
+            <day>
+     18
+    </day>
          </pub-date>
          <volume>
     01
@@ -93,19 +95,37 @@
    </lpage>
          <history>
             <date date-type="received">
-               <day>05</day>
-               <month>01</month>
-               <year>2026</year>
+               <day>
+      05
+     </day>
+               <month>
+      01
+     </month>
+               <year>
+      2026
+     </year>
             </date>
             <date date-type="accepted">
-               <day>19</day>
-               <month>01</month>
-               <year>2026</year>
+               <day>
+      19
+     </day>
+               <month>
+      01
+     </month>
+               <year>
+      2026
+     </year>
             </date>
             <date date-type="pub">
-               <day>25</day>
-               <month>02</month>
-               <year>2026</year>
+               <day>
+      25
+     </day>
+               <month>
+      02
+     </month>
+               <year>
+      2026
+     </year>
             </date>
          </history>
          <permissions>
@@ -113,15 +133,13 @@
      2026
     </copyright-year>
             <license license-type="open-access"
-                     xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                     xml:lang="es">
+                     xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                <license-p>
       CC BY-NC-SA 4.0
      </license-p>
             </license>
          </permissions>
-         <self-uri xlink:href="url-articulo"/>
-         <abstract>
+         <abstract xml:lang="es">
             <p>
      El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.
     </p>
@@ -196,6 +214,9 @@
      Argentina
     </kwd>
          </kwd-group>
+   
+         
+   
       </article-meta>
    </front>
    <body>
@@ -221,7 +242,9 @@
          </disp-quote>
          <fig id="fig-1">
             <caption>
-               <title>descripción de la imagen</title>
+               <p>
+      descripción de la imagen
+     </p>
             </caption>
             <graphic mimetype="image" mime-subtype="png" xlink:href="media/imagen3.png">
     </graphic>
@@ -254,12 +277,12 @@
     </xref>
     . Si hasta entonces los debates agra­rios se habían centrado en la distribución de la tierra, desde la década de 1950 comenzó a predominar la preocupación por superar el denominado “estancamiento agropecuario del espacio pampeano” y otros problemas que afectaban las producciones regionales. Según al­gunas teorías en boga, la solución ya no residía en una reforma agraria basada en el reparto de parcelas, sino en el incremento de la inversión de capital por hectárea y la incorporación de tecnología. Las discusiones sobre cómo aumentar la producción y la productividad resul­taron especialmente sensibles en un país que tenía una perentoria necesidad de incrementar sus reservas en moneda extranjera.
    </p>
-         <preformat preformat-type="code" specific-use="python">
+         <code language="python">
     def factorial(n):
       if n &lt;= 1:
           return 1
       return n * factorial(n-1)
-   </preformat>
+   </code>
          <boxed-text content-type="warning">
             <p>
                <bold>
@@ -426,7 +449,9 @@
    </p>
          <table-wrap id="tbl-1">
             <caption>
-               <title>Título descriptivo del cuadro</title>
+               <p>
+      Título descriptivo del cuadro
+     </p>
             </caption>
             <table>
                <thead>
@@ -624,7 +649,9 @@
          </table-wrap>
          <table-wrap id="tbl-2">
             <caption>
-               <title>Título descriptivo del cuadro</title>
+               <p>
+      Título descriptivo del cuadro
+     </p>
             </caption>
             <table>
                <thead>
@@ -743,7 +770,9 @@
    </p>
          <fig id="fig-2">
             <caption>
-               <title>descripción de la imagen</title>
+               <p>
+      descripción de la imagen
+     </p>
             </caption>
             <graphic mimetype="image"
                      mime-subtype="png"
@@ -805,7 +834,6 @@
    <back>
       <ref-list>
          <ref id="bib-1254-FAJARDO2025">
-            <mixed-citation publication-type="book">Fajardo, M. (2025). <italic>El mundo según América Latina. La CEPAL en la era del desarrollo</italic>. Buenos Aires: Fondo de Cultura Econó­mica.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
                   <name>
@@ -826,11 +854,12 @@
                <publisher-loc>
       Buenos Aires
      </publisher-loc>
-               <year>2025</year>
+               <year>
+      2025
+     </year>
             </element-citation>
          </ref>
          <ref id="bib-1255-MASON2023">
-            <mixed-citation publication-type="book">Mason, C.; Rougier, M. (Eds.) (2023). <italic>A las palabras se las lleva el viento; lo escrito queda. Las revistas en los orígenes de la profesionalización del campo de la economía (1956-1966)</italic>. Buenos Aires: Ediciones Imago Mundi.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="editor">
                   <name>
@@ -859,11 +888,12 @@
                <publisher-loc>
       Buenos Aires
      </publisher-loc>
-               <year>2023</year>
+               <year>
+      2023
+     </year>
             </element-citation>
          </ref>
          <ref id="bib-1251-AZCUYAMEGHINO2024">
-            <mixed-citation publication-type="book">Azcuy Ameghino, E. (2024). <italic>La cuestión agraria argentina en el siglo XXI</italic>. Buenos Aires: Ediciones Imago Mundi.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
                   <name>
@@ -884,11 +914,12 @@
                <publisher-loc>
       Buenos Aires
      </publisher-loc>
-               <year>2024</year>
+               <year>
+      2024
+     </year>
             </element-citation>
          </ref>
          <ref id="bib-1256-BARSKY2001">
-            <mixed-citation publication-type="book">Barsky, O. y Gelman, J. (2001). <italic>Historia del agro argentino. Desde la Conquista hasta fines del siglo XX</italic>. Grijalbo and Mondadori.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
                   <name>
@@ -932,12 +963,13 @@
                <publisher-name>
       Grijalbo and Mondadori
      </publisher-name>
-               <year>2001</year>
+               <year>
+      2001
+     </year>
             </element-citation>
          </ref>
          <ref id="bib-1249-LAZZARO2004">
-            <mixed-citation publication-type="book">Lázzaro, S. (2004). La política agraria de la autodenominada Revolución argentina. En Galafassi, G. (Ed.), <italic>El campo diverso. Enfoques y perspectivas de la Argentina agraria del siglo XX</italic> (pp. 311-341). Buenos Aires: Universidad Nacional de Quilmes.</mixed-citation>
-            <element-citation publication-type="book">
+            <element-citation publication-type="book-chapter">
                <person-group person-group-type="author">
                   <name>
                      <surname>
@@ -970,7 +1002,9 @@
                <publisher-loc>
       Buenos Aires
      </publisher-loc>
-               <year>2004</year>
+               <year>
+      2004
+     </year>
                <fpage>
       311
      </fpage>
@@ -980,7 +1014,6 @@
             </element-citation>
          </ref>
          <ref id="bib-1250-LAZZARO2012">
-            <mixed-citation publication-type="journal">Lázzaro, S. (2013). El desarrollismo y el problema agrario durante las décadas de 1950 y 1960. <italic>Secuencia. Revista de historia y ciencias sociales</italic>, (84). https://doi.org/10.18234/secuencia.v0i84.1171.</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
                   <name>
@@ -998,7 +1031,9 @@
                <source>
       Secuencia. Revista de historia y ciencias sociales
      </source>
-               <year>2013</year>
+               <year>
+      2013
+     </year>
                <issue>
       84
      </issue>
@@ -1008,8 +1043,7 @@
             </element-citation>
          </ref>
          <ref id="bib-1257-ASCOLANI2015">
-            <mixed-citation publication-type="book">Ascolani, A.; Gutiérrez, T. (Eds.) (2015). Desarrollismo, reforma agraria y contrarrevolución, 1955-1976. En Ascolani, A.; Gutiérrez, T. (Eds.), <italic>Agro y política en Argentina</italic>. Buenos Aires: CICCUS.</mixed-citation>
-            <element-citation publication-type="book">
+            <element-citation publication-type="book-chapter">
                <person-group person-group-type="compiler">
                   <name>
                      <surname>
@@ -1040,7 +1074,9 @@
                <publisher-loc>
       Buenos Aires
      </publisher-loc>
-               <year>2015</year>
+               <year>
+      2015
+     </year>
                <volume>
       3
      </volume>
