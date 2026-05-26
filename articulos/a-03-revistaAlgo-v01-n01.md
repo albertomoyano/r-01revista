@@ -1,10 +1,4 @@
-H-industria. 19 (36), 2025, enero-junio, pp. 125-139. ISSN 1851-703X
-
-doi.org/10.56503/H-Industria/n.36(19)/3276
-
-Creative Commons Attribution-NonCommercial- ShareAlike 4.0... | Download Scientific DiagramLicencia Creative Commons Atribución/Reconocimiento-NoComercial 4.0 Internacional
-
-Política petrolera del gobierno del presidente Luis Herrera Campins, Venezuela (1979-1983)
+## Política petrolera del gobierno del presidente Luis Herrera Campins, Venezuela (1979-1983)
 
 Oil policy of the government of President Luis Herrera Campins, Venezuela (1979-1983)
 

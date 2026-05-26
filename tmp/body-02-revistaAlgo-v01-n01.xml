@@ -9,7 +9,7 @@
   <disp-quote>
     <p>A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.</p>
   </disp-quote>
-  <fig id="fig-resultados" specific-use="fullwidth">
+  <fig id="fig-ancha" specific-use="fullwidth">
     <caption><p>descripción de la imagen</p></caption>
     <graphic mimetype="image" mime-subtype="png" xlink:href="media/imagen3.png"/>
   </fig>
@@ -95,7 +95,7 @@
     <caption>
       <p>Título descriptivo del cuadro</p>
     </caption>
-    <table id="fw-tbl-id">
+    <table id="fw-tbl-ancho">
       <colgroup>
         <col width="6%" />
         <col width="12%" />
@@ -300,7 +300,7 @@
     <caption>
       <p>Título descriptivo del cuadro</p>
     </caption>
-    <table id="rot-tbl-id">
+    <table id="rot-tbl-rotado">
       <colgroup>
         <col width="4%" />
         <col width="7%" />

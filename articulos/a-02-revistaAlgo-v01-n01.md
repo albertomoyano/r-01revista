@@ -10,7 +10,7 @@ Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos 
 
 > A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corpo­raciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.
 
-::: {.fig #fig-resultados .fullwidth}
+::: {.fig #fig-ancha .fullwidth}
 ![descripción de la imagen](media/imagen3.png)
 :::
 
@@ -89,7 +89,7 @@ El trabajo de Pablo Volkind y Jorge Domínguez indaga sobre las políticas agrop
 Juliana López Pascual incorpora una temática fundamental para la producción agro­pecuaria: las políticas legislativas de la provincia de Buenos Aires orientadas a regular y ra­cionalizar los recursos naturales –en particular las tierras irrigables– en el sudoeste bonae­rense entre fines de la década de 1950 y la siguiente. Enfocada en la indagación sobre un espacio y una problemática escasamente explorada, la autora analiza las iniciativas legislativas que buscaron promover la diversificación productiva, el uso intensivo del suelo, la mecani­zación de las tareas agrarias y la radicación de población. Al mismo tiempo, en este artículo también se reconstruye la dinámica política y social que generaron dichas medidas y se pun­tualiza en los conflictos de intereses que se desplegaron entre organizaciones empresariales, de productores y las cooperativas. Demuestra como en un clima marcado por una fuerte conflictividad, se consolidaron entes asociativos como el Consorcio Financiero del Sur y, posteriormente, la Corporación de Fomento del Valle Bonaerense del Río Colorado, que desempeñaron un papel protagónico en las disputas por la tenencia de las tierras irrigables y en los debates sobre el aprovechamiento del río Colorado para impulsar una agroindustria azucarera.
 
 
-::: {.table #tbl-id .fullwidth}
+::: {.table #tbl-ancho .fullwidth}
 : Título descriptivo del cuadro
 
 | ID  | Nombre    | Cantidad | Estado     | Puntaje | Nombre    | Cantidad | Estado     | Puntaje |
@@ -110,7 +110,7 @@ La contribución de Federico Martocci se detiene en las políticas de gobierno a
 
 Lisandro Rodríguez y Laura Zang se concentran en el estudio de las transformaciones agrarias que se produjeron en la provincia de Misiones entre 1958 y 1976. El trabajo, que abarca un período más extenso de tiempo, reconstruye los efectos de las políticas desarro­llistas y, posteriormente, de las liberales sobre los cambios en el uso de los espacios rurales. Para ello no solo indagan sobre los cambios en la producción de yerba mate, sino que tam­bién analizan el impacto de la actividad forestal en el distrito durante la década de 1970, tanto en términos económicos, sociales como medioambientales. Luego de sintetizar el devenir productivo desde fines del siglo XIX, los autores ofrecen una periodización de la actividad agroindustrial que se centra en dos momentos (1958-1962 y 1962-1976). Justamente, el pri­mero coincide con el predominio de la yerba mate y el segundo con las actividades de fores­tación. En el escrito puntualizan las políticas públicas destinadas a cada cultivo, los procesos de tecnificación, el efecto de la deforestación y el incremento de las inversiones de capital extranjero que modificaron el paisaje agrario. A partir de la integración de resoluciones ofi­ciales y fuentes cualitativas y cuantitativas, identifican las principales transformaciones agra­rias, así como las diversas tensiones que se manifestaron entre los distintos agrupamientos de la sociedad civil y el Estado misionero en un contexto caracterizado por el acelerado pro­ceso de diferenciación de la estructura social agraria y en los patrones de tenencia de la tierra.
 
-::: {.fig #fig-id-valor}
+::: {.fig #fig-normal}
 ![descripción de la imagen](media/fi02-02-revistaAlgo-v01-n01.png)
 :::
 
@@ -118,7 +118,7 @@ El trabajo de Leandro Eduardo Moglia y Matías Javier Sosa estudia lo ocurrido e
 
 Darío Machuca, Sergio Omar Sapkus y Cristian Eduardo Vázquez, por su parte, re­cortan como objeto de estudio un caso poco conocido y analizan cuáles fueron las iniciativas que desplegó el gobierno provincial en Formosa durante la autodenominada "Revolución Argentina"; más específicamente, qué propusieron las autoridades de facto para abordar la "cuestión agraria". Esta denominación, que desde luego no resultaba novedosa en el país, presentaba sin embargo algunas particularidades en el ámbito local. En ese sentido, la orga­nización productiva de la tierra jugaba un rol significativo, aunque también estaba relacionada con las características étnicas regionales y lo que se solía llamar el "latifundio estatal". El estudio de las representaciones oficiales sobre estas últimas dos cuestiones es muy valioso para avanzar en futuras pesquisas que –sobre la base de este acercamiento– expliquen aspec­tos de las concepciones gubernamentales posteriores para hacer de la agricultura una práctica "racional" y de la tecnología un recurso básico para dar ese "salto" (que para entonces parecía abismal en Formosa). El discurso de los agentes estatales asume un rol preponderante en la justificación de las medidas socioeconómicas en esa larga década, puesto que el recorte de fuentes avala esa perspectiva, lo que constituye un mirador interesante para cotejar cómo pensaban el agro los gobernantes nacionales y, en cambio, cuáles eran las coordenadas que empleaban para ello las autoridades en un espacio situado del norte argentino.
 
-::: {.table #tbl-id}
+::: {.table #tbl-normal}
 : Título descriptivo del cuadro
 
 | Código | Producto   | Unidades | Categoría   | Precio |
@@ -132,7 +132,7 @@ Darío Machuca, Sergio Omar Sapkus y Cristian Eduardo Vázquez, por su parte, re
 
 Finalmente, el trabajo de Mauro Cuk retoma una temática que ha merecido menos atención: las iniciativas impulsadas por la Comisión Nacional de Administración del Fondo de Apoyo al Desarrollo Económico (CAFADE), el Consejo Nacional de Desarrollo (CO­NADE) y el Instituto Nacional de Tecnología Agropecuaria (INTA) destinadas a fomentar el aumento de la producción y exportación de carne vacuna a lo largo de las décadas bajo estudio. Estas iniciativas se concretaron a través de diversos proyectos como los denomina­dos "Operación Carnes" y "Proyecto Balcarce" que, al igual que otras políticas del período analizadas en este dossier, trascendieron distintos gobiernos. En un contexto caracterizado por el mayor alineamiento con los Estados Unidos, dichos proyectos fueron financiados me­diante líneas crediticias acordadas con bancos norteamericanos y organismos multilaterales, y reforzados por convenios de asistencia técnica. Si bien lograron incorporar innovaciones y contribuyeron a la recuperación del sector ganadero en el país, también se evidenciaron ten­siones entre las políticas de corto y largo plazo, así como la persistencia de problemas estruc­turales.
 
-::: {.table #tbl-id .rotate}
+::: {.table #tbl-rotado .rotate}
 : Título descriptivo del cuadro
 
 | Código | Producto   | Unidades | Categoría | Precio | Proveedor       | Origen    | Stock | Código Alt. | Producto Sec.    | Unidades Sec. | Categoría Sec. | Precio Sec. | Proveedor Sec.  |
