@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ARCHIVO GENERADO AUTOMÁTICAMENTE POR GBPUBLISHER -->
+<!-- Validar contra: ~/.gbpublisher/schemas/doajArticles.xsd -->
+<records>
+   <record>
+      <language>spa</language>
+      <publisher>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</publisher>
+      <journalTitle>H-industria</journalTitle>
+      <eissn>1851-703X</eissn>
+      <publicationDate>2026-02-18</publicationDate>
+      <volume>01</volume>
+      <issue>01</issue>
+      <startPage>23</startPage>
+      <endPage>43</endPage>
+      <doi>10.56503/H-Industria/n.37(19)/3473</doi>
+      <documentType>article</documentType>
+      <title language="spa">El desarrollo agropecuario argentino en la segunda posguerra</title>
+      <authors>
+         <author>
+            <name>Rougier, Marcelo</name>
+            <affiliationId>1</affiliationId>
+            <orcid_id>https://orcid.org/0009-0002-5273-5191</orcid_id>
+         </author>
+      </authors>
+      <affiliationsList>
+         <affiliationName affiliationId="1">Consejo Nacional de Investigaciones Científicas y Técnicas</affiliationName>
+      </affiliationsList>
+      <abstract language="spa">El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.</abstract>
+      <fullTextUrl format="text/html">url-html</fullTextUrl>
+      <keywords language="spa">
+         <keyword>Desarrollo agropecuario</keyword>
+         <keyword>Industrialización</keyword>
+         <keyword>Políticas públicas</keyword>
+         <keyword>Agroindustria</keyword>
+         <keyword>Tecnología agraria</keyword>
+         <keyword>Argentina</keyword>
+      </keywords>
+   </record>
+</records>

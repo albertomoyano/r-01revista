@@ -39,7 +39,6 @@
 <item id="front-matter-fm-01-comite" href="front-matter/fm-01-comite.xhtml" media-type="application/xhtml+xml"/>
 <item id="front-matter-fm-02-carta-editor" href="front-matter/fm-02-carta-editor.xhtml" media-type="application/xhtml+xml"/>
 <item id="front-matter-fm-03-toc" href="front-matter/fm-03-toc.xhtml" media-type="application/xhtml+xml"/>
-<item id="articles-h-01-revistaAlgo-v01-n01" href="articles/h-01-revistaAlgo-v01-n01.xhtml" media-type="application/xhtml+xml"/>
 <item id="articles-h-02-revistaAlgo-v01-n01" href="articles/h-02-revistaAlgo-v01-n01.xhtml" media-type="application/xhtml+xml"/>
 <item id="back-matter-bm-00-indice-autores" href="back-matter/bm-00-indice-autores.xhtml" media-type="application/xhtml+xml"/>
 <item id="back-matter-bm-01-info-revista" href="back-matter/bm-01-info-revista.xhtml" media-type="application/xhtml+xml"/>
@@ -53,7 +52,6 @@
 <itemref idref="front-matter-fm-01-comite"/>
 <itemref idref="front-matter-fm-02-carta-editor"/>
 <itemref idref="front-matter-fm-03-toc"/>
-<itemref idref="articles-h-01-revistaAlgo-v01-n01"/>
 <itemref idref="articles-h-02-revistaAlgo-v01-n01"/>
 <itemref idref="back-matter-bm-00-indice-autores"/>
 <itemref idref="back-matter-bm-01-info-revista"/>
