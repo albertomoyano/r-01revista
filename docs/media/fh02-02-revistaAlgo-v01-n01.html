@@ -42,12 +42,12 @@ Chart.defaults.responsive = false;
 const ctx = document.getElementById('gbChart');
 new Chart(ctx, {
   type: 'line',
-  data: { labels: ["hola","mundo"], datasets: [{"label":"serie A","data":[35,79],"backgroundColor":"#1b9e77","borderColor":"#1b9e77","borderWidth":1},{"label":"serie B","data":[40,60],"backgroundColor":"#d95f02","borderColor":"#d95f02","borderWidth":1},{"label":"serie C","data":[99,35],"backgroundColor":"#7570b3","borderColor":"#7570b3","borderWidth":1}] },
+  data: { labels: ["hola","mundo","chau","mundo"], datasets: [{"label":"serie A","data":[35,79,66,35],"backgroundColor":"#1b9e77","borderColor":"#1b9e77","borderWidth":1},{"label":"serie B","data":[55,60,44,55],"backgroundColor":"#d95f02","borderColor":"#d95f02","borderWidth":1},{"label":"serie C","data":[88,44,77,66],"backgroundColor":"#7570b3","borderColor":"#7570b3","borderWidth":1}] },
   options: {
     
     responsive: true,
     plugins: {
-      legend: { display: false },
+      legend: { display: true },
       tooltip: { enabled: true }
     }
   }

@@ -1,12 +1,12 @@
 PAQUETE SCIELO — construido con gbpublisher
 ============================================================
-Generado: 2026-05-31 02:17:16
+Generado: 2026-05-26 18:22:31
 
 DATOS DEL ARTÍCULO
 ------------------------------------------------------------
-Título:    El desarrollo agropecuario argentino en la segunda posguerra
-Autor(es): Rougier, Marcelo
-Archivo:   02-revistaAlgo-v01-n01
+Título:    Editorial puesto desde los metadatos
+Autor(es): Mason, Camilo; Gil, Luciana Victoria
+Archivo:   01-revistaAlgo-v01-n01
 
 DATOS DE LA REVISTA
 ------------------------------------------------------------
@@ -16,14 +16,12 @@ URL canónica:    url-articulo
 
 NOMENCLATURA SCIELO
 ------------------------------------------------------------
-PID: 1851-703X-hind-01-01-00023
+PID: 1851-703X-hind-01-01-00001
 
 CONTENIDO DEL ZIP
 ------------------------------------------------------------
-  1851-703X-hind-01-01-00023.xml — XML SciELO PS 1.9
-  1851-703X-hind-01-01-00023.pdf — PDF final
-  1851-703X-hind-01-01-00023-gf01.png — Imagen 1
-  1851-703X-hind-01-01-00023-gf02.png — Imagen 2
+  1851-703X-hind-01-01-00001.xml — XML SciELO PS 1.9
+  1851-703X-hind-01-01-00001.pdf — PDF final
 
 VALIDACIÓN PACKTOOLS STYLECHECKER
 ------------------------------------------------------------
@@ -33,6 +31,7 @@ VALIDACIÓN PACKTOOLS STYLECHECKER
 
 OBSERVACIONES
 ------------------------------------------------------------
+  ADVERTENCIA: El artículo no tiene imágenes referenciadas.
   Sin observaciones — el paquete está listo para enviar a SciELO.
 
 PRÓXIMOS PASOS
