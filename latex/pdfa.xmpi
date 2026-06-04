@@ -63,11 +63,11 @@
   <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> 
    <dc:format>application/pdf</dc:format> 
    <dc:title><rdf:Alt><rdf:li xml:lang="x-default">El desarrollo agropecuario argentino en la segunda posguerra</rdf:li></rdf:Alt></dc:title>
-   <dc:creator><rdf:Seq><rdf:li>Rougier, Marcelo</rdf:li></rdf:Seq></dc:creator>
+   <dc:creator><rdf:Seq><rdf:li> Rougier , Marcelo </rdf:li></rdf:Seq></dc:creator>
    <dc:publisher><rdf:Bag><rdf:li>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</rdf:li></rdf:Bag></dc:publisher>
    <dc:language><rdf:Bag><rdf:li>es</rdf:li></rdf:Bag></dc:language>
    <dc:description><rdf:Alt><rdf:li xml:lang="x-default">El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.</rdf:li></rdf:Alt></dc:description>
-   <dc:subject><rdf:Bag><rdf:li>Desarrollo agropecuario, Industrialización, Políticas públicas, Agroindustria, Tecnología agraria, Argentina, Agricultural development, Industrialization, Public policy, Agribusiness, Agricultural technology, Argentina, Desenvolvimento agropecuário, Industrialização, Políticas públicas, Agroindústria, Tecnologia agrícola, Argentina</rdf:li></rdf:Bag></dc:subject>
+   <dc:subject><rdf:Bag><rdf:li> Desarrollo agropecuario , Industrialización , Políticas públicas , Agroindustria , Tecnología agraria , Argentina , Agricultural development , Industrialization , Public policy , Agribusiness , Agricultural technology , Argentina , Desenvolvimento agropecuário , Industrialização , Políticas públicas , Agroindústria , Tecnologia agrícola , Argentina </rdf:li></rdf:Bag></dc:subject>
    <dc:date><rdf:Seq><rdf:li>2026</rdf:li></rdf:Seq></dc:date>
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/"> 
@@ -80,15 +80,15 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
    <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool> 
-   <xmp:ModifyDate>2026-05-26T11:37:22-03:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2026-05-26T11:37:22-03:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2026-05-26T11:37:22-03:00</xmp:MetadataDate> 
+   <xmp:ModifyDate>2026-06-04T18:45:48-03:00</xmp:ModifyDate> 
+   <xmp:CreateDate>2026-06-04T18:45:48-03:00</xmp:CreateDate> 
+   <xmp:MetadataDate>2026-06-04T18:45:48-03:00</xmp:MetadataDate> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
    <xmpMM:DocumentID>uuid:9574ECAE-F711-21E8-01BC-92EC521D3748</xmpMM:DocumentID> 
-   <xmpMM:InstanceID>uuid:9F119229-2BE8-DA0B-1FD2-13CCCF49BA44</xmpMM:InstanceID> 
+   <xmpMM:InstanceID>uuid:1A2A717B-B8DC-ED10-EA23-D1EDD6467181</xmpMM:InstanceID> 
   </rdf:Description> 
  </rdf:RDF> 
 </x:xmpmeta> 
