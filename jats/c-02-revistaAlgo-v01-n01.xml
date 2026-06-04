@@ -117,8 +117,8 @@
       </article-meta>
    </front>
    <body>
-      <sec sec-type="intro" id="intro-1">
-         <title>El desarrollo agropecuario argentino en la segunda posguerra: debates, políticas y agroindustria</title>
+      <sec id="sec-1">
+         <title>Introducción</title>
          <disp-quote specific-use="epigraph">
             <p>Contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.</p>
             <attrib>Francis Bacon</attrib>
@@ -854,7 +854,7 @@
             </table>
          </table-wrap>
       </sec>
-      <sec sec-type="methods" id="methods-2">
+      <sec id="sec-2">
          <title>Título para el método</title>
          <p>Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos de des­colonización en Asia y África, los movimientos de liberación nacional y las revoluciones so­cialistas, surgieron diversas teorías y debates en torno a las vías de desarrollo que debían seguir los países considerados “atrasados” para alcanzar los estándares económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.<fn>
                <p>Los programas de transferencias condicionadas de ingresos (CCT)
@@ -865,15 +865,15 @@
             </fn>
          </p>
       </sec>
-      <sec sec-type="results" id="results-3">
+      <sec id="sec-3">
          <title>Título para el resultado</title>
          <p>Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos de des­colonización en Asia y África, los movimientos de liberación nacional y las revoluciones so­cialistas, surgieron diversas teorías y debates en torno a las vías de desarrollo que debían seguir los países considerados “atrasados” para alcanzar los estándares económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.</p>
       </sec>
-      <sec sec-type="discussion" id="discussion-4">
+      <sec id="sec-4">
          <title>Título para la discusión</title>
          <p>Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos de des­colonización en Asia y África, los movimientos de liberación nacional y las revoluciones so­cialistas, surgieron diversas teorías y debates en torno a las vías de desarrollo que debían seguir los países considerados “atrasados” para alcanzar los estándares económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.</p>
       </sec>
-      <sec sec-type="conclusions" id="conclusions-5">
+      <sec id="sec-5">
          <title>Título para la conclusión</title>
          <p>Finalizada la Segunda Guerra Mundial, en una coyuntura marcada por los procesos de des­colonización en Asia y África, los movimientos de liberación nacional y las revoluciones so­cialistas, surgieron diversas teorías y debates en torno a las vías de desarrollo que debían seguir los países considerados “atrasados” para alcanzar los estándares económico-sociales de las potencias. Paralelamente, el temor de las clases dominantes ante el avance del comu­nismo y las transformaciones sociales que se evidenciaban en la región se tradujo en una serie de iniciativas destinadas a contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.</p>
       </sec>

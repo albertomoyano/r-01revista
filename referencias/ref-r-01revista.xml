@@ -131,4 +131,58 @@
       <volume>3</volume>
     </element-citation>
   </ref>
+  <ref id="2555-ALLEMANDI2017">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Allemandi</surname>
+          <given-names>Cecilia</given-names>
+        </name>
+      </person-group>
+      <source>Sirvientes, criados y nodrizas: una historia del servicio doméstico en la ciudad de Buenos Aires (fines del siglo XIX y principios del XX)</source>
+      <publisher-name>Teseo and Universidad de San Andrés</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2017</year>
+    </element-citation>
+  </ref>
+  <ref id="2556-AMELANG2006">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Amelang</surname>
+          <given-names>James</given-names>
+        </name>
+      </person-group>
+      <article-title>La autobiografía moderna entre la historia y la literatura</article-title>
+      <source>Chronica Nova. Revista de Historia Moderna de la Universidad de Granada</source>
+      <year>2006</year>
+      <issue>32</issue>
+      <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10481/22709">http://hdl.handle.net/10481/22709</ext-link>
+    </element-citation>
+  </ref>
+  <ref id="2557-PEREZ2020">
+    <element-citation publication-type="confproc">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pérez</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <source>Nuevas perspectivas en la edición académica digital</source>
+      <year>2020</year>
+    </element-citation>
+  </ref>
+  <ref id="2558-GONZALEZ2019">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>González</surname>
+          <given-names>Roberto</given-names>
+        </name>
+      </person-group>
+      <source>El impacto de las revistas de acceso abierto en América Latina</source>
+      <year>2019</year>
+      <institution>Universidad de Buenos Aires</institution>
+    </element-citation>
+  </ref>
 </ref-list>

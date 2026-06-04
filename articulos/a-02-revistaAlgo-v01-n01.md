@@ -1,5 +1,5 @@
 ::: {.intro}
-## El desarrollo agropecuario argentino en la segunda posguerra: debates, políticas y agroindustria
+## Introducción
 
 ::: epigraph
 Contener los reclamos populares mediante reformas orientadas a mejorar las condiciones de vida.
