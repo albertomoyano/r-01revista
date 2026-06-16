@@ -26,19 +26,6 @@
       </trans-title-group>
     </title-group>
     <contrib-group>
-      <contrib contrib-type="author" id="a10">
-        <name>
-          <surname>Mason</surname>
-          <given-names>Camilo</given-names>
-        </name>
-        <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2257-2160</contrib-id>
-        <aff>
-          <institution content-type="dept">Departameno</institution>,
-          <institution>AfiliaciónActual</institution>,
-          <city>Ciudad Autónoma de Buenos Aires</city>,
-          <country>Argenttina</country>
-        </aff>
-      </contrib>
       <contrib contrib-type="author" id="a11">
         <name>
           <surname>Gil</surname>

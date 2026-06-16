@@ -1,201 +1,3716 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ref-list xmlns:xlink="http://www.w3.org/1999/xlink">
-  <ref id="1249-LAZZARO2004">
-    <element-citation publication-type="book-chapter">
-      <person-group person-group-type="author">
-        <name>
-          <surname>Lázzaro</surname>
-          <given-names>S.</given-names>
-        </name>
-      </person-group>
-      <person-group person-group-type="editor">
-        <name>
-          <surname>Galafassi</surname>
-          <given-names>G.</given-names>
-        </name>
-      </person-group>
-      <chapter-title>La política agraria de la autodenominada Revolución argentina</chapter-title>
-      <source>El campo diverso. Enfoques y perspectivas de la Argentina agraria del siglo XX</source>
-      <publisher-name>Universidad Nacional de Quilmes</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2004</year>
-      <fpage>311</fpage>
-      <lpage>341</lpage>
-    </element-citation>
-  </ref>
-  <ref id="1250-LAZZARO2012">
+  <ref id="2818-ACOSTA2012">
     <element-citation publication-type="journal">
       <person-group person-group-type="author">
         <name>
-          <surname>Lázzaro</surname>
-          <given-names>S.</given-names>
+          <surname>Acosta</surname>
+          <given-names>Felicitas</given-names>
         </name>
       </person-group>
-      <article-title>El desarrollismo y el problema agrario durante las décadas de 1950 y 1960</article-title>
-      <source>Secuencia. Revista de historia y ciencias sociales</source>
-      <year>2013</year>
-      <issue>84</issue>
-      <pub-id pub-id-type="doi">10.18234/secuencia.v0i84.1171</pub-id>
+      <article-title>La escuela secundaria argentina en perspectiva histórica y comparada: modelos institucionales y desgranamiento durante el siglo XX</article-title>
+      <source>Cadernos de História da Educação</source>
+      <year>2012</year>
+      <volume>11</volume>
+      <issue>1</issue>
+      <fpage>131</fpage>
+      <lpage>144</lpage>
     </element-citation>
   </ref>
-  <ref id="1251-AZCUYAMEGHINO2024">
+  <ref id="2819-ADAMOVSKY2021">
     <element-citation publication-type="book">
       <person-group person-group-type="author">
         <name>
-          <surname>Azcuy Ameghino</surname>
-          <given-names>E.</given-names>
+          <surname>Adamovsky</surname>
+          <given-names>Ezequiel</given-names>
         </name>
       </person-group>
-      <source>La cuestión agraria argentina en el siglo XXI</source>
-      <publisher-name>Ediciones Imago Mundi</publisher-name>
+      <source>Historia de la Argentina. Biografía de un país</source>
+      <publisher-name>Crítica</publisher-name>
       <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2024</year>
+      <year>2021</year>
     </element-citation>
   </ref>
-  <ref id="1254-FAJARDO2025">
+  <ref id="2820-AGUILARGAVIRA2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Aguilar Gavira</surname>
+          <given-names>Sonia</given-names>
+        </name>
+        <name>
+          <surname>Barroso Osuna</surname>
+          <given-names>Julio</given-names>
+        </name>
+      </person-group>
+      <article-title>La triangulación en investigación educativa</article-title>
+      <source>Pixel-Bit. Revista de Medios y Educación</source>
+      <year>2015</year>
+      <issue>47</issue>
+      <fpage>73</fpage>
+      <lpage>88</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2821-AHMED2015">
     <element-citation publication-type="book">
       <person-group person-group-type="author">
         <name>
-          <surname>Fajardo</surname>
-          <given-names>M.</given-names>
+          <surname>Ahmed</surname>
+          <given-names>Sara</given-names>
         </name>
       </person-group>
-      <source>El mundo según América Latina. La CEPAL en la era del desarrollo</source>
-      <publisher-name>Fondo de Cultura Econó­mica</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2025</year>
+      <source>La política cultural de las emociones</source>
+      <publisher-name>Universidad Nacional Autónoma de México</publisher-name>
+      <publisher-loc>Ciudad de México</publisher-loc>
+      <year>2015</year>
     </element-citation>
   </ref>
-  <ref id="1255-MASON2023">
-    <element-citation publication-type="book">
-      <person-group person-group-type="editor">
-        <name>
-          <surname>Mason</surname>
-          <given-names>C.</given-names>
-        </name>
-        <name>
-          <surname>Rougier</surname>
-          <given-names>M.</given-names>
-        </name>
-      </person-group>
-      <source>A las palabras se las lleva el viento; lo escrito queda. Las revistas en los orígenes de la profesionalización del campo de la economía (1956-1966)</source>
-      <publisher-name>Ediciones Imago Mundi</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2023</year>
-    </element-citation>
-  </ref>
-  <ref id="1256-BARSKY2001">
-    <element-citation publication-type="book">
+  <ref id="2822-AMIGOTLEACHE2009">
+    <element-citation publication-type="journal">
       <person-group person-group-type="author">
         <name>
-          <surname>Barsky</surname>
-          <given-names>O.</given-names>
+          <surname>Amigot Leache</surname>
+          <given-names>Patricia</given-names>
         </name>
         <name>
-          <surname>Gelman</surname>
-          <given-names>J.</given-names>
+          <surname>Pujal i Llombart</surname>
+          <given-names>Margot</given-names>
         </name>
       </person-group>
-      <person-group person-group-type="editor">
-        <name>
-          <surname>Ascolani</surname>
-          <given-names>A.</given-names>
-        </name>
-        <name>
-          <surname>Gutiérrez</surname>
-          <given-names>T.</given-names>
-        </name>
-      </person-group>
-      <source>Historia del agro argentino. Desde la Conquista hasta fines del siglo XX</source>
-      <publisher-name>Grijalbo and Mondadori</publisher-name>
-      <year>2001</year>
+      <article-title>Una lectura del género como dispositivo de poder</article-title>
+      <source>Sociológica</source>
+      <year>2009</year>
+      <volume>24</volume>
+      <issue>70</issue>
+      <fpage>115</fpage>
+      <lpage>152</lpage>
     </element-citation>
   </ref>
-  <ref id="1257-ASCOLANI2015">
+  <ref id="2823-ANDERSON2014">
     <element-citation publication-type="book-chapter">
       <person-group person-group-type="author">
         <name>
-          <surname>Ascolani</surname>
-          <given-names>A.</given-names>
-        </name>
-        <name>
-          <surname>Gutiérrez</surname>
-          <given-names>T.</given-names>
+          <surname>Anderson</surname>
+          <given-names>Patricia</given-names>
         </name>
       </person-group>
-      <chapter-title>Desarrollismo, reforma agraria y contrarrevolución, 1955-1976</chapter-title>
-      <source>Agro y política en Argentina</source>
-      <publisher-name>CICCUS</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2015</year>
-      <volume>3</volume>
+      <chapter-title><italic>Mens sana in corpore sano</italic>: deportismo, salud y feminidad en Argentina, 1900-1945</chapter-title>
+      <source>Miradas médicas sobre la cultura física en Argentina. 1880-1970</source>
+      <year>2014</year>
+      <fpage>83</fpage>
+      <lpage>100</lpage>
     </element-citation>
   </ref>
-  <ref id="2555-ALLEMANDI2017">
+  <ref id="2824-ARCHETTI2016">
     <element-citation publication-type="book">
       <person-group person-group-type="author">
         <name>
-          <surname>Allemandi</surname>
+          <surname>Archetti</surname>
+          <given-names>Eduardo</given-names>
+        </name>
+      </person-group>
+      <source>Masculinidades. Fútbol, tango y polo en la Argentina</source>
+      <publisher-name>Del Dragón</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+    </element-citation>
+  </ref>
+  <ref id="2825-ARIAS2017">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Arias</surname>
+          <given-names>Ana</given-names>
+        </name>
+      </person-group>
+      <source>Mujeres universitarias en la Argentina. Algunas cuestiones acerca de la Universidad Nacional de La Plata en las primeras décadas de siglo XX</source>
+      <year>2017</year>
+      <institution>Universidad Nacional de La Plata</institution>
+    </element-citation>
+  </ref>
+  <ref id="2826-BAEZ2013">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Báez</surname>
+          <given-names>Jésica</given-names>
+        </name>
+      </person-group>
+      <source>Los modos de vivir el cuerpo sexuado de los/as/xs jóvenes en la escuela secundaria</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2013</year>
+      <institution>Universidad de Buenos Aires</institution>
+    </element-citation>
+  </ref>
+  <ref id="2827-BARBA1998">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barba</surname>
+          <given-names>Fernando</given-names>
+        </name>
+      </person-group>
+      <article-title>La Plata en sus primeros años de vida</article-title>
+      <source>Revista Museo</source>
+      <year>1998</year>
+    </element-citation>
+  </ref>
+  <ref id="2828-BARBEROGONZALEZ1998">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barbero González</surname>
+          <given-names>José Ignacio</given-names>
+        </name>
+      </person-group>
+      <article-title>La cultura de consumo, el cuerpo y la educación física</article-title>
+      <source>Educación Física y deporte</source>
+      <year>1998</year>
+      <volume>20</volume>
+      <issue>1</issue>
+      <fpage>9</fpage>
+      <lpage>30</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2829-BARBIERI2016">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barbieri</surname>
+          <given-names>Patricia</given-names>
+        </name>
+      </person-group>
+      <article-title>Arquitectura para la educación e higienismo: el Hospital e Instituto de Enseñanza Médica del Centenario y la Escuela Normal n\sptext{o} 1 Dr. Nicolás Avellaneda en la ciudad de Rosario</article-title>
+      <source>Anuario de Historia de la Educación</source>
+      <year>2016</year>
+      <volume>17</volume>
+      <issue>2</issue>
+      <fpage>32</fpage>
+      <lpage>50</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2830-BARGAS2012">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bargas</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Miranda</surname>
+          <given-names>Marisa</given-names>
+        </name>
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Cada cual en su justo lugar. Diferencias sexuales en las aplicaciones de la biotipología en la Argentina</chapter-title>
+      <source>Una historia de la eugenesia. Argentina y las redes biopolíticas internacionales 1912-1945</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2012</year>
+      <fpage>437</fpage>
+      <lpage>460</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2831-BARROSO2021">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barroso</surname>
+          <given-names>Esteban</given-names>
+        </name>
+        <name>
+          <surname>Valobra</surname>
+          <given-names>Adriana</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>"Los políticos modernos no van al gimnasio". Cultura física, política y masculinidad en las candidaturas presidenciales de 1958 en la Argentina</chapter-title>
+      <source>Hombres en movimiento. Deporte, cultura física y masculinidades en Argentina 1880-1970</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2021</year>
+      <fpage>345</fpage>
+      <lpage>390</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2832-ZEBALLOSDEHEREDIA1930">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Zeballos de Heredia</surname>
+          <given-names>Celia</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1929. Colegio Secundario de Señoritas</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1930</year>
+    </element-citation>
+  </ref>
+  <ref id="2833-ZEBALLOSDEHEREDIA1934">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Zeballos de Heredia</surname>
+          <given-names>Celia</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1933. Colegio Secundario de Señoritas</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1934</year>
+    </element-citation>
+  </ref>
+  <ref id="2834-TIEGHI1914">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Tieghi</surname>
+          <given-names>Segundo</given-names>
+        </name>
+      </person-group>
+      <source>El internado. Informe</source>
+      <publisher-name>Imprenta de Coni hermanos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1914</year>
+    </element-citation>
+  </ref>
+  <ref id="2835-TEOBALDO1946">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Teobaldo</surname>
+          <given-names>Carlos</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1945. Colegio Secundario de Señoritas</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1946</year>
+    </element-citation>
+  </ref>
+  <ref id="2836-TEOBALDO1944">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Teobaldo</surname>
+          <given-names>Carlos</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1943. Colegio Secundario de Señoritas</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1944</year>
+    </element-citation>
+  </ref>
+  <ref id="2837-SAGASTUME1938">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Sagastume</surname>
+          <given-names>César</given-names>
+        </name>
+      </person-group>
+      <source>Examen médico de los alumnos de los cursos obligatorios de Educación Física. Memorias e informes de las autoridades y profesores</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1938</year>
+    </element-citation>
+  </ref>
+  <ref id="2838-SDEFEIWEL1943">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Suzanne de Feiwel</surname>
+          <given-names>Etha</given-names>
+        </name>
+      </person-group>
+      <source>Tratado de belleza y cultura física para la mujer</source>
+      <publisher-name>Claridad</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1943</year>
+    </element-citation>
+  </ref>
+  <ref id="2839-PERODOTTO1921">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Peradotto</surname>
+          <given-names>Lidia</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1920</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1921</year>
+    </element-citation>
+  </ref>
+  <ref id="2840-PERADOTTO1920">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Peradotto</surname>
+          <given-names>Lidia</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1919</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1920</year>
+    </element-citation>
+  </ref>
+  <ref id="2841-PERADOTTO1923">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Peradotto</surname>
+          <given-names>Lidia</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1922</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1923</year>
+    </element-citation>
+  </ref>
+  <ref id="2842-PALACIOS1943">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Palacios</surname>
+          <given-names>Alfredo</given-names>
+        </name>
+      </person-group>
+      <source>Labor docente, cultural y de investigación en la Universidad de La Plata</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1943</year>
+    </element-citation>
+  </ref>
+  <ref id="2843-NELSON1912">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Nelson</surname>
+          <given-names>Ernesto</given-names>
+        </name>
+      </person-group>
+      <article-title>Un experimento trascendental en la educación argentina. El internado del Colegio Nacional de la Universidad de La Plata</article-title>
+      <source>Boletín del Museo Social Argentino</source>
+      <year>1912</year>
+      <volume>1</volume>
+      <fpage>222</fpage>
+      <lpage>223</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2844-MERCANTE1908">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Mercante</surname>
+          <given-names>Víctor</given-names>
+        </name>
+      </person-group>
+      <article-title>El internado del Colegio de la Universidad Nacional de La Plata</article-title>
+      <source>Archivos de Pedagogía y Ciencias Afines</source>
+      <year>1908</year>
+      <volume>3</volume>
+      <issue>7</issue>
+      <fpage>149</fpage>
+      <lpage>160</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2845-LIEDERMAN1936">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Liederman</surname>
+          <given-names>Young</given-names>
+        </name>
+      </person-group>
+      <source>Cultura física femenina</source>
+      <publisher-name>Young Liederman</publisher-name>
+      <publisher-loc>La Habana</publisher-loc>
+      <year>1936</year>
+    </element-citation>
+  </ref>
+  <ref id="2846-LEVENE1934">
+    <element-citation publication-type="other">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Levene</surname>
+          <given-names>Ricardo</given-names>
+        </name>
+      </person-group>
+      <source>Nota al ministro de Obras públicas de la provincia de Buenos Aires para solicitarle un terreno en Punta Lara</source>
+      <year>1934</year>
+    </element-citation>
+  </ref>
+  <ref id="2847-LERANGE1949">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lerange</surname>
+          <given-names>Catalina</given-names>
+        </name>
+      </person-group>
+      <source>Seis años en un Liceo</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1949</year>
+    </element-citation>
+  </ref>
+  <ref id="2848-GRASSO1924">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Grasso</surname>
+          <given-names>Gofredo</given-names>
+        </name>
+      </person-group>
+      <source>Acción del médico en la cultura física</source>
+      <publisher-name>Establecimiento Gráfico A. de Martino</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1924</year>
+    </element-citation>
+  </ref>
+  <ref id="2849-GORDON1914">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Gordon</surname>
+          <given-names>Manuel</given-names>
+        </name>
+      </person-group>
+      <source>Manual de cultura física</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1914</year>
+    </element-citation>
+  </ref>
+  <ref id="2850-GONZALEZLEANDRI2006">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>González Leandri</surname>
+          <given-names>Ricardo</given-names>
+        </name>
+      </person-group>
+      <article-title>La consolidación de una inteligentzia médico profesional en Argentina: 1880-1900</article-title>
+      <source>Diálogos. Revista Electrónica de Historia</source>
+      <year>2006</year>
+      <volume>7</volume>
+      <issue>1</issue>
+      <fpage>36</fpage>
+      <lpage>78</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2851-GONZALEZLEANDRI2013">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>González Leandri</surname>
+          <given-names>Ricardo</given-names>
+        </name>
+      </person-group>
+      <article-title>Internacionalidad, Higiene y Cuestión Social en Buenos Aires (1850-1910). Tres momentos históricos</article-title>
+      <source>Revista de Indias</source>
+      <year>2013</year>
+      <volume>73</volume>
+      <issue>257</issue>
+      <fpage>23</fpage>
+      <lpage>54</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2852-WITTIG1992">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Wittig</surname>
+          <given-names>Monique</given-names>
+        </name>
+      </person-group>
+      <source>El pensamiento heterosexual y otros ensayos</source>
+      <publisher-name>Egales</publisher-name>
+      <publisher-loc>Madrid</publisher-loc>
+      <year>1992</year>
+    </element-citation>
+  </ref>
+  <ref id="2853-VINAOFRAGO1994">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Viñao Frago</surname>
+          <given-names>Antonio</given-names>
+        </name>
+      </person-group>
+      <article-title>Del espacio escolar y la escuela como lugar. Propuestas y cuestiones</article-title>
+      <source>Historia de la educación. Revista interuniversitaria</source>
+      <year>1994</year>
+      <issue>12-13</issue>
+      <fpage>17</fpage>
+      <lpage>74</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2854-VILLA2007">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Villa</surname>
+          <given-names>Alicia</given-names>
+        </name>
+      </person-group>
+      <article-title>La conformación de la profesionalidad de la educación física desde la formación de profesores universitarios</article-title>
+      <source>Revista Brasileira de História da Educaçao</source>
+      <year>2007</year>
+      <volume>7</volume>
+      <issue>2</issue>
+      <fpage>117</fpage>
+      <lpage>144</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2855-VILLA2011">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Villa</surname>
+          <given-names>Alicia</given-names>
+        </name>
+      </person-group>
+      <article-title>Currículum, Educación Física y formación del profesorado: El caso del profesorado de Educación Física de la Universidad Nacional de La Plata</article-title>
+      <source>Ágora para la educación física y el deporte</source>
+      <year>2011</year>
+      <volume>13</volume>
+      <issue>3</issue>
+      <fpage>321</fpage>
+      <lpage>340</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2856-VIGARELLO2005">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vigarello</surname>
+          <given-names>George</given-names>
+        </name>
+      </person-group>
+      <source>Historia de la belleza. El cuerpo y el arte de embellecer desde el Renacimiento hasta nuestros días</source>
+      <publisher-name>Nueva Visión</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2005</year>
+    </element-citation>
+  </ref>
+  <ref id="2857-VELEZBAUTISTA2005">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vélez Bautista</surname>
+          <given-names>Greciela</given-names>
+        </name>
+      </person-group>
+      <article-title>Espacio y subjetividad. Orden social desde lo privado y lo público</article-title>
+      <source>Espacios Públicos</source>
+      <year>2005</year>
+      <volume>8</volume>
+      <issue>15</issue>
+      <fpage>150</fpage>
+      <lpage>161</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2858-VASILACHISDEGIALDINO2006">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vasilachis de Gialdino</surname>
+          <given-names>Irene</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La investigación cualitativa</chapter-title>
+      <source>Estrategias de investigación cualitativa</source>
+      <publisher-name>Gedisa</publisher-name>
+      <publisher-loc>Barcelona</publisher-loc>
+      <year>2006</year>
+      <fpage>23</fpage>
+      <lpage>64</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2859-VALLEJO2019">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Mauro</given-names>
+        </name>
+      </person-group>
+      <article-title>Cuerpos histéricos en la medicina de Buenos Aires (1877-1900). Teorías, representaciones y dispositivos clínicos</article-title>
+      <source>Historia</source>
+      <year>2019</year>
+      <volume>52</volume>
+      <issue>1</issue>
+      <fpage>139</fpage>
+      <lpage>167</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2860-TOSSOUNIAN2020">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Tossounian</surname>
           <given-names>Cecilia</given-names>
         </name>
       </person-group>
-      <source>Sirvientes, criados y nodrizas: una historia del servicio doméstico en la ciudad de Buenos Aires (fines del siglo XIX y principios del XX)</source>
-      <publisher-name>Teseo and Universidad de San Andrés</publisher-name>
+      <source>La Joven Moderna en la Argentina de entreguerras: Género, Nación y Cultura Popular</source>
+      <publisher-name>University of Florida Press</publisher-name>
+      <publisher-loc>Gainesville</publisher-loc>
+      <year>2020</year>
+    </element-citation>
+  </ref>
+  <ref id="2861-THOMPSON1972">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Thompson</surname>
+          <given-names>Edward</given-names>
+        </name>
+      </person-group>
+      <article-title>Antropology and the Discipline of Context</article-title>
+      <source>Midland History</source>
+      <year>1972</year>
+      <issue>3</issue>
+    </element-citation>
+  </ref>
+  <ref id="2862-TEDESCO1982">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Tedesco</surname>
+          <given-names>Juan</given-names>
+        </name>
+      </person-group>
+      <source>Educación y sociedad en la Argentina (1880-1900)</source>
+      <publisher-name>Centro Editor de América Latina</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1982</year>
+    </element-citation>
+  </ref>
+  <ref id="2863-TARZIBACHI2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Tarzibachi</surname>
+          <given-names>Eugenia</given-names>
+        </name>
+      </person-group>
+      <article-title>Usos comerciales y transnacionales del etiquetamiento menstrual y la liberación femenina. Las primeras publicidades de tampones ob en Estados Unidos y Argentina (c. 1977-1978)</article-title>
+      <source>Comunicología Cubana</source>
+      <year>2015</year>
+      <issue>92</issue>
+      <fpage>1</fpage>
+      <lpage>28</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2864-TARZIBACHI2016">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Tarzibachi</surname>
+          <given-names>Eugenia</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Deporte y recreación durante la menstruación. Historia de una habilitación a partir de la difusión de las toallas y los tampones industriales en Argentina, 1930-1980</chapter-title>
+      <source>Mujeres en movimiento. Deporte, cultura física y feminidades. Argentina, 1870-1980</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+      <fpage>85</fpage>
+      <lpage>108</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2865-STAGNO2019">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Stagno</surname>
+          <given-names>Leandro</given-names>
+        </name>
+      </person-group>
+      <source>La configuración de la juventud como un problema: Delitos y vida cotidiana de varones jóvenes provenientes de los sectores populares (La Plata, 1938-1942)</source>
+      <year>2019</year>
+      <institution>Facultad Latinoamericana de Ciencias Sociales</institution>
+    </element-citation>
+  </ref>
+  <ref id="2866-SOUTHWELL2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Southwell</surname>
+          <given-names>Myriam</given-names>
+        </name>
+      </person-group>
+      <article-title>Formato, pedagogías y planeamiento para la secundaria en Argentina: notas sobresalientes del siglo XX</article-title>
+      <source>Cadernos de História da Educação</source>
+      <year>2018</year>
+      <volume>22</volume>
+      <issue>55</issue>
+      <fpage>18</fpage>
+      <lpage>37</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2867-SOUTHWELL2017">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Southwell</surname>
+          <given-names>Myriam</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Pineau</surname>
+          <given-names>Pablo</given-names>
+        </name>
+        <name>
+          <surname>Serra</surname>
+          <given-names>Silvia</given-names>
+        </name>
+        <name>
+          <surname>Southwell</surname>
+          <given-names>Myriam</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La formación del carácter: metáforas, experimentación pedagógica y trabajo docente en las primeras décadas del siglo XX</chapter-title>
+      <source>La Educación de las sensibilidades en la Argentina moderna. Estudios sobre estética escolar II</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2017</year>
+      <fpage>79</fpage>
+      <lpage>94</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2868-SOPRANO2007">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Soprano</surname>
+          <given-names>Germán</given-names>
+        </name>
+      </person-group>
+      <article-title>Del Estado en singular al Estado en plural. Contribución para una historia social de las agencias estatales en la Argentina</article-title>
+      <source>Cuestiones de Sociología</source>
+      <year>2007</year>
+      <issue>4</issue>
+      <fpage>19</fpage>
+      <lpage>48</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2869-SOLARI1991">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Solari</surname>
+          <given-names>Manuel</given-names>
+        </name>
+      </person-group>
+      <source>Historia de la educación argentina</source>
+      <publisher-name>Paidós</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1991</year>
+    </element-citation>
+  </ref>
+  <ref id="2870-SOARES2011">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Soares</surname>
+          <given-names>Carmen</given-names>
+        </name>
+      </person-group>
+      <source>As roupas nas práticas corporais e esportivas. A educação do corpo entre o conforto, a elegância e a eficiência (1920-1940)</source>
+      <publisher-name>Autores Asociados</publisher-name>
+      <publisher-loc>Campinas</publisher-loc>
+      <year>2011</year>
+    </element-citation>
+  </ref>
+  <ref id="2871-SOARES2011">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Soares</surname>
+          <given-names>Carmen</given-names>
+        </name>
+      </person-group>
+      <article-title>As roupas destinadas aos exercícios físicos e ao esporte: nova sensibilidade, nova educação do corpo (Brasil, 1920-1940)</article-title>
+      <source>Pro-Posições</source>
+      <year>2011</year>
+      <volume>66</volume>
+      <issue>3</issue>
+      <fpage>81</fpage>
+      <lpage>96</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2872-SERRA2019">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Serra</surname>
+          <given-names>Silvia</given-names>
+        </name>
+      </person-group>
+      <article-title>Pedagogía + arquitectura: reflexiones acerca del cruce de disciplinas</article-title>
+      <source>Anuario de Historia de la Educación</source>
+      <year>2019</year>
+      <volume>20</volume>
+      <issue>1</issue>
+      <fpage>107</fpage>
+      <lpage>123</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2873-SCHOO2014">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Schoo</surname>
+          <given-names>Susana</given-names>
+        </name>
+      </person-group>
+      <article-title>Los colegios nacionales en el período fundacional del sistema educativo argentino: incidencias y variaciones locales (1863-1888). Historia de la Educación</article-title>
+      <source>Anuario SAHE</source>
+      <year>2014</year>
+      <volume>15</volume>
+      <issue>2</issue>
+      <fpage>37</fpage>
+      <lpage>68</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2874-SAUTU2005">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Sautu</surname>
+          <given-names>Ruth</given-names>
+        </name>
+        <name>
+          <surname>Dalle</surname>
+          <given-names>Pablo</given-names>
+        </name>
+        <name>
+          <surname>Boniolo</surname>
+          <given-names>Paula</given-names>
+        </name>
+        <name>
+          <surname>Elbert</surname>
+          <given-names>Rodolfo</given-names>
+        </name>
+      </person-group>
+      <source>Manual de Metodología. Construcción del marco teórico, formulación de los objetivos y elección de la metodología</source>
+      <publisher-name>CLACSO</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2005</year>
+    </element-citation>
+  </ref>
+  <ref id="2875-SARLO1988">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Sarlo</surname>
+          <given-names>Beatriz</given-names>
+        </name>
+      </person-group>
+      <source>Una modernidad periférica: Buenos Aires, 1920 y 1930</source>
+      <publisher-name>Nueva Visión</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1988</year>
+    </element-citation>
+  </ref>
+  <ref id="2876-ROMANIUK2015">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Romaniuk</surname>
+          <given-names>Susana</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Educación física, eugenesia y construcción de la otredad. La Reforma Educativa de la provincia de Buenos Aires (1936-1940)</chapter-title>
+      <source>11 Congreso Argentino de Educación Física y Ciencias</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2015</year>
+    </element-citation>
+  </ref>
+  <ref id="2877-RODRIGUEZANTUNEZ2019">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Rodríguez Antúnez</surname>
+          <given-names>Camilo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La eugenesia dentro de la formación de profesores de Educación Física en el Uruguay (1939-1950)</chapter-title>
+      <source>13 Congreso Argentino de Educación Física y Ciencias</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2019</year>
+    </element-citation>
+  </ref>
+  <ref id="2878-RODRIGUEZGIMENEZ2012">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Rodríguez Giménez</surname>
+          <given-names>Raumar</given-names>
+        </name>
+      </person-group>
+      <source>Saber del cuerpo: una exploración entre normalismo y universidad en ocasión de la educación física (Uruguay, 1876-1939)</source>
+      <year>2012</year>
+      <institution>Universidad de la República</institution>
+    </element-citation>
+  </ref>
+  <ref id="2879-REITANO2005">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Reitano</surname>
+          <given-names>Emir</given-names>
+        </name>
+      </person-group>
+      <source>Manuel Fresco. Entre la renovación y el fraude</source>
+      <publisher-name>Instituto Cultural de la Provincia de Buenos Aires</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2005</year>
+    </element-citation>
+  </ref>
+  <ref id="2880-RAMALLO2017">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ramallo</surname>
+          <given-names>Francisco</given-names>
+        </name>
+      </person-group>
+      <source>El bachillerato: un abordaje biográfico narrativo a partir del Colegio Nacional de Mar del Plata, 1914-1940</source>
+      <year>2017</year>
+      <institution>Universidad Nacional de Mar del Plata</institution>
+    </element-citation>
+  </ref>
+  <ref id="2881-QUEIROLO2014">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Queirolo</surname>
+          <given-names>Graciela</given-names>
+        </name>
+      </person-group>
+      <article-title>Empleadas administrativas: la construcción histórica de una inequidad, Buenos Aires 1910-1950</article-title>
+      <source>Canoas</source>
+      <year>2014</year>
+      <issue>18</issue>
+      <fpage>133</fpage>
+      <lpage>147</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2882-RAMACCIOTTI2014">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ramacciotti</surname>
+          <given-names>Karina</given-names>
+        </name>
+        <name>
+          <surname>Valobra</surname>
+          <given-names>Adriana</given-names>
+        </name>
+      </person-group>
+      <chapter-title>"Peor que putas": tríbadas, safistas y homosexuales en el discurso moral hegemónico del campo médico, 1936-1954</chapter-title>
+      <source>Moralidades y comportamientos sexuales. Argentina, 1880-2011</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+      <fpage>195</fpage>
+      <lpage>216</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2883-PRECIADO2008">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Preciado</surname>
+          <given-names>Beatriz</given-names>
+        </name>
+      </person-group>
+      <source>Testo Yonqui</source>
+      <publisher-name>Espasa Calpe</publisher-name>
+      <publisher-loc>Madrid</publisher-loc>
+      <year>2008</year>
+    </element-citation>
+  </ref>
+  <ref id="2884-PRATTO2017">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pratto</surname>
+          <given-names>Jowen</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La Educación Física en el Colegio Nacional de La Plata "Rafael Hernández" (1885-1930)</chapter-title>
+      <source>12 Congreso Argentino de Educación Física y Ciencias</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
       <publisher-loc>Buenos Aires</publisher-loc>
       <year>2017</year>
     </element-citation>
   </ref>
-  <ref id="2556-AMELANG2006">
-    <element-citation publication-type="journal">
-      <person-group person-group-type="author">
-        <name>
-          <surname>Amelang</surname>
-          <given-names>James</given-names>
-        </name>
-      </person-group>
-      <article-title>La autobiografía moderna entre la historia y la literatura</article-title>
-      <source>Chronica Nova. Revista de Historia Moderna de la Universidad de Granada</source>
-      <year>2006</year>
-      <issue>32</issue>
-      <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10481/22709">http://hdl.handle.net/10481/22709</ext-link>
-    </element-citation>
-  </ref>
-  <ref id="2557-PEREZ2020">
-    <element-citation publication-type="confproc">
-      <person-group person-group-type="author">
-        <name>
-          <surname>Pérez</surname>
-          <given-names>María</given-names>
-        </name>
-      </person-group>
-      <source>Nuevas perspectivas en la edición académica digital</source>
-      <year>2020</year>
-    </element-citation>
-  </ref>
-  <ref id="2558-GONZALEZ2019">
-    <element-citation publication-type="thesis">
-      <person-group person-group-type="author">
-        <name>
-          <surname>González</surname>
-          <given-names>Roberto</given-names>
-        </name>
-      </person-group>
-      <source>El impacto de las revistas de acceso abierto en América Latina</source>
-      <year>2019</year>
-      <institution>Universidad de Buenos Aires</institution>
-    </element-citation>
-  </ref>
-  <ref id="2676-EDELMAN2001">
+  <ref id="2885-PLOTKIN2012">
     <element-citation publication-type="book">
       <person-group person-group-type="author">
         <name>
-          <surname>Edelman</surname>
-          <given-names>Fanny</given-names>
+          <surname>Plotkin</surname>
+          <given-names>Mariano</given-names>
+        </name>
+        <name>
+          <surname>Zimmermann</surname>
+          <given-names>Eduardo</given-names>
         </name>
       </person-group>
-      <source>Feminismo y marxismo: conversación con Claudia Korol</source>
-      <publisher-name>El Folleto</publisher-name>
+      <source>Las prácticas del Estado. Política, sociedad y elites estatales en la Argentina del siglo XX</source>
+      <publisher-name>Edhasa</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2012</year>
+    </element-citation>
+  </ref>
+  <ref id="2886-PIEDRADELACUADRA2013">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Piedra de la Cuadra</surname>
+          <given-names>Joaquín</given-names>
+        </name>
+        <name>
+          <surname>Ries</surname>
+          <given-names>Francis</given-names>
+        </name>
+        <name>
+          <surname>Rodríguez-Sánchez</surname>
+          <given-names>Augusto</given-names>
+        </name>
+      </person-group>
+      <chapter-title>"¡No te quejes y corre, nenaza!": Percepciones de la homofobia y el heterosexismo del alumnado español en las clases de educación física de secundaria</chapter-title>
+      <source>Géneros, masculinidades y diversidad. Educación física, deporte e identidades masculinas</source>
+      <publisher-name>Octaedro</publisher-name>
+      <publisher-loc>Madrid</publisher-loc>
+      <year>2013</year>
+    </element-citation>
+  </ref>
+  <ref id="2887-BERGEL2000">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bergel</surname>
+          <given-names>Martín</given-names>
+        </name>
+        <name>
+          <surname>Palomino</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>La revista <italic>El Gráfico</italic> en sus inicios: una pedagogía deportiva para la ciudad moderna</article-title>
+      <source>Prismas: revista de historia intelectual</source>
+      <year>2000</year>
+      <issue>4</issue>
+      <fpage>103</fpage>
+      <lpage>24</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2888-BIAGINI1999">
+    <element-citation publication-type="book">
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Biagini</surname>
+          <given-names>Hugo</given-names>
+        </name>
+      </person-group>
+      <source>La Universidad de La Plata y el Movimiento Estudiantil desde sus orígenes hasta 1930</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1999</year>
+    </element-citation>
+  </ref>
+  <ref id="2889-BARRANCOS2011">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barrancos</surname>
+          <given-names>Dora</given-names>
+        </name>
+      </person-group>
+      <article-title>Género y ciudadanía en la Argentina</article-title>
+      <source>Iberoamericana. Nordic Journal of Latin American and Caribbean Studies</source>
+      <year>2011</year>
+      <volume>41</volume>
+      <issue>1-2</issue>
+      <fpage>23</fpage>
+      <lpage>39</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2890-BARRANCOS2014">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barrancos</surname>
+          <given-names>Dora</given-names>
+        </name>
+      </person-group>
+      <article-title>Sentidos, sentimientos y sensibilidades (1880-1930)</article-title>
+      <source>Revista Latinoamericana de Estudios sobre Cuerpos, Emociones y Sociedad</source>
+      <year>2014</year>
+      <volume>6</volume>
+      <issue>15</issue>
+      <fpage>27</fpage>
+      <lpage>39</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2891-BARRANCOS1990">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barrancos</surname>
+          <given-names>Dora</given-names>
+        </name>
+      </person-group>
+      <source>Anarquismo, educación y costumbres en la Argentina de principios de siglo</source>
+      <publisher-name>Contrapunto</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1990</year>
+    </element-citation>
+  </ref>
+  <ref id="2892-BARRANCOS2008">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barrancos</surname>
+          <given-names>Dora</given-names>
+        </name>
+      </person-group>
+      <source>Mujeres, entre la casa y la plaza</source>
+      <publisher-name>Sudamericana</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2008</year>
+    </element-citation>
+  </ref>
+  <ref id="2893-BARRANCOS2007">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barrancos</surname>
+          <given-names>Dora</given-names>
+        </name>
+      </person-group>
+      <source>Mujeres en la Sociedad Argentina. Una historia de cinco siglos</source>
+      <publisher-name>Sudamericana</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2007</year>
+    </element-citation>
+  </ref>
+  <ref id="2894-BEJEL2006">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bejel</surname>
+          <given-names>Emilio</given-names>
+        </name>
+      </person-group>
+      <article-title>Amistad funesta de Martí: la "mujer hombruna" como amenaza al proyecto nacional</article-title>
+      <source>Confluencia. Revista hispánica de cultura y literatura</source>
+      <year>2006</year>
+      <volume>21</volume>
+      <issue>2</issue>
+      <fpage>2</fpage>
+      <lpage>10</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2895-BELINCHE2010">
+    <element-citation publication-type="book">
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Belinche</surname>
+          <given-names>Marcelo</given-names>
+        </name>
+        <name>
+          <surname>Panella</surname>
+          <given-names>Claudio</given-names>
+        </name>
+        <name>
+          <surname>Casareto</surname>
+          <given-names>Laura</given-names>
+        </name>
+      </person-group>
+      <source>Postales de la Memoria. Un relato fotográfico de la identidad de la Región</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2010</year>
+    </element-citation>
+  </ref>
+  <ref id="2896-BELINCHE2014">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Belinche</surname>
+          <given-names>Marcelo</given-names>
+        </name>
+        <name>
+          <surname>Panella</surname>
+          <given-names>Claudio</given-names>
+        </name>
+      </person-group>
+      <source>Memorias de la universidad: Un relato fotográfico sobre la identidad de la UNLP</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+    </element-citation>
+  </ref>
+  <ref id="2897-BEN2000">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ben</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Cuerpos femeninos y cuerpos abyectos. La construcción anatómica de la feminidad en la medicina argentina</chapter-title>
+      <source>Historia de las mujeres en Argentina</source>
+      <publisher-name>Taurus</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2000</year>
+      <volume>2</volume>
+    </element-citation>
+  </ref>
+  <ref id="2898-BEN2014">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ben</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La ciudad del pecado: moral sexual de las clases populares en el Buenos Aires del 900</chapter-title>
+      <source>Moralidades y comportamientos sexuales. Argentina, 1880-2011</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+      <fpage>95</fpage>
+      <lpage>113</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2899-BONTEMPO2012">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bontempo</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <source>Editorial Atlántida: un continente de publicaciones, 1918-1936</source>
+      <year>2012</year>
+      <institution>Universidad de San Andrés</institution>
+    </element-citation>
+  </ref>
+  <ref id="2900-BONAFINA2014">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bonafina</surname>
+          <given-names>Javier</given-names>
+        </name>
+      </person-group>
+      <source>Una sociedad en la bruma de la ciudad fantasma. La Plata 1880-1914</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+    </element-citation>
+  </ref>
+  <ref id="2901-BIERNAT2011">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Biernat</surname>
+          <given-names>Carolina</given-names>
+        </name>
+      </person-group>
+      <article-title>Debates poblacionistas en la matriz de la política social argentina de entreguerras</article-title>
+      <source>Anuario del Centro de Estudios Históricos Prof. Carlos S. A. Segreti</source>
+      <year>2011</year>
+      <volume>11</volume>
+      <issue>11</issue>
+      <fpage>189</fpage>
+      <lpage>208</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2902-BOHOSLAVSKY2010">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bohoslavsky</surname>
+          <given-names>Ernesto</given-names>
+        </name>
+        <name>
+          <surname>Soprano</surname>
+          <given-names>Germán</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Bohoslavsky</surname>
+          <given-names>Ernesto</given-names>
+        </name>
+        <name>
+          <surname>Soprano</surname>
+          <given-names>Germán</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Una evaluación y propuestas para el estudio del Estado en Argentina</chapter-title>
+      <source>Un Estado con rostro humano. Funcionarios e instituciones estatales en Argentina (desde 1880 a la actualidad)</source>
+      <publisher-name>Prometeo and Universidad Nacional de General Sarmiento</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2010</year>
+      <fpage>9</fpage>
+      <lpage>55</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2903-BOURDIEU2010">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bourdieu</surname>
+          <given-names>Pierre</given-names>
+        </name>
+      </person-group>
+      <source>La dominación masculina</source>
+      <publisher-name>Anagrama</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2010</year>
+    </element-citation>
+  </ref>
+  <ref id="2904-BRANZ2016">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Branz</surname>
+          <given-names>Juan</given-names>
+        </name>
+      </person-group>
+      <article-title>Historia, Estado y Deporte. El campo del rugby en la ciudad de La Plata: modelos civilizatorios y la ilusión de estar cerca de Europa</article-title>
+      <source>Razón y Palabra</source>
+      <year>2016</year>
+      <volume>20</volume>
+      <issue>95</issue>
+      <fpage>725</fpage>
+      <lpage>756</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2905-BRACHT2003">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Bracht</surname>
+          <given-names>Valter</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Bracht</surname>
+          <given-names>Valter</given-names>
+        </name>
+        <name>
+          <surname>Crisorio</surname>
+          <given-names>Ricardo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Identidad y crisis de la educación física: un enfoque epistemológico</chapter-title>
+      <source>La Educación Física en Argentina y en Brasil. Identidad, desafíos y perspectivas</source>
+      <publisher-name>Ediciones Al Margen</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2003</year>
+      <fpage>45</fpage>
+      <lpage>58</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2906-BUONUOME2016">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Buonuome</surname>
+          <given-names>Juan</given-names>
+        </name>
+      </person-group>
+      <source>Periodismo militante en la era de la información. <italic>La Vanguardia</italic>, el socialismo y los orígenes de la cultura de masas en la Argentina (1894-1930)</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+      <institution>Universidad de San Andrés</institution>
+    </element-citation>
+  </ref>
+  <ref id="2907-BUTLER2018">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Butler</surname>
+          <given-names>Judith</given-names>
+        </name>
+      </person-group>
+      <source>Cuerpo que importan. Sobre los límites materiales y discursivos del "sexo"</source>
+      <publisher-name>Paidós</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2018</year>
+    </element-citation>
+  </ref>
+  <ref id="2908-BUTLER2006">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Butler</surname>
+          <given-names>Judith</given-names>
+        </name>
+      </person-group>
+      <article-title>Regulaciones de género</article-title>
+      <source>La ventana</source>
+      <year>2006</year>
+      <issue>23</issue>
+      <fpage>7</fpage>
+      <lpage>35</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2909-BUTLER2004">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Butler</surname>
+          <given-names>Judith</given-names>
+        </name>
+      </person-group>
+      <source>Deshacer el género</source>
+      <publisher-name>Paidós</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2004</year>
+    </element-citation>
+  </ref>
+  <ref id="2910-CAMACAROGOMEZ2007">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Camacaro Gómez</surname>
+          <given-names>Daisy</given-names>
+        </name>
+      </person-group>
+      <article-title>Cuerpo de mujer: territorio delimitado por el discurso médico</article-title>
+      <source>Comunidad y Salud</source>
+      <year>2007</year>
+      <volume>5</volume>
+      <issue>1</issue>
+      <fpage>26</fpage>
+      <lpage>31</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2911-CARUSO2016">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Caruso</surname>
+          <given-names>Marcelo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>¿Una nave sin puerto definitivo? Antecedentes, tendencias e interpretaciones alrededor del movimiento de la Escuela Nueva</chapter-title>
+      <source>La Escuela como máquina de educar</source>
+      <publisher-name>Paidós</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+      <fpage>93</fpage>
+      <lpage>131</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2912-CARBALLO2015">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Carballo</surname>
+          <given-names>Carlos</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Educación Física</chapter-title>
+      <source>Diccionario crítico de la Educación Física académica. Rastreo y análisis de los debates y tensiones del campo académico de la educación física en Argentina</source>
+      <publisher-name>Castellani Filho</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2015</year>
+      <fpage>176</fpage>
+      <lpage>183</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2913-CARBALLO2003">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Carballo</surname>
+          <given-names>Carlos</given-names>
+        </name>
+        <name>
+          <surname>Crespo</surname>
+          <given-names>Betina</given-names>
+        </name>
+      </person-group>
+      <article-title>Aproximaciones al Concepto de Cuerpo</article-title>
+      <source>Revista Perspectiva</source>
+      <year>2003</year>
+      <volume>21</volume>
+      <issue>1</issue>
+      <fpage>229</fpage>
+      <lpage>247</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2914-CRISORIO1998">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Crisorio</surname>
+          <given-names>Ricardo</given-names>
+        </name>
+      </person-group>
+      <article-title>Constructivismo, cuerpo y lenguaje</article-title>
+      <source>Educación Física y Ciencia</source>
+      <year>1998</year>
+      <volume>4</volume>
+      <fpage>75</fpage>
+      <lpage>81</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2915-CORNELIS2005">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Cornelis</surname>
+          <given-names>Stella Maris</given-names>
+        </name>
+      </person-group>
+      <article-title>Control y generización de los cuerpos durante el peronismo: La educación física como transmisora de valores en el ámbito escolar (1946-1955)</article-title>
+      <source>La Aljaba</source>
+      <year>2005</year>
+      <volume>9</volume>
+      <fpage>105</fpage>
+      <lpage>121</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2916-CORNELIS2021">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Cornelis</surname>
+          <given-names>Stella Maris</given-names>
+        </name>
+      </person-group>
+      <article-title>Reflexiones sobre la trayectoria de Enrique Romero Brest: un profesional al servicio del Estado (primeras décadas del siglo XX)</article-title>
+      <source>Res Gesta</source>
+      <year>2021</year>
+      <issue>57</issue>
+    </element-citation>
+  </ref>
+  <ref id="2917-CORNEJOESPEJO2009">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Cornejo Espejo</surname>
+          <given-names>Juan</given-names>
+        </name>
+      </person-group>
+      <article-title>La construcción de la diferencia sexual</article-title>
+      <source>Límite</source>
+      <year>2009</year>
+      <volume>4</volume>
+      <issue>19</issue>
+      <fpage>127</fpage>
+      <lpage>149</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2918-CONNELL2001">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Connell</surname>
+          <given-names>Raewyn</given-names>
+        </name>
+      </person-group>
+      <article-title>Educando a los muchachos: nuevas investigaciones sobre masculinidad y estrategias de género para las escuelas</article-title>
+      <source>Nómadas</source>
       <year>2001</year>
+      <issue>14</issue>
+      <fpage>156</fpage>
+      <lpage>171</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2919-CHRISTMANN2010">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Christmann</surname>
+          <given-names>Nelly</given-names>
+        </name>
+        <name>
+          <surname>Lombardi</surname>
+          <given-names>Nelly</given-names>
+        </name>
+        <name>
+          <surname>Ottavianelli</surname>
+          <given-names>Ana</given-names>
+        </name>
+      </person-group>
+      <source>El liceo de todos. Un patrimonio recuperado por la comunidad</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2010</year>
+    </element-citation>
+  </ref>
+  <ref id="2920-CARRIZO2009">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Carrizo</surname>
+          <given-names>Gabriel</given-names>
+        </name>
+      </person-group>
+      <article-title>Educación y masculinidad en un Colegio técnico de la Patagonia argentina: el caso de los salesianos en Comodoro Rivadavia durante la primera mitad del siglo XX</article-title>
+      <source>CPU-e. Revista de Investigación Educativa</source>
+      <year>2009</year>
+      <volume>9</volume>
+      <fpage>1</fpage>
+      <lpage>22</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2921-CASANOVA2013">
+    <element-citation publication-type="other">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Casanova</surname>
+          <given-names>Julián</given-names>
+        </name>
+      </person-group>
+      <source>Historia, progreso y la invención de la modernidad</source>
+      <year>2013</year>
+      <ext-link ext-link-type="uri" xlink:href="http://www.juliancasanova.es/historia-progreso-y-la-invencion-de-la-modernidad/">http://www.juliancasanova.es/historia-progreso-y-la-invencion-de-la-modernidad/</ext-link>
+    </element-citation>
+  </ref>
+  <ref id="2922-CATULLO2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Catullo</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <article-title>La ciudad de La Plata como primer proyecto de gran escala. Su contexto socioeconómico</article-title>
+      <source>Cadernos do Tempo Presente</source>
+      <year>2015</year>
+      <issue>20</issue>
+      <fpage>27</fpage>
+      <lpage>39</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2923-CATTARUZZA2009">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Cattaruzza</surname>
+          <given-names>Alejandro</given-names>
+        </name>
+      </person-group>
+      <source>La Historia de la Argentina. 1916-1955</source>
+      <publisher-name>Siglo XXI</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2009</year>
+    </element-citation>
+  </ref>
+  <ref id="2924-CASTRO2004">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Castro</surname>
+          <given-names>Edgardo</given-names>
+        </name>
+      </person-group>
+      <source>Diccionario Foucault. Temas, conceptos y autores</source>
+      <publisher-name>Siglo XXI</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2004</year>
+    </element-citation>
+  </ref>
+  <ref id="2925-CHAVEZGONZALEZ2006">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Chávez González</surname>
+          <given-names>Mónica</given-names>
+        </name>
+      </person-group>
+      <source>La introducción de la educación física en México: representaciones sobre el género y el cuerpo, 1882-1928</source>
+      <year>2006</year>
+      <institution>El Colegio de San Luis</institution>
+    </element-citation>
+  </ref>
+  <ref id="2926-DEBEAUVOIR2018">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>De Beauvoir</surname>
+          <given-names>Simone</given-names>
+        </name>
+      </person-group>
+      <source>El segundo sexo</source>
+      <publisher-name>Penguin Random House</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2018</year>
+    </element-citation>
+  </ref>
+  <ref id="2927-ESCOLANOBENITO2010">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Escolano Benito</surname>
+          <given-names>Agustín</given-names>
+        </name>
+      </person-group>
+      <article-title>La cultura material de la escuela y la educación patrimonial</article-title>
+      <source>Educatio Siglo XXI</source>
+      <year>2010</year>
+      <volume>28</volume>
+      <issue>2</issue>
+      <fpage>43</fpage>
+      <lpage>64</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2928-DELGADODESMITH2008">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Delgado de Smith</surname>
+          <given-names>Yamile</given-names>
+        </name>
+      </person-group>
+      <article-title>El sujeto: los espacios públicos y privados desde el género</article-title>
+      <source>Revista Estudios Culturales</source>
+      <year>2008</year>
+      <issue>2</issue>
+      <fpage>113</fpage>
+      <lpage>126</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2929-DRAGHI2014">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Draghi</surname>
+          <given-names>María</given-names>
+        </name>
+        <name>
+          <surname>Vassiliades</surname>
+          <given-names>Alejandro</given-names>
+        </name>
+      </person-group>
+      <article-title>Presentación a la reedición del artículo: "La Facultad de Ciencias de la Educación" de Víctor Mercante</article-title>
+      <source>Revista Archivos de Ciencias de la Educación</source>
+      <year>2014</year>
+      <volume>8</volume>
+      <issue>8</issue>
+      <fpage>1</fpage>
+      <lpage>3</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2930-DUSSEL2019">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Dussel</surname>
+          <given-names>Inés</given-names>
+        </name>
+      </person-group>
+      <article-title>La cultura material de la escolarización: reflexiones en torno a un giro historiográfico</article-title>
+      <source>Educar em Revista</source>
+      <year>2019</year>
+      <volume>35</volume>
+      <issue>76</issue>
+      <fpage>13</fpage>
+      <lpage>29</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2931-DUSSEL2003">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Dussel</surname>
+          <given-names>Inés</given-names>
+        </name>
+      </person-group>
+      <article-title>La gramática escolar de la escuela argentina: un análisis desde la historia de los guardapolvos</article-title>
+      <source>Anuario de Historia de la Educación</source>
+      <year>2003</year>
+      <issue>4</issue>
+      <fpage>11</fpage>
+      <lpage>36</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2932-DUSSEL1997">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Dussel</surname>
+          <given-names>Inés</given-names>
+        </name>
+      </person-group>
+      <source>Currículum, humanismo y democracia en la enseñanza media (1863-1920)</source>
+      <publisher-name>FLACSO</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1997</year>
+    </element-citation>
+  </ref>
+  <ref id="2933-DUSSEL2008">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Dussel</surname>
+          <given-names>Inés</given-names>
+        </name>
+      </person-group>
+      <article-title>Currículum y conocimiento en la escuela media argentina</article-title>
+      <source>Anales de la educación común</source>
+      <year>2008</year>
+      <volume>2</volume>
+      <issue>4</issue>
+      <fpage>95</fpage>
+      <lpage>105</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2934-DOGLIOTTI2013">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Dogliotti</surname>
+          <given-names>Paola</given-names>
+        </name>
+      </person-group>
+      <article-title>La formación de maestros de educación física en el Uruguay (1921-1930): Julio J. Rodríguez</article-title>
+      <source>Revista Brasileira de História da Educação</source>
+      <year>2013</year>
+      <volume>17</volume>
+      <issue>41</issue>
+    </element-citation>
+  </ref>
+  <ref id="2935-DOGLIOTTI2014">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Dogliotti</surname>
+          <given-names>Paola</given-names>
+        </name>
+      </person-group>
+      <article-title>Acerca de la "Cultura Física" en la revista Uruguay-Sport: Archivos de la CNEF, Uruguay (1918-1926)</article-title>
+      <source>Revista Brasileira de Ciencias do Esporte</source>
+      <year>2014</year>
+      <volume>36</volume>
+      <issue>3</issue>
+      <fpage>608</fpage>
+      <lpage>616</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2936-DIPIERO2017">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Di Piero</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <article-title>Métodos de admisión a la educación y concepciones de justicia distributiva: representaciones docentes en una escuela secundaria tradicional en Argentina</article-title>
+      <source>Andamios</source>
+      <year>2017</year>
+      <volume>14</volume>
+      <issue>35</issue>
+      <fpage>379</fpage>
+      <lpage>402</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2937-DILISCIA2005">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Di Liscia</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <article-title>Dentro y fuera del hogar. Mujeres, familias y medicalización en Argentina, 1870-1940</article-title>
+      <source>Signos Históricos</source>
+      <year>2005</year>
+      <issue>13</issue>
+      <fpage>95</fpage>
+      <lpage>119</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2938-FAUSTOSTERLING2006">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Fausto Sterling</surname>
+          <given-names>Anne</given-names>
+        </name>
+      </person-group>
+      <source>Cuerpos sexuados. La política de género y la construcción de la sexualidad</source>
+      <publisher-name>Melusina</publisher-name>
+      <publisher-loc>Barcelona</publisher-loc>
+      <year>2006</year>
+    </element-citation>
+  </ref>
+  <ref id="2939-FEMENIAS2003">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Femenías</surname>
+          <given-names>María Luisa</given-names>
+        </name>
+      </person-group>
+      <source>Judith Butler: introducción a su lectura</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2003</year>
+    </element-citation>
+  </ref>
+  <ref id="2940-GALAK2016">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Galak</surname>
+          <given-names>Eduardo</given-names>
+        </name>
+      </person-group>
+      <source>Educar los cuerpos al servicio de la política. Cultura física, higienismo, raza y eugenesia en Argentina y Brasil</source>
+      <publisher-name>Biblos and UNDAV Ediciones</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+    </element-citation>
+  </ref>
+  <ref id="2941-GALAK2014">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Galak</surname>
+          <given-names>Eduardo</given-names>
+        </name>
+      </person-group>
+      <article-title>Educación del cuerpo y política: concepciones de raza, higienismo y eugenesia en la Educación Física Argentina</article-title>
+      <source>Movimento</source>
+      <year>2014</year>
+      <volume>20</volume>
+      <issue>4</issue>
+      <fpage>1543</fpage>
+      <lpage>1562</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2942-GADOTTI1998">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Gadotti</surname>
+          <given-names>Moacir</given-names>
+        </name>
+      </person-group>
+      <chapter-title>El pensamiento pedagógico de la Escuela Nueva</chapter-title>
+      <source>Historia de las ideas pedagógicas</source>
+      <publisher-name>Siglo XXI</publisher-name>
+      <publisher-loc>Ciudad de México</publisher-loc>
+      <year>1998</year>
+    </element-citation>
+  </ref>
+  <ref id="2943-FRYDENBERG2011">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Frydenberg</surname>
+          <given-names>Julio</given-names>
+        </name>
+      </person-group>
+      <source>Historia social del fútbol: del amateurismo a la profesionalización</source>
+      <publisher-name>Siglo XXI</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2011</year>
+    </element-citation>
+  </ref>
+  <ref id="2944-FRANCESCHINI2019">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Franceschini</surname>
+          <given-names>Silvina</given-names>
+        </name>
+      </person-group>
+      <source>Discursos y prácticas de la eugenesia en la formación de profesores en Educación Física en Argentina durante la entreguerra. Los casos del INSEF de Buenos Aires y San Fernando</source>
+      <year>2019</year>
+      <institution>Universidad Nacional de Quilmes</institution>
+    </element-citation>
+  </ref>
+  <ref id="2945-FIEBELKORN2016">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Fiebelkorn</surname>
+          <given-names>Ayelén</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Cine y deporte en escena: discursos de la prensa platense sobre el entretenimiento popular durante la década de 1930</chapter-title>
+      <source>IX Jornadas de Sociología de la UNLP</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+    </element-citation>
+  </ref>
+  <ref id="2946-FOUCAULT2006">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Foucault</surname>
+          <given-names>Michel</given-names>
+        </name>
+      </person-group>
+      <source>Defender la sociedad: Curso en el Collège de France, 1975-1976</source>
+      <publisher-name>Fondo de Cultura Econó­mica</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2006</year>
+    </element-citation>
+  </ref>
+  <ref id="2947-FERNANDEZHARARI2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Fernández Harari</surname>
+          <given-names>Inés</given-names>
+        </name>
+        <name>
+          <surname>Fernández</surname>
+          <given-names>Luz</given-names>
+        </name>
+      </person-group>
+      <article-title>Cuerpos dóciles. El cuerpo, la disciplina y su representación en las memorias anuales y fotografías del Liceo de Señoritas de La Plata (1926-1938)</article-title>
+      <source>Nimi</source>
+      <year>2015</year>
+      <issue>2</issue>
+    </element-citation>
+  </ref>
+  <ref id="2948-FUENTES2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Fuentes</surname>
+          <given-names>Sebastián</given-names>
+        </name>
+        <name>
+          <surname>Guinness</surname>
+          <given-names>Daniel</given-names>
+        </name>
+      </person-group>
+      <article-title>Nacionalismos deportivos con "clase": el rugby argentino en la era profesional/global</article-title>
+      <source>Antípoda. Revista de Antropología y Arqueología</source>
+      <year>2018</year>
+      <issue>30</issue>
+      <fpage>85</fpage>
+      <lpage>105</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2949-GOELLNER1999">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Goellner</surname>
+          <given-names>Silvana</given-names>
+        </name>
+      </person-group>
+      <source>Bela, maternal e femenina: imagens da mulher na Revista Educacao Physyca</source>
+      <year>1999</year>
+      <institution>Universidade Estadual de Campinas</institution>
+    </element-citation>
+  </ref>
+  <ref id="2950-GIORDANO2014">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Giordano</surname>
+          <given-names>Verónica</given-names>
+        </name>
+      </person-group>
+      <chapter-title>(Doble) moral sexual y derechos civiles de las mujeres, 1888-2010</chapter-title>
+      <source>Moralidades y comportamientos sexuales. Argentina, 1880-2011</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+    </element-citation>
+  </ref>
+  <ref id="2951-GAYOL2017">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Gayol</surname>
+          <given-names>Sandra</given-names>
+        </name>
+        <name>
+          <surname>Palermo</surname>
+          <given-names>Silvana</given-names>
+        </name>
+      </person-group>
+      <source>Política y cultura de masas en la Argentina de la primera mitad del siglo XX</source>
+      <publisher-name>Universidad Nacional de General Sarmiento</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2017</year>
+    </element-citation>
+  </ref>
+  <ref id="2952-GENTILE1999">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Gentile</surname>
+          <given-names>Eduardo</given-names>
+        </name>
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>De los internados al hogar estudiantil el hábitat en los proyectos pedagógicos de la UNLP (1905/10-1924)</chapter-title>
+      <source>La Universidad de la Plata y el movimiento estudiantil, desde sus orígenes hasta 1930</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1999</year>
+    </element-citation>
+  </ref>
+  <ref id="2953-GIDDENS1993">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Giddens</surname>
+          <given-names>Antony</given-names>
+        </name>
+      </person-group>
+      <source>Consecuencias de la modernidad</source>
+      <publisher-name>Alianza</publisher-name>
+      <publisher-loc>Madrid</publisher-loc>
+      <year>1993</year>
+    </element-citation>
+  </ref>
+  <ref id="2954-GERMANI1987">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Germani</surname>
+          <given-names>Gino</given-names>
+        </name>
+      </person-group>
+      <source>La estructura social de la Argentina</source>
+      <publisher-name>Ediciones Solar</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1987</year>
+    </element-citation>
+  </ref>
+  <ref id="2955-GILMORE1994">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Gilmore</surname>
+          <given-names>David</given-names>
+        </name>
+      </person-group>
+      <source>Hacerse hombre. Concepciones culturales de la masculinidad</source>
+      <publisher-name>Paidós</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1994</year>
+    </element-citation>
+  </ref>
+  <ref id="2956-GOMEZ2006">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Gómez</surname>
+          <given-names>Patricia</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La Educación Física en la legislación argentina. El itinerario normativo de una asignatura escolar (1880-1955)</chapter-title>
+      <source>Tras las huellas de la Educación Física Escolar Argentina. Cuerpo, género y pedagogía 1880-1950</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2006</year>
+      <fpage>247</fpage>
+      <lpage>294</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2957-KIMMEL1997">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kimmel</surname>
+          <given-names>Michael</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Homofobia, temor, vergüenza y silencio en la identidad masculina</chapter-title>
+      <source>Masculinidad/es. Poder y crisis</source>
+      <publisher-name>Ediciones de las Mujeres</publisher-name>
+      <publisher-loc>Santiago de Chile</publisher-loc>
+      <year>1997</year>
+      <fpage>49</fpage>
+      <lpage>62</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2958-GUIAMET2014">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Guiamet</surname>
+          <given-names>Javier</given-names>
+        </name>
+      </person-group>
+      <chapter-title>El trompeador Firpo: El boxeo dentro del imaginario del socialismo argentino en los años veinte</chapter-title>
+      <source>VIII Jornadas de Sociología de la UNLP</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+    </element-citation>
+  </ref>
+  <ref id="2959-HABERMAS1998">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Habermas</surname>
+          <given-names>Jürgen</given-names>
+        </name>
+      </person-group>
+      <article-title>Modernidad: un proyecto incompleto</article-title>
+      <source>Revista Punto de Vista</source>
+      <year>1998</year>
+      <issue>21</issue>
+      <fpage>1</fpage>
+      <lpage>9</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2960-HARAWAY2021">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Haraway</surname>
+          <given-names>Donna</given-names>
+        </name>
+      </person-group>
+      <source>Feminismo y Tecnociencia</source>
+      <publisher-name>Rara Avis Editorial</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2021</year>
+    </element-citation>
+  </ref>
+  <ref id="2961-KACZAN2016">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kaczan</surname>
+          <given-names>Gisela</given-names>
+        </name>
+      </person-group>
+      <article-title>La práctica gimnástica y el deporte, la cultura física y el cuerpo bello en la historia de las mujeres. Argentina 1900-1930</article-title>
+      <source>Revista Historia Crítica</source>
+      <year>2016</year>
+      <issue>61</issue>
+      <fpage>23</fpage>
+      <lpage>43</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2962-GREMENTIERI2010">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Grementieri</surname>
+          <given-names>Fabio</given-names>
+        </name>
+        <name>
+          <surname>Schmidt</surname>
+          <given-names>Claudia</given-names>
+        </name>
+      </person-group>
+      <source>Arquitectura, educación y patrimonio</source>
+      <publisher-name>Pamplatina</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2010</year>
+    </element-citation>
+  </ref>
+  <ref id="2963-LAMAS2000">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lamas</surname>
+          <given-names>Marta</given-names>
+        </name>
+      </person-group>
+      <article-title>Diferencias de sexo, género y diferencia sexual</article-title>
+      <source>Cuicuilco</source>
+      <year>2000</year>
+      <volume>7</volume>
+      <issue>18</issue>
+      <fpage>1</fpage>
+      <lpage>24</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2964-LEVORATTI2021">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Levoratti</surname>
+          <given-names>Alejo</given-names>
+        </name>
+      </person-group>
+      <source>La formación de los profesores de Educación Física en Argentina. Actores y sentidos en disputa (1990-2015)</source>
+      <publisher-name>Universidad Nacional de Quilmes</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2021</year>
+    </element-citation>
+  </ref>
+  <ref id="2965-LEVORATTI2016">
+    <element-citation publication-type="book">
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Levoratti</surname>
+          <given-names>Alejo</given-names>
+        </name>
+        <name>
+          <surname>Moreira</surname>
+          <given-names>Verónica</given-names>
+        </name>
+      </person-group>
+      <source>Deporte, cultura y sociedad. Estudios socio-antropológicos en Argentina</source>
+      <publisher-name>Teseo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+    </element-citation>
+  </ref>
+  <ref id="2966-LERNER1986">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lerner</surname>
+          <given-names>Gerda</given-names>
+        </name>
+      </person-group>
+      <source>La creación del patriarcado</source>
+      <publisher-name>Oxford University Press</publisher-name>
+      <publisher-loc>Nueva York</publisher-loc>
+      <year>1986</year>
+    </element-citation>
+  </ref>
+  <ref id="2967-LEONARD1983">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Leonard</surname>
+          <given-names>Jacques</given-names>
+        </name>
+      </person-group>
+      <source>Eugenesia y darwinismo. Esperanzas y perplejidades en los médicos franceses del siglo XIX y principios del siglo XX</source>
+      <publisher-name>Universidad de Buenos Aires</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1983</year>
+    </element-citation>
+  </ref>
+  <ref id="2968-LEGARRALDE2000">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Legarralde</surname>
+          <given-names>Martín</given-names>
+        </name>
+      </person-group>
+      <source>Historia del Colegio Nacional de La Plata entre 1887 y 1918, y su articulación con los proyectos pedagógicos. Ayudantía de investigación</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2000</year>
+    </element-citation>
+  </ref>
+  <ref id="2969-LAQUEUR1994">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Laqueur</surname>
+          <given-names>Thomas</given-names>
+        </name>
+      </person-group>
+      <source>La construcción social del sexo. Cuerpo y género desde los griegos hasta Freud</source>
+      <publisher-name>Cátedra</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1994</year>
+    </element-citation>
+  </ref>
+  <ref id="2970-LEBRETON1999">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Le Bretón</surname>
+          <given-names>David</given-names>
+        </name>
+      </person-group>
+      <source>Las pasiones ordinarias. Antropología de las emociones</source>
+      <publisher-name>Nueva Visión</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1999</year>
+    </element-citation>
+  </ref>
+  <ref id="2971-LEDESMAPRIETO2020">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ledesma Prieto</surname>
+          <given-names>Nadia</given-names>
+        </name>
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Cultura física, cuerpos y sexualidades en la revista Cultura Sexual y Física, 1937-1941</article-title>
+      <source>História, Ciências, Saúde - Manguinhos</source>
+      <year>2020</year>
+      <volume>27</volume>
+      <issue>4</issue>
+      <fpage>225</fpage>
+      <lpage>243</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2972-LINARES2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Linares</surname>
+          <given-names>Luciana</given-names>
+        </name>
+      </person-group>
+      <article-title>Modelo para armar. Familia y roles de género a través del discurso eugénico en Argentina. 1934-1945</article-title>
+      <source>Derecho y Ciencias Sociales</source>
+      <year>2018</year>
+      <issue>19</issue>
+      <fpage>4</fpage>
+      <lpage>21</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2973-LIONETTI2011">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lionetti</surname>
+          <given-names>Lucía</given-names>
+        </name>
+      </person-group>
+      <article-title>Discursos, representaciones y prácticas educativas sobre el cuerpo de los escolares. Argentina en las primeras décadas del siglo XX</article-title>
+      <source>Cuadernos de Historia</source>
+      <year>2011</year>
+      <volume>34</volume>
+      <fpage>31</fpage>
+      <lpage>52</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2974-LOMAS2013">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lomas</surname>
+          <given-names>Carlos</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Piedra de la Cuadra</surname>
+          <given-names>Joaquín</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La coeducación de la masculinidad y el aprendizaje de la equidad</chapter-title>
+      <source>Géneros, masculinidades y diversidad. Educación Física, deportes e identidades masculinidades</source>
+      <publisher-name>Octaedro</publisher-name>
+      <publisher-loc>Barcelona</publisher-loc>
+      <year>2013</year>
+    </element-citation>
+  </ref>
+  <ref id="2975-LOPESLOURO2004">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lópes Louro</surname>
+          <given-names>Guacira</given-names>
+        </name>
+      </person-group>
+      <source>Un cuerpo extraño. Ensayos sobre sexualidad y teoría queer</source>
+      <publisher-name>Auténtica</publisher-name>
+      <publisher-loc>San Pablo</publisher-loc>
+      <year>2004</year>
+    </element-citation>
+  </ref>
+  <ref id="2976-MANGAN2019">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Mangan</surname>
+          <given-names>James</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+        <name>
+          <surname>Torres</surname>
+          <given-names>César</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La construcción social de la feminidad victoriana: emancipación, educación y ejercicio</chapter-title>
+      <source>El rostro cambiante del deporte. Perspectivas historiográficas angloparlantes 1970-2010</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2019</year>
+      <fpage>207</fpage>
+      <lpage>218</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2977-MALPAS2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Malpas</surname>
+          <given-names>Jeff</given-names>
+        </name>
+      </person-group>
+      <article-title>Pensar topográficamente: Lugar, espacio y geografía</article-title>
+      <source>Documents d'Anàlisi Geogràfica</source>
+      <year>2015</year>
+      <volume>61</volume>
+      <issue>2</issue>
+      <fpage>199</fpage>
+      <lpage>229</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2978-MAGALLONANAYA2008">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Magallón Anaya</surname>
+          <given-names>Mario</given-names>
+        </name>
+      </person-group>
+      <article-title>América Latina y la Modernidad</article-title>
+      <source>Archipiélago. Revista cultural de nuestra América</source>
+      <year>2008</year>
+      <volume>16</volume>
+      <issue>62</issue>
+      <fpage>46</fpage>
+      <lpage>47</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2979-LVOVICH2003">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lvovich</surname>
+          <given-names>Daniel</given-names>
+        </name>
+      </person-group>
+      <source>Nacionalismo y antisemitismo en la Argentina</source>
+      <publisher-name>Javier Vergara Editor</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2003</year>
+    </element-citation>
+  </ref>
+  <ref id="2980-LORENZO2016">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lorenzo</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Que sepa coser, que sepa bordar, que sepa abrir la puerta para ir a la universidad</chapter-title>
+      <source>Las académicas en la Universidad de Buenos Aires en la primera mitad del siglo XX</source>
+      <publisher-name>EUDEBA</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+    </element-citation>
+  </ref>
+  <ref id="2981-LOSANO2006">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Losano</surname>
+          <given-names>Gabriel</given-names>
+        </name>
+      </person-group>
+      <article-title>La Plata: de la ciudad apreciada a la ciudad ignorada</article-title>
+      <source>Geograficando</source>
+      <year>2006</year>
+      <volume>2</volume>
+      <issue>2</issue>
+      <fpage>201</fpage>
+      <lpage>223</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2982-LOZANO1980">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Lozano</surname>
+          <given-names>Claudio</given-names>
+        </name>
+      </person-group>
+      <source>La escolarización. Historia de la enseñanza</source>
+      <publisher-name>Montesinos</publisher-name>
+      <publisher-loc>Barcelona</publisher-loc>
+      <year>1980</year>
+    </element-citation>
+  </ref>
+  <ref id="2983-MOLINAJIMENEZ1996">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Molina Jiménez</surname>
+          <given-names>Iván</given-names>
+        </name>
+      </person-group>
+      <article-title>De la historia local a la historia social: algunas notas metodológicas</article-title>
+      <source>Reflexiones</source>
+      <year>1996</year>
+      <volume>51</volume>
+      <issue>1</issue>
+      <fpage>19</fpage>
+      <lpage>27</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2984-MOLINA2006">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Molina</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <article-title>Transformaciones Histórico Culturales del Concepto de Maternidad y sus Repercusiones en la Identidad de la Mujer</article-title>
+      <source>Psykhe</source>
+      <year>2006</year>
+      <volume>15</volume>
+      <issue>2</issue>
+      <fpage>93</fpage>
+      <lpage>103</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2985-MENENDEZ1988">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Menéndez</surname>
+          <given-names>Eduardo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Modelo Médico Hegemónico y Atención Primaria</chapter-title>
+      <source>Segundas Jornadas de Atención Primaria de la Salud</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1988</year>
+      <fpage>451</fpage>
+      <lpage>464</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2986-MENDEZ2017">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Méndez</surname>
+          <given-names>Laura</given-names>
+        </name>
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>La generización de los cuerpos en perspectiva histórica: una mirada desde las prácticas corporales de las mujeres</article-title>
+      <source>Lúdica pedagógica</source>
+      <year>2017</year>
+      <issue>25</issue>
+      <fpage>47</fpage>
+      <lpage>60</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2987-MASON1996">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Mason</surname>
+          <given-names>Jennifer</given-names>
+        </name>
+      </person-group>
+      <source>Qualitative Researching</source>
+      <publisher-name>Sage</publisher-name>
+      <publisher-loc>Londres</publisher-loc>
+      <year>1996</year>
+    </element-citation>
+  </ref>
+  <ref id="2988-MARQUES1997">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Marqués</surname>
+          <given-names>Josep</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Valdés</surname>
+          <given-names>Teresa</given-names>
+        </name>
+        <name>
+          <surname>Olavarría</surname>
+          <given-names>José</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Varón y patriarcado</chapter-title>
+      <source>Masculinidad/es. Poder y crisis</source>
+      <publisher-name>Ediciones de las Mujeres</publisher-name>
+      <publisher-loc>Santiago de Chile</publisher-loc>
+      <year>1997</year>
+      <fpage>17</fpage>
+      <lpage>30</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2989-MARTINEZHERRERA2007">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Martínez-Herrera</surname>
+          <given-names>Manuel</given-names>
+        </name>
+      </person-group>
+      <article-title>La construcción de la feminidad: la mujer como sujeto de la historia y como sujeto de deseo</article-title>
+      <source>Actualidades en psicología</source>
+      <year>2007</year>
+      <volume>21</volume>
+      <issue>108</issue>
+      <fpage>79</fpage>
+      <lpage>95</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2990-MARTINEZ2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Martínez</surname>
+          <given-names>Ariel</given-names>
+        </name>
+      </person-group>
+      <article-title>La tensión entre materialidad y discurso: la mirada de Judith Butler sobre el cuerpo</article-title>
+      <source>Cinta moebio</source>
+      <year>2015</year>
+      <issue>54</issue>
+      <fpage>325‐335</fpage>
+      <lpage>325‐335</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2991-MIRANDA2011">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Miranda</surname>
+          <given-names>Marisa</given-names>
+        </name>
+        <name>
+          <surname>Bargas</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <article-title>Mujer y maternidad: entre el rol sexual y el deber social (Argentina, 1920-1945)</article-title>
+      <source>Locus. Revista de história, Juiz de Fora</source>
+      <year>2011</year>
+      <volume>17</volume>
+      <issue>2</issue>
+      <fpage>75</fpage>
+      <lpage>101</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2992-MIRANDA2012">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Miranda</surname>
+          <given-names>Marisa</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La Argentina en el escenario eugenésico internacional</chapter-title>
+      <source>Una historia de la eugenesia. Argentina y las redes biopolíticas internacionales 1912-1945</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2012</year>
+      <fpage>19</fpage>
+      <lpage>64</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2993-MIRANDA2016">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Miranda</surname>
+          <given-names>Lida</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Hacer del deporte una religión. Tiempo de ocio, género y catolicismo en la Buenos Aires de entreguerras</chapter-title>
+      <source>Mujeres en movimiento. Deporte, cultura física y feminidades. Argentina, 1870-1980</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+      <fpage>163</fpage>
+      <lpage>188</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2994-VALLEJO2004">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+        <name>
+          <surname>Miranda</surname>
+          <given-names>Marisa</given-names>
+        </name>
+      </person-group>
+      <article-title>Los saberes del poder: eugenesia y biotipología en la Argentina del siglo XX</article-title>
+      <source>Revista de Indias</source>
+      <year>2004</year>
+      <volume>44</volume>
+      <issue>231</issue>
+      <fpage>425</fpage>
+      <lpage>444</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2995-VALERA1999">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Valera</surname>
+          <given-names>Sergi</given-names>
+        </name>
+      </person-group>
+      <article-title>Espacio privado, espacio público: Dialécticas urbanas y construcción de significados</article-title>
+      <source>Tres al Cuarto</source>
+      <year>1999</year>
+      <issue>6</issue>
+      <fpage>22</fpage>
+      <lpage>24</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2996-VALLEJO2007">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+      </person-group>
+      <source>Escenarios de la cultura física argentina. Ciudad y universidad (1882-1955)</source>
+      <publisher-name>Consejo Superior de Investigaciones Científicas</publisher-name>
+      <publisher-loc>Madrid</publisher-loc>
+      <year>2007</year>
+    </element-citation>
+  </ref>
+  <ref id="2997-VALLEJO2008">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Cuerpo y representación: la imagen del hombre en la eugenesia latín</chapter-title>
+      <source>Estrategias modernas de normalización del individuo y la sociedad</source>
+      <publisher-name>Siglo XXI</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2008</year>
+      <fpage>23</fpage>
+      <lpage>58</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2998-VALLEJO1999">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Biagini</surname>
+          <given-names>Hugo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>"El culto de lo bello". La universidad humanista de la década del 20</chapter-title>
+      <source>La Universidad de La Plata y el movimiento estudiantil desde sus orígenes hasta 1930</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1999</year>
+    </element-citation>
+  </ref>
+  <ref id="2999-VALLEJO2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+      </person-group>
+      <article-title>José Gabriel: un emergente de la "nueva generación" argentina en tiempos de la Reforma Universitaria (1920-1932)</article-title>
+      <source>Questiones de Ruptura</source>
+      <year>2018</year>
+      <volume>2</volume>
+      <issue>1</issue>
+      <fpage>48</fpage>
+      <lpage>70</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3000-VALLEJO2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Vallejo</surname>
+          <given-names>Gustavo</given-names>
+        </name>
+      </person-group>
+      <article-title>El hombre nuevo: representaciones culturales en torno a la masculinidad en la Argentina (1918-1976)</article-title>
+      <source>Cuadernos de historia contemporánea</source>
+      <year>2018</year>
+      <issue>40</issue>
+      <fpage>89</fpage>
+      <lpage>113</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3001-SCHARAGRODSKY2019">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+        <name>
+          <surname>Torres</surname>
+          <given-names>César</given-names>
+        </name>
+      </person-group>
+      <source>El rostro cambiante del deporte. Perspectivas historiográficas angloparlantes 1970-2010</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2019</year>
+    </element-citation>
+  </ref>
+  <ref id="3002-SCHARAGRODSKY2007">
+    <element-citation publication-type="other">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <source>El cuerpo en la escuela. Buenos Aires: Ministerio de Educación, Ciencia y Tecnología. (Explora, las ciencias en el mundo contemporáneo. Pedagogía)</source>
+      <year>2007</year>
+      <ext-link ext-link-type="uri" xlink:href="http://www.memoria.fahce.unlp.edu.ar/libros/pm.869/pm.869.pdf">http://www.memoria.fahce.unlp.edu.ar/libros/pm.869/pm.869.pdf</ext-link>
+    </element-citation>
+  </ref>
+  <ref id="3003-SCHARAGRODSKY2020">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Dogliotti</surname>
+          <given-names>Paola</given-names>
+        </name>
+        <name>
+          <surname>Quitzau</surname>
+          <given-names>Evelise</given-names>
+        </name>
+        <name>
+          <surname>Ruggiano</surname>
+          <given-names>Gianfranco</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Masculinidades y moralidades "científicas" en la cultura física. El caso de la fisiología del ejercicio a finales del siglo XIX y principios del XX, argentina</chapter-title>
+      <source>Historia de la educación física: miradas desde Uruguay, Argentina y Brasil. Uruguay</source>
+      <publisher-name>Biblioteca Plural Udelar</publisher-name>
+      <year>2020</year>
+    </element-citation>
+  </ref>
+  <ref id="3004-SCHARAGRODSKY2004">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Juntos pero no revueltos: la Educación Física mixta en clave de género</article-title>
+      <source>Cadernos de Pesquisa</source>
+      <year>2004</year>
+      <volume>34</volume>
+      <issue>121</issue>
+      <fpage>59</fpage>
+      <lpage>76</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3005-SCHARAGRODSKY2006">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Los ejercicios militares en la escuela argentina: cuerpos masculinos y patriotas a fines del siglo XIX</chapter-title>
+      <source>Tras las huellas de la Educación Física Escolar Argentina. Cuerpo, género y pedagogía 1880-1950</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2006</year>
+      <fpage>105</fpage>
+      <lpage>133</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3006-SCHARAGRODSKY2011">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Cuerpos femeninos en movimiento o acerca de los significados sobre la salud y la enfermedad a fines del siglo XIX en Argentina</article-title>
+      <source>Pro-Posições</source>
+      <year>2011</year>
+      <issue>22</issue>
+      <fpage>97</fpage>
+      <lpage>112</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3007-SCHARAGRODSKY2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>El Sistema Argentino de Educación Física. Entre el cientificismo, la higienización, el eclecticismo y la argentinidad</article-title>
+      <source>Revista Brasileira de Ciências do Esporte</source>
+      <year>2015</year>
+      <volume>37</volume>
+      <issue>2</issue>
+      <fpage>158</fpage>
+      <lpage>164</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3008-SCHARAGRODSKY2014">
+    <element-citation publication-type="book">
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <source>Miradas médicas sobre la cultura física en Argentina 1880-1970</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+    </element-citation>
+  </ref>
+  <ref id="3009-SCHARAGRODSKY2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>El padre de la Medicina deportiva o acerca de cómo fabricar campeones, décadas del 20 y 30, siglo XX</article-title>
+      <source>Recorde</source>
+      <year>2018</year>
+      <volume>11</volume>
+      <issue>2</issue>
+      <fpage>1</fpage>
+      <lpage>29</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3010-SCHARAGRODSKY2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>La constitución de la medicina deportiva argentina o acerca de cómo construir una de las primeras recordwoman. Argentina, décadas del 20 y 30</article-title>
+      <source>La Aljaba</source>
+      <year>2018</year>
+      <issue>22</issue>
+      <fpage>99</fpage>
+      <lpage>120</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3011-SCHARAGRODSKY2006">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>El padre de la Educación Física argentina: fabricando una política corporal generizada (1901-1938)</chapter-title>
+      <source>Tras las huellas de la Educación Física Escolar Argentina. Cuerpo, género y pedagogía 1880-1950</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2006</year>
+      <fpage>159</fpage>
+      <lpage>197</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3012-SCHARAGRODSKY2009">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La educación del cuerpo de las niñas en el marco del Sistema Argentino de Educación Física en las primeras décadas del siglo XX</chapter-title>
+      <source>I Jornadas del Centro Interdisciplinario de Investigaciones en Género</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2009</year>
+    </element-citation>
+  </ref>
+  <ref id="3013-SCHARAGRODSKY2016">
+    <element-citation publication-type="book">
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <source>Mujeres en movimiento. Deporte, cultura física y feminidades. Argentina, 1870-1980</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+    </element-citation>
+  </ref>
+  <ref id="3014-SCHARAGRODSKY2021">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>La prensa y la "pelea del siglo": Luis ángel Firpo vs. Jack Dempsey: Argentinidad, latinidad y virilidad en los años 20</chapter-title>
+      <source>Hombres en movimiento. Deporte, cultura física y masculinidades en Argentina 1880-1970</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2021</year>
+      <fpage>159</fpage>
+      <lpage>198</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3015-SCHARAGRODSKY2014">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Barrancos</surname>
+          <given-names>Dora</given-names>
+        </name>
+        <name>
+          <surname>Guy</surname>
+          <given-names>Donna</given-names>
+        </name>
+        <name>
+          <surname>Valobra</surname>
+          <given-names>Adriana</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Dime cómo te mueves y te diré cuál es tu "sexo": discurso médico, educación física y diferencia sexual a finales del siglo XIX y principios del XX</chapter-title>
+      <source>Moralidades y comportamientos sexuales. Argentina, 1880-2011</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+      <fpage>73</fpage>
+      <lpage>94</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3016-SCHARAGRODSKY2013">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Masculinidades en movimiento en las clases de educación física argentinas, o acerca de cómo no quedar en <italic>off side</italic></chapter-title>
+      <source>Género, masculinidades y diversidad: Educación Física, deportes e identidades masculinidades</source>
+      <publisher-name>Octaedro</publisher-name>
+      <publisher-loc>Madrid</publisher-loc>
+      <year>2013</year>
+      <fpage>158</fpage>
+      <lpage>183</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3017-SCHARAGRODSKY2006">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Construyendo masculinidades y feminidades católicas y moralmente correctas. El caso de la primera Dirección General de Educación Física Argentina (1936-1940)</chapter-title>
+      <source>Tras las huellas de la Educación Física Escolar Argentina. Cuerpo, género y pedagogía 1880-1950</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2006</year>
+      <fpage>199</fpage>
+      <lpage>234</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3018-SCHARAGRODSKY2022">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Cuerpos, masculinidades y deportes. Las tapas de la revista El Gráfico, Argentina 1920-1930</article-title>
+      <source>Apuntes</source>
+      <year>2022</year>
+      <volume>49</volume>
+      <issue>90</issue>
+      <fpage>81</fpage>
+      <lpage>118</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3019-SCHARAGRODSKY2019">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Scharagrodsky</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Notas sobre los lugares en la Educación y la Educación Física, Argentina, finales del siglo XIX y principios del XX</article-title>
+      <source>Revista Materiales para la historia del deporte</source>
+      <year>2019</year>
+      <issue>18</issue>
+      <fpage>73</fpage>
+      <lpage>87</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3020-REGGIANI2019">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Reggiani</surname>
+          <given-names>Andrés</given-names>
+        </name>
+      </person-group>
+      <source>La eugenesia en América Latina</source>
+      <publisher-name>El Colegio de México</publisher-name>
+      <publisher-loc>Ciudad de México</publisher-loc>
+      <year>2019</year>
+    </element-citation>
+  </ref>
+  <ref id="3021-REGGIANI2021">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Reggiani</surname>
+          <given-names>Andrés</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Rugby, elite y masculinidad. Una perspectiva histórica</chapter-title>
+      <source>Hombres en movimiento. Deporte, cultura física y masculinidades en Argentina 1880-1970</source>
+      <publisher-name>Prometeo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2021</year>
+    </element-citation>
+  </ref>
+  <ref id="3022-KOPELOVICH2020">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kopelovich</surname>
+          <given-names>Pablo</given-names>
+        </name>
+        <name>
+          <surname>Galak</surname>
+          <given-names>Eduardo</given-names>
+        </name>
+      </person-group>
+      <article-title>Una pedagogización de los deportes. La figura de Benigno Rodríguez Jurado y sus políticas sobre cultura física y deportes</article-title>
+      <source>Revista Materiales para la historia del deporte</source>
+      <year>2020</year>
+      <issue>20</issue>
+      <fpage>2</fpage>
+      <lpage>15</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3023-KOPELOVICH2019">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kopelovich</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Biopoder y Departamento de Cultura Física</article-title>
+      <source>Revista Ágora para la educación física y el deporte</source>
+      <year>2019</year>
+      <issue>21</issue>
+      <fpage>170</fpage>
+      <lpage>192</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3024-KOPELOVICH2013">
+    <element-citation publication-type="thesis">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kopelovich</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <source>La Revista de medicina aplicada a los deportes, educación física y trabajo (Ciudad de Buenos Aires, Argentina) entre los años 1935 y 1940: Principales conceptualizaciones sobre los deportes, los juegos, las gimnasias y la higiene</source>
+      <year>2013</year>
+      <institution>Universidad Nacional de La Plata</institution>
+    </element-citation>
+  </ref>
+  <ref id="3025-KOPELOVICH2020">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kopelovich</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Departamento de Cultura Física (1929-1946) y Dirección General de Educación Física (1947) de la Universidad Nacional de La Plata: Continuidades y rupturas en sus discursos legitimantes</article-title>
+      <source>Tempos e espaços em educação</source>
+      <year>2020</year>
+      <volume>13</volume>
+      <issue>32</issue>
+      <fpage>1</fpage>
+      <lpage>19</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3026-KOPELOVICH2022">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kopelovich</surname>
+          <given-names>Pablo</given-names>
+        </name>
+        <name>
+          <surname>Levoratti</surname>
+          <given-names>Alejo</given-names>
+        </name>
+      </person-group>
+      <article-title>Notas sobre la idea de "Cultura física" en la Argentina  durante la primera mitad del siglo XX</article-title>
+      <source>Recorde</source>
+      <year>2022</year>
+      <volume>15</volume>
+      <issue>1</issue>
+      <fpage>1</fpage>
+      <lpage>16</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3027-MORGADE2019">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Morgade</surname>
+          <given-names>Graciela</given-names>
+        </name>
+      </person-group>
+      <source>Aprender a ser mujer, aprender a ser varón</source>
+      <publisher-name>Centro de Publicaciones Educativas y Material Didáctico</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2019</year>
+    </element-citation>
+  </ref>
+  <ref id="3028-NARI2005">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Nari</surname>
+          <given-names>Marcela</given-names>
+        </name>
+      </person-group>
+      <source>Políticas de maternidad y maternalismo político</source>
+      <publisher-name>Biblos</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2005</year>
+    </element-citation>
+  </ref>
+  <ref id="3029-NAVARRO2016">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Navarro</surname>
+          <given-names>Luciana</given-names>
+        </name>
+        <name>
+          <surname>Pratto</surname>
+          <given-names>Juan</given-names>
+        </name>
+      </person-group>
+      <source>De-generando cuerpos: El Cestoball como deporte ¿femenino?</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2016</year>
+    </element-citation>
+  </ref>
+  <ref id="3030-NEIBURG2004">
+    <element-citation publication-type="book">
+      <person-group person-group-type="compiler">
+        <name>
+          <surname>Neiburg</surname>
+          <given-names>Federico</given-names>
+        </name>
+        <name>
+          <surname>Plotkin</surname>
+          <given-names>Mariano</given-names>
+        </name>
+      </person-group>
+      <source>Intelectuales y expertos. La constitución del conocimiento social en Argentina</source>
+      <publisher-name>Paidós</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2004</year>
+    </element-citation>
+  </ref>
+  <ref id="3031-ORTNER1972">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ortner</surname>
+          <given-names>Sherry</given-names>
+        </name>
+      </person-group>
+      <article-title>Is Female to Male as Nature is to Culture?</article-title>
+      <source>Feminist Studies</source>
+      <year>1972</year>
+      <volume>1</volume>
+      <issue>2</issue>
+      <fpage>5</fpage>
+      <lpage>31</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3032-PEDRAZ1997">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pedraz</surname>
+          <given-names>Miguela Vicente</given-names>
+        </name>
+      </person-group>
+      <article-title>Poder y cuerpo. El (incontestable) mito de la relación entre ejercicio físico y salud</article-title>
+      <source>Educación Física y Ciencia</source>
+      <year>1997</year>
+      <volume>3</volume>
+      <issue>2</issue>
+      <fpage>7</fpage>
+      <lpage>19</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3033-OSTROVSKY2019">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ostrovsky</surname>
+          <given-names>Ana</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Epistemologías feministas: pensando en aportes a la reflexión crítica de la disciplina</chapter-title>
+      <source>II Congreso Internacional de Investigación</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2019</year>
+    </element-citation>
+  </ref>
+  <ref id="3034-PALERMO1998">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Palermo</surname>
+          <given-names>Alicia</given-names>
+        </name>
+      </person-group>
+      <article-title>La participación de las mujeres en la Universidad</article-title>
+      <source>La Aljaba</source>
+      <year>1998</year>
+      <volume>3</volume>
+      <fpage>94</fpage>
+      <lpage>110</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3035-ORTUBE2001">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ortube</surname>
+          <given-names>María</given-names>
+        </name>
+      </person-group>
+      <source>Nuestro Liceo</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2001</year>
+    </element-citation>
+  </ref>
+  <ref id="3036-ORBUCH2020">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Orbuch</surname>
+          <given-names>Iván</given-names>
+        </name>
+      </person-group>
+      <source>Peronismo y Cultura Física. Democratización, sociabilidad y propaganda</source>
+      <publisher-name>Ediciones Imago Mundi</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2020</year>
+    </element-citation>
+  </ref>
+  <ref id="3037-ORBUCH2014">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Orbuch</surname>
+          <given-names>Iván</given-names>
+        </name>
+      </person-group>
+      <chapter-title>El peronismo y la Educación Física en el ámbito bonaerense. El caso de Avellaneda</chapter-title>
+      <source>VII Jornadas de Sociología</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+    </element-citation>
+  </ref>
+  <ref id="3038-PELLEGRINIMALPIEDI2015">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pellegrini Malpiedi</surname>
+          <given-names>Micaela</given-names>
+        </name>
+      </person-group>
+      <article-title>La feminidad en la Educación Física</article-title>
+      <source>Revista de la Escuela de Ciencias de la Educación</source>
+      <year>2015</year>
+      <volume>11</volume>
+      <issue>10</issue>
+      <fpage>215</fpage>
+      <lpage>228</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3039-PINEAU2014">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pineau</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <source>Escolarizar lo sensible. Estudios sobre estética escolar (1870-1945)</source>
+      <publisher-name>Teseo</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2014</year>
+    </element-citation>
+  </ref>
+  <ref id="3040-PINEAU2018">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pineau</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <article-title>Historiografía educativa sobre estéticas y sensibilidades en América Latina: un balance que se sabe incompleto</article-title>
+      <source>Revista Brasileira de História da Educação</source>
+      <year>2018</year>
+      <volume>18</volume>
+      <fpage>1</fpage>
+      <lpage>16</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3041-PINEAU1999">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pineau</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Ascolani</surname>
+          <given-names>Adrián</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Renovación, represión, cooptación. Las estrategias de la Reforma Fresco-Noble (Provincia de Buenos Aires, Década del 30)</chapter-title>
+      <source>La educación en Argentina. Estudios de historia</source>
+      <publisher-name>Ediciones del Arca</publisher-name>
+      <publisher-loc>Rosario</publisher-loc>
+      <year>1999</year>
+      <fpage>223</fpage>
+      <lpage>239</lpage>
+    </element-citation>
+  </ref>
+  <ref id="3042-UNLP1998">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>UNLP</surname>
+        </name>
+      </person-group>
+      <source>La Universidad Nacional de La Plata en su centenario: 1897-1997</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1998</year>
+    </element-citation>
+  </ref>
+  <ref id="3043-UNLP2005">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>UNLP</surname>
+        </name>
+      </person-group>
+      <source>Historias, testimonios y semblanzas de los 100 años de la UNLP: 1905-2005</source>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2005</year>
     </element-citation>
   </ref>
 </ref-list>
