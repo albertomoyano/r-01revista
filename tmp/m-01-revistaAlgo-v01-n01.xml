@@ -7,10 +7,6 @@
   <revista>
   </revista>
   <autores>
-    <autor ref="a10">
-      <credit>Supervision</credit>
-      <ror-afiliacion>ROR-ID</ror-afiliacion>
-    </autor>
     <autor ref="a11">
       <ror-afiliacion>ROR-ID</ror-afiliacion>
     </autor>

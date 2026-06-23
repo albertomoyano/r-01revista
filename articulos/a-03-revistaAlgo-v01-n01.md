@@ -1,263 +1,208 @@
-## Política petrolera del gobierno del presidente Luis Herrera Campins, Venezuela (1979-1983)
+::: {.appendix}
+## Pruebas exhaustivas con referencias bibliográficas
 
-Oil policy of the government of President Luis Herrera Campins, Venezuela (1979-1983)
+Artículo de prueba exhaustivo para verificar que el parser de gbpublisher reconoce **TODOS** los formatos de cita de Pandoc documentados en la sección 8.20 *Citation syntax del Pandoc User's Guide* (edición 2026-03-17), y que el filtro Lua preserva el modo correcto en el JATS canónico. Cada sección describe la sintaxis, el comportamiento esperado en el rendering final, y la representación esperada en JATS canónico (citation-mode y subelementos de element-citation). Cuando el caso es comportamiento inferido (no documentado explícitamente en la sintaxis de citas pero esperable desde reglas generales de Markdown), se indica como tal.
 
-Marianao Vallenilla[1]
+## Formato 1: cita básica — `[@key]`
 
-Resumen: Durante el gobierno de Luis Herrera Campins (1979-1983), Petróleos de Venezuela (PDVSA) aumentó sus reservas petroleras, modernizó parte de su estructura y comenzó su proceso de internacionalización. La revisión historiográfica realizada indicó que existe un vacío sobre cómo el gobierno de Herrera diseño y ejecutó la política petrolera. Ante esto, se planteó como objetivo central del artículo analizar la política petrolera diseñada y ejecutada por el gobierno de Herrera para comprender sus objetivos, los actores involucrados, sus intereses y la incidencia que tuvo en PDVSA. El método utilizado para alcanzar el objetivo de la investigación fue el análisis histórico, teniendo como principales fuentes documentos oficiales del Estado y PDVSA, testimonios y literatura académica. Se concluye que la política petrolera estuvo enfocada en completar el proceso de nacionalización y en aumentar los aportes fiscales de PDVSA, derivando en el aumento de la tensión entre el gobierno y PDVSA.
+Forma estándar entre paréntesis. Renderiza "(Autor, Año)" según el CSL. En JATS, `citation-mode="parenthetical"`, sin `<prefix>`, sin `<suffix>`, sin `<page-range>`.
 
-Palabras claves: Política económica; Petróleo; Combustible.
+La transformación digital impacta en múltiples dimensiones organizacionales [@2961-KACZAN2016]. El factor regional ha sido caracterizado en términos similares [@3036-ORBUCH2020].
 
-Abstract: During the government of Luis Herrera Campins (1979-1983), Petroleos de Venezuela (PDVSA) increased its oil reserves, updated part of its structure and started its process of internationalization. The histography review conducted indicated that there’s a gap about how the Herrera’s government designed and executed the oil policy. According to this, the main objective of this article is to analize the oil policy designed and executed by Herrera’s government in order to understand its purpose, performers involved, their goals and the incidence that it had in PDVSA. The method used to achieve the objective of this investigation was historic analysis. The principal sources are official documents from the State and PDVSA, testimonies and academic literature. It’s concluded that the oil policy was focused on completing the nationalization process and increasing PDVSA's tributary contributions, thus, the tension between the government and PDVSA increased.
+## Formato 2: supresión de autor — `[-@key]`
 
-Keywords: Economic policy; Petroleum; Fuels.
+Documentado textualmente en Pandoc: "A minus sign (`-`) before the `@` will suppress mention of the author in the citation." Se usa cuando el autor ya se nombró en el flujo del texto. Renderiza solo "(Año)". En JATS, `citation-mode="suppress-author"`.
 
-Recibido: 28 de abril de 2024
+Como señala Kaczan [-@2961-KACZAN2016], el fenómeno no debe confundirse con la simple digitalización de procesos. Pineau [-@3041-PINEAU1999] aborda la misma distinción en un contexto histórico.
 
-Aprobado: 20 de enero de 2025
+## Formato 3: cita con localizador de página — `[@key, p. N]` / `[@key, pp. N-M]`
 
-# Introducción
+Página única con `p.`, rango con `pp.`. El localizador debe aparecer en JATS como `<page-range>` o atributo equivalente del `<element-citation>`. Render esperado: "(Autor, Año, p. N)".
 
-En el año 1979 asciende a la presidencia de la República de Venezuela el candidato del partido demócrata cristiano, Luis Herrera Campins. Como presidente heredó el proceso de nacionalización de la industria petrolera, iniciado en 1975 con la promulgación de la Ley Orgánica que reserva al Estado la Industria y el Comercio de los Hidrocarburos, y la creación de la empresa estatal Petróleos de Venezuela S. A. (PDVSA), figura que asumió la propiedad de las acciones de las empresas operadoras, sucesoras de las ex concesionarias.
+El fenómeno ha sido estudiado en profundidad [@2961-KACZAN2016, p. 5]. También se han analizado los antecedentes históricos [@3041-PINEAU1999, pp. 55-60].
 
-En el período constitucional de 1979-1983 continuó el proceso de nacionalización de la industria petrolera, que a su vez tuvo un importante crecimiento, dado que aumentó la cantidad de reservas de petróleo comprobadas. En 1981 se ubicaban en 20.150 millones de barriles y al cierre de la gestión, en 198, se ubicaron en 25.799 millones de barriles (MEM, 1984a, p. 122); asimismo, aumentó el potencial de producción a 2.551 millones de barriles diarios en 1983 (MEM, 1984b, p. 122). Además, durante la gestión se completaron la construcción de nuevos complejos de refinación, se ejecutaron programas de modernización en las refinerías, se crearon nuevos centros de distribución de gasolina y se inició el proceso de internacionalización de PDVSA con la compra de la mitad de un complejo refinero y petroquímico en Alemania Occidental en 1983.
+## Formato 4: supresión de autor con localizador — `[-@key, p. N]`
 
-Comprender estos resultados implica analizar la política petrolera diseñada y ejecutada por el gobierno de Herrera Campins. En principio, política es un término utilizado para referirse a un campo de actividad del gobierno, como la política social o la política exterior; expresar un propósito político concreto; una decisión gubernamental o un programa de acción gubernamental (Caminal, 2008, p. 499). En este hilo de ideas, la política petrolera es una política pública, definida por Martínez como la que abarca "las normas y prácticas de la política petrolera venezolana" que han "evolucionado con las circunstancias de cada una de las etapas cumplidas por la industria" (1984, p. 97). Agrega Zanoni que ésta se compone por cuatro ejes: la propiedad estatal sobre el recurso, la participación privada, la ampliación de los mercados y la pertenencia a la Organización de Países Exportadores de Petróleo –OPEP– (2002, pp. 291-297).
+Combina los ejes 2 y 3. Render esperado: "(Año, p. N)". En JATS, `citation-mode="suppress-author"` + `<page-range>`.
 
-En este sentido, el objetivo del artículo es analizar la política petrolera del gobierno del presidente Luis Herrera Campins, entendiendo política petrolera como el gobierno del Estado sobre la industria petrolera venezolana, regulada por las normas de la república y sometida a los controles del poder público nacional.
+Orbuch [-@3036-ORBUCH2020, p. 235] clasifica los desafíos en tres categorías. Kaczan [-@2961-KACZAN2016, pp. 225-230] analiza el impacto sectorial.
 
-Esta política específica ha sido estudiada en la literatura académica, especialmente desde la economía, el derecho administrativo y la evolución histórica de la gerencia de PDVSA. Desde la acera de la economía, el economista Pedro Palma, en su libro publicado en 1985, analizó la evolución de la estructura financiera interna de PDVSA y el impacto de la economía venezolana en la empresa petrolera. Esa investigación puntualiza sobre cómo el Estado organizó la estructura financiera de la compañía entre 1975 y 1985, con el objetivo de obtener renta para financiar el gasto del Estado.
+## Formato 5: prefijo textual — `[ver @key]`
 
-Desde el punto de vista de la economía política, Marco Cupolo, en su tesis (1993), analizó el ciclo político ocurrido entre 1976 y 1992 en México y Venezuela. Plantea que en ese período se consolidó un modelo nacionalista-populista, en el que la variable del petróleo tuvo una importante influencia para la consolidación del modelo y para su crisis. En el caso venezolano, la democracia utilizó el ingreso petrolero para garantizarse apoyo popular y estabilidad política. Se creó, en ese momento, un sistema de desarrollo económico basado en los ingresos petroleros, políticas distributivas y ventajosas políticas cambiarias, y esto influyó en el diseño y ejecución de la política petrolera de los gobiernos democráticos.
+Texto introductorio dentro del bracket, antes del `@`. La doc oficial muestra el ejemplo canónico `[see @doe99, pp. 33-35 and *passim*; @smith04, chap. 1]`, donde "see" es el prefijo del primer ítem. Render esperado: "(ver Autor, Año)". En JATS, el prefijo va como `<prefix>` dentro del `<element-citation>`. El parser tiene que encontrar el `@` aunque no sea el primer carácter del bracket.
 
-Por otro lado, Enrique Viloria analizó, desde el punto de vista del derecho administrativo, en 1983, el régimen de concesiones de hidrocarburos, el proceso de nacionalización que reservó al Estado la industria y el comercio de crudo, la creación de PDVSA y la gestión de la industria nacionalizada. En su trabajo observa el funcionamiento de PDVSA como empresa matriz y el control que ejerce el poder público sobre la compañía mediante el Ministerio de Energía y Minas (MEM).
+Para un análisis detallado del contexto regional [ver @3036-ORBUCH2020]. Para el marco histórico [cf. @3041-PINEAU1999].
 
-En este sentido, Viloria realizó un aporte importante para comprender el control de los órganos del sector público durante el período 1979-1983. Asímismo, el autor analizó el control administrativo ejercido por el MEM, cartera ministerial a la que le corresponde la planificación y la realización de las actividades del Ejecutivo nacional en materia de minas, hidrocarburos y energía. De igual forma, el control accionario de PDVSA lo posee el representante de dicho ministerio.
+## Formato 6: múltiples citas en un bloque — `[@key1; @key2]`
 
-En el año 1986, PDVSA publicó una serie de libros para conmemorar su décimo aniversario, titulados "1976-1985 Diez años de la industria petrolera nacional". El objetivo de las publicaciones era rememorar y analizar las actividades realizadas por la industria petrolera. El primer libro fue escrito por José Giacopini Zárraga y Guillermo Rodríguez Eraso.
+Documentado textualmente: "Normal citations should be included in square brackets, with semicolons separating distinct items." Render esperado: "(Autor1, Año1; Autor2, Año2)". En JATS, múltiples `<element-citation>` agrupados.
 
-Esta primera obra, en su primera parte, está dedicada al estudio de los antecedentes históricos de PDVSA y cómo desde el gobierno de Juan Vicente Gómez ha ido evolucionando el régimen legal venezolano sobre el petróleo hasta llegar al proceso de nacionalización durante el período democrático, pasando de una industria concesionaria a una industria nacional. La segunda parte del libro está dedicada al análisis de la evolución de los aspectos operacionales y administrativos de PDVSA desde su creación hasta el período 1982-1985, donde Rodríguez Eraso consideró que fue la etapa de reajuste y estabilización de la empresa.
+Diversos autores han abordado la cuestión desde perspectivas complementarias [@2961-KACZAN2016; @3041-PINEAU1999]. La convergencia se replica en el plano sectorial [@3036-ORBUCH2020; @2961-KACZAN2016].
 
-El segundo libro de la serie fue escrito por Julio César Arreaza (1986), quien fue vicepresidente de la empresa entre 1975-1983. Teniendo como base su experiencia en la directiva, realizó un recuento sobre la evolución institucional de la industria petrolera venezolana desde los primeros pasos que dio el Estado venezolano para nacionalizar la industria hasta el año 1985. El testimonio de Arreaza permite constatar la evolución institucional de PDVSA, así como los encuentros y desencuentros entre la directiva de la compañía estataly las autoridades del Estado, sobre aspectos de la política petrolera diseñada y ejecutada por los gobiernos de Carlos Andrés Pérez y Luis Herrera Campins.
+## Formato 7: múltiples con supresión parcial — `[@key1; -@key2]`
 
-En el siglo XXI, Brian S. McBeth, doctor en Política por la Universidad de Oxford, publicó en 2005 un libro donde estudió si hubo una política clara sobre la industria petrolera en los distintos gobiernos venezolanos, desde la dictadura gomecista hasta el gobierno del teniente coronel Hugo Chávez. Para lograr este objetivo, examinó la dinámica general de la industria, la formulación de la política petrolera y cómo fue aplicada por los diversos gobiernos. El autor concluye que la política petrolera venezolana, a través de la historia de la industria, ha sido más reactiva que proactiva, dado que los gobiernos se han preocupado principalmente por obtener rentas de PDVSA y derrochar recursos en gastos superfluos y en actos políticos de ayuda internacional. Para McBeth, estos gobiernos fallaron en desarrollar incentivos por su propia cuenta o por medio de PDVSA para estimular y crear empresas petroleras venezolanas e industrias conexas.
+Cada cita del bloque mantiene su propio modo independientemente de las demás. El parser debe procesar cita por cita, no aplicar el modo en bloque.
 
-Por último, se hace necesario resaltar la investigación realizada por Rita Giacalone, publicada en el 2022. La docente analizó cómo, entre el siglo XX y el siglo XXI, distintos gobiernos interpretaron el rol del Estado en la economía y cómo, a partir de su visión de nacionalismo económico, se relacionaron con PDVSA, sin dejar de detallar la posición de la empresa, su reacción o adaptación. De igual forma, el texto resalta el conflicto que hubo entre los dos roles principales que se le otorgaron a PDVSA desde su fundación: el papel como procesadora de petróleo venezolano que opera en el mercado nacional e internacional y la empresa responsable de generar recursos para el Estado. La autora subraya que en la medida que la política petrolera del gobierno era proclive a la intervención en el funcionamiento de la empresa, incrementaba el conflicto entre ambas partes.
+Kaczan y Pineau [@2961-KACZAN2016; -@3041-PINEAU1999] coinciden en la importancia del marco histórico. El segundo autor ya fue mencionado antes.
 
-Con estos antecedente se puede observar que desde la literatura se ha estudiado el funcionamiento financiero y administrativo de la industria petrolera, el control que ejerce el poder público nacional sobre esta, si existió una política petrolera clara entre los distintos gobiernos y el impacto que tiene la economía venezolana en la industria debido a la implementación de una economía nacionalista, dependiente de la renta petrolera para su desarrollo, y cómo esto llevó a la aparición de una tensión entre PDVSA y los gobierno democráticos entre 1976 y 1998.
+## Formato 8: prefijo textual con múltiples citas — `[ver @key1; @key2]`
 
-Existe un vacío sobre cómo los gobiernos democráticos diseñaron y ejecutaron la política petrolera, es decir, cómo desarrollaron el gobierno de la industria desde su nacionalización, en especial durante el período constitucional 1979-1983. Este gobierno tuvo la responsabilidad de consolidar la nacionalización iniciada en 1976 y la expansión de PDVSA a nivel operativo, comercial y en el mercado internacional; además, continuó con los planes para detectar más reservas de petróleo y de gas, incrementar la capacidad de producción y refinación de hidrocarburos, así como satisfacer la demanda interna de hidrocarburos.
+El prefijo aplica solo a la primera cita; las restantes son citas paralelas. En JATS, `<prefix>` solo en el primer `<element-citation>` del grupo.
 
-En este sentido, el presente artículo busca analizar la política petrolera diseñada y ejecutada por el gobierno de Herrera Campins para comprender sus objetivos, los actores involucrados, sus intereses y la incidencia que tuvo en PDVSA, más allá de los indicadores financieros, petroleros y comerciales registrados por el MEM, PDVSA y la OPEP.
+Las estadísticas disponibles [ver @3036-ORBUCH2020; @3041-PINEAU1999] ofrecen un marco comparativo útil.
 
-Se dio respuesta al objetivo planteado a través del análisis histórico, metodología que utiliza el enfoque diacrónico y el análisis crítico de la documentación histórica del período en estudio, emitidos por los actores encargados del diseño y ejecución de la política petrolera como la Presidencia de la República, el Ministerio de Energía y Minas, PDVSA, más otros actores cuyas acciones influyeron en el desarrollo de esta política, entre ellos el Banco Central de Venezuela y el poder legislativo.
+## Formato 9: combinaciones mixtas
 
-## Actores de la política petrolera en el período 1979-1983
+Caso de stress: prefijo + múltiples + supresión parcial + localizador. Pone a prueba la independencia de procesamiento de cada cita dentro del bracket.
 
-La Ley Orgánica que reserva al Estado la Industria y el Comercio de los Hidrocarburos –promulgada el 24 de agosto de 1975–, dio fin al régimen de concesiones y rescindió los contratos de servicio que celebró Venezuela para la explotación de la industria de los hidrocarburos en el país. Así, el Estado venezolano se reservó la industria y el comercio de los hidrocarburos, esto le otorgó la responsabilidad de gobernar, legislar, administrar y controlar todo lo relacionado a la industria petrolera, sintetizada en la empresa nacional PDVSA y sus filiales.
+La literatura reciente [@2961-KACZAN2016; @3036-ORBUCH2020; -@3041-PINEAU1999] muestra convergencia en los hallazgos principales. Orbuch [-@3036-ORBUCH2020, p. 228] anticipa varios de estos resultados desde su campo específico.
 
-PDVSA fue concebida como una empresa estatal, sometida a las normas del derecho mercantil y al control administrativo del Estado, figura que posee todas las acciones de la empresa. En este sentido, la empresa está obligada a cumplir la política que dicte en materia de hidrocarburos el Ejecutivo Nacional a través del Ministerio de Energía y Minas (MEM).[2]
+## Formato 10: cita narrativa sin brackets — `@key`
 
-De esta manera, para el momento de ascensión al poder del presidente Luis Herrera Campins, el principal encargado de crear y administrar la política petrolera era el gobierno nacional, de acuerdo a las leyes de la República, en particular a través del MEM, ministerio al que le correspondía la planificación y la ejecución de las políticas del ejecutivo nacional en materia de minas, hidrocarburos y energía. Estas debían ser ejecutadas por los órganos descentralizados del Estado que eran parte del sector, como PDVSA.
+CRÍTICO. Documentado textualmente: "You can also write an author-in-text citation, by omitting the square brackets: `@smith04 says blah.`" Es el segundo modo sintáctico primario de Pandoc, distinto del cite-in-brackets. Render esperado: "Autor (Año)" — el autor queda fuera del paréntesis. En JATS, `citation-mode="narrative"` (o `inline-citation` según perfil). Si el parser solo busca dentro de `[...]`, este caso se le escapa por completo y cae al modo por defecto del XSL, saliendo erróneamente como "(Autor, Año)".
 
-Existía un primer nivel de control político sobre PDVSA marcado por el MEM, que debía dictar los lineamientos de carácter general para orientar las acciones de la empresa referidas a las funciones de la industria y aspectos cualitativos (Viloria, 1983, p. 117). El segundo nivel de control era el accionario, ejercido a través de la Asamblea, que, acorde a decreto presidencial, "representa la universalidad de las acciones y sus obligaciones", siendo mandatarias para la empresa de petróleo (Decreto Presidencial 1123/1975).
+Como sostiene @2961-KACZAN2016, la dimensión organizacional es central en el análisis. @3041-PINEAU1999 había anticipado esta línea desde una perspectiva histórica. Más recientemente, @3036-ORBUCH2020 amplió el marco a otros sectores.
 
-En la Asamblea, el ministro designado del MEM ejercía la representación de la República, poseía la responsabilidad de presidir el órgano supremo de administración y dirección de la empresa.  Entre sus atribuciones principales se encontraban: conocer, aprobar o improbar el informe anual del Directorio que abordaba el balance y el estado de ganancias y pérdidas; designar un comisario y su suplente de acuerdo a disposiciones del Código de Comercio; asignar responsabilidades al vicepresidente y directores; distribución de utilidades; designar el representante judicial de la sociedad (Decreto Presidencial 1123/1975).
+### Subcaso 10b: narrativa con localizador
 
-Sin embargo, la atribución de elegir a los miembros de la Junta Directiva de PDVSA la poseía la Presidencia de la República, que mediante decreto designaba al presidente y a los vicepresidentes. En este sentido, los lineamientos generales de la política petrolera eran determinados por la Presidencia, a partir de allí el MEM desarrollaba y ejecutaba la política mediante órganos del sector que pertenecían al Estado, siendo el principal la empresa Petróleos de Venezuela S. A.
+La doc muestra textualmente la forma `@smith04 [p. 33] says blah.` para combinar narrativa con localizador. Render esperado: "Autor (Año, p. N)".
 
-Como ya se mencionó, los principales actores encargados del diseño de la política petrolera venezolana eran el gobierno nacional y el MEM. Desde el punto de vista del enfoque del institucionalismo centrado en los actores, planteado por Fritz Scharpf, los actores políticos están interesados en lograr resultados específicos que se plantean, son influenciados por las instituciones que determinan las reglas y orientan sus acciones. Entonces, las instituciones condicionan la forma en que actúan los actores, cómo evaluarán los resultados de sus acciones y sus preferencias (Scharpf, 1997, p. 39). En el caso de la ejecución de la política petrolera, a cargo de PDVSA y sus empresas filiales, también estaba influenciada por las instituciones del Estado venezolano y su cuerpo legal. Los miembros de la Junta Directiva de PDVSA durante el período en estudio se caracterizaron por tener formación académica y técnica en geología e hidrocarburos, experiencia profesional en el sector petrolero nacional o extranjero. Si bien el acta constitutiva de la empresa no impedía a los miembros de la directiva militar en organizaciones políticas,[3] desde el inicio del proceso de nacionalización hubo un acuerdo entre los actores políticos venezolanos en mantener PDVSA al margen del conflicto político.
+@2961-KACZAN2016 [p. 33] demuestra el punto con un caso paradigmático. @3036-ORBUCH2020 [pp. 12-18] dedica un capítulo completo a la cuestión.
 
-Cada uno de los actores involucrados en el diseño y ejecución de la política petrolera se caracterizaba por sus capacidades, percepciones y preferencias específicas. Para Scharpf, los actores que diseñan y ejecutan las políticas actúan basándose en "la realidad percibida y en las supuestas relaciones de causa y efecto que operan en el mundo que perciben", así como en "función de preferencias que reflejan sus intereses y valoraciones definidos subjetivamente y sus convicciones personales sobre lo que es correcto, bueno o apropiado en cada circunstancia" (1997, p. 163). En este hilo de ideas, durante la campaña electoral de 1978, el candidato presidencial Luis Herrera Campins explicó los resultados que esperaba alcanzar en su plan de gobierno titulado "Mi compromiso con Venezuela". En este definió que el gobierno y el Estado estarían al servicio del bien común "para que toda la gama compleja de bienes que necesita el hombre, tanto en el orden cultural, económico, social, como espiritual, sea distribuida generosa y acertadamente entre todos los venezolanos" (1978, p. xii).
+## Formato 11: localizadores no-página (lista completa del locale)
 
-Así, en su propuesta, la figura del Estado en Venezuela es el medio del que se vale la sociedad para el respeto de la dignidad de la persona, el desarrollo económico y la justicia social. Por esto, propone en su plan de gobierno fomentar una economía para el desarrollo integral del país, aquella que cree riqueza y la distribuya en la mayor cantidad de manos, además, que genere conciencia de exportación sin disminuir la dependencia.
+Pandoc detecta locator terms a partir del **locale CSL activo**, no de una lista fija. La doc oficial lista los términos del locale `en-US`, en singular y plural, abreviados y completos: `book`/`bk.`/`bks.`; `chapter`/`chap.`/`chaps.`; `column`/`col.`/`cols.`; `figure`/`fig.`/`figs.`; `folio`/`fol.`/`fols.`; `number`/`no.`/`nos.`; `line`/`l.`/`ll.`; `note`/`n.`/`nn.`; `opus`/`op.`/`opp.`; `page`/`p.`/`pp.`; `paragraph`/`para.`/`paras.`; `part`/`pt.`/`pts.`; `section`/`sec.`/`secs.`; `sub verbo`/`s.v.`/`s.vv.`; `verse`/`v.`/`vv.`; `volume`/`vol.`/`vols.`; y los símbolos `¶`/`¶¶` y `§`/`§§`. Cada uno produce un `<element-citation>` con la subestructura JATS apropiada (no siempre `<page-range>` — puede ser `<chapter-title>`, atributos `content-type`, etc.).
 
-En este sentido, definió que la orientación fundamental de su política petrolera se apalancaría en: realizar acciones que contribuyeran a completar el proceso de nacionalización de la industria petrolera venezolana; garantizar la continuidad de los programas iniciados en la industria para su desarrollo sostenido; cuantificar las reservas de hidrocarburos con que contaba Venezuela; fortalecer la OPEP y las relaciones con los países miembros (Herrera Campins, 1978, pp. 261-262); mantener a la industria al margen de la lucha partidista y continuar considerando el mérito como "el único aval para lograr el progreso dentro de las diversas organizaciones" (1978, p. 267).
+**Punto a verificar con mini-test antes de comprometer código**: si el CSL en uso es español, no está documentado en la sección de sintaxis si Pandoc detecta locator terms del locale del CSL activo (`cap.`/`caps.`, `pág.`/`págs.`, `vol.`/`vols.`) o si solo reconoce los de `en-US`. La doc remite a "the locator terms defined in the CSL locale files" pero no especifica el comportamiento de fallback.
 
-Herrera Campins propuso como programación básica de su política petrolera los siguientes puntos:
+El argumento central se desarrolla en detalle [@3036-ORBUCH2020, chap. 3]. La discusión metodológica aparece en otro lugar [@3041-PINEAU1999, sec. 2.1]. Las series estadísticas completas están en el primer tomo [@3036-ORBUCH2020, vol. 1, p. 45]. Los datos primarios aparecen en una nota al pie específica [@2961-KACZAN2016, n. 12]. El esquema general se presenta tempranamente [@3036-ORBUCH2020, pt. 1]. La definición operativa aparece en una sección específica [@3041-PINEAU1999, sec. 4]. El número de figura referido es claro [@3036-ORBUCH2020, fig. 7]. La nota marginal complementa la lectura [@2961-KACZAN2016, ¶ 5].
 
-- Exploración: determinar los recursos no descubiertos para aumentar las reservas probadas de crudo en áreas de interés primario comprendidas dentro de las cuencas tradicionales, la plataforma continental y la Faja Petrolífera del Orinoco.
-- Producción: determinar un rango de producción que correspondiera a los objetivos generales del desarrollo del país, que se adaptara a la realidad técnica de la industria. "Cambiar progresivamente el patrón de producción con el objetivo de lograr una conservación efectiva de los crudos" medianos y livianos (1978, p. 263).
-- Refinación: procesar menos crudo liviano y mediano e intensificar el mejoramiento de crudos pesados, para lograr una conservación efectiva de los crudos más escasos (1978, p. 264).
-- Faja Petrolífera del Orinoco: incrementar la exploración y desarrollar tecnología adecuada para la producción de hidrocarburos en la Faja.
-- Tecnología: continuar con la consolidación del Instituto Tecnológico Venezolano del Petróleo (INTEVEP), como instrumento de estrategia para lograr independencia tecnológica (1978, p. 266).
+## Formato 12: prefijo combinado con supresión — `[ver -@key]`
 
-- Comercio internacional: promover la formación de personal del sector, revisar e incrementar las ventas directas, diversificar las exportaciones, evaluar la centralización de la función de comercio internacional en una nueva subsidiaria de PDVSA.
+Combina los ejes del Formato 5 y el Formato 2 en un caso que ningún ejemplo previo cubre: el `-` está después del prefijo, no al inicio del bracket. No está documentado explícitamente como caso aparte, pero se sigue de la composicionalidad: la doc define prefijo y supresión como dos modificadores independientes que pueden coexistir. El parser tiene que reconocer el `-` inmediatamente antes del `@`, no asumir que está pegado al `[`.
 
-- Recursos humanos: priorizar la formación tanto a nivel profesional como obrero.
-- Fortalecer la OPEP y la relación de Venezuela con los países miembros de la organización (1978, p. 268).
+Pineau ya había trabajado esta línea en otro registro [ver -@3041-PINEAU1999]. El contraste con la lectura más reciente es ilustrativo [cf. -@3036-ORBUCH2020].
 
-La propuesta programática de la política petrolera del candidato estuvo alineada a la corriente ideológica socialcristiana de su partido COPEI,[4] que le otorgaba el rol a PDVSA de producir la renta necesaria para que el Estado pudiera distribuirla y garantizara los derechos básicos a los ciudadanos (Aveledo, 2015, pp. 71-86).
+## Formato 13: sufijo no-localizador y llaves alrededor del locator
 
-En efecto, en enero de 1979, al inicio del período presidencial, Humberto Calderón Berti, el ministro del MEM hasta 1982, dio un discurso en la XXXV Asamblea Anual de la Federación de Cámaras y Asociaciones de Comercio y Producción de Venezuela, en el que definió los puntos principales de la política petrolera de la gestión. Entre éstos se encontraban: profundizar la nacionalización, en especial a través del desarrollo de tecnología propia; comercializar cada vez mayores volúmenes de petróleo en forma directa a clientes y garantizar la continuidad operativa de los programas de la industria (Calderón, 1979, pp. 6-7).
+Tres subcasos verificados en la doc oficial. Los ejemplos canónicos son:
 
-## La política petrolera en el período constitucional 1979-1985
+- `[@smith{ii, A, D-Z}, with a suffix]`
+- `[@smith, {pp. iv, vi-xi, (xv)-(xvii)} with suffix here]`
+- `[@smith{}, 99 years later]`
 
-Una de las primeras acciones realizadas por el gobierno socialcristiano fue reformar en 1979 el Acta Constitutiva de PDVSA; esto se hizo con la idea de reforzar el control político y administrativo del MEM sobre la empresa. En ese momento se agregó en la cláusula segunda que el objetivo social de la empresa debía "llevarse a cabo por la sociedad bajo los lineamientos y políticas que el Ejecutivo Nacional a través del Ministerio de Energía y Minas" estableciera o acordara en conformidad con las facultades que le confería la ley (Decreto Presidencial 230/1979). En la misma cláusula se indicaba que las actividades que realizara la empresa estarían sujetas a las normas de control que estableciera el Ministerio en ejercicio de la competencia que le confiriese el artículo 7 de la Ley Orgánica de 1975.
+### Subcaso 13a: sufijo de texto libre
 
-Con respecto a las atribuciones de la Asamblea ordinaria, agregaron en la cláusula décima tercera la atribución de "examinar, aprobar o improbar los presupuestos consolidados de inversiones y de operaciones de la Sociedad de las sociedades o entes afiliados". Además, determinaron que los proyectos de presupuestos consolidados, el informe anual del Directorio, el balance, el estado de ganancias y pérdidas y el informe del Comisario debían ser enviados al MEM y a los demás representantes de la República, treinta días antes a la fecha de la reunión de la Asamblea (Decreto Presidencial 230/1979).
+Texto después de la cita que NO es un locator term ni dígitos puros — Pandoc lo manda a `<suffix>` en JATS. Diferente del prefijo del Formato 5.
 
-A través de esta reforma, el Ministerio de Energía y Minas reafirmó el control sobre la empresa: los lineamientos y las políticas indicadas guiaban las acciones de PDVSA y abrían la posibilidad de establecer mecanismos de control posteriores respecto a las actividades que realizara la compañía. A su vez, en la reforma se amplió la cantidad de reuniones anuales de la Asamblea ordinaria, pasó de una a dos veces al año, "una dentro de los noventa días siguientes al cierre de cada ejercicio anual y otra dentro del último trimestre de cada año" (Decreto Presidencial 230/1979).
+El argumento se sostiene en términos generales [@2961-KACZAN2016, énfasis añadido]. La interpretación es polémica [@3041-PINEAU1999, pero ver la crítica reciente].
 
-Esta reforma significa para Giacalone el inicio de la interferencia política del poder ejecutivo en la junta directiva de PDVSA, contribuyendo a su politización y el inicio de la tensión entre "la cultura burocrática (basada en objetivos políticos de corto plazo) y la cultura corporativa (basada en mérito, experiencia y objetivos de mediano y largo plazo)" (2022, pp. 151-152). Según la propuesta de Giacalone, la tensión entre el Estado y la empresa pasa a estar presente en la historia de la organización desde 1979 y se incrementa cuando los precios del barril de petróleo disminuyen.
+### Subcaso 13b: localizador entre llaves
 
-La elección de la Junta Directiva de PDVSA en el período constitucional 1979-1983 se caracterizó por el continuismo. Las dos primeras directivas electas luego de su creación, en los años 1979 y 1981, mantuvieron al mismo presidente, Rafael Alfonzo Ravard, y ratificaron al vicepresidente Julio César Arreaza. Además, continuaron los directores principales: Alirio Parra, Edgard Leal, Hugo Finol, Wolf Petzall, Manuel Ramos, Paul Reimpell, Antonio Casa González, Humberto Peñaloza.[5] De estos, Leal repitió en el segundo y en el tercer período como director; por su lado, Manual Ramos no finiquitó su segundo directorio porque fue designado presidente de Petroquímica de Venezuela en marzo de 1980.
+Las llaves `{...}` son el escape hatch oficial de Pandoc para forzar el parsing del locator cuando la heurística falla, o para usar un locator con caracteres no estándar (paginación romana, rangos con paréntesis, listas de partes alfabéticas).
 
-Sin embargo, el 31 de agosto de 1983 fue electo como presidente de la empresa el exministro de Energía y Minas, Humberto Calderón Berti. Sobre este nombramiento, el ex vicepresidente de la empresa, Julio Arreaza, señaló que la designación era un signo de politización de la empresa estatal, dada la relación política que mantenía Calderón Berti con el partido de gobierno y la participación que tuvo en el gobierno de Herrera Campins; además, indicó que la designación fue realizada a pocos meses de la elección del nuevo presidente venezolano y que desoyó la recomendación del principal partido de oposición, Acción Democrática, de no elegir como presidente al ministro del MEM, por considerar que tendría un matiz político (Arreaza, 1986, p. 177).
+La referencia clásica al libro IV es ineludible [@3041-PINEAU1999{libro IV, cap. 3}]. La paginación romana también necesita llaves [@3036-ORBUCH2020{p. xiv}]. El listado fragmentario es claro [@3036-ORBUCH2020{pp. iv, vi-xi, (xv)-(xvii)}].
 
-En este orden de ideas, la reafirmación del control político y administrativo sobre PDVSA, a través de la reforma de sus estatutos, estuvo acompañada de un mayor afianzamiento del control tributario sobre la compañía. Esto se implementó gracias al uso de los valores de exportación y el impuesto sobre la renta como instrumentos para obtener más ingresos ante un escenario de coyuntura económica en la nación caracterizado por el agudo deterioro de la cuenta corriente de la balanza de pago, expectativas cambiarias negativas, contracción de la demanda agregada interna y presión inflacionaria (Toro, 2005, p. 619).
+### Subcaso 13c: llaves vacías + sufijo
 
-En esta situación, ante la necesidad de liquidez de divisas, el gobierno de Herrera Campins, en el período 1979-1981, utilizó los valores de exportación como instrumentos para aumentar los niveles de impuesto sobre la renta a la industria petrolera con el fin de obtener más ingresos (Palma, 1985, p. 15). Los valores de exportación eran "un sistema unilateral de fijación de precios fiscales petroleros de exportación, en el cual el Ejecutivo Nacional, mediante decretos y resoluciones, fijaría los valores de exportación del petróleo crudo o de sus productos" (Fariñas, 1981, pp. 763-764). Este sistema fue establecido por la Ley de Reforma Parcial al Impuesto sobre la Renta en diciembre de 1970; este impuesto representaba "el nivel deseable de los precios reales y, por su naturaleza, permite la determinación exacta de los beneficios que se quedan con Petróleos de Venezuela" (Martínez, 1984, p. 126). Entonces, a partir de los valores de exportación, el Estado venezolano fijaba el Impuesto sobre la Renta que cobraba a PDVSA.
+`{}` vacío fuerza "no hay locator" y todo lo que sigue a la coma va como suffix puro, sin que Pandoc intente leer dígitos iniciales como página.
 
-El comportamiento que mantuvo el gobierno de Herrera Campins durante su gestión fue presionar a nivel tributario a la compañía cuando aumentaba el precio del barril de petróleo. Así, subió el precio del barril en 1979 y se ubicó en 17,25 USD; aumentó en 1980 a 28,64 USD y en 1981 a 32,51 USD (OPEP, 2022). Es en esta coyuntura que el gobierno incrementó la tasa del valor de exportación, esto permitió que aumentaran los aportes fiscales de PDVSA al Estado. En 1979 creció a 19,88 USD, en 1980 a 32,69 USD y en 1981 a 38,21 USD (MEM, 1984b, p. 151). El resultado de esta política se observó en el crecimiento de la participación fiscal de la empresa petrolera. En 1979 se ubicó en 39,618 miles de millones de bolívares (MM. Bs.), para 1981, en 60,768 MM. Bs. y disminuyó a 40,699 MM. Bs en 1983 (MEM, 1984b, p. 148). En cuanto a la tasa efectiva de impuesto sobre la renta, esta varió poco: de 66,70% en 1979 a 65,70% en 1983 (MEM, 1984b, p. 153).
+La obra completa es relevante [@3036-ORBUCH2020{}, sin paginación específica]. La cita se mantiene aunque no haya página [@2961-KACZAN2016{}, passim].
 
-Sin embargo, el precio del barril del petróleo de nuevo disminuyó, en 1982, a 32,38 USD; en 1983 a 29,04 USD (OPEP, 2022), lo que repercutió en los ingresos de la nación. Para el año 1983, la OPEP redujo la cuota de producción de Venezuela, a esto se sumó la crítica situación de la deuda externa y, ante la ola de rumores sobre que no cumplirían con sus compromisos, el gobierno de Herrera Campins tomó una medida arriesgada para PDVSA con el objetivo de obtener liquidez para el Banco Central de Venezuela (BCV) y dar seguridad al mercado de que Venezuela no dejaría de pagar sus compromisos de deuda, a pesar de la caída del precio del barril de petróleo.
+## Formato 14: cita escapada — caso negativo (comportamiento inferido)
 
-El 27 de septiembre de 1982 se estableció un convenio cambiario entre el Ministerio de Hacienda y el BCV, por el cual los fondos en divisas de PDVSA, ubicados en bancos en el exterior, fueron centralizados en el Banco Central de Venezuela y se convirtieron en Reservas Internacionales,[6] "mediante colocaciones a plazo fijo con fechas de vencimiento coincidentes con las necesidades de efectivo de las filiales para el pago de los impuestos y de sus inversiones y operaciones" (Arreaza, 1986, p. 149).
+El `\` antes del `@` o del `[` debe impedir que Pandoc procese el bloque como cita. **No está documentado explícitamente en la sección 8.20 (Citation syntax)** — se sigue del comportamiento general de escaping de Markdown en Pandoc, pero conviene marcarlo así para evitar asumirlo como garantía formal. Si el parser de gbpublisher no lo respeta, va a corromper texto donde `@` aparece por otra razón (handles de redes sociales, direcciones de email mencionadas, sintaxis literal de Pandoc citada como ejemplo en un texto sobre el propio Pandoc).
 
-El convenio cambiario estableció que PDVSA debía vender por obligación la totalidad de divisas originadas por su actividad al BCV, así como prohibió a la compañía y sus empresas filiales mantener depósitos en moneda extranjera en el exterior. También obligó a la empresa a transferir al BCV los saldos en moneda extranjera que se encontraban en su poder y la obligación de esas organizaciones de endosar al BCV los documentos de crédito a favor de ellas en moneda extranjera que tenían en bancos del exterior. Mientras, el Banco Central de Venezuela fue obligado a suministrar las divisas que requiriera la petrolera y sus empresas filiales para atender sus operaciones. A partir de ese momento, PDVSA debía formular solicitudes ante el Banco Central de Venezuela y éste procedía a vender divisas de acuerdo al tipo de cambio oficial: 4.2925 Bs. por dólar.
+En este párrafo, la secuencia \@2961-KACZAN2016 NO debe convertirse en cita: tiene que aparecer literalmente como `@2961-KACZAN2016` en el render final. Lo mismo aplica si todo el bracket está escapado: \[@3041-PINEAU1999\] debe aparecer literal, no como cita procesada.
 
-Los fondos que debía pasar la petrolera al BCV eran recursos que, según el artículo 6 de la Ley Orgánica que Reserva al Estado la Industria y el Comercio de los Hidrocarburos, tenían como función dotar a dicha empresa "de recursos suficientes para desarrollar la industria petrolera nacional" (Brewer-Carías, 2021, p. 183). De esta manera se le otorgaba a PDVSA independencia financiera, posibilidad de obtener ingresos a través de tasas de interés en bancos extranjeros.
+## Formato 15: llaves alrededor de la KEY entera — `[@{key especial}]`
 
-La directiva de PDVSA, el 29 de septiembre, marcó posición ante el presidente Herrera sobre el convenio cambiario, afirmando que dicho convenio afectaba (Arreaza, 1986, pp. 153-154):
+Documentado textualmente: "Unless a citation key starts with a letter, digit, or `_`, and contains only alphanumerics and single internal punctuation characters (`:.#$%&-+?<>~/`), it must be surrounded by curly braces". La doc da el ejemplo canónico: `[@{https://example.com/bib?name=foobar&date=2000}, p. 33]`.
 
-- La autosuficiencia financiera de PDVSA, ya que perdían la posibilidad de obtener ingresos por las tasas de intereses devengados por su colocación en bancos en el exterior. Para Guillermo Rodríguez Eraso significó merma de la autosuficiencia financiera que había sido garantizada por la Ley Orgánica de Nacionalización (Giacopini y Rodríguez, 1986, p. 110).
+Caracteres válidos en una key SIN llaves: empieza con letra, dígito o `_`; contiene solo alfanuméricos y los signos `:.#$%&-+?<>~/`. Todo lo demás exige llaves alrededor de la key. El carácter `|` NO está en la lista permitida: una key con `|` exige llaves obligatorias.
 
-- La autonomía administrativa, al no tener la posibilidad del manejo de su flujo de caja.
-- La flexibilidad de la gestión, al comprometer la credibilidad y la confianza que la industria petrolera venezolana había construido frente a sus aliados y clientes en el exterior. Además, desde el punto de vista de la empresa, observaban que el BCV pasaría a ser un intermediario con sus clientes hasta que concluyeran las operaciones de compraventa de hidrocarburos (Arreaza, 1986, p. 157).
+Las tres keys reales del proyecto (`2961-KACZAN2016`, `3041-PINEAU1999`, `3036-ORBUCH2020`) cumplen las reglas básicas y NO necesitan llaves. Las pruebas siguientes usan keys hipotéticas para ejercitar el parser, dado que el parser tiene que tolerar este caso por compatibilidad con bibliografías importadas (entradas con DOIs como key, URLs como identificador, keys heredadas con caracteres exóticos).
 
-Otra medida, consecuencia del traslado de las divisas de PDVSA al BCV, fue la creación del fideicomiso, ordenado por una Asamblea Extraordinaria de Accionistas de la petrolera, celebrada el 8 de diciembre de 1982. Esta convocatoria instruyó al directorio de la empresa a constituir un fideicomiso con el BCV por 7.500 millones de bolívares, con parte de los fondos en bolívares depositados al banco central. El objetivo del fideicomiso era la adquisición de bonos de la deuda pública por parte de PDVSA, lo cual inyectaría liquidez al tesoro nacional. El BCV debía asegurar la liquidez de los recursos dados en fideicomiso a partir de enero de 1984, siguiendo un cronograma (Arreaza, 1986, p. 173).
+La fuente en línea se cita directamente con su URL como identificador [@{https://www.pagina12.com.ar/}, p. 33]. La entrada con pipe en la key heredada de un sistema externo se cita con llaves obligatorias [@{2961-KACZAN2016|variante-extendida}]. El DOI usado como key tampoco puede ir suelto si contiene caracteres fuera del set permitido [@{10.5821/ace.v4i12.2483|2016-235}].
 
-Ambas medidas fueron tomadas por el gobierno de Herrera Campins para incrementar las reservas internacionales, obtener liquidez a través de la compra de bonos de la deuda pública por parte de PDVSA y dar seguridad al mercado internacional de que tenían la fuerza financiera necesaria para no dejar de cumplir con los compromisos de la deuda externa. Aunque significó afectar la autonomía financiera de la empresa y aumentar la intervención política del gobierno en la dirección.
+## Formato 16: Markdown inline dentro de prefix y suffix
 
-Sin embargo, los precios del petróleo comenzaron a bajar de nuevo en 1982, las cuentas de la nación mostraron un déficit importante y, para 1983, el saldo total de la deuda externa del sector público venezolano superaba los 27.500 millones de dólares, en tanto que los activos financieros internacionales, en su totalidad, apenas alcanzaban 11.200 millones de dólares. Justo en 1983 se concentraba el vencimiento del 52 % de las obligaciones de la deuda externa (Toro, 2005, p. 634). Por tanto, el traslado de los recursos externos de PDVSA al BCV no fue suficiente para obtener divisas, enfrentar la deuda externa y calmar a los acreedores.
+La doc oficial muestra el ejemplo `[see @doe99, pp. 33-35 and *passim*; @smith04, chap. 1]`, donde `*passim*` es énfasis Markdown DENTRO del suffix. Esto implica que los prefijos y sufijos NO son texto plano: pueden contener `*énfasis*`, `**negrita**`, `` `código en línea` ``, y en principio cualquier inline Markdown válido.
 
-El control administrativo, político y tributario del gobierno de Campins fue acompañado por una continuidad de los programas de exploración, producción y refinación que ya ejecutaba PDVSA cuando este asumió el poder, tal como expresó en su programa de gobierno. Sin embargo, la situación económica del país afectó a la compañía en su capacidad de realizar inversiones en la industria. Agrega Giacalone que "la dependencia gubernamental de los ingresos fiscales petroleros […] hacía que cualquier cambio en los precios del mercado internacional afectara los planes y programas de empresa y Estado" (2022, p. 152).
+Implicancia para el pipeline: si el parser de gbpublisher trata el contenido de los corchetes como texto opaco antes de pasárselo a Pandoc, va a perder el formateo. Y si el filtro Lua post-procesa las citas, tiene que respetar el inline ya convertido. En JATS canónico, los `<prefix>` y `<suffix>` pueden contener `<italic>`, `<bold>`, `<monospace>` según los inline detectados.
 
-A pesar de la crisis económica, prosiguieron con los programas de exploración petrolera, aumentando las reservas petroleras. Según registros de las Memorias y Cuenta del Ministerio de Energía y Minas, las reservas probadas de petróleo en 1981 se ubicaban en 20.150 millones de barriles, solo en el año 1982 agregaron 5.123 millones de barriles de reservas de petróleo (MEM, 1983, p. v). La gestión cerró en 1983 con 25.799 millones de barriles (MEM, 1984a, p. 122).
+La interpretación se desarrolla en detalle [ver especialmente @2961-KACZAN2016, pp. 33-35 y *passim*]. El argumento se refuerza con la lectura clásica [**comparar con** @3041-PINEAU1999, cap. 3, *muy especialmente*]. La nota técnica usa formato literal [@3036-ORBUCH2020, ver `appendix-B.tex` para los datos crudos]. El énfasis del autor se mantiene en el sufijo [@2961-KACZAN2016, *cursivas del original*].
 
-Según Rodríguez Eraso, durante el período de gobierno de Herrera Campins las actividades de exploración petrolera se realizaron principalmente en Costa Afuera (plataforma continental); la Faja Petrolífera del Orinoco;[7] los distritos occidentales del estado Zulia (Urdaneta, Perijá y Colón) y el Lago de Maracaibo. En la Faja localizaron un volumen de un billón de barriles en sitio, de los cuales aproximadamente 100.000 millones de barriles podrían engrosar el monto de las reservas recuperables (MEM, 1984a, p. v).
+## Formato 17: locator implícito sin término — `[@key, N]`
 
-Otro aspecto importante de la exploración de hidrocarburos en el quinquenio 1979-1983 fue la realización del programa de estudios modernos de magnetometría por medio de técnicas de levantamiento aéreo de alta sensitividad (MEM, 1984a, p. 121). El estudio cubrió un área de 506.000 km² y se pudo entrar a zonas de difícil acceso como el Delta Amacuro, los llanos de Apure, fajas costeras del mar y el Lago de Maracaibo (MEM, 1984a, p. 121). Se hicieron 202.354 km de líneas de levantamiento aéreo.
+Documentado textualmente: "If no locator term is used, 'page' is assumed." Cuando aparecen dígitos después de la coma sin un locator term que los anteceda, Pandoc los interpreta como página. Render esperado: idéntico a `[@key, p. N]`. En JATS, debe producir el mismo `<page-range>` que la forma explícita.
 
-A su vez, en la producción de hidrocarburos hubo un aumento en la capacidad de producción, resultado de la continuación de los programas de exploración y de inversión de tecnología en los campos de producción. El potencial de producción, en diciembre de 1983, se ubicó en 2.500.000 barriles de petróleo por día, mientras la producción de barriles de petróleo anual disminuyó; en 1979 se ubicó en 860.074.926 y en 657.299.560 en 1983 (MEM, 1984b, p. 47). La producción petrolera venezolana se vio limitada en los años 1982 y 1983 por acuerdos establecidos por los países miembros de la OPEP. La organización fijó cuotas de producción a los países.
+Importancia práctica: muchos autores escriben las citas en estilo informal, omitiendo `p.`. El parser tiene que producir el mismo JATS canónico en ambas formas, o el rendering va a salir inconsistente entre artículos de autores con estilos distintos.
 
-Entre las inversiones en tecnologías de este periodo están la construcción y modificación de plantas compresoras para utilizar gas natural en campos gasíferos de occidente y oriente del país (MEM, 1984a, p. 123). Así mismo, promovieron la extensión de los kilómetros de gasoductos, construyeron 560,90 km de líneas, entre 1979-1983, hecho que implicó la construcción de lazos paralelos al gasoducto Anaco-Puerto Ordaz, gasoducto Quiriquire-La Toscana-San Vicente, gasoducto desde la estación de flujo TY-8 hasta la planta compresora PC-PL-I (MEM, 1984a, p. 124). Incorporaron a la corriente de producción el campo Urdaneta Oeste, en la costa occidental del Lago de Maracaibo, con un potencial de 90.000 barriles diarios de crudo pesado. Se agregaron 50.000 barriles provenientes de la ampliación de los campos de Barúa-Motatán, situados en el sur de Mene Grande en el estado Zulia. En el campo Bachaquero concluyeron la construcción de la planta de vapor HH-8 que alimentó un sistema de estimulación térmica que elevó la producción a 120.000 barriles diarios (Giacopini y Rodríguez, 1986, pp. 117-118).
+La página específica se referencia directamente [@2961-KACZAN2016, 33]. El rango también admite la forma corta [@3041-PINEAU1999, 55-60]. La combinación con supresión también [-@3036-ORBUCH2020, 235].
 
-Las acciones en torno a la refinación del petróleo se caracterizaron por las labores de construcción de nuevos complejos y de ejecución de programas de modernización en las refinerías. En la refinería El Palito concluyeron el proyecto de cambio de patrón de refinación (ELPAEX) en el primer trimestre del año 1982.
+## Formato 18: reglas de terminación de key — casos negativos
 
-Por otro lado, en la refinería de Amuay, en 1982, se completaron casi todas las instalaciones del cambio de patrón de Amuay (MPRA) y fue completada la unidad de flexicoker (MEM, 1983, p. vii). En 1983 se completó el cambio de patrón de refinación, lo que representó un aumento de 60.000 barriles diarios en la capacidad de producción de gasolinas de motor y un aumento de 100.000 barriles diarios en el procesamiento de crudos pesados, manteniendo el procesamiento de crudos a nivel de 450.000 barriles diarios (MEM, 1984, p. iv).
+La doc enumera tres reglas de borde que el parser tiene que respetar para no devorarse puntuación que no corresponde al identificador bibliográfico:
 
-En la refinería de Cardón, en 1982, el proyecto de alquilación/isomerización fue completado en su fase construcción. Esta expansión permitiría una generación adicional de 13 millones de barriles diarios de gasolinas (MEM, 1983, p. viii). Además, completaron el proyecto de instalación de una planta experimental de hidrodesmetalización (HDM), con capacidad de 2500 barriles por día y que tendría como objetivo facilitar el procesamiento de crudos o residuales pesados. Con ello, se culminó también el proyecto de diseño básico del cambio de patrón de refinación (CPC) (MEM, 1983, p. viii). En 1983 inauguraron la planta experimental de hidrodesmetalización (HDM) con capacidad para procesar 2500 barriles diarios, lo que contribuyó a aumentar las opciones de procesamiento para crudos pesados (MEM, 1984a, p. iv).
+1. **Punto final fuera de la key**: en `@Foo_bar.baz.`, la key es `Foo_bar.baz` — el punto final NO es puntuación interna, queda fuera. Esto es crítico para citas al final de oración.
+2. **Puntuación interna repetida termina la key**: en `@Foo_bar--baz`, la key es `Foo_bar` — el doble guion corta la key (la doc dice "single internal punctuation characters").
+3. **Comienzo inválido exige llaves**: si la key empieza con algo que no sea letra, dígito o `_`, hay que envolverla en llaves o el parser falla.
 
-Por último, en la refinería de Puerto La Cruz, según la Memoria y Cuenta de 1983 del MEM, la ejecución del proyecto de modernización de la refinería de Meneven fue diferida por razones de falta de flujo en la caja de la empresa (MEM, 1984a, p. iv).
+Las keys reales del proyecto usan solo guion único como puntuación interna y arrancan con dígito, por lo que están a salvo de las reglas 2 y 3. Pero la regla 1 sí las afecta: una cita al final de oración o seguida de coma tiene que terminar correctamente.
 
-Con la ejecución de los proyectos de modernización se amplió la capacidad de refinación de la industria petrolera venezolana, pero la cantidad de petróleo procesado en las refinerías fue a la par que la producción de barriles diarios, en la medida en que esta disminuía, entonces era menor la cantidad de petróleo procesado en las refinerías.
+### Subcaso 18a: cita al final de oración
 
-De igual forma, como parte del proceso de nacionalización, mediante decreto presidencial en enero de 1976, PDVSA recibió el control de la Fundación para la Investigación en Hidrocarburos y Petroquímica (INVEPET) y cambió su nombre a Instituto Tecnológico Venezolano del Petróleo (INTEVEP). El objetivo central de este instituto era realizar investigaciones científicas y tecnológicas en las áreas de hidrocarburos y petroquímica con la intención de que la industria petrolera venezolana no dependiera de la asesoría o transferencia tecnológica de empresas petroleras extranjeras o de centros de investigación extranjeros; así como preparar personal especializado para dar apoyo tecnológico y asistencia técnica a la industria petrolera venezolana.
+El punto debe quedar AFUERA de la key, no dentro. Render esperado: la key se cierra en `2016`/`1999`/`2020`, y el punto va como puntuación de la oración.
 
-En junio de 1979, la fundación fue convertida en una empresa filial de PDVSA, lo que le confirió, según Rodríguez Eraso, "una mayor agilidad operativa y administrativa, además de facilitar la aplicación de criterios más empresariales para evaluar y controlar el rendimiento de su gestión" (Giacopini y Rodríguez, 1986, p. 104).
+El planteo central lo desarrolla @2961-KACZAN2016. La línea histórica la traza @3041-PINEAU1999. La síntesis más reciente es @3036-ORBUCH2020.
 
-Como observamos, una de las banderas principales del gobierno de Herrera Campins era profundizar la nacionalización de la industria petrolera principalmente a través del desarrollo del INTEVEP para alcanzar la independencia tecnológica. En el primer año de la gestión, el instituto formuló una nueva estrategia para la reducción de los acuerdos con las exconcesionarias y otra que buscaba el desarrollo de la capacidad propia en base a un esfuerzo sostenido (Giacopini y Rodríguez, 1986, p. 104); según estimaciones de Arreaza, la estrategia dio resultado porque el esfuerzo aumentó: en 1980 se ubicó en 16%, en 1981 pasó a 30%, casi duplicándose, mientras que en 1983 alcanzó el 65% (Arreaza, 1986, p. 141).
+### Subcaso 18b: cita seguida de signos de puntuación
 
-Para lograr este objetivo fue importante la consolidación del INTEVEP a nivel de recursos humanos: al año 1983 consolidaron un plantel de investigadores técnicamente calificados con más de 600 profesionales y técnicos especializados en investigación y desarrollo en materia de hidrocarburos y áreas relacionadas. Gracias a ello se iniciaron, a principios de la década del ochenta, las investigaciones para la creación de tecnología para producir el petróleo extrapesado en la faja del Orinoco (Orimulsión), transportarlo (Coflow) y mejorarlo (HDH). Tecnologías cuyas patentes ha registrado el instituto como propias (Brossard, 1994, p. 233).
+Coma, punto y coma, dos puntos, signo de pregunta y signo de exclamación deben quedar afuera de la key.
 
-Debe señalarse que durante el quinquenio 1979-1983 hubo un aumento de la demanda de los derivados del petróleo a nivel interno en Venezuela, gasolina en particular. Para ello se crearon nuevos centros de distribución; por ejemplo, en el Estado Nueva Esparta entró en operaciones el centro "El Guamache", en 1982, con una capacidad de 273.100 barriles y una capacidad de despacho diario de 3145 barriles de productos derivados de hidrocarburos. Este centro contribuyó al abastecimiento de la región en productos como gasolinas de motor y aviación, kerosene, diesel, gas licuado de petróleo, combustible residual, entre otros (MEM, 1983, p. 175). Mientras que en la región Centro-Occidental se creó el sistema de distribución "El Palito-Yagua" y para la zona metropolitana se ejecutó el proyecto Suministro Alterno Área Metropolitana (SAAM).
+El argumento de @2961-KACZAN2016, retomado por @3041-PINEAU1999, llega a @3036-ORBUCH2020. ¿Coincide @2961-KACZAN2016 con esta lectura? Definitivamente sí, según @3036-ORBUCH2020.
 
-Por otra parte, en el "VI Plan de la Nación 1981-1986" (CORDIPLAN, 1981, p. 23) se estableció reducir el crecimiento del consumo interno de hidrocarburos en Venezuela a través de la revisión de precios en el mercado nacional. En este sentido, en el año 1982 se aplicó el aumento de precios a la gasolina de motor, a partir del 1 de mayo. Esta medida generó un ingreso fiscal de 1778,4 millones de bolívares, que representó un aumento de 199,2% (1.184 millones de bolívares).
+### Subcaso 18c: doble guion no aparece en keys reales (verificación negativa)
 
-Otra consecuencia de la política petrolera de Herrera Campins es que se modificó la relación de demanda en las gasolinas alta/media de 40/60, antes de la medida, a 23/77. Esto, a su vez, impulsó que las estaciones de servicio se adecuaran a las nuevas demandas, ampliando así sus sistemas de almacenamiento. Acorde al MEM, esto "significó un ahorro de octanos, lo que lleva a disminuir los costos de refinación y la contaminación ambiental producida por el tetraetilo de plomo" (MEM, 1984a, p. 139).
+Caso hipotético que NO debe procesarse como una key real. Si un texto contiene `@2961-KACZAN--2016` (con doble guion), Pandoc cortaría la key en `@2961-KACZAN` y dejaría `--2016` como texto. Las keys reales del proyecto NO tienen doble guion, por lo que esto solo importa para tolerancia frente a errores tipográficos del autor.
 
-Por último, un paso importante de las políticas instauradas fue el comienzo del programa de internacionalización de PDVSA con la compra de activos de refinación para llegar al consumidor final de forma directa, sin depender de entes extranjeros. Esto facilitaría la comercialización de la producción sin intermediarios. Se considera que la internacionalización disminuía la posibilidad de entrar en receso si EE. UU. decidía cerrar las puertas de su mercado al petróleo venezolano (McBeth, 2005, p. 69). En paralelo, podría formular "nuevas estrategias empresariales y la creación de una red operacional internacional, la cual le proporcionaría a PDVSA una mayor flexibilidad e independencia" del gobierno y el poder legislativo (McBeth, 2005, p. 70).
+En este párrafo, la secuencia @2961-KACZAN--2016 debería ser parseada como cita a `2961-KACZAN` (que NO existe en la bibliografía) seguida de texto literal `--2016`. El resultado esperado es un warning de citeproc por key inexistente, no un crash.
 
-Así, en 1983, PDVSA adquirió el 50 % de la empresa petrolera Veba Oel[8], en Alemania Occidental, a un costo de 200-250 millones de dólares, con el derecho de suministrar 155 millones de barriles diarios a Ruhr Oel, la empresa conjunta creada por PDVSA y Veba Oel. Esta podía operar en el complejo de refinación en Gelsenkirchen con una capacidad de procesamiento de 250 millones de barriles diarios (McBeth, 2005, p. 71).
 
-## Conclusiones
+## Formato 19: narrativa con localizador en posición posterior
 
-El gobierno socialcristiano de Luis Herrera Campins definió una política petrolera enfocada en completar el proceso de nacionalización y la consolidación de la industria a través del apoyo de la continuidad de los programas ejecutados por la misma PDVSA para su desarrollo, en especial los relacionados a la cuantificación de reservas de hidrocarburos en el territorio venezolano, así como los enfocados en la autonomía tecnológica de la compañía y en el proceso de expansión internacional de la petrolera.
+@2961-KACZAN2016 demuestra el punto con un caso paradigmático [p. 33].
+@3036-ORBUCH2020 dedica un capítulo completo a la cuestión [pp. 12-18].
 
-En efecto, Herrera y su ministro Calderón Berti apoyaron a la empresa en la continuación de su consolidación al no cuestionar el desarrollo de los programas iniciados bajo el gobierno del presidente Carlos Andrés Pérez (1974-1979). Sin embargo, el reforzamiento del control administrativo, realizado a través de la reforma del Acta Constitutiva de PDVSA, y la obligación del traslado de los fondos en divisas ubicados en bancos en el exterior a cuentas del Banco Central de Venezuela melló la autonomía administrativa y financiera de la empresa, sobre todo al imposibilitarle obtener ingresos a través de tasas de interés en bancos extranjeros.
+## Formato 20: cita al final de oración seguida de coma (narrativa)
 
-El gobierno de Herrera se caracterizó, en la industria petrolera, por robustecer la actitud que replicarían los siguientes gobiernos: obtener las rentas necesarias de PDVSA para financiar un sistema de desarrollo promovido por el Estado, basado en políticas distributivas y ventajosas políticas cambiarias (Cupolo, 1996). Esta forma de gobernar le permitiría pagar la deuda pública, los compromisos internacionales y financiar programas políticos de ayuda que le facilitara al gobierno venezolano acrecentar su influencia política en la arena internacional.
+Como señala @2961-KACZAN2016, el fenómeno es complejo.
+Según @3041-PINEAU1999, la línea histórica es clara.
 
-Por esta razón, a partir del período de Herrera Campins, apareció la tensión entre el gobierno venezolano y PDVSA planteada por Giacalone (2022). Esta fue causada por la necesidad de la burocracia gubernamental de obtener las rentas necesarias para cumplir con objetivos políticos de corto plazo, confrontando la cultura corporativa de objetivos a mediano y largo plazo. En este sentido, el momento de mayor tensión en el gobierno de Herrera ocurrió en 1982, cuando ordenó el traslado de los fondos extranjeros de PDVSA a cuentas del Banco Central de Venezuela.
+## Formato 21: prefijo con término que parece localizador
 
-De esta manera, se observa el aporte principal de este artículo a la historiografía: mostrar el diseño y la ejecución de las políticas petroleras durante el período constitucional 1979-1983. Puede identificarse la posición tomada por el gobierno de Luis Herrera Campins y replicada por los siguientes gobiernos democráticos: ver y tratar a PDVSA como elemento principal para obtener las rentas petroleras necesarias para financiar al Estado y sus programas.
+[cap. 3 de @2961-KACZAN2016]
+[vol. 1 de @3036-ORBUCH2020, p. 45]
 
+## Formato 22: sufijo que empieza con dígito pero no es localizador
 
-Referencias
+[@2961-KACZAN2016, 2020 es un año clave para el estudio].
+[@3041-PINEAU1999, 1999 vio la primera edición].
 
+## Formato 23: cita dentro de footnote explícita
 
+Diversos autores han abordado la cuestión.[^1]
 
-Arreaza, J. (1986). 1976-1985. Diez años de la industria petrolera nacional. Tomo II.  Petróleos de Venezuela S. A.
+[^1]: Estudios previos [@2961-KACZAN2016; @3041-PINEAU1999, p. 15] lo documentan. Ver también @3036-ORBUCH2020 [cap. 2] para una síntesis reciente.
 
-Aveledo, G. (2015). El socialcristianismo venezolano y el petróleo. Tiempo y Espacio, 25, 71-86.
+## Formato 24: escaping parcial dentro de corchetes
 
-Brewer-Carías, A. (2021). Estudios sobre Petróleos de Venezuela S. A. PDVSA, y la industria petrolera nacionalizada 1974-2021. Editorial jurídica venezolana.
+En este párrafo, la secuencia [\@2961-KACZAN2016] NO debe convertirse en cita.
+Tampoco [@3041-PINEAU1999\], porque el cierre está escapado.
 
-Brossard, E. (1994). INTEVEP: Ruta y destino de la investigación petrolera en Venezuela. Gerencia de Asuntos Públicos de Intevep.
+## Resumen de cobertura
 
-Calderón, H. (1979). Hacia una política petrolera integral. La Alquitrana.
+Si el pipeline procesa correctamente los 18 formatos de arriba (incluyendo todos los subcasos), cubre la totalidad de la sintaxis de citas de Pandoc documentada en la sección 8.20 del manual oficial, edición 2026-03-17.
 
-Caminal, M. (2008). Manual de Ciencia Política. Tecnos.
-
-Cupolo, M. (1996). Petróleo y Política en México y Venezuela. Equinoccio.
-
-Decreto Presidencial 1123/1975, de 30 agosto de 1975 [Presidencia de la República]. Acta constitutiva de Petróleos de Venezuela. 30 de agosto de 1975, Gaceta Oficial Extraordinaria de la República de Venezuela N 1170.
-
-Decreto Presidencial 230/1979, de 30 agosto de 1979 [Presidencia de la República], que reforma del Decreto Ejecutivo N 1123 de fecha 30 de agosto de 1975. 30 de agosto de 1979, Gaceta Oficial de la República de Venezuela N 31.810.
-
-Fariñas, G. (1981). Obligaciones fiscales de la industria petrolera venezolana antes y después de su nacionalización. En Varios Autores, Libro-Homenaje al Profesor Antonio Moles Caubet (pp. 757-774), Universidad Central de Venezuela.
-
-Giacalone, R. (2022). La relación entre PDVSA, Estado y nacionalismo económico en Venezuela (1976-2003). Anuario del Centro de Estudios Económicos de la Empresa y el Desarrollo. 18(14), 133-174.
-
-Giacopini, J. y Rodríguez, G. (1986). 1976-1985. Diez años de la industria petrolera nacional. Tomo I. Petróleos de Venezuela S. A.
-
-Herrera, L. (1978). Mi compromiso con Venezuela. Programa de gobierno para el periodo 1979-1984. COPEI.
-
-Martínez, A. (1984). Diccionario del Petróleo Venezolano. Editorial Ateneo de Caracas.
-
-McBeth, B. (2005). La Política Petrolera Venezolana: Una perspectiva histórica 1922/2005. Badell & Grau.
-
-Ministerio de Energía y Minas [MEM] (1983). Memoria y Cuenta 1982. República de Venezuela.
-
-Ministerio de Energía y Minas [MEM] (1984a). Memoria y Cuenta 1983. República de Venezuela.
-
-Ministerio de Energía y Minas [MEM] (1984b). Petróleo y otros datos estadísticos 1983. República de Venezuela.
-
-Organización de Países Exportadores de Petróleo [OPEP] (2022). OPEC Reference Basket in nominal and real terms ($/b) [Conjunto de datos] Oil prices. https://asb.opec.org/data/ASB_Data.php
-
-Oficina Central de Coordinación y Planificación de la Presidencia de la República [CORDIPLAN] (1981). VI Plan de la Nación. Desarrollo Global. Volumen I. República de Venezuela.
-
-Ossorio, M. (1999). Diccionario de ciencias jurídicas políticas y sociales. Heliasta.
-
-Palma, P. (1985). Aspectos Económicos y Financieros de la Industria Petrolera Nacional 1976-1985. Ediciones Amón.
-
-Romero, M. (2009). Política exterior venezolana. Proyecto democrático, 1959-1999. Editorial CEC.
-
-Scharpf, F. (1997). Games Real Actors Play. Westview Press.
-
-Toro, J. (2005). Fundamentos de Teoría Económica. Editorial Panapo de Venezuela.
-
-Viloria, E. (1983). Petróleos de Venezuela. Editorial jurídica venezolana.
-
-Zanoni, J. (2002). El cuadrilátero petrolero: Bases de la política petrolera venezolana. Revista venezolana de análisis de coyuntura, 1(VIII), 291-297.
-
-
-
-[1] Instituto de Investigaciones Históricas de la Universidad Católica Andrés Bello, ORCID 0000-0002-0877-6212, msvallenilla.17@est.ucab.edu.ve
-
-[2] Según disposición del artículo 1 del Acta Constitutiva de PDVSA (Decreto Presidencial 1123/1975).
-
-[3] Solo prohibía en el Capítulo I desarrollar actividades como directores de organizaciones políticas mientras estuvieran en ejercicio de sus funciones (Decreto Presidencial 1123/1975).
-
-[4] Comité de Organización Política Electoral Independiente (COPEI).
-
-[5] En el primer directorio nombrado en agosto de 1975, fueron designados presidente y vicepresidente, Rafael Alfonzo Ravard y Julio César Arreaza. Los directores principales fueron: José Domingo Casanova, Edgard Leal, Julio Sosa Rodríguez, Carlos Guillermo Rangel, Alirio Parra, Benito Raúl Losada, Manuel Peñalver.
-
-[6] Leopoldo Díaz Bruzual era el presidente del Banco Central de Venezuela.
-
-[7] Es definida la Faja Petrolífera del Orinoco como el "campo de petróleo crudo de peso específico extrapesado y de bitumen natural, en los estados Anzoátegui y Monagas, la mayor acumulación de hidrocarburos en el mundo por la cuantía de los depósitos del subsuelo" (Martínez, 1984, p. 50).
-
-[8] Veba Oel durante la Segunda Guerra Mundial desarrolló el proceso Lurgi para convertir carbón o crudo pesado en destilados ligeros y poseía la tecnología "Veba Combi Cracking", método más avanzado para refinar el crudo pesado venezolano (McBeth, 2005, p. 71).
-
+:::

@@ -1,134 +1,144 @@
 <ref-list xmlns:xlink="http://www.w3.org/1999/xlink">
-  <ref id="bib-1254-FAJARDO2025">
-    <element-citation publication-type="book">
-      <person-group person-group-type="author">
-        <name>
-          <surname>Fajardo</surname>
-          <given-names>M.</given-names>
-        </name>
-      </person-group>
-      <source>El mundo según América Latina. La CEPAL en la era del desarrollo</source>
-      <publisher-name>Fondo de Cultura Econó­mica</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2025</year>
-    </element-citation>
-  </ref>
-  <ref id="bib-1255-MASON2023">
-    <element-citation publication-type="book">
-      <person-group person-group-type="editor">
-        <name>
-          <surname>Mason</surname>
-          <given-names>C.</given-names>
-        </name>
-        <name>
-          <surname>Rougier</surname>
-          <given-names>M.</given-names>
-        </name>
-      </person-group>
-      <source>A las palabras se las lleva el viento; lo escrito queda. Las revistas en los orígenes de la profesionalización del campo de la economía (1956-1966)</source>
-      <publisher-name>Ediciones Imago Mundi</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2023</year>
-    </element-citation>
-  </ref>
-  <ref id="bib-1251-AZCUYAMEGHINO2024">
-    <element-citation publication-type="book">
-      <person-group person-group-type="author">
-        <name>
-          <surname>Azcuy Ameghino</surname>
-          <given-names>E.</given-names>
-        </name>
-      </person-group>
-      <source>La cuestión agraria argentina en el siglo XXI</source>
-      <publisher-name>Ediciones Imago Mundi</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2024</year>
-    </element-citation>
-  </ref>
-  <ref id="bib-1256-BARSKY2001">
-    <element-citation publication-type="book">
-      <person-group person-group-type="author">
-        <name>
-          <surname>Barsky</surname>
-          <given-names>O.</given-names>
-        </name>
-        <name>
-          <surname>Gelman</surname>
-          <given-names>J.</given-names>
-        </name>
-      </person-group>
-      <person-group person-group-type="editor">
-        <name>
-          <surname>Ascolani</surname>
-          <given-names>A.</given-names>
-        </name>
-        <name>
-          <surname>Gutiérrez</surname>
-          <given-names>T.</given-names>
-        </name>
-      </person-group>
-      <source>Historia del agro argentino. Desde la Conquista hasta fines del siglo XX</source>
-      <publisher-name>Grijalbo and Mondadori</publisher-name>
-      <year>2001</year>
-    </element-citation>
-  </ref>
-  <ref id="bib-1249-LAZZARO2004">
-    <element-citation publication-type="book-chapter">
-      <person-group person-group-type="author">
-        <name>
-          <surname>Lázzaro</surname>
-          <given-names>S.</given-names>
-        </name>
-      </person-group>
-      <person-group person-group-type="editor">
-        <name>
-          <surname>Galafassi</surname>
-          <given-names>G.</given-names>
-        </name>
-      </person-group>
-      <chapter-title>La política agraria de la autodenominada Revolución argentina</chapter-title>
-      <source>El campo diverso. Enfoques y perspectivas de la Argentina agraria del siglo XX</source>
-      <publisher-name>Universidad Nacional de Quilmes</publisher-name>
-      <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2004</year>
-      <fpage>311</fpage>
-      <lpage>341</lpage>
-    </element-citation>
-  </ref>
-  <ref id="bib-1250-LAZZARO2012">
+  <ref id="bib-3040-PINEAU2018">
     <element-citation publication-type="journal">
       <person-group person-group-type="author">
         <name>
-          <surname>Lázzaro</surname>
-          <given-names>S.</given-names>
+          <surname>Pineau</surname>
+          <given-names>Pablo</given-names>
         </name>
       </person-group>
-      <article-title>El desarrollismo y el problema agrario durante las décadas de 1950 y 1960</article-title>
-      <source>Secuencia. Revista de historia y ciencias sociales</source>
-      <year>2013</year>
-      <issue>84</issue>
-      <issn>2395-8464</issn>
-      <pub-id pub-id-type="doi">10.18234/secuencia.v0i84.1171</pub-id>
+      <article-title>Historiografía educativa sobre estéticas y sensibilidades en América Latina: un balance que se sabe incompleto</article-title>
+      <source>Revista Brasileira de História da Educação</source>
+      <year>2018</year>
+      <volume>18</volume>
+      <fpage>1</fpage>
+      <lpage>16</lpage>
     </element-citation>
   </ref>
-  <ref id="bib-1257-ASCOLANI2015">
-    <element-citation publication-type="book-chapter">
+  <ref id="bib-2819-ADAMOVSKY2021">
+    <element-citation publication-type="book">
       <person-group person-group-type="author">
         <name>
-          <surname>Ascolani</surname>
-          <given-names>A.</given-names>
-        </name>
-        <name>
-          <surname>Gutiérrez</surname>
-          <given-names>T.</given-names>
+          <surname>Adamovsky</surname>
+          <given-names>Ezequiel</given-names>
         </name>
       </person-group>
-      <chapter-title>Desarrollismo, reforma agraria y contrarrevolución, 1955-1976</chapter-title>
-      <source>Agro y política en Argentina</source>
-      <publisher-name>CICCUS</publisher-name>
+      <source>Historia de la Argentina. Biografía de un país</source>
+      <publisher-name>Crítica</publisher-name>
       <publisher-loc>Buenos Aires</publisher-loc>
-      <year>2015</year>
+      <year>2021</year>
+    </element-citation>
+  </ref>
+  <ref id="bib-2822-AMIGOTLEACHE2009">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Amigot Leache</surname>
+          <given-names>Patricia</given-names>
+        </name>
+        <name>
+          <surname>Pujal i Llombart</surname>
+          <given-names>Margot</given-names>
+        </name>
+      </person-group>
+      <article-title>Una lectura del género como dispositivo de poder</article-title>
+      <source>Sociológica</source>
+      <year>2009</year>
+      <volume>24</volume>
+      <issue>70</issue>
+      <fpage>115</fpage>
+      <lpage>152</lpage>
+    </element-citation>
+  </ref>
+  <ref id="bib-2827-BARBA1998">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Barba</surname>
+          <given-names>Fernando</given-names>
+        </name>
+      </person-group>
+      <article-title>La Plata en sus primeros años de vida</article-title>
+      <source>Revista Museo</source>
+      <year>1998</year>
+    </element-citation>
+  </ref>
+  <ref id="bib-2832-ZEBALLOSDEHEREDIA1930">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Zeballos de Heredia</surname>
+          <given-names>Celia</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1929. Colegio Secundario de Señoritas</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1930</year>
+    </element-citation>
+  </ref>
+  <ref id="bib-2835-TEOBALDO1946">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Teobaldo</surname>
+          <given-names>Carlos</given-names>
+        </name>
+      </person-group>
+      <source>Memoria del Colegio Secundario de Señoritas de 1945. Colegio Secundario de Señoritas</source>
+      <publisher-name>Universidad Nacional de La Plata</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>1946</year>
+    </element-citation>
+  </ref>
+  <ref id="bib-2843-NELSON1912">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Nelson</surname>
+          <given-names>Ernesto</given-names>
+        </name>
+      </person-group>
+      <article-title>Un experimento trascendental en la educación argentina. El internado del Colegio Nacional de la Universidad de La Plata</article-title>
+      <source>Boletín del Museo Social Argentino</source>
+      <year>1912</year>
+      <volume>1</volume>
+      <fpage>222</fpage>
+      <lpage>223</lpage>
+    </element-citation>
+  </ref>
+  <ref id="bib-2844-MERCANTE1908">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Mercante</surname>
+          <given-names>Víctor</given-names>
+        </name>
+      </person-group>
+      <article-title>El internado del Colegio de la Universidad Nacional de La Plata</article-title>
+      <source>Archivos de Pedagogía y Ciencias Afines</source>
+      <year>1908</year>
       <volume>3</volume>
+      <issue>7</issue>
+      <fpage>149</fpage>
+      <lpage>160</lpage>
+    </element-citation>
+  </ref>
+  <ref id="bib-2850-GONZALEZLEANDRI2006">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>González Leandri</surname>
+          <given-names>Ricardo</given-names>
+        </name>
+      </person-group>
+      <article-title>La consolidación de una inteligentzia médico profesional en Argentina: 1880-1900</article-title>
+      <source>Diálogos. Revista Electrónica de Historia</source>
+      <year>2006</year>
+      <volume>7</volume>
+      <issue>1</issue>
+      <fpage>36</fpage>
+      <lpage>78</lpage>
     </element-citation>
   </ref>
 </ref-list>

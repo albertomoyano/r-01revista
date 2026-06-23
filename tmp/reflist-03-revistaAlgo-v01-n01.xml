@@ -1,0 +1,72 @@
+<ref-list xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- ADVERTENCIA: citekey 'key' no encontrado en el .bib -->
+  <ref id="bib-2961-KACZAN2016">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Kaczan</surname>
+          <given-names>Gisela</given-names>
+        </name>
+      </person-group>
+      <article-title>La práctica gimnástica y el deporte, la cultura física y el cuerpo bello en la historia de las mujeres. Argentina 1900-1930</article-title>
+      <source>Revista Historia Crítica</source>
+      <year>2016</year>
+      <issue>61</issue>
+      <fpage>23</fpage>
+      <lpage>43</lpage>
+      <pub-id pub-id-type="doi">10.5821/ace.v4i12.2483</pub-id>
+      <ext-link ext-link-type="uri" xlink:href="https://www.pagina12.com.ar/">https://www.pagina12.com.ar/</ext-link>
+    </element-citation>
+  </ref>
+  <ref id="bib-3036-ORBUCH2020">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Orbuch</surname>
+          <given-names>Iván</given-names>
+        </name>
+      </person-group>
+      <source>Peronismo y Cultura Física. Democratización, sociabilidad y propaganda</source>
+      <publisher-name>Ediciones Imago Mundi</publisher-name>
+      <publisher-loc>Buenos Aires</publisher-loc>
+      <year>2020</year>
+      <ext-link ext-link-type="uri" xlink:href="https://www.edicionesimagomundi.com/producto/peronismo-y-cultura-fisica/">https://www.edicionesimagomundi.com/producto/peronismo-y-cultura-fisica/</ext-link>
+    </element-citation>
+  </ref>
+  <ref id="bib-3041-PINEAU1999">
+    <element-citation publication-type="book-chapter">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Pineau</surname>
+          <given-names>Pablo</given-names>
+        </name>
+      </person-group>
+      <person-group person-group-type="editor">
+        <name>
+          <surname>Ascolani</surname>
+          <given-names>Adrián</given-names>
+        </name>
+      </person-group>
+      <chapter-title>Renovación, represión, cooptación. Las estrategias de la Reforma Fresco-Noble (Provincia de Buenos Aires, Década del 30)</chapter-title>
+      <source>La educación en Argentina. Estudios de historia</source>
+      <publisher-name>Ediciones del Arca</publisher-name>
+      <publisher-loc>Rosario</publisher-loc>
+      <year>1999</year>
+      <fpage>223</fpage>
+      <lpage>239</lpage>
+    </element-citation>
+  </ref>
+  <!-- ADVERTENCIA: citekey 'doe99' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey 'smith04' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey 'key1' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey 'key2' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey 'smith{ii' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey 'smith' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey 'smith{}' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey '3041-PINEAU1999{libro' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey '3036-ORBUCH2020{}' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey '2961-KACZAN2016{}' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey '3041-PINEAU1999\' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey '{key' no encontrado en el .bib -->
+  <!-- ADVERTENCIA: citekey '{2961-KACZAN2016|variante-extendida}' no encontrado en el .bib -->
+</ref-list>

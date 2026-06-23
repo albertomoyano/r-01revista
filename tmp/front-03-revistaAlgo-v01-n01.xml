@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<front xmlns:xlink="http://www.w3.org/1999/xlink">
+  <journal-meta>
+    <journal-id journal-id-type="publisher-id">1851-703X</journal-id>
+    <journal-title-group>
+      <journal-title>H-industria</journal-title>
+    </journal-title-group>
+    <issn pub-type="epub">1851-703X</issn>
+    <publisher>
+      <publisher-name>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</publisher-name>
+      <publisher-loc>Buenos Aires, Argentina</publisher-loc>
+    </publisher>
+  </journal-meta>
+  <article-meta>
+    <article-categories>
+      <subj-group subj-group-type="heading">
+        <subject>other</subject>
+      </subj-group>
+    </article-categories>
+    <title-group>
+      <article-title>Pruebas exhaustivas con referencias bibliográficas</article-title>
+    </title-group>
+    <contrib-group>
+      <contrib contrib-type="author" id="a4">
+        <name>
+          <surname>Moyano</surname>
+          <given-names>Alberto Alejandro</given-names>
+        </name>
+      </contrib>
+    </contrib-group>
+    <pub-date pub-type="epub-ppub">
+      <month>11</month>
+      <year>2026</year>
+    </pub-date>
+    <volume>01</volume>
+    <issue>01</issue>
+    <permissions>
+      <copyright-year>2026</copyright-year>
+      <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <license-p>Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>xml-lang</meta-name>
+        <meta-value>es</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+  </article-meta>
+</front>
