@@ -123,7 +123,7 @@ Caracteres válidos en una key SIN llaves: empieza con letra, dígito o `_`; con
 
 Las tres keys reales del proyecto (`2961-KACZAN2016`, `3041-PINEAU1999`, `3036-ORBUCH2020`) cumplen las reglas básicas y NO necesitan llaves. Las pruebas siguientes usan keys hipotéticas para ejercitar el parser, dado que el parser tiene que tolerar este caso por compatibilidad con bibliografías importadas (entradas con DOIs como key, URLs como identificador, keys heredadas con caracteres exóticos).
 
-La fuente en línea se cita directamente con su URL como identificador [@{https://www.pagina12.com.ar/}, p. 33]. La entrada con pipe en la key heredada de un sistema externo se cita con llaves obligatorias [@{2961-KACZAN2016|variante-extendida}]. El DOI usado como key tampoco puede ir suelto si contiene caracteres fuera del set permitido [@{10.5821/ace.v4i12.2483|2016-235}].
+La fuente en línea se cita directamente con su URL como identificador [@{https://www.pagina12.com.ar/}]. La entrada con pipe en la key heredada de un sistema externo se cita con llaves obligatorias [@{2961-KACZAN2016|variante-extendida}]. El DOI usado como key tampoco puede ir suelto si contiene caracteres fuera del set permitido [@{10.5821/ace.v4i12.2483}].
 
 ## Formato 16: Markdown inline dentro de prefix y suffix
 
