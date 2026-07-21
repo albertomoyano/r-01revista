@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ARCHIVO GENERADO AUTOMÁTICAMENTE POR GBPUBLISHER -->
+<!-- Validar contra: ~/.gbpublisher/schemas/doajArticles.xsd -->
+<records>
+   <record>
+      <language>spa</language>
+      <publisher>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</publisher>
+      <journalTitle>H-industria</journalTitle>
+      <eissn>1851-703X</eissn>
+      <publicationDate>2025-11-23</publicationDate>
+      <volume>01</volume>
+      <issue>01</issue>
+      <startPage>1</startPage>
+      <endPage>4</endPage>
+      <doi>doi</doi>
+      <documentType>editorial</documentType>
+      <title language="spa">Título del editorial de la revista</title>
+      <authors>
+         <author>
+            <name>Gil, Luciana Victoria</name>
+            <affiliationId>1</affiliationId>
+            <orcid_id>https://orcid.org/0000-0003-0167-7155</orcid_id>
+         </author>
+      </authors>
+      <affiliationsList>
+         <affiliationName affiliationId="1">Departamento , Consejo Nacional de Investigaciones Científicas y Técnicas. Universidad Nacional de San Martín. Universidad de Buenos Aires, Instituto Interdisciplinario de Economía Política, Centro de Estudios de Historia Económica Argentina y Latinoamericana</affiliationName>
+      </affiliationsList>
+      <fullTextUrl format="text/html">url-html</fullTextUrl>
+   </record>
+</records>

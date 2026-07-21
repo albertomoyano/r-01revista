@@ -1,4 +1,4 @@
-## Estructura y elementos del proyecto
+## Estructura y elementos del proyecto 
 
 OMITIR fm-00 (portada) y fm-03 (TOC) — se generan automáticamente
 OMITIR bm-99 (colofón)

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:fr="http://www.crossref.org/fundref.xsd"
+           xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd"
+           version="5.3.1">
+   <head>
+      <doi_batch_id>gbpublisher-02-revistaAlgo-v01-n01-20260715131647</doi_batch_id>
+      <timestamp>20260715131647</timestamp>
+      <depositor>
+         <depositor_name>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</depositor_name>
+         <email_address>hindustria@economicas.uba.ar</email_address>
+      </depositor>
+      <registrant>Instituto Interdisciplinario de Economía Política de Buenos Aires (IIEP) UBA-CONICET, Centro de Estudios de Historia Económica Argentina y Latinoamericana (CEHEAL)</registrant>
+   </head>
+   <body>
+      <journal>
+         <journal_metadata language="es" reference_distribution_opts="any">
+            <full_title>H-industria</full_title>
+            <issn media_type="electronic">1851-703X</issn>
+         </journal_metadata>
+         <journal_issue>
+            <publication_date media_type="online">
+               <month>02</month>
+               <day>18</day>
+               <year>2026</year>
+            </publication_date>
+            <journal_volume>
+               <volume>01</volume>
+            </journal_volume>
+            <issue>01</issue>
+         </journal_issue>
+         <journal_article language="es"
+                          publication_type="full_text"
+                          reference_distribution_opts="any">
+            <titles>
+               <title>El desarrollo agropecuario argentino en la segunda posguerra</title>
+               <original_language_title language="en">Argentine Agricultural Development in the Second Postwar Period</original_language_title>
+            </titles>
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>Marcelo</given_name>
+                  <surname>Rougier</surname>
+                  <ORCID authenticated="true">https://orcid.org/0009-0002-5273-5191</ORCID>
+               </person_name>
+            </contributors>
+            <jats:abstract>
+               <jats:p xml:lang="es">El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.</jats:p>
+            </jats:abstract>
+            <jats:abstract>
+               <jats:p xml:lang="en">This dossier examines Argentine agricultural development from the 1950s to the 1970s within debates on development and industrialization. It explores public policies, credit, technology, and regional agribusiness, highlighting tensions, continuities, and their social, productive, and environmental impact.</jats:p>
+            </jats:abstract>
+            <jats:abstract>
+               <jats:p xml:lang="pt">O dossiê analisa o desenvolvimento agropecuário argentino entre as décadas de 1950 e 1970, no contexto dos debates sobre desenvolvimento e industrialização. Examina políticas públicas, crédito, tecnologia e agroindústrias regionais, destacando tensões, continuidades e impactos sociais, produtivos e ambientais.</jats:p>
+            </jats:abstract>
+            <publication_date media_type="online">
+               <month>02</month>
+               <day>18</day>
+               <year>2026</year>
+            </publication_date>
+            <pages>
+               <first_page>23</first_page>
+               <last_page>43</last_page>
+            </pages>
+            <program xmlns="http://www.crossref.org/AccessIndicators.xsd">
+               <free_to_read/>
+               <license_ref applies_to="vor">https://creativecommons.org/licenses/by-nc-sa/4.0/</license_ref>
+            </program>
+            <doi_data>
+               <doi>10.56503/H-Industria/n.37(19)/3473</doi>
+               <resource content_version="vor" mime_type="text/html">https://doi.org/10.56503/H-Industria/n.37(19)/3473</resource>
+            </doi_data>
+            <citation_list>
+               <citation key="bib-3040-PINEAU2018">
+                  <unstructured_citation>Pineau, Pablo (2018). Historiografía educativa sobre estéticas y sensibilidades en América Latina: un balance que se sabe incompleto. Revista Brasileira de História da Educação, 18, 1-16.</unstructured_citation>
+               </citation>
+               <citation key="bib-2819-ADAMOVSKY2021">
+                  <unstructured_citation>Adamovsky, Ezequiel (2021). Historia de la Argentina. Biografía de un país. Buenos Aires: Crítica.</unstructured_citation>
+               </citation>
+               <citation key="bib-2822-AMIGOTLEACHE2009">
+                  <unstructured_citation>Amigot Leache, Patricia y Pujal i Llombart, Margot (2009). Una lectura del género como dispositivo de poder. Sociológica, 24(70), 115-152.</unstructured_citation>
+               </citation>
+               <citation key="bib-2827-BARBA1998">
+                  <unstructured_citation>Barba, Fernando (1998). La Plata en sus primeros años de vida. Revista Museo, .</unstructured_citation>
+               </citation>
+               <citation key="bib-2832-ZEBALLOSDEHEREDIA1930">
+                  <unstructured_citation>Zeballos de Heredia, Celia (1930). Memoria del Colegio Secundario de Señoritas de 1929. Colegio Secundario de Señoritas. Buenos Aires: Universidad Nacional de La Plata.</unstructured_citation>
+               </citation>
+               <citation key="bib-2835-TEOBALDO1946">
+                  <unstructured_citation>Teobaldo, Carlos (1946). Memoria del Colegio Secundario de Señoritas de 1945. Colegio Secundario de Señoritas. Buenos Aires: Universidad Nacional de La Plata.</unstructured_citation>
+               </citation>
+               <citation key="bib-2843-NELSON1912">
+                  <unstructured_citation>Nelson, Ernesto (1912). Un experimento trascendental en la educación argentina. El internado del Colegio Nacional de la Universidad de La Plata. Boletín del Museo Social Argentino, 1, 222-223.</unstructured_citation>
+               </citation>
+               <citation key="bib-2844-MERCANTE1908">
+                  <unstructured_citation>Mercante, Víctor (1908). El internado del Colegio de la Universidad Nacional de La Plata. Archivos de Pedagogía y Ciencias Afines, 3(7), 149-160.</unstructured_citation>
+               </citation>
+               <citation key="bib-2850-GONZALEZLEANDRI2006">
+                  <unstructured_citation>González Leandri, Ricardo (2006). La consolidación de una inteligentzia médico profesional en Argentina: 1880-1900. Diálogos. Revista Electrónica de Historia, 7(1), 36-78.</unstructured_citation>
+               </citation>
+            </citation_list>
+         </journal_article>
+      </journal>
+   </body>
+</doi_batch>

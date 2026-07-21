@@ -1,0 +1,32 @@
+{
+  "bibjson": {
+    "title": "Título del editorial de la revista",
+    "year": "2026",
+    "month": "marzo",
+    "author": [
+      {
+        "name": "Gil, Luciana Victoria",
+        "orcid_id": "https://orcid.org/0000-0003-0167-7155"
+      }
+    ],
+    "identifier": [
+      {"type": "eissn", "id": "1851-703X"},
+      {"type": "doi", "id": "doi"}
+    ],
+    "journal": {
+      "title": "H-industria",
+      "publisher": "Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación",
+      "volume": "01",
+      "number": "01",
+      "start_page": "1",
+      "end_page": "4"
+    },
+    "link": [
+      {
+        "type": "fulltext",
+        "url": "url-articulo",
+        "content_type": "text/html"
+      }
+    ]
+  }
+}

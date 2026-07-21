@@ -197,9 +197,9 @@
          <sec id="sec-17">
             <title>Subcaso 13b: localizador entre llaves</title>
             <p>Las llaves <monospace>{...}</monospace> son el escape hatch oficial de Pandoc para forzar el parsing del locator cuando la heurística falla, o para usar un locator con caracteres no estándar (paginación romana, rangos con paréntesis, listas de partes alfabéticas).</p>
-            <p>La referencia clásica al libro IV es ineludible <xref ref-type="bibr" rid="bib-3041-PINEAU1999">3041-PINEAU1999<named-content content-type="cite-suffix">{libro IV, cap. 3}</named-content>
+            <p>La referencia clásica al libro IV es ineludible <xref ref-type="bibr" rid="bib-3041-PINEAU1999">3041-PINEAU1999<named-content content-type="cite-suffix">libro IV, cap. 3</named-content>
                </xref>. La paginación romana también necesita llaves <xref ref-type="bibr" rid="bib-3036-ORBUCH2020">3036-ORBUCH2020<named-content content-type="cite-suffix">p. xiv</named-content>
-               </xref>. El listado fragmentario es claro <xref ref-type="bibr" rid="bib-3036-ORBUCH2020">3036-ORBUCH2020<named-content content-type="cite-suffix">{pp. iv, vi-xi, (xv)-(xvii)}</named-content>
+               </xref>. El listado fragmentario es claro <xref ref-type="bibr" rid="bib-3036-ORBUCH2020">3036-ORBUCH2020<named-content content-type="cite-suffix">pp. iv, vi-xi, (xv)-(xvii)</named-content>
                </xref>.</p>
          </sec>
          <sec id="sec-18">

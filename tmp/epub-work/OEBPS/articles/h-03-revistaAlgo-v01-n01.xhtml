@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:epub="http://www.idpf.org/2007/ops"
+      lang="es"
+      xml:lang="es">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Pruebas exhaustivas con referencias bibliográficas — H-industria</title>
+      <meta name="DC.title"
+            content="Pruebas exhaustivas con referencias bibliográficas"/>
+      <meta name="DC.language" content="es"/>
+      <meta name="DC.type" content="Text"/>
+      <meta name="DC.date" content="2026"/>
+      <meta name="DC.publisher"
+            content="Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación"/>
+      <meta name="DC.rights"
+            content="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      <meta name="DC.creator" content="Moyano, Alberto Alejandro"/>
+      <link rel="stylesheet" type="text/css" href="../css/epub.css"/>
+   </head>
+   <body>
+      <section epub:type="preamble" class="article-preamble">
+         <p class="article-type">other</p>
+         <h1 class="article-title" id="titulo-articulo">Pruebas exhaustivas con referencias bibliográficas</h1>
+         <div class="autoria">
+            <div class="autor-item">
+               <p class="autor-nombre">Alberto Alejandro Moyano</p>
+            </div>
+         </div>
+         <div class="pub-data">
+            <p class="pub-fecha">2026, vol. 01, núm. 01</p>
+            <p class="pub-licencia">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</p>
+         </div>
+         <div class="como-citar">
+            <p class="como-citar-label">Cómo citar</p>
+            <p class="como-citar-texto">Moyano, A. A. (2026). Pruebas exhaustivas con referencias bibliográficas. <em>H-industria</em>, <em>01</em>(01)</p>
+         </div>
+      </section>
+      <section id="sec-1">
+         <p>Artículo de prueba exhaustivo para verificar que el parser de gbpublisher reconoce <strong>TODOS</strong> los formatos de cita de Pandoc documentados en la sección 8.20 <em>Citation syntax del Pandoc User’s Guide</em> (edición 2026-03-17), y que el filtro Lua preserva el modo correcto en el JATS canónico. Cada sección describe la sintaxis, el comportamiento esperado en el rendering final, y la representación esperada en JATS canónico (citation-mode y subelementos de element-citation). Cuando el caso es comportamiento inferido (no documentado explícitamente en la sintaxis de citas pero esperable desde reglas generales de Markdown), se indica como tal.</p>
+      </section>
+      <section id="sec-2">
+         <h2>Formato 1: cita básica — <code>[@key]</code>
+         </h2>
+         <p>Forma estándar entre paréntesis. Renderiza “(Autor, Año)” según el CSL. En JATS, <code>citation-mode="parenthetical"</code>, sin <code>&lt;prefix&gt;</code>, sin <code>&lt;suffix&gt;</code>, sin <code>&lt;page-range&gt;</code>.</p>
+         <p>La transformación digital impacta en múltiples dimensiones organizacionales (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016</a>). El factor regional ha sido caracterizado en términos similares (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020</a>).</p>
+      </section>
+      <section id="sec-3">
+         <h2>Formato 2: supresión de autor — <code>[-@key]</code>
+         </h2>
+         <p>Documentado textualmente en Pandoc: “A minus sign (<code>-</code>) before the <code>@</code> will suppress mention of the author in the citation.” Se usa cuando el autor ya se nombró en el flujo del texto. Renderiza solo “(Año)”. En JATS, <code>citation-mode="suppress-author"</code>.</p>
+         <p>Como señala Kaczan (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>), el fenómeno no debe confundirse con la simple digitalización de procesos. Pineau (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>) aborda la misma distinción en un contexto histórico.</p>
+      </section>
+      <section id="sec-4">
+         <h2>Formato 3: cita con localizador de página — <code>[@key, p. N]</code> / <code>[@key, pp. N-M]</code>
+         </h2>
+         <p>Página única con <code>p.</code>, rango con <code>pp.</code>. El localizador debe aparecer en JATS como <code>&lt;page-range&gt;</code> o atributo equivalente del <code>&lt;element-citation&gt;</code>. Render esperado: “(Autor, Año, p. N)”.</p>
+         <p>El fenómeno ha sido estudiado en profundidad (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, p. 5</a>). También se han analizado los antecedentes históricos (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, pp. 55-60</a>).</p>
+      </section>
+      <section id="sec-5">
+         <h2>Formato 4: supresión de autor con localizador — <code>[-@key, p. N]</code>
+         </h2>
+         <p>Combina los ejes 2 y 3. Render esperado: “(Año, p. N)”. En JATS, <code>citation-mode="suppress-author"</code> + <code>&lt;page-range&gt;</code>.</p>
+         <p>Orbuch (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020, p. 235</a>) clasifica los desafíos en tres categorías. Kaczan (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016, pp. 225-230</a>) analiza el impacto sectorial.</p>
+      </section>
+      <section id="sec-6">
+         <h2>Formato 5: prefijo textual — <code>[ver @key]</code>
+         </h2>
+         <p>Texto introductorio dentro del bracket, antes del <code>@</code>. La doc oficial muestra el ejemplo canónico <code>[see @doe99, pp. 33-35 and *passim*; @smith04, chap. 1]</code>, donde “see” es el prefijo del primer ítem. Render esperado: “(ver Autor, Año)”. En JATS, el prefijo va como <code>&lt;prefix&gt;</code> dentro del <code>&lt;element-citation&gt;</code>. El parser tiene que encontrar el <code>@</code> aunque no sea el primer carácter del bracket.</p>
+         <p>Para un análisis detallado del contexto regional (ver <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020</a>). Para el marco histórico (cf. <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999</a>).</p>
+      </section>
+      <section id="sec-7">
+         <h2>Formato 6: múltiples citas en un bloque — <code>[@key1; @key2]</code>
+         </h2>
+         <p>Documentado textualmente: “Normal citations should be included in square brackets, with semicolons separating distinct items.” Render esperado: “(Autor1, Año1; Autor2, Año2)”. En JATS, múltiples <code>&lt;element-citation&gt;</code> agrupados.</p>
+         <p>Diversos autores han abordado la cuestión desde perspectivas complementarias (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016</a>; <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999</a>). La convergencia se replica en el plano sectorial (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020</a>; <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016</a>).</p>
+      </section>
+      <section id="sec-8">
+         <h2>Formato 7: múltiples con supresión parcial — <code>[@key1; -@key2]</code>
+         </h2>
+         <p>Cada cita del bloque mantiene su propio modo independientemente de las demás. El parser debe procesar cita por cita, no aplicar el modo en bloque.</p>
+         <p>Kaczan y Pineau (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016</a>; <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>) coinciden en la importancia del marco histórico. El segundo autor ya fue mencionado antes.</p>
+      </section>
+      <section id="sec-9">
+         <h2>Formato 8: prefijo textual con múltiples citas — <code>[ver @key1; @key2]</code>
+         </h2>
+         <p>El prefijo aplica solo a la primera cita; las restantes son citas paralelas. En JATS, <code>&lt;prefix&gt;</code> solo en el primer <code>&lt;element-citation&gt;</code> del grupo.</p>
+         <p>Las estadísticas disponibles (ver <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020</a>; <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999</a>) ofrecen un marco comparativo útil.</p>
+      </section>
+      <section id="sec-10">
+         <h2>Formato 9: combinaciones mixtas</h2>
+         <p>Caso de stress: prefijo + múltiples + supresión parcial + localizador. Pone a prueba la independencia de procesamiento de cada cita dentro del bracket.</p>
+         <p>La literatura reciente (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016</a>; <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020</a>; <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>) muestra convergencia en los hallazgos principales. Orbuch (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020, p. 228</a>) anticipa varios de estos resultados desde su campo específico.</p>
+      </section>
+      <section id="sec-11">
+         <h2>Formato 10: cita narrativa sin brackets — <code>@key</code>
+         </h2>
+         <p>CRÍTICO. Documentado textualmente: “You can also write an author-in-text citation, by omitting the square brackets: <code>@smith04 says blah.</code>” Es el segundo modo sintáctico primario de Pandoc, distinto del cite-in-brackets. Render esperado: “Autor (Año)” — el autor queda fuera del paréntesis. En JATS, <code>citation-mode="narrative"</code> (o <code>inline-citation</code> según perfil). Si el parser solo busca dentro de <code>[...]</code>, este caso se le escapa por completo y cae al modo por defecto del XSL, saliendo erróneamente como “(Autor, Año)”.</p>
+         <p>Como sostiene <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan</a> (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>), la dimensión organizacional es central en el análisis. <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau</a> (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>) había anticipado esta línea desde una perspectiva histórica. Más recientemente, <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch</a> (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020</a>) amplió el marco a otros sectores.</p>
+         <section id="sec-12">
+            <h2>Subcaso 10b: narrativa con localizador</h2>
+            <p>La doc muestra textualmente la forma <code>@smith04 [p. 33] says blah.</code> para combinar narrativa con localizador. Render esperado: “Autor (Año, p. N)”.</p>
+            <p>
+               <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan</a> (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>, p. 33) demuestra el punto con un caso paradigmático. <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch</a> (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020</a>, pp. 12-18) dedica un capítulo completo a la cuestión.</p>
+         </section>
+      </section>
+      <section id="sec-13">
+         <h2>Formato 11: localizadores no-página (lista completa del locale)</h2>
+         <p>Pandoc detecta locator terms a partir del <strong>locale CSL activo</strong>, no de una lista fija. La doc oficial lista los términos del locale <code>en-US</code>, en singular y plural, abreviados y completos: <code>book</code>/<code>bk.</code>/<code>bks.</code>; <code>chapter</code>/<code>chap.</code>/<code>chaps.</code>; <code>column</code>/<code>col.</code>/<code>cols.</code>; <code>figure</code>/<code>fig.</code>/<code>figs.</code>; <code>folio</code>/<code>fol.</code>/<code>fols.</code>; <code>number</code>/<code>no.</code>/<code>nos.</code>; <code>line</code>/<code>l.</code>/<code>ll.</code>; <code>note</code>/<code>n.</code>/<code>nn.</code>; <code>opus</code>/<code>op.</code>/<code>opp.</code>; <code>page</code>/<code>p.</code>/<code>pp.</code>; <code>paragraph</code>/<code>para.</code>/<code>paras.</code>; <code>part</code>/<code>pt.</code>/<code>pts.</code>; <code>section</code>/<code>sec.</code>/<code>secs.</code>; <code>sub verbo</code>/<code>s.v.</code>/<code>s.vv.</code>; <code>verse</code>/<code>v.</code>/<code>vv.</code>; <code>volume</code>/<code>vol.</code>/<code>vols.</code>; y los símbolos <code>¶</code>/<code>¶¶</code> y <code>§</code>/<code>§§</code>. Cada uno produce un <code>&lt;element-citation&gt;</code> con la subestructura JATS apropiada (no siempre <code>&lt;page-range&gt;</code> — puede ser <code>&lt;chapter-title&gt;</code>, atributos <code>content-type</code>, etc.).</p>
+         <p>
+            <strong>Punto a verificar con mini-test antes de comprometer código</strong>: si el CSL en uso es español, no está documentado en la sección de sintaxis si Pandoc detecta locator terms del locale del CSL activo (<code>cap.</code>/<code>caps.</code>, <code>pág.</code>/<code>págs.</code>, <code>vol.</code>/<code>vols.</code>) o si solo reconoce los de <code>en-US</code>. La doc remite a “the locator terms defined in the CSL locale files” pero no especifica el comportamiento de fallback.</p>
+         <p>El argumento central se desarrolla en detalle (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, chap. 3</a>). La discusión metodológica aparece en otro lugar (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, sec. 2.1</a>). Las series estadísticas completas están en el primer tomo (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, vol. 1, p. 45</a>). Los datos primarios aparecen en una nota al pie específica (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, n. 12</a>). El esquema general se presenta tempranamente (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, pt. 1</a>). La definición operativa aparece en una sección específica (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, sec. 4</a>). El número de figura referido es claro (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, fig. 7</a>). La nota marginal complementa la lectura (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, ¶ 5</a>).</p>
+      </section>
+      <section id="sec-14">
+         <h2>Formato 12: prefijo combinado con supresión — <code>[ver -@key]</code>
+         </h2>
+         <p>Combina los ejes del Formato 5 y el Formato 2 en un caso que ningún ejemplo previo cubre: el <code>-</code> está después del prefijo, no al inicio del bracket. No está documentado explícitamente como caso aparte, pero se sigue de la composicionalidad: la doc define prefijo y supresión como dos modificadores independientes que pueden coexistir. El parser tiene que reconocer el <code>-</code> inmediatamente antes del <code>@</code>, no asumir que está pegado al <code>[</code>.</p>
+         <p>Pineau ya había trabajado esta línea en otro registro (ver <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>). El contraste con la lectura más reciente es ilustrativo (cf. <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020</a>).</p>
+      </section>
+      <section id="sec-15">
+         <h2>Formato 13: sufijo no-localizador y llaves alrededor del locator</h2>
+         <p>Tres subcasos verificados en la doc oficial. Los ejemplos canónicos son:</p>
+         <ul class="list-bullet">
+            <li>
+               <code>[@smith{ii, A, D-Z}, with a suffix]</code>
+            </li>
+            <li>
+               <code>[@smith, {pp. iv, vi-xi, (xv)-(xvii)} with suffix here]</code>
+            </li>
+            <li>
+               <code>[@smith{}, 99 years later]</code>
+            </li>
+         </ul>
+         <section id="sec-16">
+            <h2>Subcaso 13a: sufijo de texto libre</h2>
+            <p>Texto después de la cita que NO es un locator term ni dígitos puros — Pandoc lo manda a <code>&lt;suffix&gt;</code> en JATS. Diferente del prefijo del Formato 5.</p>
+            <p>El argumento se sostiene en términos generales (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, énfasis añadido</a>). La interpretación es polémica (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, pero ver la crítica reciente</a>).</p>
+         </section>
+         <section id="sec-17">
+            <h2>Subcaso 13b: localizador entre llaves</h2>
+            <p>Las llaves <code>{...}</code> son el escape hatch oficial de Pandoc para forzar el parsing del locator cuando la heurística falla, o para usar un locator con caracteres no estándar (paginación romana, rangos con paréntesis, listas de partes alfabéticas).</p>
+            <p>La referencia clásica al libro IV es ineludible (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, libro IV, cap. 3</a>). La paginación romana también necesita llaves (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, p. xiv</a>). El listado fragmentario es claro (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, pp. iv, vi-xi, (xv)-(xvii)</a>).</p>
+         </section>
+         <section id="sec-18">
+            <h2>Subcaso 13c: llaves vacías + sufijo</h2>
+            <p>
+               <code>{}</code> vacío fuerza “no hay locator” y todo lo que sigue a la coma va como suffix puro, sin que Pandoc intente leer dígitos iniciales como página.</p>
+            <p>La obra completa es relevante (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, sin paginación específica</a>). La cita se mantiene aunque no haya página (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, passim</a>).</p>
+         </section>
+      </section>
+      <section id="sec-19">
+         <h2>Formato 14: cita escapada — caso negativo (comportamiento inferido)</h2>
+         <p>El <code>\</code> antes del <code>@</code> o del <code>[</code> debe impedir que Pandoc procese el bloque como cita. <strong>No está documentado explícitamente en la sección 8.20 (Citation syntax)</strong> — se sigue del comportamiento general de escaping de Markdown en Pandoc, pero conviene marcarlo así para evitar asumirlo como garantía formal. Si el parser de gbpublisher no lo respeta, va a corromper texto donde <code>@</code> aparece por otra razón (handles de redes sociales, direcciones de email mencionadas, sintaxis literal de Pandoc citada como ejemplo en un texto sobre el propio Pandoc).</p>
+         <p>En este párrafo, la secuencia @2961-KACZAN2016 NO debe convertirse en cita: tiene que aparecer literalmente como <code>@2961-KACZAN2016</code> en el render final. Lo mismo aplica si todo el bracket está escapado: [<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau</a> (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>)] debe aparecer literal, no como cita procesada.</p>
+      </section>
+      <section id="sec-20">
+         <h2>Formato 15: llaves alrededor de la KEY entera — <code>[@{key especial}]</code>
+         </h2>
+         <p>Documentado textualmente: “Unless a citation key starts with a letter, digit, or <code>_</code>, and contains only alphanumerics and single internal punctuation characters (<code>:.#$%&amp;-+?&lt;&gt;~/</code>), it must be surrounded by curly braces”. La doc da el ejemplo canónico: <code>[@{https://example.com/bib?name=foobar&amp;date=2000}, p. 33]</code>.</p>
+         <p>Caracteres válidos en una key SIN llaves: empieza con letra, dígito o <code>_</code>; contiene solo alfanuméricos y los signos <code>:.#$%&amp;-+?&lt;&gt;~/</code>. Todo lo demás exige llaves alrededor de la key. El carácter <code>|</code> NO está en la lista permitida: una key con <code>|</code> exige llaves obligatorias.</p>
+         <p>Las tres keys reales del proyecto (<code>2961-KACZAN2016</code>, <code>3041-PINEAU1999</code>, <code>3036-ORBUCH2020</code>) cumplen las reglas básicas y NO necesitan llaves. Las pruebas siguientes usan keys hipotéticas para ejercitar el parser, dado que el parser tiene que tolerar este caso por compatibilidad con bibliografías importadas (entradas con DOIs como key, URLs como identificador, keys heredadas con caracteres exóticos).</p>
+         <p>La fuente en línea se cita directamente con su URL como identificador <span class="xref-bibr-orphan"
+                  title="Referencia no encontrada en la bibliografía">[?https_www.pagina12.com.ar_]</span>. La entrada con pipe en la key heredada de un sistema externo se cita con llaves obligatorias <span class="xref-bibr-orphan"
+                  title="Referencia no encontrada en la bibliografía">[?2961-KACZAN2016_variante-extendida]</span>. El DOI usado como key tampoco puede ir suelto si contiene caracteres fuera del set permitido <span class="xref-bibr-orphan"
+                  title="Referencia no encontrada en la bibliografía">[?10.5821_ace.v4i12.2483]</span>.</p>
+      </section>
+      <section id="sec-21">
+         <h2>Formato 16: Markdown inline dentro de prefix y suffix</h2>
+         <p>La doc oficial muestra el ejemplo <code>[see @doe99, pp. 33-35 and *passim*; @smith04, chap. 1]</code>, donde <code>*passim*</code> es énfasis Markdown DENTRO del suffix. Esto implica que los prefijos y sufijos NO son texto plano: pueden contener <code>*énfasis*</code>, <code>**negrita**</code>, <code>`código en línea`</code>, y en principio cualquier inline Markdown válido.</p>
+         <p>Implicancia para el pipeline: si el parser de gbpublisher trata el contenido de los corchetes como texto opaco antes de pasárselo a Pandoc, va a perder el formateo. Y si el filtro Lua post-procesa las citas, tiene que respetar el inline ya convertido. En JATS canónico, los <code>&lt;prefix&gt;</code> y <code>&lt;suffix&gt;</code> pueden contener <code>&lt;italic&gt;</code>, <code>&lt;bold&gt;</code>, <code>&lt;monospace&gt;</code> según los inline detectados.</p>
+         <p>La interpretación se desarrolla en detalle (ver especialmente <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, pp. 33-35 y <em>passim</em>
+            </a>). El argumento se refuerza con la lectura clásica (
+                  <strong>comparar con</strong>
+               
+            <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, cap. 3, <em>muy especialmente</em>
+            </a>). La nota técnica usa formato literal (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, ver <code>appendix-B.tex</code> para los datos crudos</a>). El énfasis del autor se mantiene en el sufijo (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, 
+                  <em>cursivas del original</em>
+            </a>).</p>
+      </section>
+      <section id="sec-22">
+         <h2>Formato 17: locator implícito sin término — <code>[@key, N]</code>
+         </h2>
+         <p>Documentado textualmente: “If no locator term is used, ‘page’ is assumed.” Cuando aparecen dígitos después de la coma sin un locator term que los anteceda, Pandoc los interpreta como página. Render esperado: idéntico a <code>[@key, p. N]</code>. En JATS, debe producir el mismo <code>&lt;page-range&gt;</code> que la forma explícita.</p>
+         <p>Importancia práctica: muchos autores escriben las citas en estilo informal, omitiendo <code>p.</code>. El parser tiene que producir el mismo JATS canónico en ambas formas, o el rendering va a salir inconsistente entre artículos de autores con estilos distintos.</p>
+         <p>La página específica se referencia directamente (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, p. 33</a>). El rango también admite la forma corta (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, pp. 55-60</a>). La combinación con supresión también (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020, p. 235</a>).</p>
+      </section>
+      <section id="sec-23">
+         <h2>Formato 18: reglas de terminación de key — casos negativos</h2>
+         <p>La doc enumera tres reglas de borde que el parser tiene que respetar para no devorarse puntuación que no corresponde al identificador bibliográfico:</p>
+         <ol class="list-order">
+            <li>
+               <strong>Punto final fuera de la key</strong>: en <code>@Foo_bar.baz.</code>, la key es <code>Foo_bar.baz</code> — el punto final NO es puntuación interna, queda fuera. Esto es crítico para citas al final de oración.</li>
+            <li>
+               <strong>Puntuación interna repetida termina la key</strong>: en <code>@Foo_bar--baz</code>, la key es <code>Foo_bar</code> — el doble guion corta la key (la doc dice “single internal punctuation characters”).</li>
+            <li>
+               <strong>Comienzo inválido exige llaves</strong>: si la key empieza con algo que no sea letra, dígito o <code>_</code>, hay que envolverla en llaves o el parser falla.</li>
+         </ol>
+         <p>Las keys reales del proyecto usan solo guion único como puntuación interna y arrancan con dígito, por lo que están a salvo de las reglas 2 y 3. Pero la regla 1 sí las afecta: una cita al final de oración o seguida de coma tiene que terminar correctamente.</p>
+         <section id="sec-24">
+            <h2>Subcaso 18a: cita al final de oración</h2>
+            <p>El punto debe quedar AFUERA de la key, no dentro. Render esperado: la key se cierra en <code>2016</code>/<code>1999</code>/<code>2020</code>, y el punto va como puntuación de la oración.</p>
+            <p>El planteo central lo desarrolla <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan</a> (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>). La línea histórica la traza <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau</a> (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>). La síntesis más reciente es <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch</a> (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020</a>).</p>
+         </section>
+         <section id="sec-25">
+            <h2>Subcaso 18b: cita seguida de signos de puntuación</h2>
+            <p>Coma, punto y coma, dos puntos, signo de pregunta y signo de exclamación deben quedar afuera de la key.</p>
+            <p>El argumento de <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan</a> (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>), retomado por <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau</a> (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>), llega a <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch</a> (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020</a>). ¿Coincide <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan</a> (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>) con esta lectura? Definitivamente sí, según <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch</a> (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020</a>).</p>
+         </section>
+         <section id="sec-26">
+            <h2>Subcaso 18c: doble guion no aparece en keys reales (verificación negativa)</h2>
+            <p>Caso hipotético que NO debe procesarse como una key real. Si un texto contiene <code>@2961-KACZAN--2016</code> (con doble guion), Pandoc cortaría la key en <code>@2961-KACZAN</code> y dejaría <code>--2016</code> como texto. Las keys reales del proyecto NO tienen doble guion, por lo que esto solo importa para tolerancia frente a errores tipográficos del autor.</p>
+            <p>En este párrafo, la secuencia <span class="xref-bibr-orphan"
+                     title="Referencia no encontrada en la bibliografía">[?2961-KACZAN]</span>–2016 debería ser parseada como cita a <code>2961-KACZAN</code> (que NO existe en la bibliografía) seguida de texto literal <code>--2016</code>. El resultado esperado es un warning de citeproc por key inexistente, no un crash.</p>
+         </section>
+      </section>
+      <section id="sec-27">
+         <h2>Formato 19: narrativa con localizador en posición posterior</h2>
+         <p>
+            <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan</a> (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>) demuestra el punto con un caso paradigmático [p. 33]. <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch</a> (<a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">2020</a>) dedica un capítulo completo a la cuestión [pp. 12-18].</p>
+      </section>
+      <section id="sec-28">
+         <h2>Formato 20: cita al final de oración seguida de coma (narrativa)</h2>
+         <p>Como señala <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan</a> (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">2016</a>), el fenómeno es complejo. Según <a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau</a> (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>), la línea histórica es clara.</p>
+      </section>
+      <section id="sec-29">
+         <h2>Formato 21: prefijo con término que parece localizador</h2>
+         <p>
+            (cap. 3 de <a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016</a>)
+            (vol. 1 de <a class="xref-bibr" href="#ref-epub-bib-3036-ORBUCH2020">Orbuch, 2020, p. 45</a>)
+         </p>
+      </section>
+      <section id="sec-30">
+         <h2>Formato 22: sufijo que empieza con dígito pero no es localizador</h2>
+         <p>
+            (<a class="xref-bibr" href="#ref-epub-bib-2961-KACZAN2016">Kaczan, 2016, 2020 es un año clave para el estudio</a>). (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau, 1999, 1999 vio la primera edición</a>).</p>
+      </section>
+      <section id="sec-31">
+         <h2>Formato 23: cita dentro de footnote explícita</h2>
+         <p>Diversos autores han abordado la cuestión.<sup>
+               <a id="fnref-1"
+                  href="#fn-1"
+                  epub:type="noteref"
+                  role="doc-noteref">1</a>
+            </sup>
+         </p>
+      </section>
+      <section id="sec-32">
+         <h2>Formato 24: escaping parcial dentro de corchetes</h2>
+         <p>En este párrafo, la secuencia [@2961-KACZAN2016] NO debe convertirse en cita. Tampoco [<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">Pineau</a> (<a class="xref-bibr" href="#ref-epub-bib-3041-PINEAU1999">1999</a>)], porque el cierre está escapado.</p>
+      </section>
+      <section id="sec-33">
+         <h2>Resumen de cobertura</h2>
+         <p>Si el pipeline procesa correctamente los 18 formatos de arriba (incluyendo todos los subcasos), cubre la totalidad de la sintaxis de citas de Pandoc documentada en la sección 8.20 del manual oficial, edición 2026-03-17.</p>
+      </section>
+      <section epub:type="endnotes" role="doc-endnotes" id="notas">
+         <h2>Notas</h2>
+         <div role="doc-endnote" id="fn-1" class="fn-item">
+            <p>
+               <sup>1</sup> Estudios previos
+  (Kaczan, 2016; Pineau, 1999, p. 15)
+  lo documentan. Ver también
+  Orbuch (2020, cap. 2)
+  para una síntesis reciente. <a href="#fnref-1" role="doc-backlink" class="fn-backlink">↩</a>
+            </p>
+         </div>
+      </section>
+      <section class="ref-list">
+         <h2>Referencias</h2>
+         <div class="ref-item" id="ref-epub-bib-2961-KACZAN2016">
+            <span class="ref-authors">Kaczan, G.</span> (2016). <span class="ref-title">La práctica gimnástica y el deporte, la cultura física y el cuerpo bello en la historia de las mujeres. Argentina 1900-1930. </span>
+            <em class="ref-source">Revista Historia Crítica</em>(61), 23–43<span class="ref-doi"> https://doi.org/10.5821/ace.v4i12.2483</span>
+         </div>
+         <div class="ref-item" id="ref-epub-bib-3036-ORBUCH2020">
+            <span class="ref-authors">Orbuch, I.</span> (2020). <em class="ref-source">Peronismo y Cultura Física. Democratización, sociabilidad y propaganda</em>. Ediciones Imago Mundi</div>
+         <div class="ref-item" id="ref-epub-bib-3041-PINEAU1999">
+            <span class="ref-authors">Pineau, P.</span> (1999). <span class="ref-title">Renovación, represión, cooptación. Las estrategias de la Reforma Fresco-Noble (Provincia de Buenos Aires, Década del 30). </span>En <em class="ref-source">La educación en Argentina. Estudios de historia</em>, 223–239. Ediciones del Arca</div>
+      </section>
+   </body>
+</html>

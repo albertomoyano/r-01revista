@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         dtd-version="1.0"
+         specific-use="sps-1.9"
+         article-type="editorial"
+         xml:lang="es">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-id">1851-703X</journal-id>
+         <journal-id journal-id-type="nlm-ta">hind</journal-id>
+         <journal-title-group>
+            <journal-title>H-industria</journal-title>
+            <abbrev-journal-title abbrev-type="publisher">hind</abbrev-journal-title>
+         </journal-title-group>
+         <issn pub-type="epub">1851-703X</issn>
+         <publisher>
+            <publisher-name>Universidad de Buenos Aires, Facultad de Ciencias Económicas, Secretaría de Investigación</publisher-name>
+            <publisher-loc>Buenos Aires, Argentina</publisher-loc>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="publisher-id">1851-703X-hind-01-01-00001</article-id>
+         <article-id pub-id-type="doi">doi</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>editorial</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Título del editorial de la revista</article-title>
+            <trans-title-group xml:lang="en">
+               <trans-title>Editor's Note</trans-title>
+            </trans-title-group>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author" id="a11">
+               <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0167-7155</contrib-id>
+               <name name-style="western">
+                  <surname>Gil</surname>
+                  <given-names>Luciana Victoria</given-names>
+               </name>
+               <aff>
+                  <institution content-type="dept">Departamento</institution>,
+          <institution>Consejo Nacional de Investigaciones Científicas y Técnicas. Universidad Nacional de San Martín. Universidad de Buenos Aires, Instituto Interdisciplinario de Economía Política, Centro de Estudios de Historia Económica Argentina y Latinoamericana</institution>,
+          <addr-line>CiudadAfiliación</addr-line>,
+          <country>PaísAfiliación</country>
+               </aff>
+            </contrib>
+         </contrib-group>
+         <pub-date date-type="collection" publication-format="electronic">
+            <month>11</month>
+            <year>2025</year>
+         </pub-date>
+         <pub-date date-type="pub" publication-format="electronic">
+            <day>24</day>
+            <month>01</month>
+            <year>2026</year>
+         </pub-date>
+         <volume>01</volume>
+         <issue>01</issue>
+         <fpage>1</fpage>
+         <lpage>4</lpage>
+         <history>
+            <date date-type="received">
+               <day>24</day>
+               <month>01</month>
+               <year>2026</year>
+            </date>
+            <date date-type="rev-recd">
+               <day>24</day>
+               <month>01</month>
+               <year>2026</year>
+            </date>
+            <date date-type="accepted">
+               <day>24</day>
+               <month>01</month>
+               <year>2026</year>
+            </date>
+            <date date-type="pub">
+               <day>24</day>
+               <month>01</month>
+               <year>2026</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-year>2026</copyright-year>
+            <copyright-holder>a</copyright-holder>
+            <license license-type="open-access"
+                     xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                     xml:lang="es">
+               <license-p>CC BY-NC-SA 4.0</license-p>
+            </license>
+         </permissions>
+         <self-uri xlink:href="url-articulo"/>
+      </article-meta>
+   </front>
+   <body>
+      <p>Nos complace anunciar a nuestros lectores una serie de cambios y avances en la estructura y alcance de H-industria, que reflejan el compromiso continuo de la revista con la excelencia académica y la expansión de su impacto en la comunidad científica.</p>
+      <p>Por un lado, seguimos avanzando en la ampliación de la visibilidad de H-industria en el ámbito académico. Desde octubre, formamos parte del Directorio Open Policy Finder (antes conocido como Sherpa Romeo), una plataforma clave para la visibilidad de las publicaciones académicas, que permite a los autores y lectores consultar las políticas de acceso abierto y los derechos de autor asociados a la publicación. Otro paso fundamental para fortalecer nuestra presencia en el ámbito de las publicaciones académicas.</p>
+      <p>Por el otro, a partir de este número, implementamos el modelo de publicación continua, lo que permitirá una mayor flexibilidad y rapidez en la difusión de los artículos que conforman cada edición. En este sentido, cada número de H-industria se mantendrá abierto hasta la publicación en línea de todos sus elementos, y su próximo cierre corresponderá al mes de diciembre.</p>
+      <p>El presente número explora los debates y desarrollos que marcaron el siglo XX en Argentina en lo que respecta a su sector agropecuario. El dossier titulado “El desarrollo agropecuario argentino en la segunda posguerra: debates, políticas y agroindustria”, coordinado por Federico Martocci y Pablo Volkind, reúne una serie de artículos que abordan los complejos procesos de modernización y transformación del campo argentino. Los estudios aquí presentados se enfocan en los debates sobre las políticas agropecuarias y los proyectos planificadores, al tiempo que analizan los dilemas vinculados a la regulación económica, el acceso al crédito, y las tensiones en torno al uso del agua y la tierra. La producción lechera y la agroindustria también ocupan un lugar destacado en este análisis, pues representan áreas clave del desarrollo económico de la Argentina en ese período.</p>
+      <p>Además del dossier central, este número presenta una variedad de artículos que lo enriquecen, incluyendo estudios sobre la historia del capital italiano en el sector textil brasileño, los orígenes y la consolidación del financiamiento del Corporación Financiera Internacional y las características de la industria cervecera en la economía nacional.</p>
+      <p>Los invitamos a seguir leyendo, discutiendo y participando activamente en la construcción del conocimiento sobre estos temas y debates. Continuaremos trabajando para garantizar que nuestra revista sea un espacio de reflexión crítica, rigor académico y acceso libre a dicho conocimiento.</p>
+   </body>
+</article>
