@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article
-  PUBLIC "-//NLM//DTD JATS (Z39.96) Article Archiving and Interchange DTD v1.4//EN" "https://jats.nlm.nih.gov/archiving/1.4/JATS-archivearticle1-4.dtd">
-<article xmlns:xlink="http://www.w3.org/1999/xlink"
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         dtd-version="1.0"
+         specific-use="sps-1.9"
          article-type="research-article"
          xml:lang="es">
    <front>
       <journal-meta>
          <journal-id journal-id-type="publisher-id">1851-703X</journal-id>
+         <journal-id journal-id-type="nlm-ta">hind</journal-id>
          <journal-title-group>
             <journal-title>H-industria</journal-title>
+            <abbrev-journal-title abbrev-type="publisher">hind</abbrev-journal-title>
          </journal-title-group>
          <issn pub-type="epub">1851-703X</issn>
          <publisher>
@@ -17,8 +22,8 @@
          </publisher>
       </journal-meta>
       <article-meta>
+         <article-id pub-id-type="publisher-id">1851-703X-hind-01-01-00023</article-id>
          <article-id pub-id-type="doi">10.56503/H-Industria/n.37(19)/3473</article-id>
-         <article-id pub-id-type="pmid">pm-id</article-id>
          <article-categories>
             <subj-group subj-group-type="heading">
                <subject>research-article</subject>
@@ -32,29 +37,33 @@
             </trans-title-group>
          </title-group>
          <contrib-group>
-            <contrib contrib-type="author" id="a5" corresp="yes">
-               <name>
+            <contrib contrib-type="author" id="a5">
+               <contrib-id contrib-id-type="orcid">https://orcid.org/0009-0002-5273-5191</contrib-id>
+               <name name-style="western">
                   <surname>Rougier</surname>
                   <given-names>Marcelo</given-names>
                </name>
-               <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0002-5273-5191</contrib-id>
                <aff>
-                  <institution>Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
+                  <institution content-type="orgname">Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
+                  <country>Argentina</country>
                </aff>
-               <email>marcelorougier@yahoo.com.ar</email>
             </contrib>
             <contrib contrib-type="author" id="a4">
-               <name>
+               <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6047-3868</contrib-id>
+               <name name-style="western">
                   <surname>Moyano</surname>
                   <given-names>Alberto Alejandro</given-names>
                </name>
-               <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6047-3868</contrib-id>
             </contrib>
          </contrib-group>
-         <pub-date pub-type="epub-ppub">
-            <year>2026</year>
+         <pub-date date-type="collection" publication-format="electronic">
             <month>03</month>
+            <year>2026</year>
+         </pub-date>
+         <pub-date date-type="pub" publication-format="electronic">
             <day>01</day>
+            <month>03</month>
+            <year>2026</year>
          </pub-date>
          <volume>01</volume>
          <issue>01</issue>
@@ -85,11 +94,13 @@
          <permissions>
             <copyright-year>2026</copyright-year>
             <license license-type="open-access"
-                     xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                     xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                     xml:lang="es">
                <license-p>CC BY-NC-SA 4.0</license-p>
             </license>
          </permissions>
-         <abstract xml:lang="es">
+         <self-uri xlink:href="url-articulo"/>
+         <abstract>
             <p>El dossier analiza el desarrollo agropecuario argentino entre 1950 y 1970, en el marco de los debates sobre desarrollo e industrialización. Examina políticas públicas, crédito, tecnología y agroindustrias regionales, destacando tensiones, continuidades y su impacto social, productivo y ambiental.</p>
          </abstract>
          <trans-abstract xml:lang="en">
@@ -122,12 +133,6 @@
             <kwd>Tecnologia agrícola</kwd>
             <kwd>Argentina</kwd>
          </kwd-group>
-         <custom-meta-group>
-            <custom-meta>
-               <meta-name>xml-lang</meta-name>
-               <meta-value>es</meta-value>
-            </custom-meta>
-         </custom-meta-group>
       </article-meta>
    </front>
    <body>
@@ -141,13 +146,18 @@
          <disp-quote>
             <p>A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corporaciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.</p>
          </disp-quote>
-         <fig id="fig-ancha" specific-use="fullwidth">
+         <fig id="fig-ancha"
+              specific-use="fullwidth"
+              position="float"
+              orientation="portrait">
             <caption>
-               <p>descripción de la imagen</p>
+               <title>descripción de la imagen</title>
             </caption>
             <graphic mimetype="image"
                      mime-subtype="png"
-                     xlink:href="media/fig-imagen.png"/>
+                     xlink:href="media/fig-imagen.png"
+                     position="float"
+                     orientation="portrait"/>
          </fig>
          <p>Las nuevas teorías del desarrollo situaron a la producción manufacturera en el centro de sus preocupaciones: era imperioso modificar la estructura productiva a través de la transferencia de recursos desde sectores como la agricultura. Para la mayoría de los intelectuales y profesionales que participaron del debate, esta era la “llave” para el despegue. En América Latina, aunque el impulso a un crecimiento industrial integrado ocupó un lugar destacado en la agenda pública, las problemáticas agrarias y las discusiones sobre la propiedad de la tierra también adquirieron gran relevancia. Por cierto, muchos intelectuales latinoamericanos –entre los que se contaban los cepalinos– cuestionaron la orientación “hacia afuera” de las economías del subcontinente y comenzaron a legitimar una nueva, para lo que resultaba relevante analizar la producción agraria y su rol como proveedora de divisas en un contexto en el que, desde la Comisión Económica para América Latina, se defendía la industrialización como un medio para alcanzar el desarrollo.</p>
          <verse-group>
@@ -157,11 +167,11 @@
             <verse-line>se hace camino al andar.</verse-line>
          </verse-group>
          <p>Estas concepciones, profusamente difundidas por diversos canales, tuvieron un fuerte impacto en la Argentina <xref ref-type="bibr" rid="bib-2819-ADAMOVSKY2021">2819-ADAMOVSKY2021</xref>. Si hasta entonces los debates agrarios se habían centrado en la distribución de la tierra, desde la década de 1950 comenzó a predominar la preocupación por superar el denominado “estancamiento agropecuario del espacio pampeano” y otros problemas que afectaban las producciones regionales. Según algunas teorías en boga, la solución ya no residía en una reforma agraria basada en el reparto de parcelas, sino en el incremento de la inversión de capital por hectárea y la incorporación de tecnología. Las discusiones sobre cómo aumentar la producción y la productividad resultaron especialmente sensibles en un país que tenía una perentoria necesidad de incrementar sus reservas en moneda extranjera.</p>
-         <code language="python">def factorial(n):
+         <preformat preformat-type="code" specific-use="python">def factorial(n):
       if n &lt;= 1:
           return 1
-      return n * factorial(n-1)</code>
-         <boxed-text content-type="warning">
+      return n * factorial(n-1)</preformat>
+         <boxed-text content-type="warning" position="float" orientation="portrait">
             <p>
                <bold>Advertencia</bold>: Los resultados pueden variar según las
   condiciones ambientales.</p>
@@ -195,7 +205,7 @@
                   specific-use="author-in-text">2850-GONZALEZLEANDRI2006</xref>, los trabajos reunidos aquí examinan diversas problemáticas agropecuarias en diferentes regiones del país. El objetivo, en definitiva, es ofrecer acercamientos que propicien una mirada calidoscópica sobre políticas gubernamentales, iniciativas institucionales, debates sobre el desarrollo agrario, procesos de innovación tecnológica, dinámicas productivas y trayectorias agroindustriales en distintos espacios de Argentina. Lejos de una revisión focalizada en la región pampeana, los artículos pretenden iluminar aspectos poco explorados sobre el devenir agrario y sus vínculos con la actividad industrial durante las décadas de 1950, 1960 y 1970 en diferentes regiones, ya sea en aquellas aptas para la actividad ganadera, en zonas marginales dentro de las pampas (como el suroeste de Buenos Aires y el este de La Pampa) o en provincias del norte del país, con características ecológicas, étnicas y productivas particulares, según se refleja en los casos de Chaco, Formosa y Misiones. Se privilegió una perspectiva que no solo analiza las políticas públicas, sino también su impacto en la producción, el medio ambiente y, especialmente, en las condiciones de vida de las distintas –y a veces contrapuestas– clases y sectores rurales. Estas temáticas resultan relevantes tanto para comprender los mecanismos que se aplicaron para superar las dificultades de aquel período, como para revisar, a partir de nuevas preguntas, problemas actuales vinculados al acceso a la tierra, el manejo de los recursos naturales y la incidencia de la producción agropecuaria en los ingresos nacionales <xref ref-type="bibr" rid="bib-2850-GONZALEZLEANDRI2006">
                <named-content content-type="cite-prefix">véase</named-content>2850-GONZALEZLEANDRI2006<named-content content-type="cite-suffix">pp. 45-48 para una discusión más extensa</named-content>
             </xref>.</p>
-         <boxed-text id="Empresa-Alpha">
+         <boxed-text id="Empresa-Alpha" position="float" orientation="portrait">
             <p>
                <bold>Contexto</bold>: Empresa mediana del sector manufacturero…</p>
             <p>
@@ -237,638 +247,646 @@
          </list>
          <p>El trabajo de Pablo Volkind y Jorge Domínguez indaga sobre las políticas agropecuarias desplegadas por la dictadura cívico-militar entre 1955 y 1958, especialmente aquellas vinculadas con el acceso a la tierra y a la innovación tecnológica. En un contexto marcado por los debates sobre el desarrollo y la necesidad de superar el “estancamiento” del agro pampeano, los autores examinan los inicios de la transición entre una etapa caracterizada por el predominio de la gran propiedad, la expansión de las explotaciones, los conflictos por el arrendamiento y la alta demanda de mano de obra, y otra –aún en curso– definida por la concentración, la reducción del número de unidades productivas, la tecnificación y la disminución del empleo rural. El artículo ofrece una mirada de conjunto que contempla el impacto de las medidas, su relación con las protestas agrarias, la influencia del alineamiento con Estados Unidos y el posicionamiento de las diversas corporaciones del agro. A través del análisis e integración de fuentes oficiales y de las publicaciones de las principales entidades y corporaciones del sector, logran reconstruir la conflictividad del período e identificar el impacto de dichos conflictos en la dinámica política de esos años.</p>
          <p>Juliana López Pascual incorpora una temática fundamental para la producción agropecuaria: las políticas legislativas de la provincia de Buenos Aires orientadas a regular y racionalizar los recursos naturales –en particular las tierras irrigables– en el sudoeste bonaerense entre fines de la década de 1950 y la siguiente. Enfocada en la indagación sobre un espacio y una problemática escasamente explorada, la autora analiza las iniciativas legislativas que buscaron promover la diversificación productiva, el uso intensivo del suelo, la mecanización de las tareas agrarias y la radicación de población. Al mismo tiempo, en este artículo también se reconstruye la dinámica política y social que generaron dichas medidas y se puntualiza en los conflictos de intereses que se desplegaron entre organizaciones empresariales, de productores y las cooperativas. Demuestra como en un clima marcado por una fuerte conflictividad, se consolidaron entes asociativos como el Consorcio Financiero del Sur y, posteriormente, la Corporación de Fomento del Valle Bonaerense del Río Colorado, que desempeñaron un papel protagónico en las disputas por la tenencia de las tierras irrigables y en los debates sobre el aprovechamiento del río Colorado para impulsar una agroindustria azucarera.</p>
-         <table-wrap specific-use="fullwidth" id="tbl-ancho">
+         <table-wrap specific-use="fullwidth"
+                     id="tbl-ancho"
+                     position="float"
+                     orientation="portrait">
             <caption>
-               <p>Título descriptivo del cuadro</p>
+               <title>Título descriptivo del cuadro</title>
             </caption>
             <table>
-               <colgroup>
-                  <col width="6%"/>
-                  <col width="12%"/>
-                  <col width="11%"/>
-                  <col width="13%"/>
-                  <col width="10%"/>
-                  <col width="12%"/>
-                  <col width="11%"/>
-                  <col width="13%"/>
-                  <col width="10%"/>
+               <colgroup span="1">
+                  <col width="6%" span="1"/>
+                  <col width="12%" span="1"/>
+                  <col width="11%" span="1"/>
+                  <col width="13%" span="1"/>
+                  <col width="10%" span="1"/>
+                  <col width="12%" span="1"/>
+                  <col width="11%" span="1"/>
+                  <col width="13%" span="1"/>
+                  <col width="10%" span="1"/>
                </colgroup>
                <thead>
                   <tr>
-                     <th>ID</th>
-                     <th>Nombre</th>
-                     <th>Cantidad</th>
-                     <th>Estado</th>
-                     <th>Puntaje</th>
-                     <th>Nombre</th>
-                     <th>Cantidad</th>
-                     <th>Estado</th>
-                     <th>Puntaje</th>
+                     <th rowspan="1" colspan="1">ID</th>
+                     <th rowspan="1" colspan="1">Nombre</th>
+                     <th rowspan="1" colspan="1">Cantidad</th>
+                     <th rowspan="1" colspan="1">Estado</th>
+                     <th rowspan="1" colspan="1">Puntaje</th>
+                     <th rowspan="1" colspan="1">Nombre</th>
+                     <th rowspan="1" colspan="1">Cantidad</th>
+                     <th rowspan="1" colspan="1">Estado</th>
+                     <th rowspan="1" colspan="1">Puntaje</th>
                   </tr>
                </thead>
                <tbody>
                   <tr>
-                     <td>101</td>
-                     <td>Alfa</td>
-                     <td>34</td>
-                     <td>Activo</td>
-                     <td>78</td>
-                     <td>Alfa</td>
-                     <td>34</td>
-                     <td>Activo</td>
-                     <td>78</td>
+                     <td rowspan="1" colspan="1">101</td>
+                     <td rowspan="1" colspan="1">Alfa</td>
+                     <td rowspan="1" colspan="1">34</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">78</td>
+                     <td rowspan="1" colspan="1">Alfa</td>
+                     <td rowspan="1" colspan="1">34</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">78</td>
                   </tr>
                   <tr>
-                     <td>102</td>
-                     <td>Beta</td>
-                     <td>12</td>
-                     <td>Inactivo</td>
-                     <td>65</td>
-                     <td>Beta</td>
-                     <td>12</td>
-                     <td>Inactivo</td>
-                     <td>65</td>
+                     <td rowspan="1" colspan="1">102</td>
+                     <td rowspan="1" colspan="1">Beta</td>
+                     <td rowspan="1" colspan="1">12</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">65</td>
+                     <td rowspan="1" colspan="1">Beta</td>
+                     <td rowspan="1" colspan="1">12</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">65</td>
                   </tr>
                   <tr>
-                     <td>103</td>
-                     <td>Gamma</td>
-                     <td>56</td>
-                     <td>Activo</td>
-                     <td>88</td>
-                     <td>Gamma</td>
-                     <td>56</td>
-                     <td>Activo</td>
-                     <td>88</td>
+                     <td rowspan="1" colspan="1">103</td>
+                     <td rowspan="1" colspan="1">Gamma</td>
+                     <td rowspan="1" colspan="1">56</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">88</td>
+                     <td rowspan="1" colspan="1">Gamma</td>
+                     <td rowspan="1" colspan="1">56</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">88</td>
                   </tr>
                   <tr>
-                     <td>104</td>
-                     <td>Delta</td>
-                     <td>23</td>
-                     <td>Pendiente</td>
-                     <td>72</td>
-                     <td>Delta</td>
-                     <td>23</td>
-                     <td>Pendiente</td>
-                     <td>72</td>
+                     <td rowspan="1" colspan="1">104</td>
+                     <td rowspan="1" colspan="1">Delta</td>
+                     <td rowspan="1" colspan="1">23</td>
+                     <td rowspan="1" colspan="1">Pendiente</td>
+                     <td rowspan="1" colspan="1">72</td>
+                     <td rowspan="1" colspan="1">Delta</td>
+                     <td rowspan="1" colspan="1">23</td>
+                     <td rowspan="1" colspan="1">Pendiente</td>
+                     <td rowspan="1" colspan="1">72</td>
                   </tr>
                   <tr>
-                     <td>105</td>
-                     <td>Épsilon</td>
-                     <td>45</td>
-                     <td>Activo</td>
-                     <td>91</td>
-                     <td>Épsilon</td>
-                     <td>45</td>
-                     <td>Activo</td>
-                     <td>91</td>
+                     <td rowspan="1" colspan="1">105</td>
+                     <td rowspan="1" colspan="1">Épsilon</td>
+                     <td rowspan="1" colspan="1">45</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">91</td>
+                     <td rowspan="1" colspan="1">Épsilon</td>
+                     <td rowspan="1" colspan="1">45</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">91</td>
                   </tr>
                   <tr>
-                     <td>106</td>
-                     <td>Zeta</td>
-                     <td>67</td>
-                     <td>Inactivo</td>
-                     <td>54</td>
-                     <td>Zeta</td>
-                     <td>67</td>
-                     <td>Inactivo</td>
-                     <td>54</td>
+                     <td rowspan="1" colspan="1">106</td>
+                     <td rowspan="1" colspan="1">Zeta</td>
+                     <td rowspan="1" colspan="1">67</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">54</td>
+                     <td rowspan="1" colspan="1">Zeta</td>
+                     <td rowspan="1" colspan="1">67</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">54</td>
                   </tr>
                   <tr>
-                     <td>107</td>
-                     <td>Eta</td>
-                     <td>29</td>
-                     <td>Activo</td>
-                     <td>83</td>
-                     <td>Eta</td>
-                     <td>29</td>
-                     <td>Activo</td>
-                     <td>83</td>
+                     <td rowspan="1" colspan="1">107</td>
+                     <td rowspan="1" colspan="1">Eta</td>
+                     <td rowspan="1" colspan="1">29</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">83</td>
+                     <td rowspan="1" colspan="1">Eta</td>
+                     <td rowspan="1" colspan="1">29</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">83</td>
                   </tr>
                   <tr>
-                     <td>108</td>
-                     <td>Theta</td>
-                     <td>10</td>
-                     <td>Pendiente</td>
-                     <td>60</td>
-                     <td>Theta</td>
-                     <td>10</td>
-                     <td>Pendiente</td>
-                     <td>60</td>
+                     <td rowspan="1" colspan="1">108</td>
+                     <td rowspan="1" colspan="1">Theta</td>
+                     <td rowspan="1" colspan="1">10</td>
+                     <td rowspan="1" colspan="1">Pendiente</td>
+                     <td rowspan="1" colspan="1">60</td>
+                     <td rowspan="1" colspan="1">Theta</td>
+                     <td rowspan="1" colspan="1">10</td>
+                     <td rowspan="1" colspan="1">Pendiente</td>
+                     <td rowspan="1" colspan="1">60</td>
                   </tr>
                   <tr>
-                     <td>109</td>
-                     <td>Iota</td>
-                     <td>38</td>
-                     <td>Activo</td>
-                     <td>76</td>
-                     <td>Iota</td>
-                     <td>38</td>
-                     <td>Activo</td>
-                     <td>76</td>
+                     <td rowspan="1" colspan="1">109</td>
+                     <td rowspan="1" colspan="1">Iota</td>
+                     <td rowspan="1" colspan="1">38</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">76</td>
+                     <td rowspan="1" colspan="1">Iota</td>
+                     <td rowspan="1" colspan="1">38</td>
+                     <td rowspan="1" colspan="1">Activo</td>
+                     <td rowspan="1" colspan="1">76</td>
                   </tr>
                   <tr>
-                     <td>110</td>
-                     <td>Kappa</td>
-                     <td>51</td>
-                     <td>Inactivo</td>
-                     <td>69</td>
-                     <td>Kappa</td>
-                     <td>51</td>
-                     <td>Inactivo</td>
-                     <td>69</td>
+                     <td rowspan="1" colspan="1">110</td>
+                     <td rowspan="1" colspan="1">Kappa</td>
+                     <td rowspan="1" colspan="1">51</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">69</td>
+                     <td rowspan="1" colspan="1">Kappa</td>
+                     <td rowspan="1" colspan="1">51</td>
+                     <td rowspan="1" colspan="1">Inactivo</td>
+                     <td rowspan="1" colspan="1">69</td>
                   </tr>
                </tbody>
             </table>
          </table-wrap>
          <p>La contribución de Federico Martocci se detiene en las políticas de gobierno aplicadas entre 1960 y 1973 en La Pampa para incrementar la producción lechera, recorte temporal que incluye la gestión de Ismael Amit, principal referente de la Unión Cívica Radical Intransigente en esa provincia, y toda la etapa de la dictadura instaurada en 1966. A partir de informes técnicos, memorias de gobernadores, prensa local, notas en revistas especializadas, estudios de profesionales sobre temáticas agropecuarias, registros estadísticos y testimonios orales, se muestra la continuidad de ciertas líneas de acción para fomentar la actividad láctea, en un marco en el que las autoridades locales apostaron a industrializar productos obtenidos en La Pampa. Esto último se evidencia especialmente en la primera mitad de la década de 1960, pero ese continuum no solo generó un conjunto de estudios sobre el tema sino que, además, habilitó créditos para financiar pequeñas industrias lácteas, incentivó el interés por la sanidad del ganado, el mejoramiento de la genética animal y la mecanización de los tambos, robusteció los servicios veterinarios del Estado provincial y, en definitiva, posicionó a la lechería como una alternativa interesante para los productores de algunas zonas pampeanas. Ello se puede advertir, por ejemplo, en la redefinición que experimentó la actividad láctea en términos espaciales en la pampa seca durante la etapa en estudio.</p>
          <p>Lisandro Rodríguez y Laura Zang se concentran en el estudio de las transformaciones agrarias que se produjeron en la provincia de Misiones entre 1958 y 1976. El trabajo, que abarca un período más extenso de tiempo, reconstruye los efectos de las políticas desarrollistas y, posteriormente, de las liberales sobre los cambios en el uso de los espacios rurales. Para ello no solo indagan sobre los cambios en la producción de yerba mate, sino que también analizan el impacto de la actividad forestal en el distrito durante la década de 1970, tanto en términos económicos, sociales como medioambientales. Luego de sintetizar el devenir productivo desde fines del siglo XIX, los autores ofrecen una periodización de la actividad agroindustrial que se centra en dos momentos (1958-1962 y 1962-1976). Justamente, el primero coincide con el predominio de la yerba mate y el segundo con las actividades de forestación. En el escrito puntualizan las políticas públicas destinadas a cada cultivo, los procesos de tecnificación, el efecto de la deforestación y el incremento de las inversiones de capital extranjero que modificaron el paisaje agrario. A partir de la integración de resoluciones oficiales y fuentes cualitativas y cuantitativas, identifican las principales transformaciones agrarias, así como las diversas tensiones que se manifestaron entre los distintos agrupamientos de la sociedad civil y el Estado misionero en un contexto caracterizado por el acelerado proceso de diferenciación de la estructura social agraria y en los patrones de tenencia de la tierra.</p>
-         <fig id="fig-1">
+         <fig id="fig-1" position="float" orientation="portrait">
             <caption>
-               <p>descripción de la imagen</p>
+               <title>descripción de la imagen</title>
             </caption>
             <graphic mimetype="image"
                      mime-subtype="png"
-                     xlink:href="media/fi02-02-revistaAlgo-v01-n01.png"/>
+                     xlink:href="media/fi02-02-revistaAlgo-v01-n01.png"
+                     position="float"
+                     orientation="portrait"/>
          </fig>
          <p>El trabajo de Leandro Eduardo Moglia y Matías Javier Sosa estudia lo ocurrido en la provincia del Chaco durante la década de 1960 en cuanto a la actividad del sector agroindustrial, con particular atención en lo que respecta a la producción de algodón, que atravesaba desde el decenio anterior una etapa de estancamiento que decantó en crisis. A partir de un nutrido corpus documental, se reconstruye el devenir del sector industrial primarizado –directamente vinculado con dicho cultivo– para luego detenerse en el inicio del proceso de privatización de la Fábrica de Envases Textil (FANDET) y sus consecuencias. De ese modo, con el traspaso de esta última a la Unión de Cooperativas Algodoneras (UCAL), en 1961, se evidenciaba el peso de esta actividad histórica en el Chaco, por un lado, a la vez que, por otro lado, se concretaba la aspiración que la UCAL ambicionaba desde su organización en la década de 1930: cerrar el círculo de la cadena agroindustrial chaqueña, lo que en ese contexto implicó reforzar el perfil algodonero regional. La iniciativa no solo coloca en foco el accionar de este actor colectivo, también demuestra –como se advierte en el artículo– el papel del gobierno provincial ya sea en términos políticos o, incluso, financieros. El logro de este objetivo, sin embargo, no pudo evitar que la UCAL se viera afectada por la profunda crisis que azotaría al sector.</p>
-         <table-wrap id="tbl-1">
+         <table-wrap id="tbl-1" position="float" orientation="portrait">
             <caption>
-               <p>Título descriptivo del cuadro</p>
+               <title>Título descriptivo del cuadro</title>
             </caption>
             <table>
                <thead>
                   <tr>
-                     <th>Código</th>
-                     <th>Producto</th>
-                     <th>Unidades</th>
-                     <th>Categoría</th>
-                     <th>Precio</th>
+                     <th rowspan="1" colspan="1">Código</th>
+                     <th rowspan="1" colspan="1">Producto</th>
+                     <th rowspan="1" colspan="1">Unidades</th>
+                     <th rowspan="1" colspan="1">Categoría</th>
+                     <th rowspan="1" colspan="1">Precio</th>
                   </tr>
                </thead>
                <tbody>
                   <tr>
-                     <td>201</td>
-                     <td>Roble</td>
-                     <td>18</td>
-                     <td>Madera</td>
-                     <td>1500</td>
+                     <td rowspan="1" colspan="1">201</td>
+                     <td rowspan="1" colspan="1">Roble</td>
+                     <td rowspan="1" colspan="1">18</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1500</td>
                   </tr>
                   <tr>
-                     <td>202</td>
-                     <td>Mármol</td>
-                     <td>7</td>
-                     <td>Piedra</td>
-                     <td>3200</td>
+                     <td rowspan="1" colspan="1">202</td>
+                     <td rowspan="1" colspan="1">Mármol</td>
+                     <td rowspan="1" colspan="1">7</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">3200</td>
                   </tr>
                   <tr>
-                     <td>203</td>
-                     <td>Cobre</td>
-                     <td>42</td>
-                     <td>Metal</td>
-                     <td>980</td>
+                     <td rowspan="1" colspan="1">203</td>
+                     <td rowspan="1" colspan="1">Cobre</td>
+                     <td rowspan="1" colspan="1">42</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">980</td>
                   </tr>
                   <tr>
-                     <td>204</td>
-                     <td>Lino</td>
-                     <td>25</td>
-                     <td>Textil</td>
-                     <td>760</td>
+                     <td rowspan="1" colspan="1">204</td>
+                     <td rowspan="1" colspan="1">Lino</td>
+                     <td rowspan="1" colspan="1">25</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">760</td>
                   </tr>
                   <tr>
-                     <td>205</td>
-                     <td>Granito</td>
-                     <td>11</td>
-                     <td>Piedra</td>
-                     <td>2100</td>
+                     <td rowspan="1" colspan="1">205</td>
+                     <td rowspan="1" colspan="1">Granito</td>
+                     <td rowspan="1" colspan="1">11</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2100</td>
                   </tr>
                </tbody>
             </table>
          </table-wrap>
          <p>Finalmente, el trabajo de Mauro Cuk retoma una temática que ha merecido menos atención: las iniciativas impulsadas por la Comisión Nacional de Administración del Fondo de Apoyo al Desarrollo Económico (CAFADE), el Consejo Nacional de Desarrollo (CONADE) y el Instituto Nacional de Tecnología Agropecuaria (INTA) destinadas a fomentar el aumento de la producción y exportación de carne vacuna a lo largo de las décadas bajo estudio. Estas iniciativas se concretaron a través de diversos proyectos como los denominados “Operación Carnes” y “Proyecto Balcarce” que, al igual que otras políticas del período analizadas en este dossier, trascendieron distintos gobiernos. En un contexto caracterizado por el mayor alineamiento con los Estados Unidos, dichos proyectos fueron financiados mediante líneas crediticias acordadas con bancos norteamericanos y organismos multilaterales, y reforzados por convenios de asistencia técnica. Si bien lograron incorporar innovaciones y contribuyeron a la recuperación del sector ganadero en el país, también se evidenciaron tensiones entre las políticas de corto y largo plazo, así como la persistencia de problemas estructurales.</p>
          <p>Darío Machuca, Sergio Omar Sapkus y Cristian Eduardo Vázquez, por su parte, recortan como objeto de estudio un caso poco conocido y analizan cuáles fueron las iniciativas que desplegó el gobierno provincial en Formosa durante la autodenominada “Revolución Argentina”; más específicamente, qué propusieron las autoridades de facto para abordar la “cuestión agraria”. Esta denominación, que desde luego no resultaba novedosa en el país, presentaba sin embargo algunas particularidades en el ámbito local. En ese sentido, la organización productiva de la tierra jugaba un rol significativo, aunque también estaba relacionada con las características étnicas regionales y lo que se solía llamar el “latifundio estatal”.</p>
-         <table-wrap specific-use="landscape" id="tbl-rotado">
+         <table-wrap specific-use="landscape"
+                     id="tbl-rotado"
+                     position="float"
+                     orientation="portrait">
             <caption>
-               <p>Título descriptivo del cuadro</p>
+               <title>Título descriptivo del cuadro</title>
             </caption>
             <table>
-               <colgroup>
-                  <col width="4%"/>
-                  <col width="7%"/>
-                  <col width="5%"/>
-                  <col width="6%"/>
-                  <col width="4%"/>
-                  <col width="10%"/>
-                  <col width="6%"/>
-                  <col width="3%"/>
-                  <col width="7%"/>
-                  <col width="11%"/>
-                  <col width="9%"/>
-                  <col width="9%"/>
-                  <col width="7%"/>
-                  <col width="10%"/>
+               <colgroup span="1">
+                  <col width="4%" span="1"/>
+                  <col width="7%" span="1"/>
+                  <col width="5%" span="1"/>
+                  <col width="6%" span="1"/>
+                  <col width="4%" span="1"/>
+                  <col width="10%" span="1"/>
+                  <col width="6%" span="1"/>
+                  <col width="3%" span="1"/>
+                  <col width="7%" span="1"/>
+                  <col width="11%" span="1"/>
+                  <col width="9%" span="1"/>
+                  <col width="9%" span="1"/>
+                  <col width="7%" span="1"/>
+                  <col width="10%" span="1"/>
                </colgroup>
                <thead>
                   <tr>
-                     <th>Código</th>
-                     <th>Producto</th>
-                     <th>Unidades</th>
-                     <th>Categoría</th>
-                     <th>Precio</th>
-                     <th>Proveedor</th>
-                     <th>Origen</th>
-                     <th>Stock</th>
-                     <th>Código Alt.</th>
-                     <th>Producto Sec.</th>
-                     <th>Unidades Sec.</th>
-                     <th>Categoría Sec.</th>
-                     <th>Precio Sec.</th>
-                     <th>Proveedor Sec.</th>
+                     <th rowspan="1" colspan="1">Código</th>
+                     <th rowspan="1" colspan="1">Producto</th>
+                     <th rowspan="1" colspan="1">Unidades</th>
+                     <th rowspan="1" colspan="1">Categoría</th>
+                     <th rowspan="1" colspan="1">Precio</th>
+                     <th rowspan="1" colspan="1">Proveedor</th>
+                     <th rowspan="1" colspan="1">Origen</th>
+                     <th rowspan="1" colspan="1">Stock</th>
+                     <th rowspan="1" colspan="1">Código Alt.</th>
+                     <th rowspan="1" colspan="1">Producto Sec.</th>
+                     <th rowspan="1" colspan="1">Unidades Sec.</th>
+                     <th rowspan="1" colspan="1">Categoría Sec.</th>
+                     <th rowspan="1" colspan="1">Precio Sec.</th>
+                     <th rowspan="1" colspan="1">Proveedor Sec.</th>
                   </tr>
                </thead>
                <tbody>
                   <tr>
-                     <td>201</td>
-                     <td>Roble</td>
-                     <td>18</td>
-                     <td>Madera</td>
-                     <td>1500</td>
-                     <td>Forestal Sur</td>
-                     <td>Argentina</td>
-                     <td>35</td>
-                     <td>A-201</td>
-                     <td>Roble Premium</td>
-                     <td>12</td>
-                     <td>Madera</td>
-                     <td>1850</td>
-                     <td>Bosques Andinos</td>
+                     <td rowspan="1" colspan="1">201</td>
+                     <td rowspan="1" colspan="1">Roble</td>
+                     <td rowspan="1" colspan="1">18</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1500</td>
+                     <td rowspan="1" colspan="1">Forestal Sur</td>
+                     <td rowspan="1" colspan="1">Argentina</td>
+                     <td rowspan="1" colspan="1">35</td>
+                     <td rowspan="1" colspan="1">A-201</td>
+                     <td rowspan="1" colspan="1">Roble Premium</td>
+                     <td rowspan="1" colspan="1">12</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1850</td>
+                     <td rowspan="1" colspan="1">Bosques Andinos</td>
                   </tr>
                   <tr>
-                     <td>202</td>
-                     <td>Mármol</td>
-                     <td>7</td>
-                     <td>Piedra</td>
-                     <td>3200</td>
-                     <td>Rocas SA</td>
-                     <td>Italia</td>
-                     <td>10</td>
-                     <td>B-202</td>
-                     <td>Mármol Blanco</td>
-                     <td>5</td>
-                     <td>Piedra</td>
-                     <td>4100</td>
-                     <td>Pietra Nova</td>
+                     <td rowspan="1" colspan="1">202</td>
+                     <td rowspan="1" colspan="1">Mármol</td>
+                     <td rowspan="1" colspan="1">7</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">3200</td>
+                     <td rowspan="1" colspan="1">Rocas SA</td>
+                     <td rowspan="1" colspan="1">Italia</td>
+                     <td rowspan="1" colspan="1">10</td>
+                     <td rowspan="1" colspan="1">B-202</td>
+                     <td rowspan="1" colspan="1">Mármol Blanco</td>
+                     <td rowspan="1" colspan="1">5</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">4100</td>
+                     <td rowspan="1" colspan="1">Pietra Nova</td>
                   </tr>
                   <tr>
-                     <td>203</td>
-                     <td>Cobre</td>
-                     <td>42</td>
-                     <td>Metal</td>
-                     <td>980</td>
-                     <td>Minerales SRL</td>
-                     <td>Perú</td>
-                     <td>60</td>
-                     <td>C-203</td>
-                     <td>Cobre Refinado</td>
-                     <td>30</td>
-                     <td>Metal</td>
-                     <td>1250</td>
-                     <td>Andes Metal</td>
+                     <td rowspan="1" colspan="1">203</td>
+                     <td rowspan="1" colspan="1">Cobre</td>
+                     <td rowspan="1" colspan="1">42</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">980</td>
+                     <td rowspan="1" colspan="1">Minerales SRL</td>
+                     <td rowspan="1" colspan="1">Perú</td>
+                     <td rowspan="1" colspan="1">60</td>
+                     <td rowspan="1" colspan="1">C-203</td>
+                     <td rowspan="1" colspan="1">Cobre Refinado</td>
+                     <td rowspan="1" colspan="1">30</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1250</td>
+                     <td rowspan="1" colspan="1">Andes Metal</td>
                   </tr>
                   <tr>
-                     <td>204</td>
-                     <td>Lino</td>
-                     <td>25</td>
-                     <td>Textil</td>
-                     <td>760</td>
-                     <td>Telas Unión</td>
-                     <td>India</td>
-                     <td>40</td>
-                     <td>D-204</td>
-                     <td>Lino Orgánico</td>
-                     <td>18</td>
-                     <td>Textil</td>
-                     <td>990</td>
-                     <td>EcoTextiles</td>
+                     <td rowspan="1" colspan="1">204</td>
+                     <td rowspan="1" colspan="1">Lino</td>
+                     <td rowspan="1" colspan="1">25</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">760</td>
+                     <td rowspan="1" colspan="1">Telas Unión</td>
+                     <td rowspan="1" colspan="1">India</td>
+                     <td rowspan="1" colspan="1">40</td>
+                     <td rowspan="1" colspan="1">D-204</td>
+                     <td rowspan="1" colspan="1">Lino Orgánico</td>
+                     <td rowspan="1" colspan="1">18</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">990</td>
+                     <td rowspan="1" colspan="1">EcoTextiles</td>
                   </tr>
                   <tr>
-                     <td>205</td>
-                     <td>Granito</td>
-                     <td>11</td>
-                     <td>Piedra</td>
-                     <td>2100</td>
-                     <td>Canteras Sur</td>
-                     <td>Brasil</td>
-                     <td>14</td>
-                     <td>E-205</td>
-                     <td>Granito Negro</td>
-                     <td>9</td>
-                     <td>Piedra</td>
-                     <td>2750</td>
-                     <td>Rocas Premium</td>
+                     <td rowspan="1" colspan="1">205</td>
+                     <td rowspan="1" colspan="1">Granito</td>
+                     <td rowspan="1" colspan="1">11</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2100</td>
+                     <td rowspan="1" colspan="1">Canteras Sur</td>
+                     <td rowspan="1" colspan="1">Brasil</td>
+                     <td rowspan="1" colspan="1">14</td>
+                     <td rowspan="1" colspan="1">E-205</td>
+                     <td rowspan="1" colspan="1">Granito Negro</td>
+                     <td rowspan="1" colspan="1">9</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2750</td>
+                     <td rowspan="1" colspan="1">Rocas Premium</td>
                   </tr>
                   <tr>
-                     <td>206</td>
-                     <td>Acero</td>
-                     <td>55</td>
-                     <td>Metal</td>
-                     <td>1340</td>
-                     <td>Aceros Delta</td>
-                     <td>México</td>
-                     <td>80</td>
-                     <td>F-206</td>
-                     <td>Acero Laminado</td>
-                     <td>40</td>
-                     <td>Metal</td>
-                     <td>1650</td>
-                     <td>Metalúrgica Sur</td>
+                     <td rowspan="1" colspan="1">206</td>
+                     <td rowspan="1" colspan="1">Acero</td>
+                     <td rowspan="1" colspan="1">55</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1340</td>
+                     <td rowspan="1" colspan="1">Aceros Delta</td>
+                     <td rowspan="1" colspan="1">México</td>
+                     <td rowspan="1" colspan="1">80</td>
+                     <td rowspan="1" colspan="1">F-206</td>
+                     <td rowspan="1" colspan="1">Acero Laminado</td>
+                     <td rowspan="1" colspan="1">40</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1650</td>
+                     <td rowspan="1" colspan="1">Metalúrgica Sur</td>
                   </tr>
                   <tr>
-                     <td>207</td>
-                     <td>Cedro</td>
-                     <td>13</td>
-                     <td>Madera</td>
-                     <td>1720</td>
-                     <td>Maderas Unidas</td>
-                     <td>Paraguay</td>
-                     <td>22</td>
-                     <td>G-207</td>
-                     <td>Cedro Rojo</td>
-                     <td>10</td>
-                     <td>Madera</td>
-                     <td>1980</td>
-                     <td>Selva Norte</td>
+                     <td rowspan="1" colspan="1">207</td>
+                     <td rowspan="1" colspan="1">Cedro</td>
+                     <td rowspan="1" colspan="1">13</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1720</td>
+                     <td rowspan="1" colspan="1">Maderas Unidas</td>
+                     <td rowspan="1" colspan="1">Paraguay</td>
+                     <td rowspan="1" colspan="1">22</td>
+                     <td rowspan="1" colspan="1">G-207</td>
+                     <td rowspan="1" colspan="1">Cedro Rojo</td>
+                     <td rowspan="1" colspan="1">10</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1980</td>
+                     <td rowspan="1" colspan="1">Selva Norte</td>
                   </tr>
                   <tr>
-                     <td>208</td>
-                     <td>Seda</td>
-                     <td>31</td>
-                     <td>Textil</td>
-                     <td>890</td>
-                     <td>Hilados Global</td>
-                     <td>China</td>
-                     <td>50</td>
-                     <td>H-208</td>
-                     <td>Seda Natural</td>
-                     <td>21</td>
-                     <td>Textil</td>
-                     <td>1150</td>
-                     <td>Oriente Textil</td>
+                     <td rowspan="1" colspan="1">208</td>
+                     <td rowspan="1" colspan="1">Seda</td>
+                     <td rowspan="1" colspan="1">31</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">890</td>
+                     <td rowspan="1" colspan="1">Hilados Global</td>
+                     <td rowspan="1" colspan="1">China</td>
+                     <td rowspan="1" colspan="1">50</td>
+                     <td rowspan="1" colspan="1">H-208</td>
+                     <td rowspan="1" colspan="1">Seda Natural</td>
+                     <td rowspan="1" colspan="1">21</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">1150</td>
+                     <td rowspan="1" colspan="1">Oriente Textil</td>
                   </tr>
                   <tr>
-                     <td>209</td>
-                     <td>Aluminio</td>
-                     <td>47</td>
-                     <td>Metal</td>
-                     <td>1120</td>
-                     <td>Aluminios SRL</td>
-                     <td>Canadá</td>
-                     <td>70</td>
-                     <td>I-209</td>
-                     <td>Aluminio Puro</td>
-                     <td>28</td>
-                     <td>Metal</td>
-                     <td>1400</td>
-                     <td>North Metals</td>
+                     <td rowspan="1" colspan="1">209</td>
+                     <td rowspan="1" colspan="1">Aluminio</td>
+                     <td rowspan="1" colspan="1">47</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1120</td>
+                     <td rowspan="1" colspan="1">Aluminios SRL</td>
+                     <td rowspan="1" colspan="1">Canadá</td>
+                     <td rowspan="1" colspan="1">70</td>
+                     <td rowspan="1" colspan="1">I-209</td>
+                     <td rowspan="1" colspan="1">Aluminio Puro</td>
+                     <td rowspan="1" colspan="1">28</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1400</td>
+                     <td rowspan="1" colspan="1">North Metals</td>
                   </tr>
                   <tr>
-                     <td>210</td>
-                     <td>Pizarra</td>
-                     <td>9</td>
-                     <td>Piedra</td>
-                     <td>2500</td>
-                     <td>Rocas del Sur</td>
-                     <td>Chile</td>
-                     <td>11</td>
-                     <td>J-210</td>
-                     <td>Pizarra Gris</td>
-                     <td>7</td>
-                     <td>Piedra</td>
-                     <td>2950</td>
-                     <td>Andes Rocas</td>
+                     <td rowspan="1" colspan="1">210</td>
+                     <td rowspan="1" colspan="1">Pizarra</td>
+                     <td rowspan="1" colspan="1">9</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2500</td>
+                     <td rowspan="1" colspan="1">Rocas del Sur</td>
+                     <td rowspan="1" colspan="1">Chile</td>
+                     <td rowspan="1" colspan="1">11</td>
+                     <td rowspan="1" colspan="1">J-210</td>
+                     <td rowspan="1" colspan="1">Pizarra Gris</td>
+                     <td rowspan="1" colspan="1">7</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2950</td>
+                     <td rowspan="1" colspan="1">Andes Rocas</td>
                   </tr>
                   <tr>
-                     <td>211</td>
-                     <td>Bambú</td>
-                     <td>38</td>
-                     <td>Madera</td>
-                     <td>640</td>
-                     <td>EcoBamboo</td>
-                     <td>Vietnam</td>
-                     <td>65</td>
-                     <td>K-211</td>
-                     <td>Bambú Tratado</td>
-                     <td>26</td>
-                     <td>Madera</td>
-                     <td>820</td>
-                     <td>Green Woods</td>
+                     <td rowspan="1" colspan="1">211</td>
+                     <td rowspan="1" colspan="1">Bambú</td>
+                     <td rowspan="1" colspan="1">38</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">640</td>
+                     <td rowspan="1" colspan="1">EcoBamboo</td>
+                     <td rowspan="1" colspan="1">Vietnam</td>
+                     <td rowspan="1" colspan="1">65</td>
+                     <td rowspan="1" colspan="1">K-211</td>
+                     <td rowspan="1" colspan="1">Bambú Tratado</td>
+                     <td rowspan="1" colspan="1">26</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">820</td>
+                     <td rowspan="1" colspan="1">Green Woods</td>
                   </tr>
                   <tr>
-                     <td>212</td>
-                     <td>Lana</td>
-                     <td>29</td>
-                     <td>Textil</td>
-                     <td>710</td>
-                     <td>Textiles Patria</td>
-                     <td>Argentina</td>
-                     <td>33</td>
-                     <td>L-212</td>
-                     <td>Lana Merino</td>
-                     <td>19</td>
-                     <td>Textil</td>
-                     <td>960</td>
-                     <td>Andes Textiles</td>
+                     <td rowspan="1" colspan="1">212</td>
+                     <td rowspan="1" colspan="1">Lana</td>
+                     <td rowspan="1" colspan="1">29</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">710</td>
+                     <td rowspan="1" colspan="1">Textiles Patria</td>
+                     <td rowspan="1" colspan="1">Argentina</td>
+                     <td rowspan="1" colspan="1">33</td>
+                     <td rowspan="1" colspan="1">L-212</td>
+                     <td rowspan="1" colspan="1">Lana Merino</td>
+                     <td rowspan="1" colspan="1">19</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">960</td>
+                     <td rowspan="1" colspan="1">Andes Textiles</td>
                   </tr>
                   <tr>
-                     <td>213</td>
-                     <td>Hierro</td>
-                     <td>61</td>
-                     <td>Metal</td>
-                     <td>870</td>
-                     <td>Forjas Unidas</td>
-                     <td>Brasil</td>
-                     <td>90</td>
-                     <td>M-213</td>
-                     <td>Hierro Fundido</td>
-                     <td>44</td>
-                     <td>Metal</td>
-                     <td>1180</td>
-                     <td>Acería Central</td>
+                     <td rowspan="1" colspan="1">213</td>
+                     <td rowspan="1" colspan="1">Hierro</td>
+                     <td rowspan="1" colspan="1">61</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">870</td>
+                     <td rowspan="1" colspan="1">Forjas Unidas</td>
+                     <td rowspan="1" colspan="1">Brasil</td>
+                     <td rowspan="1" colspan="1">90</td>
+                     <td rowspan="1" colspan="1">M-213</td>
+                     <td rowspan="1" colspan="1">Hierro Fundido</td>
+                     <td rowspan="1" colspan="1">44</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1180</td>
+                     <td rowspan="1" colspan="1">Acería Central</td>
                   </tr>
                   <tr>
-                     <td>214</td>
-                     <td>Travertino</td>
-                     <td>6</td>
-                     <td>Piedra</td>
-                     <td>3400</td>
-                     <td>Piedras Elite</td>
-                     <td>Turquía</td>
-                     <td>8</td>
-                     <td>N-214</td>
-                     <td>Travertino Beige</td>
-                     <td>4</td>
-                     <td>Piedra</td>
-                     <td>3890</td>
-                     <td>Stone World</td>
+                     <td rowspan="1" colspan="1">214</td>
+                     <td rowspan="1" colspan="1">Travertino</td>
+                     <td rowspan="1" colspan="1">6</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">3400</td>
+                     <td rowspan="1" colspan="1">Piedras Elite</td>
+                     <td rowspan="1" colspan="1">Turquía</td>
+                     <td rowspan="1" colspan="1">8</td>
+                     <td rowspan="1" colspan="1">N-214</td>
+                     <td rowspan="1" colspan="1">Travertino Beige</td>
+                     <td rowspan="1" colspan="1">4</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">3890</td>
+                     <td rowspan="1" colspan="1">Stone World</td>
                   </tr>
                   <tr>
-                     <td>215</td>
-                     <td>Caoba</td>
-                     <td>15</td>
-                     <td>Madera</td>
-                     <td>2230</td>
-                     <td>Tropical Woods</td>
-                     <td>Honduras</td>
-                     <td>19</td>
-                     <td>O-215</td>
-                     <td>Caoba Oscura</td>
-                     <td>11</td>
-                     <td>Madera</td>
-                     <td>2640</td>
-                     <td>Selva Export</td>
+                     <td rowspan="1" colspan="1">215</td>
+                     <td rowspan="1" colspan="1">Caoba</td>
+                     <td rowspan="1" colspan="1">15</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">2230</td>
+                     <td rowspan="1" colspan="1">Tropical Woods</td>
+                     <td rowspan="1" colspan="1">Honduras</td>
+                     <td rowspan="1" colspan="1">19</td>
+                     <td rowspan="1" colspan="1">O-215</td>
+                     <td rowspan="1" colspan="1">Caoba Oscura</td>
+                     <td rowspan="1" colspan="1">11</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">2640</td>
+                     <td rowspan="1" colspan="1">Selva Export</td>
                   </tr>
                   <tr>
-                     <td>201</td>
-                     <td>Roble</td>
-                     <td>18</td>
-                     <td>Madera</td>
-                     <td>1500</td>
-                     <td>Forestal Sur</td>
-                     <td>Argentina</td>
-                     <td>35</td>
-                     <td>A-201</td>
-                     <td>Roble Premium</td>
-                     <td>12</td>
-                     <td>Madera</td>
-                     <td>1850</td>
-                     <td>Bosques Andinos</td>
+                     <td rowspan="1" colspan="1">201</td>
+                     <td rowspan="1" colspan="1">Roble</td>
+                     <td rowspan="1" colspan="1">18</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1500</td>
+                     <td rowspan="1" colspan="1">Forestal Sur</td>
+                     <td rowspan="1" colspan="1">Argentina</td>
+                     <td rowspan="1" colspan="1">35</td>
+                     <td rowspan="1" colspan="1">A-201</td>
+                     <td rowspan="1" colspan="1">Roble Premium</td>
+                     <td rowspan="1" colspan="1">12</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1850</td>
+                     <td rowspan="1" colspan="1">Bosques Andinos</td>
                   </tr>
                   <tr>
-                     <td>202</td>
-                     <td>Mármol</td>
-                     <td>7</td>
-                     <td>Piedra</td>
-                     <td>3200</td>
-                     <td>Rocas SA</td>
-                     <td>Italia</td>
-                     <td>10</td>
-                     <td>B-202</td>
-                     <td>Mármol Blanco</td>
-                     <td>5</td>
-                     <td>Piedra</td>
-                     <td>4100</td>
-                     <td>Pietra Nova</td>
+                     <td rowspan="1" colspan="1">202</td>
+                     <td rowspan="1" colspan="1">Mármol</td>
+                     <td rowspan="1" colspan="1">7</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">3200</td>
+                     <td rowspan="1" colspan="1">Rocas SA</td>
+                     <td rowspan="1" colspan="1">Italia</td>
+                     <td rowspan="1" colspan="1">10</td>
+                     <td rowspan="1" colspan="1">B-202</td>
+                     <td rowspan="1" colspan="1">Mármol Blanco</td>
+                     <td rowspan="1" colspan="1">5</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">4100</td>
+                     <td rowspan="1" colspan="1">Pietra Nova</td>
                   </tr>
                   <tr>
-                     <td>203</td>
-                     <td>Cobre</td>
-                     <td>42</td>
-                     <td>Metal</td>
-                     <td>980</td>
-                     <td>Minerales SRL</td>
-                     <td>Perú</td>
-                     <td>60</td>
-                     <td>C-203</td>
-                     <td>Cobre Refinado</td>
-                     <td>30</td>
-                     <td>Metal</td>
-                     <td>1250</td>
-                     <td>Andes Metal</td>
+                     <td rowspan="1" colspan="1">203</td>
+                     <td rowspan="1" colspan="1">Cobre</td>
+                     <td rowspan="1" colspan="1">42</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">980</td>
+                     <td rowspan="1" colspan="1">Minerales SRL</td>
+                     <td rowspan="1" colspan="1">Perú</td>
+                     <td rowspan="1" colspan="1">60</td>
+                     <td rowspan="1" colspan="1">C-203</td>
+                     <td rowspan="1" colspan="1">Cobre Refinado</td>
+                     <td rowspan="1" colspan="1">30</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1250</td>
+                     <td rowspan="1" colspan="1">Andes Metal</td>
                   </tr>
                   <tr>
-                     <td>204</td>
-                     <td>Lino</td>
-                     <td>25</td>
-                     <td>Textil</td>
-                     <td>760</td>
-                     <td>Telas Unión</td>
-                     <td>India</td>
-                     <td>40</td>
-                     <td>D-204</td>
-                     <td>Lino Orgánico</td>
-                     <td>18</td>
-                     <td>Textil</td>
-                     <td>990</td>
-                     <td>EcoTextiles</td>
+                     <td rowspan="1" colspan="1">204</td>
+                     <td rowspan="1" colspan="1">Lino</td>
+                     <td rowspan="1" colspan="1">25</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">760</td>
+                     <td rowspan="1" colspan="1">Telas Unión</td>
+                     <td rowspan="1" colspan="1">India</td>
+                     <td rowspan="1" colspan="1">40</td>
+                     <td rowspan="1" colspan="1">D-204</td>
+                     <td rowspan="1" colspan="1">Lino Orgánico</td>
+                     <td rowspan="1" colspan="1">18</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">990</td>
+                     <td rowspan="1" colspan="1">EcoTextiles</td>
                   </tr>
                   <tr>
-                     <td>205</td>
-                     <td>Granito</td>
-                     <td>11</td>
-                     <td>Piedra</td>
-                     <td>2100</td>
-                     <td>Canteras Sur</td>
-                     <td>Brasil</td>
-                     <td>14</td>
-                     <td>E-205</td>
-                     <td>Granito Negro</td>
-                     <td>9</td>
-                     <td>Piedra</td>
-                     <td>2750</td>
-                     <td>Rocas Premium</td>
+                     <td rowspan="1" colspan="1">205</td>
+                     <td rowspan="1" colspan="1">Granito</td>
+                     <td rowspan="1" colspan="1">11</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2100</td>
+                     <td rowspan="1" colspan="1">Canteras Sur</td>
+                     <td rowspan="1" colspan="1">Brasil</td>
+                     <td rowspan="1" colspan="1">14</td>
+                     <td rowspan="1" colspan="1">E-205</td>
+                     <td rowspan="1" colspan="1">Granito Negro</td>
+                     <td rowspan="1" colspan="1">9</td>
+                     <td rowspan="1" colspan="1">Piedra</td>
+                     <td rowspan="1" colspan="1">2750</td>
+                     <td rowspan="1" colspan="1">Rocas Premium</td>
                   </tr>
                   <tr>
-                     <td>206</td>
-                     <td>Acero</td>
-                     <td>55</td>
-                     <td>Metal</td>
-                     <td>1340</td>
-                     <td>Aceros Delta</td>
-                     <td>México</td>
-                     <td>80</td>
-                     <td>F-206</td>
-                     <td>Acero Laminado</td>
-                     <td>40</td>
-                     <td>Metal</td>
-                     <td>1650</td>
-                     <td>Metalúrgica Sur</td>
+                     <td rowspan="1" colspan="1">206</td>
+                     <td rowspan="1" colspan="1">Acero</td>
+                     <td rowspan="1" colspan="1">55</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1340</td>
+                     <td rowspan="1" colspan="1">Aceros Delta</td>
+                     <td rowspan="1" colspan="1">México</td>
+                     <td rowspan="1" colspan="1">80</td>
+                     <td rowspan="1" colspan="1">F-206</td>
+                     <td rowspan="1" colspan="1">Acero Laminado</td>
+                     <td rowspan="1" colspan="1">40</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1650</td>
+                     <td rowspan="1" colspan="1">Metalúrgica Sur</td>
                   </tr>
                   <tr>
-                     <td>207</td>
-                     <td>Cedro</td>
-                     <td>13</td>
-                     <td>Madera</td>
-                     <td>1720</td>
-                     <td>Maderas Unidas</td>
-                     <td>Paraguay</td>
-                     <td>22</td>
-                     <td>G-207</td>
-                     <td>Cedro Rojo</td>
-                     <td>10</td>
-                     <td>Madera</td>
-                     <td>1980</td>
-                     <td>Selva Norte</td>
+                     <td rowspan="1" colspan="1">207</td>
+                     <td rowspan="1" colspan="1">Cedro</td>
+                     <td rowspan="1" colspan="1">13</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1720</td>
+                     <td rowspan="1" colspan="1">Maderas Unidas</td>
+                     <td rowspan="1" colspan="1">Paraguay</td>
+                     <td rowspan="1" colspan="1">22</td>
+                     <td rowspan="1" colspan="1">G-207</td>
+                     <td rowspan="1" colspan="1">Cedro Rojo</td>
+                     <td rowspan="1" colspan="1">10</td>
+                     <td rowspan="1" colspan="1">Madera</td>
+                     <td rowspan="1" colspan="1">1980</td>
+                     <td rowspan="1" colspan="1">Selva Norte</td>
                   </tr>
                   <tr>
-                     <td>208</td>
-                     <td>Seda</td>
-                     <td>31</td>
-                     <td>Textil</td>
-                     <td>890</td>
-                     <td>Hilados Global</td>
-                     <td>China</td>
-                     <td>50</td>
-                     <td>H-208</td>
-                     <td>Seda Natural</td>
-                     <td>21</td>
-                     <td>Textil</td>
-                     <td>1150</td>
-                     <td>Oriente Textil</td>
+                     <td rowspan="1" colspan="1">208</td>
+                     <td rowspan="1" colspan="1">Seda</td>
+                     <td rowspan="1" colspan="1">31</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">890</td>
+                     <td rowspan="1" colspan="1">Hilados Global</td>
+                     <td rowspan="1" colspan="1">China</td>
+                     <td rowspan="1" colspan="1">50</td>
+                     <td rowspan="1" colspan="1">H-208</td>
+                     <td rowspan="1" colspan="1">Seda Natural</td>
+                     <td rowspan="1" colspan="1">21</td>
+                     <td rowspan="1" colspan="1">Textil</td>
+                     <td rowspan="1" colspan="1">1150</td>
+                     <td rowspan="1" colspan="1">Oriente Textil</td>
                   </tr>
                   <tr>
-                     <td>209</td>
-                     <td>Aluminio</td>
-                     <td>47</td>
-                     <td>Metal</td>
-                     <td>1120</td>
-                     <td>Aluminios SRL</td>
-                     <td>Canadá</td>
-                     <td>70</td>
-                     <td>I-209</td>
-                     <td>Aluminio Puro</td>
-                     <td>28</td>
-                     <td>Metal</td>
-                     <td>1400</td>
-                     <td>North Metals</td>
+                     <td rowspan="1" colspan="1">209</td>
+                     <td rowspan="1" colspan="1">Aluminio</td>
+                     <td rowspan="1" colspan="1">47</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1120</td>
+                     <td rowspan="1" colspan="1">Aluminios SRL</td>
+                     <td rowspan="1" colspan="1">Canadá</td>
+                     <td rowspan="1" colspan="1">70</td>
+                     <td rowspan="1" colspan="1">I-209</td>
+                     <td rowspan="1" colspan="1">Aluminio Puro</td>
+                     <td rowspan="1" colspan="1">28</td>
+                     <td rowspan="1" colspan="1">Metal</td>
+                     <td rowspan="1" colspan="1">1400</td>
+                     <td rowspan="1" colspan="1">North Metals</td>
                   </tr>
                </tbody>
             </table>
@@ -902,9 +920,10 @@
    <back>
       <ref-list>
          <ref id="bib-3040-PINEAU2018">
+            <mixed-citation publication-type="journal">Pineau, Pablo (2018). Historiografia educativa sobre estéticas e sensibilidades na América Latina: um balanço (que se tem conhecimento) incompleto. <italic>Revista Brasileira de História da Educação</italic>, <italic>18</italic>, 1-16. https://doi.org/10.4025/rbhe.v18.2018.e023.</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Pineau</surname>
                      <given-names>Pablo</given-names>
                   </name>
@@ -920,9 +939,10 @@
             </element-citation>
          </ref>
          <ref id="bib-2819-ADAMOVSKY2021">
+            <mixed-citation publication-type="book">Adamovsky, Ezequiel (2021). <italic>Historia de la Argentina. Biografía de un país</italic>. Buenos Aires: Crítica.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Adamovsky</surname>
                      <given-names>Ezequiel</given-names>
                   </name>
@@ -934,13 +954,14 @@
             </element-citation>
          </ref>
          <ref id="bib-2822-AMIGOTLEACHE2009">
+            <mixed-citation publication-type="journal">Amigot Leache, Patricia y Pujal i Llombart, Margot (2009). Una lectura del género como dispositivo de poder. <italic>Sociológica</italic>, <italic>24</italic>(70), 115-152.</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Amigot Leache</surname>
                      <given-names>Patricia</given-names>
                   </name>
-                  <name>
+                  <name name-style="western">
                      <surname>Pujal i Llombart</surname>
                      <given-names>Margot</given-names>
                   </name>
@@ -955,9 +976,10 @@
             </element-citation>
          </ref>
          <ref id="bib-2827-BARBA1998">
+            <mixed-citation publication-type="journal">Barba, Fernando (1998). La Plata en sus primeros años de vida. <italic>Revista Museo</italic>, .</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Barba</surname>
                      <given-names>Fernando</given-names>
                   </name>
@@ -968,9 +990,10 @@
             </element-citation>
          </ref>
          <ref id="bib-2832-ZEBALLOSDEHEREDIA1930">
+            <mixed-citation publication-type="book">Zeballos de Heredia, Celia (1930). <italic>Memoria del Colegio Secundario de Señoritas de 1929. Colegio Secundario de Señoritas</italic>. Buenos Aires: Universidad Nacional de La Plata.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Zeballos de Heredia</surname>
                      <given-names>Celia</given-names>
                   </name>
@@ -982,9 +1005,10 @@
             </element-citation>
          </ref>
          <ref id="bib-2835-TEOBALDO1946">
+            <mixed-citation publication-type="book">Teobaldo, Carlos (1946). <italic>Memoria del Colegio Secundario de Señoritas de 1945. Colegio Secundario de Señoritas</italic>. Buenos Aires: Universidad Nacional de La Plata.</mixed-citation>
             <element-citation publication-type="book">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Teobaldo</surname>
                      <given-names>Carlos</given-names>
                   </name>
@@ -996,9 +1020,10 @@
             </element-citation>
          </ref>
          <ref id="bib-2843-NELSON1912">
+            <mixed-citation publication-type="journal">Nelson, Ernesto (1912). Un experimento trascendental en la educación argentina. El internado del Colegio Nacional de la Universidad de La Plata. <italic>Boletín del Museo Social Argentino</italic>, <italic>1</italic>, 222-223.</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Nelson</surname>
                      <given-names>Ernesto</given-names>
                   </name>
@@ -1012,9 +1037,10 @@
             </element-citation>
          </ref>
          <ref id="bib-2844-MERCANTE1908">
+            <mixed-citation publication-type="journal">Mercante, Víctor (1908). El internado del Colegio de la Universidad Nacional de La Plata. <italic>Archivos de Pedagogía y Ciencias Afines</italic>, <italic>3</italic>(7), 149-160.</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>Mercante</surname>
                      <given-names>Víctor</given-names>
                   </name>
@@ -1029,9 +1055,10 @@
             </element-citation>
          </ref>
          <ref id="bib-2850-GONZALEZLEANDRI2006">
+            <mixed-citation publication-type="journal">González Leandri, Ricardo (2006). La consolidación de una inteligentzia médico profesional en Argentina: 1880-1900. <italic>Diálogos. Revista Electrónica de Historia</italic>, <italic>7</italic>(1), 36-78.</mixed-citation>
             <element-citation publication-type="journal">
                <person-group person-group-type="author">
-                  <name>
+                  <name name-style="western">
                      <surname>González Leandri</surname>
                      <given-names>Ricardo</given-names>
                   </name>

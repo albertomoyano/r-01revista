@@ -21,12 +21,13 @@
     </article-categories>
     <title-group>
       <article-title>El desarrollo agropecuario argentino en la segunda posguerra</article-title>
+      <subtitle>Otro artículo sobre agro en la segunda posguerra</subtitle>
       <trans-title-group xml:lang="en">
         <trans-title>Argentine Agricultural Development in the Second Postwar Period</trans-title>
       </trans-title-group>
     </title-group>
     <contrib-group>
-      <contrib contrib-type="author" id="a5">
+      <contrib contrib-type="author" id="a5" corresp="yes">
         <name>
           <surname>Rougier</surname>
           <given-names>Marcelo</given-names>
@@ -35,12 +36,20 @@
         <aff>
           <institution>Consejo Nacional de Investigaciones Científicas y Técnicas</institution>
         </aff>
+        <email>marcelorougier@yahoo.com.ar</email>
+      </contrib>
+      <contrib contrib-type="author" id="a4">
+        <name>
+          <surname>Moyano</surname>
+          <given-names>Alberto Alejandro</given-names>
+        </name>
+        <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6047-3868</contrib-id>
       </contrib>
     </contrib-group>
     <pub-date pub-type="epub-ppub">
       <year>2026</year>
-      <month>02</month>
-      <day>18</day>
+      <month>03</month>
+      <day>01</day>
     </pub-date>
     <volume>01</volume>
     <issue>01</issue>
@@ -52,14 +61,19 @@
         <month>01</month>
         <year>2026</year>
       </date>
+      <date date-type="rev-recd">
+        <day>06</day>
+        <month>02</month>
+        <year>2026</year>
+      </date>
       <date date-type="accepted">
         <day>19</day>
         <month>01</month>
         <year>2026</year>
       </date>
       <date date-type="pub">
-        <day>25</day>
-        <month>02</month>
+        <day>01</day>
+        <month>03</month>
         <year>2026</year>
       </date>
     </history>

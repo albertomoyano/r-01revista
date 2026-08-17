@@ -7,5 +7,11 @@
   <revista>
   </revista>
   <autores>
+    <autor ref="a5">
+      <credit>Validation; Writing – review &amp; editing</credit>
+    </autor>
+    <autor ref="a4">
+      <credit>Writing – review &amp; editing</credit>
+    </autor>
   </autores>
 </meta-articulo>
